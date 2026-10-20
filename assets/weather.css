@@ -1,0 +1,42 @@
+/* JAPULSE weather badge: MET Norway short-range forecast (not station observations) */
+.jp-cam-art .jp-weather{
+ position:absolute;z-index:3;top:8px;right:9px;
+ display:inline-flex;align-items:center;gap:4px;white-space:nowrap;
+ background:#10252ae8;border:1px solid #ffffff40;color:#fff;
+ border-radius:999px;padding:4px 8px;
+ font-size:11px;font-weight:850;letter-spacing:-.01em;
+ box-shadow:0 1px 6px #0005;line-height:1.3;
+}
+.jp-cam-art small{max-width:calc(100% - 80px)}
+.jp-pref-head .jp-weather{
+ display:inline-flex;align-items:center;
+ padding:4px 8px;border-radius:999px;background:#e3f5f7;
+ color:#105866;font-size:11px;font-weight:850;white-space:nowrap;
+ line-height:1.4;max-width:max-content
+}
+.jp-pref-head{flex-wrap:wrap}
+.jp-pref-head h3{margin-right:auto}
+.jp-weather-credit{padding:4px 0 0;font-size:11px;opacity:.8}
+.jp-weather-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.jp-detail-weather-wrap{width:min(1080px,calc(100% - 36px));margin:12px auto 0}
+.jp-detail-weather{
+ display:flex;justify-content:space-between;align-items:center;gap:8px 16px;
+ background:#1b3643;color:#effbff;border:1px solid #3d5764;
+ border-radius:12px;padding:11px 14px;flex-wrap:wrap;
+ font-family:system-ui,-apple-system,'Noto Sans KR',sans-serif;
+}
+.jp-detail-weather-head{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.jp-detail-weather-label{font-size:11px;color:#b4d3dc}
+.jp-detail-weather strong{display:inline-flex;align-items:center;font-size:16px;font-weight:900;color:#fff;line-height:1.3;white-space:nowrap}
+.jp-detail-weather [data-jp-jst]{font-size:11px;color:#d6e7eb;white-space:nowrap}
+.jp-detail-weather-source{width:100%;font-size:10px;color:#b4cbd2}
+.jp-detail-weather-source a{color:#bce7f2;text-decoration:underline}
+@media(max-width:640px){
+ .jp-cam-art .jp-weather{right:5px;top:6px;font-size:10px;padding:4px 6px}
+ .jp-cam-art small{font-size:9px;max-width:calc(100% - 66px)}
+ .jp-detail-weather-wrap{width:calc(100% - 28px)}
+ .jp-detail-weather{padding:10px 11px;gap:5px 8px}
+ .jp-detail-weather-head{gap:5px}
+ .jp-detail-weather-label,.jp-detail-weather [data-jp-jst]{font-size:10px}
+ .jp-detail-weather strong{font-size:14px}
+}
