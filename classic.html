@@ -139,7 +139,7 @@
     $('featuredLocation').textContent=cam.loc;
     $('featuredSource').textContent='방송 제공: '+cam.source;
     $('sourceButton').href=cam.url;
-    $('youtubeButton').href=videoURL(cam);
+    $('youtubeButton').href=videoURL(cam);$('youtubeButton').hidden=['dotonbori','arashiyama'].includes(cam.id);
     document.querySelectorAll('.quick-row').forEach(el=>{const selected=el.dataset.id===cam.id;el.classList.toggle('selected',selected);el.setAttribute('aria-pressed',String(selected));});
     if(['http:','https:'].includes(location.protocol)){try{const link=new URL(location.href);link.searchParams.set('cam',cam.id);history.replaceState(null,'',link.pathname+link.search+link.hash);}catch(e){console.warn('URL 공유 주소를 갱신하지 못했습니다',e);}}
     if(scroll)document.querySelector('#watch').scrollIntoView({behavior:'smooth',block:'start'});
