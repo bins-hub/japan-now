@@ -11,6 +11,7 @@ const sections=[...root.querySelectorAll(".jp-pref-section")];
 const count=root.querySelector("[data-jp-count]");
 const empty=root.querySelector("[data-jp-empty]");
 let status="all", region="all";
+try{const q=new URLSearchParams(location.search).get("q");if(q&&search){search.value=q.slice(0,120);}}catch(_){}
 function normalize(s){return(s||"").toLocaleLowerCase().normalize("NFKC").replace(/\s+/g,"");}
 function render(){
 const q=normalize(search.value);let matched=0;
