@@ -4,3 +4,35 @@
 @media(max-width:760px){.content{grid-template-columns:1fr;padding-top:18px}.nav{gap:11px}.nav a{font-size:12px}.bar .wrap{padding:13px 0;align-items:flex-start;flex-direction:column}.hero{padding:34px 0}.main article,.aside-box{padding:19px}.grid{grid-template-columns:1fr}}
 
 .embed.has-player iframe{height:calc(100% - 64px)}.embed-fallback{position:absolute;bottom:0;left:0;right:0;z-index:3;background:#152b3c;min-height:64px;padding:7px;display:flex;align-items:center;justify-content:center;gap:7px;flex-wrap:wrap}.embed-fallback a{display:inline-block;padding:8px 10px;color:#fff;background:#e8504d;border-radius:7px;text-decoration:none;font-weight:750;font-size:12px}.embed-fallback a:last-child{background:#3b556b}@media(max-width:420px){.embed-fallback{padding:4px;gap:4px}.embed-fallback a{font-size:10px;padding:6px}}
+
+
+/* Mobile layout guard: keep camera, video and article content within the device viewport. */
+html{width:100%;max-width:100%;overflow-x:clip;-webkit-text-size-adjust:100%}
+body{width:100%;max-width:100%;overflow-x:clip}
+.wrap,.bar .wrap,.hero .wrap,.content,.main,.main article,.aside,.aside-box{min-width:0;max-width:100%}
+.content{grid-template-columns:minmax(0,1fr) minmax(0,260px)}
+.main article,.aside-box,.main p,.main li,.breadcrumb,.lead,.source-note{overflow-wrap:anywhere}
+.embed,.poster,.embed iframe,.jnbox,.jnscreen{width:100%;max-width:100%;min-width:0}
+.jn-language-bar{width:100%;max-width:100%;min-width:0}
+.jn-language-bar>div{width:100%;max-width:1190px;min-width:0}
+.jn-language-bar a{min-width:0;max-width:100%;text-align:center}
+@media(max-width:760px){
+ .content{grid-template-columns:minmax(0,1fr);gap:16px}
+ .bar .wrap{gap:11px}
+ .bar .nav{width:100%;min-width:0;justify-content:flex-start;gap:9px 14px}
+ .bar .nav a{line-height:1.5}
+ .hero{padding:30px 0 34px}
+ h1{font-size:clamp(27px,7vw,36px);overflow-wrap:break-word}
+ .main article h2{font-size:clamp(20px,5.4vw,24px)}
+ .main article{padding:18px}
+ .jn-language-bar>div{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:6px!important;padding:9px 18px!important;max-width:100%!important;align-items:stretch!important;justify-content:stretch!important}
+ .jn-language-bar>div>span{display:none!important}
+ .jn-language-bar a{display:flex;justify-content:center;align-items:center;white-space:nowrap;font-size:11px!important;line-height:1.45;min-width:0;padding:8px 3px!important;border-radius:8px}
+ .embed{max-width:100%;min-width:0;aspect-ratio:16/9}
+ .embed[style*="min-height:280px"]{min-height:220px!important}
+ .embed-fallback{max-width:100%}
+}
+@media(max-width:360px){
+ .jn-language-bar>div{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .main article,.aside-box{padding:15px}
+}
