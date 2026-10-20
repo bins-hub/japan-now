@@ -31,3 +31,6 @@ Per-page Close buttons temporarily hide the demonstration on the open page.
 
 When legitimate affiliate links are issued later, enter them only into
 `assets/affiliate-config.js`; the separate existing affiliate module handles attribution disclosure.
+
+
+UPDATE: the old affiliate mockup banners were replaced with Google AdSense demo placements. See README_ADSENSE.md. No real AdSense publisher or unit ID is configured yet.
