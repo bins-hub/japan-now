@@ -1,0 +1,29 @@
+(function(){
+"use strict";
+const spots={
+"shibuya-sky":[35.658462,139.702264,"Shibuya Sky Tokyo"],"hachiko":[35.65906,139.70063,"Hachiko Statue Shibuya"],
+"ebisu-bridge":[34.66907,135.50131,"Ebisu Bridge Osaka"],"arashiyama":[35.01701,135.67169,"Arashiyama Bamboo Grove"],
+"togetsukyo":[35.01278,135.67776,"Togetsukyo Bridge Kyoto"],"oishi-park":[35.523292,138.74653,"Oishi Park Kawaguchiko"],
+"imperial-palace":[35.67808,139.75554,"Tokyo Imperial Palace Sakuradamon"],"osaka-castle":[34.6873,135.5257,"Osaka Castle Park Morinomiya"],
+"kamo-river":[35.0241,135.7719,"Kamo River Demachiyanagi Kyoto"],"ohori-park":[33.5853,130.3767,"Ohori Park Fukuoka"],
+"nakajima-park":[43.0494,141.3551,"Nakajima Park Sapporo"],"araha-beach":[26.2978,127.7566,"Araha Beach Chatan Okinawa"]
+};
+const I={
+ko:["360° 현장 둘러보기","화면을 드래그해 주변을 둘러보세요.","Google Maps Embed API 키를 연결하면 이 화면에서 360°로 볼 수 있습니다.","Google 거리뷰 열기","일반 지도·길찾기","닫기","촬영 날짜는 현재와 다를 수 있습니다."],
+en:["Explore in 360°","Drag to look around.","An enabled Google Maps Embed API key is required for in-page 360° viewing.","Open Google Street View","Maps & directions","Close","Street View imagery may be older."],
+zh:["360° 街景探索","拖动全景画面查看周围环境。","站内 360° 街景需要 Google Maps Embed API 密钥。","在 Google 街景中打开","地图与路线","关闭","街景拍摄时间可能较早。"],
+ja:["360° ストリートビュー","画面をドラッグして周囲をご覧ください。","サイト内 360° 表示には Google Maps Embed API キーが必要です。","Google ストリートビューで見る","地図・経路","閉じる","撮影日は現在と異なる場合があります。"]
+};
+const lang=(document.documentElement.lang||"ko").toLowerCase(),L=lang.startsWith("zh")?"zh":lang.startsWith("ja")?"ja":lang.startsWith("en")?"en":"ko",t=I[L];
+const st=document.createElement("style");st.textContent=".jn360-modal[hidden]{display:none!important}.jn360-modal{position:fixed;inset:0;z-index:99999;background:#07131ddd;padding:12px;display:flex;align-items:center;justify-content:center}.jn360-box{width:min(960px,100%);max-height:96vh;overflow:auto;border-radius:17px;background:#fff;color:#1b2c33;box-shadow:0 12px 55px #0009}.jn360-head{padding:14px;display:flex;justify-content:space-between;align-items:center;gap:12px}.jn360-head strong{font-size:18px}.jn360-head p{font-size:12px;color:#6c7e86;margin:4px 0}.jn360-head button{border:1px solid #b9cbd1;border-radius:9px;background:#fff;color:#172731;padding:9px;cursor:pointer}.jn360-screen{height:min(57vh,545px);min-height:280px;position:relative;background:linear-gradient(135deg,#183a4a,#0b2434);display:grid;place-items:center}.jn360-screen iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.jn360-note{text-align:center;font-size:14px;line-height:1.8;color:white;max-width:460px;padding:20px}.jn360-note:before{content:'◎';font-size:56px;display:block}.jn360-foot{padding:12px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.jn360-actions{display:flex;gap:7px;flex-wrap:wrap}.jn360-actions a{background:#166e78;padding:10px 12px;border-radius:8px;text-decoration:none;color:white;font-size:12px;font-weight:800}.jn360-actions a+a{background:#35556a}.jn360-foot small{color:#61737d;font-size:11px}.jn360-trigger{display:inline-block;background:#166e78;color:#fff!important;border:0;border-radius:8px;padding:9px 12px;font:inherit;font-size:12px;font-weight:800;cursor:pointer;text-decoration:none!important}@media(max-width:620px){.jn360-modal{padding:4px}.jn360-box{border-radius:11px}.jn360-screen{height:52vh;min-height:250px}.jn360-head strong{font-size:15px}}";document.head.append(st);
+const modal=document.createElement("div");modal.className="jn360-modal";modal.hidden=true;modal.innerHTML='<div role="dialog" aria-modal="true" class="jn360-box"><div class="jn360-head"><div><strong class="jn360-title"></strong><p class="jn360-sub"></p></div><button type="button" class="jn360-close"></button></div><div class="jn360-screen"></div><div class="jn360-foot"><div class="jn360-actions"></div><small class="jn360-caption"></small></div></div>';document.body.append(modal);
+const q=s=>modal.querySelector(s);let focused=null;
+function close(){modal.hidden=true;q(".jn360-screen").replaceChildren();document.body.style.overflow="";if(focused&&focused.focus)focused.focus();}
+q(".jn360-close").textContent=t[5];q(".jn360-close").onclick=close;modal.addEventListener("click",e=>{if(e.target===modal)close();});document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!modal.hidden)close();});
+function a(url,label){const x=document.createElement("a");x.href=url;x.target="_blank";x.rel="noopener noreferrer";x.textContent=label;return x;}
+function open(id){const s=spots[id];if(!s)return;focused=document.activeElement;const coords=s[0]+","+s[1];q(".jn360-title").textContent=t[0]+" · "+s[2];q(".jn360-sub").textContent=t[1];const screen=q(".jn360-screen"),buttons=q(".jn360-actions");screen.replaceChildren();buttons.replaceChildren();const key=window.JAPAN_NOW_MAPS_EMBED_KEY||"";
+if(/^[A-Za-z0-9_-]{15,200}$/.test(key)){const f=document.createElement("iframe");f.title="Street View "+s[2];f.referrerPolicy="strict-origin-when-cross-origin";f.allowFullscreen=true;f.src="https://www.google.com/maps/embed/v1/streetview?key="+encodeURIComponent(key)+"&location="+encodeURIComponent(coords)+"&heading=0&pitch=0&fov=85&radius=70";screen.append(f);}
+else{const n=document.createElement("div");n.className="jn360-note";n.textContent=t[2];screen.append(n);}
+buttons.append(a("https://www.google.com/maps/@?api=1&map_action=pano&viewpoint="+encodeURIComponent(coords),t[3]),a("https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s[2]),t[4]));q(".jn360-caption").textContent=t[6];modal.hidden=false;document.body.style.overflow="hidden";q(".jn360-close").focus();}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-jn360]");if(!b||!spots[b.dataset.jn360])return;e.preventDefault();open(b.dataset.jn360);});
+window.JapanStreet360={open:open,spots:spots};})();
