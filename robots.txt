@@ -10,4 +10,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://bins-hub.github.io/japan-now/sitemap.xml
+Sitemap: https://japulse.com/sitemap.xml
