@@ -35,7 +35,8 @@ function show(key,d,stale=false){
 const txt=icon(d.symbol)+" "+Math.round(d.temp)+"°C";
 (groups.get(key)||[]).forEach(el=>{
 el.textContent=txt;
-el.title=t.forecast+" · "+String(d.forecastTime||"")+" JST · MET Norway"+(stale?" (cached)":"");
+const at=d.forecastTime?new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Tokyo",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date(d.forecastTime)):"--:--";
+el.title=t.forecast+" · "+at+" JST · MET Norway"+(stale?" (cached)":"");
 el.dataset.jpWeatherReady="1";
 });
 }
