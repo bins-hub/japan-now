@@ -1,0 +1,10 @@
+/* JAPULSE original-source review notes (4-language static editorial content) */
+.jn-source-review{margin:18px 0 16px;padding:17px 18px;border:1px solid #c6d5d6;border-left:4px solid #fa604b;border-radius:12px;background:#eef5f5;color:#183640;min-width:0;max-width:100%;overflow-wrap:anywhere}
+.jn-source-review h3,.jn-source-review h4{font-size:16px!important;margin:0 0 8px!important;line-height:1.5!important;color:#153f48!important}
+.jn-source-review p{font-size:13px!important;line-height:1.85!important;color:#385962!important;margin:0 0 9px!important}
+.jn-source-review .jn-byline{display:block;font-size:11px;color:#647b80;line-height:1.65;margin:0 0 7px}
+.jn-source-review .jn-source-links{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 2px}
+.jn-source-review .jn-source-links a{display:inline-flex!important;align-items:center;justify-content:center;min-height:35px;padding:8px 11px;border-radius:8px;background:#176f77;color:white!important;text-decoration:none!important;font-size:12px!important;font-weight:800}
+.jn-source-review .jn-source-links a:nth-child(2){background:#e1edf0;color:#205866!important;border:1px solid #b9d0d5}
+.jn-source-review .jn-source-notice{font-size:11px!important;color:#74858b!important;margin:7px 0 0!important}
+@media(max-width:600px){.jn-source-review{padding:13px;margin:14px 0}.jn-source-review .jn-source-links a{flex:1 1 auto;text-align:center}}
