@@ -4,17 +4,17 @@
 
 ## 사이트
 
-- 메인 페이지: [JAPAN NOW](https://bins-hub.github.io/japan-now/) (GitHub Pages 활성화 후 사용 가능)
-- 카메라 목록: [classic.html](https://bins-hub.github.io/japan-now/classic.html)
-- 시부야 카메라: [cameras/shibuya](https://bins-hub.github.io/japan-now/cameras/shibuya/)
-- 여행 데모: [preview.html](https://bins-hub.github.io/japan-now/preview.html)
+- 메인 페이지: [JAPAN NOW](https://japulse.com/) (GitHub Pages 활성화 후 사용 가능)
+- 카메라 목록: [classic.html](https://japulse.com/classic.html)
+- 시부야 카메라: [cameras/shibuya](https://japulse.com/cameras/shibuya/)
+- 여행 데모: [preview.html](https://japulse.com/preview.html)
 
 ## GitHub Pages 활성화 (최초 1회)
 
 1. [이 저장소의 Settings → Pages](https://github.com/bins-hub/japan-now/settings/pages)로 이동합니다.
 2. **Build and deployment → Source** 를 **Deploy from a branch** 로 선택합니다.
 3. **Branch: main**, **Folder: / (root)** 를 선택하고 **Save**를 누릅니다.
-4. 배포가 완료되면 https://bins-hub.github.io/japan-now/ 로 접속합니다.
+4. 배포가 완료되면 https://japulse.com/ 로 접속합니다.
 
 ## SEO / GEO
 
