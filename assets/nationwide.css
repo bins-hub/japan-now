@@ -94,3 +94,15 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(-
 @media(max-width:640px){.jp-wrap{width:calc(100% - 28px)}.jp-bar-inner{min-height:56px;flex-wrap:wrap;gap:4px;padding:8px 0}.jp-logo{font-size:19px}.jp-menu{margin-left:auto}.jp-menu a{padding:6px 7px;font-size:11px}.jp-lang{flex-basis:100%;justify-content:flex-end}.jp-lang a{padding:3px 6px;font-size:10px}.jp-intro{padding:22px 0}.jp-intro p{font-size:12px}.jp-head-actions{margin-top:14px}.jp-action{padding:10px 12px;font-size:12px}.jp-main{padding-top:18px}.jp-section{margin:20px 0}.jp-section-header h2{font-size:19px}.jp-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.jp-cam-art{min-height:87px;padding:9px}.jp-cam-title{padding:9px}.jp-cam-title b{font-size:12px}.jp-cam-title span{font-size:10px}.jp-area-row{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.jp-area{padding:9px 3px;font-size:11px}.jp-small-grid{gap:8px}.jp-small-card{padding:11px}.jp-small-card b{font-size:12px}.jp-small-card p{font-size:11px}.jp-pref-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.jp-pref{padding:10px}.jp-pref h3{font-size:12px}.jp-pref-head{flex-wrap:wrap}.jp-pref .jp-pref-meta{font-size:9px}}
 @media(max-width:360px){.jp-pref-list{grid-template-columns:1fr}.jp-menu a{padding:6px 5px}.jp-area-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.jp-cam-card{transition:none}}
+
+/* Fast nationwide search from homepage and legacy anchor offsets */
+.jp-home-search{max-width:520px;margin:18px 0 0;box-shadow:0 6px 28px #0017202e}
+.jp-home-search input{font-size:13px;line-height:1.4;min-height:24px}
+.jp-home-search button{border:0;background:#0d6471;color:white;font-weight:850;border-radius:8px;padding:8px 12px;white-space:nowrap;font-size:12px}
+#explore,#live,#cameras,#experiences,#discover{display:block;position:relative;top:-85px;visibility:hidden;height:0;pointer-events:none}
+.jp-miniguide h2{margin:0 0 11px;font-size:19px}
+.jp-miniguide h3{font-size:14px;margin:16px 0 4px}
+.jp-miniguide h3:first-child{margin-top:0}
+.jp-miniguide p{margin:0 0 7px;color:#536d75;font-size:12px}
+.jp-note p{margin:7px 0 0}
+.jp-intro .jp-home-search{color:#1a3540}
