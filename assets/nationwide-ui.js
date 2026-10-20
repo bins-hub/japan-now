@@ -11,7 +11,8 @@ const sections=[...root.querySelectorAll(".jp-pref-section")];
 const count=root.querySelector("[data-jp-count]");
 const empty=root.querySelector("[data-jp-empty]");
 let status="all", region="all";
-try{const q=new URLSearchParams(location.search).get("q");if(q&&search){search.value=q.slice(0,120);}}catch(_){}
+let hasIncomingSearch=false;
+try{const q=new URLSearchParams(location.search).get("q");if(q&&search){search.value=q.slice(0,120);hasIncomingSearch=true;}}catch(_){}
 function normalize(s){return(s||"").toLocaleLowerCase().normalize("NFKC").replace(/\s+/g,"");}
 function render(){
 const q=normalize(search.value);let matched=0;
@@ -35,4 +36,5 @@ if(location.hash.startsWith("#pref-")){
 const el=root.querySelector(location.hash);if(el){region="all";render();setTimeout(()=>el.scrollIntoView({block:"center"}),80);}
 }
 render();
+if(hasIncomingSearch){const target=document.getElementById("prefectures");if(target)setTimeout(()=>target.scrollIntoView({block:"start"}),80);}
 })();
