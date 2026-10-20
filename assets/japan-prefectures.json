@@ -1,0 +1,520 @@
+{
+  "updated": "2026-10-21",
+  "prefectures": [
+    {
+      "id": "hokkaido",
+      "ko": "홋카이도",
+      "ja": "北海道",
+      "en": "Hokkaido",
+      "zh": "北海道",
+      "region": "hokkaido",
+      "official": null
+    },
+    {
+      "id": "aomori",
+      "ko": "아오모리",
+      "ja": "青森",
+      "en": "Aomori",
+      "zh": "青森",
+      "region": "tohoku",
+      "official": "https://www.koutsu-aomori.com/Road/livecamera.html"
+    },
+    {
+      "id": "iwate",
+      "ko": "이와테",
+      "ja": "岩手",
+      "en": "Iwate",
+      "zh": "岩手",
+      "region": "tohoku",
+      "official": "https://www.douro.com/allcamera.shtml"
+    },
+    {
+      "id": "miyagi",
+      "ko": "미야기",
+      "ja": "宮城",
+      "en": "Miyagi",
+      "zh": "宫城",
+      "region": "tohoku",
+      "official": "https://www.thr.mlit.go.jp/sendai/livecamera/index.html"
+    },
+    {
+      "id": "akita",
+      "ko": "아키타",
+      "ja": "秋田",
+      "en": "Akita",
+      "zh": "秋田",
+      "region": "tohoku",
+      "official": null
+    },
+    {
+      "id": "yamagata",
+      "ko": "야마가타",
+      "ja": "山形",
+      "en": "Yamagata",
+      "zh": "山形",
+      "region": "tohoku",
+      "official": "https://www.thr.mlit.go.jp/yamagata/camera-road/s-map-13n.html"
+    },
+    {
+      "id": "fukushima",
+      "ko": "후쿠시마",
+      "ja": "福島",
+      "en": "Fukushima",
+      "zh": "福岛",
+      "region": "tohoku",
+      "official": null
+    },
+    {
+      "id": "ibaraki",
+      "ko": "이바라키",
+      "ja": "茨城",
+      "en": "Ibaraki",
+      "zh": "茨城",
+      "region": "kanto",
+      "official": null
+    },
+    {
+      "id": "tochigi",
+      "ko": "도치기",
+      "ja": "栃木",
+      "en": "Tochigi",
+      "zh": "栃木",
+      "region": "kanto",
+      "official": "https://www.kendo.pref.tochigi.lg.jp/roadinfo/"
+    },
+    {
+      "id": "gunma",
+      "ko": "군마",
+      "ja": "群馬",
+      "en": "Gunma",
+      "zh": "群马",
+      "region": "kanto",
+      "official": "https://www.kendobousai-gunma.jp/photo/"
+    },
+    {
+      "id": "saitama",
+      "ko": "사이타마",
+      "ja": "埼玉",
+      "en": "Saitama",
+      "zh": "埼玉",
+      "region": "kanto",
+      "official": null
+    },
+    {
+      "id": "chiba",
+      "ko": "지바",
+      "ja": "千葉",
+      "en": "Chiba",
+      "zh": "千叶",
+      "region": "kanto",
+      "official": "https://www.ktr.mlit.go.jp/chiba/limit/livecamara/index.htm"
+    },
+    {
+      "id": "tokyo",
+      "ko": "도쿄",
+      "ja": "東京",
+      "en": "Tokyo",
+      "zh": "东京",
+      "region": "kanto",
+      "official": null
+    },
+    {
+      "id": "kanagawa",
+      "ko": "가나가와",
+      "ja": "神奈川",
+      "en": "Kanagawa",
+      "zh": "神奈川",
+      "region": "kanto",
+      "official": null
+    },
+    {
+      "id": "niigata",
+      "ko": "니가타",
+      "ja": "新潟",
+      "en": "Niigata",
+      "zh": "新潟",
+      "region": "chubu",
+      "official": "https://www.live-cam.pref.niigata.jp/"
+    },
+    {
+      "id": "toyama",
+      "ko": "도야마",
+      "ja": "富山",
+      "en": "Toyama",
+      "zh": "富山",
+      "region": "chubu",
+      "official": null
+    },
+    {
+      "id": "ishikawa",
+      "ko": "이시카와",
+      "ja": "石川",
+      "en": "Ishikawa",
+      "zh": "石川",
+      "region": "chubu",
+      "official": "https://douro.pref.ishikawa.lg.jp/"
+    },
+    {
+      "id": "fukui",
+      "ko": "후쿠이",
+      "ja": "福井",
+      "en": "Fukui",
+      "zh": "福井",
+      "region": "chubu",
+      "official": "https://www.hozen.pref.fukui.lg.jp/hozen/yuki/"
+    },
+    {
+      "id": "yamanashi",
+      "ko": "야마나시",
+      "ja": "山梨",
+      "en": "Yamanashi",
+      "zh": "山梨",
+      "region": "chubu",
+      "official": "https://www.ktr.mlit.go.jp/koufu/michi_camera/index.htm"
+    },
+    {
+      "id": "nagano",
+      "ko": "나가노",
+      "ja": "長野",
+      "en": "Nagano",
+      "zh": "长野",
+      "region": "chubu",
+      "official": "https://www.ktr.mlit.go.jp/nagano/douroinfo/"
+    },
+    {
+      "id": "gifu",
+      "ko": "기후",
+      "ja": "岐阜",
+      "en": "Gifu",
+      "zh": "岐阜",
+      "region": "chubu",
+      "official": "https://douro.pref.gifu.lg.jp/"
+    },
+    {
+      "id": "shizuoka",
+      "ko": "시즈오카",
+      "ja": "静岡",
+      "en": "Shizuoka",
+      "zh": "静冈",
+      "region": "chubu",
+      "official": "https://www.cbr.mlit.go.jp/shizukoku/camera/index.html"
+    },
+    {
+      "id": "aichi",
+      "ko": "아이치",
+      "ja": "愛知",
+      "en": "Aichi",
+      "zh": "爱知",
+      "region": "chubu",
+      "official": "https://www.cbr.mlit.go.jp/meikoku/traffic/livecamera/"
+    },
+    {
+      "id": "mie",
+      "ko": "미에",
+      "ja": "三重",
+      "en": "Mie",
+      "zh": "三重",
+      "region": "kansai",
+      "official": "https://www.cbr.mlit.go.jp/hokusei/traffic/meihan_livecam/"
+    },
+    {
+      "id": "shiga",
+      "ko": "시가",
+      "ja": "滋賀",
+      "en": "Shiga",
+      "zh": "滋贺",
+      "region": "kansai",
+      "official": "https://www.shiga-douro.jp/top"
+    },
+    {
+      "id": "kyoto",
+      "ko": "교토",
+      "ja": "京都",
+      "en": "Kyoto",
+      "zh": "京都",
+      "region": "kansai",
+      "official": null
+    },
+    {
+      "id": "osaka",
+      "ko": "오사카",
+      "ja": "大阪",
+      "en": "Osaka",
+      "zh": "大阪",
+      "region": "kansai",
+      "official": null
+    },
+    {
+      "id": "hyogo",
+      "ko": "효고",
+      "ja": "兵庫",
+      "en": "Hyogo",
+      "zh": "兵库",
+      "region": "kansai",
+      "official": null
+    },
+    {
+      "id": "nara",
+      "ko": "나라",
+      "ja": "奈良",
+      "en": "Nara",
+      "zh": "奈良",
+      "region": "kansai",
+      "official": null
+    },
+    {
+      "id": "wakayama",
+      "ko": "와카야마",
+      "ja": "和歌山",
+      "en": "Wakayama",
+      "zh": "和歌山",
+      "region": "kansai",
+      "official": null
+    },
+    {
+      "id": "tottori",
+      "ko": "돗토리",
+      "ja": "鳥取",
+      "en": "Tottori",
+      "zh": "鸟取",
+      "region": "chugoku",
+      "official": "https://yukinavi.net/index.html"
+    },
+    {
+      "id": "shimane",
+      "ko": "시마네",
+      "ja": "島根",
+      "en": "Shimane",
+      "zh": "岛根",
+      "region": "chugoku",
+      "official": "https://www.roadi.pref.shimane.jp/"
+    },
+    {
+      "id": "okayama",
+      "ko": "오카야마",
+      "ja": "岡山",
+      "en": "Okayama",
+      "zh": "冈山",
+      "region": "chugoku",
+      "official": null
+    },
+    {
+      "id": "hiroshima",
+      "ko": "히로시마",
+      "ja": "広島",
+      "en": "Hiroshima",
+      "zh": "广岛",
+      "region": "chugoku",
+      "official": "https://www.roadnavi.pref.hiroshima.lg.jp/"
+    },
+    {
+      "id": "yamaguchi",
+      "ko": "야마구치",
+      "ja": "山口",
+      "en": "Yamaguchi",
+      "zh": "山口",
+      "region": "chugoku",
+      "official": null
+    },
+    {
+      "id": "tokushima",
+      "ko": "도쿠시마",
+      "ja": "徳島",
+      "en": "Tokushima",
+      "zh": "德岛",
+      "region": "shikoku",
+      "official": null
+    },
+    {
+      "id": "kagawa",
+      "ko": "가가와",
+      "ja": "香川",
+      "en": "Kagawa",
+      "zh": "香川",
+      "region": "shikoku",
+      "official": "https://www.road-info-prvs.mlit.go.jp/roadinfo/pc/?ido=33.56&keido=133.38&page=30&zoom=9"
+    },
+    {
+      "id": "ehime",
+      "ko": "에히메",
+      "ja": "愛媛",
+      "en": "Ehime",
+      "zh": "爱媛",
+      "region": "shikoku",
+      "official": "https://www.pref.ehime.jp/dkanri/imageall.html"
+    },
+    {
+      "id": "kochi",
+      "ko": "고치",
+      "ja": "高知",
+      "en": "Kochi",
+      "zh": "高知",
+      "region": "shikoku",
+      "official": null
+    },
+    {
+      "id": "fukuoka",
+      "ko": "후쿠오카",
+      "ja": "福岡",
+      "en": "Fukuoka",
+      "zh": "福冈",
+      "region": "kyushu",
+      "official": "https://www.qsr.mlit.go.jp/useful/road_livecam.html"
+    },
+    {
+      "id": "saga",
+      "ko": "사가",
+      "ja": "佐賀",
+      "en": "Saga",
+      "zh": "佐贺",
+      "region": "kyushu",
+      "official": "https://www.qsr.mlit.go.jp/useful/road_livecam.html"
+    },
+    {
+      "id": "nagasaki",
+      "ko": "나가사키",
+      "ja": "長崎",
+      "en": "Nagasaki",
+      "zh": "长崎",
+      "region": "kyushu",
+      "official": null
+    },
+    {
+      "id": "kumamoto",
+      "ko": "구마모토",
+      "ja": "熊本",
+      "en": "Kumamoto",
+      "zh": "熊本",
+      "region": "kyushu",
+      "official": "https://www.qsr.mlit.go.jp/useful/road_livecam.html"
+    },
+    {
+      "id": "oita",
+      "ko": "오이타",
+      "ja": "大分",
+      "en": "Oita",
+      "zh": "大分",
+      "region": "kyushu",
+      "official": "https://www.qsr.mlit.go.jp/useful/road_livecam.html"
+    },
+    {
+      "id": "miyazaki",
+      "ko": "미야자키",
+      "ja": "宮崎",
+      "en": "Miyazaki",
+      "zh": "宫崎",
+      "region": "kyushu",
+      "official": "https://www.qsr.mlit.go.jp/useful/road_livecam.html"
+    },
+    {
+      "id": "kagoshima",
+      "ko": "가고시마",
+      "ja": "鹿児島",
+      "en": "Kagoshima",
+      "zh": "鹿儿岛",
+      "region": "kyushu",
+      "official": "https://www.qsr.mlit.go.jp/useful/road_livecam.html"
+    },
+    {
+      "id": "okinawa",
+      "ko": "오키나와",
+      "ja": "沖縄",
+      "en": "Okinawa",
+      "zh": "冲绳",
+      "region": "kyushu",
+      "official": null
+    }
+  ],
+  "cameras": [
+    {
+      "id": "shibuya",
+      "prefecture": "tokyo",
+      "ko": "도쿄 시부야 스크램블",
+      "en": "Tokyo Shibuya Crossing",
+      "ja": "東京・渋谷スクランブル交差点",
+      "zh": "东京涩谷十字路口"
+    },
+    {
+      "id": "sensoji",
+      "prefecture": "tokyo",
+      "ko": "도쿄 아사쿠사 센소지",
+      "en": "Tokyo Asakusa Sensoji",
+      "ja": "東京・浅草寺",
+      "zh": "东京浅草寺"
+    },
+    {
+      "id": "kabukicho",
+      "prefecture": "tokyo",
+      "ko": "도쿄 신주쿠 가부키초",
+      "en": "Tokyo Shinjuku Kabukicho",
+      "ja": "東京・新宿歌舞伎町",
+      "zh": "东京新宿歌舞伎町"
+    },
+    {
+      "id": "dotonbori",
+      "prefecture": "osaka",
+      "ko": "오사카 도톤보리",
+      "en": "Osaka Dotonbori",
+      "ja": "大阪・道頓堀",
+      "zh": "大阪道顿堀"
+    },
+    {
+      "id": "osaka-sky",
+      "prefecture": "osaka",
+      "ko": "오사카 도심 전망",
+      "en": "Osaka Skyline",
+      "ja": "大阪の街並み",
+      "zh": "大阪城市风景"
+    },
+    {
+      "id": "arashiyama",
+      "prefecture": "kyoto",
+      "ko": "교토 아라시야마",
+      "en": "Kyoto Arashiyama",
+      "ja": "京都・嵐山",
+      "zh": "京都岚山"
+    },
+    {
+      "id": "fuji",
+      "prefecture": "yamanashi",
+      "ko": "후지산 가와구치호",
+      "en": "Mount Fuji, Lake Kawaguchi",
+      "ja": "富士山・河口湖",
+      "zh": "富士山河口湖"
+    },
+    {
+      "id": "sapporo",
+      "prefecture": "hokkaido",
+      "ko": "삿포로 오도리 공원",
+      "en": "Sapporo Odori Park",
+      "ja": "札幌・大通公園",
+      "zh": "札幌大通公园"
+    },
+    {
+      "id": "hakata",
+      "prefecture": "fukuoka",
+      "ko": "후쿠오카 하카타역",
+      "en": "Fukuoka Hakata Station",
+      "ja": "福岡・博多駅",
+      "zh": "福冈博多站"
+    },
+    {
+      "id": "okinawa",
+      "prefecture": "okinawa",
+      "ko": "오키나와 비세 해변",
+      "en": "Okinawa Bise Beach",
+      "ja": "沖縄・備瀬ビーチ",
+      "zh": "冲绳备濑海滩"
+    },
+    {
+      "id": "iki",
+      "prefecture": "nagasaki",
+      "ko": "나가사키 이키섬",
+      "en": "Nagasaki Iki Island",
+      "ja": "長崎・壱岐島",
+      "zh": "长崎壹岐岛"
+    }
+  ],
+  "mlit": "https://www.mlit.go.jp/road/bosai/LIVEcamera.html",
+  "sourceWarning": "Official road camera pages may use periodically refreshed still images; they are not necessarily live video."
+}
