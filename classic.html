@@ -91,7 +91,8 @@
   </main>
   <footer id="ad-info"><div class="wrap footer-in"><div><div class="footer-brand">JAPAN <span>NOW.</span></div><div class="footer-copy">일본 라이브 카메라 링크 모음 · 독립적으로 제작된 예시 사이트입니다. LiveTokyo 및 각 방송사와 공식 제휴 관계가 아닙니다. 모든 동영상의 권리는 각 원본 제작자에게 있습니다. 광고 배너는 예시 자리이며 현재 광고가 게재되어 있지 않습니다. 상업 운영 전 방송사별 영상 이용정책, 광고 플랫폼 정책 및 필요 시 허가 여부를 확인하세요.</div></div><div class="footer-links"><a href="about/">사이트 소개</a><a href="privacy/">개인정보처리방침</a><a href="contact/">문의 안내</a><a href="#top">맨 위로 ↑</a><a href="https://livetokyo.com/about/" target="_blank" rel="noopener noreferrer">카메라 정보 출처 ↗</a><a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer">YouTube 약관 ↗</a></div></div></footer>
   <div id="toast" role="status" aria-live="polite"></div>
-  <script>
+  <script src="assets/live-player.js"></script>
+<script>
   'use strict';
   // 링크 점검: 2026-10-20. LiveTokyo 페이지 접속 및 유튜브 링크 대상 ID를 대조했습니다.
   // 실시간 송출 상태, 재생 가능 지역, 외부 임베드 허용은 보장하지 않습니다.
@@ -126,7 +127,7 @@
   function showToast(message){const el=$('toast');el.textContent=message;el.classList.add('show');clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>el.classList.remove('show'),2300);}
   function tick(){const formatted=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date());$('japanTime').textContent=formatted;}
   function renderBanners(){const ids={top:'ad-top',side:'ad-side',inline:'ad-inline'};for(const [key,config] of Object.entries(BANNERS)){if(!config.image||!config.href)continue;try{const href=new URL(config.href,location.href);const img=new URL(config.image,location.href);if(!['http:','https:'].includes(href.protocol)||!['http:','https:'].includes(img.protocol))continue;const parent=$(ids[key]);parent.hidden=false;parent.innerHTML='';const a=document.createElement('a');a.href=href.href;a.target='_blank';a.rel='noopener noreferrer sponsored';a.title='스폰서 배너 열기';a.style.cssText='display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:inherit';const image=document.createElement('img');image.src=img.href;image.alt=config.alt||'광고 배너';image.loading='lazy';image.style.cssText='max-width:100%;max-height:100%;object-fit:contain';a.append(image);parent.append(a);}catch(_){}}if(!BANNERS.side.image||!BANNERS.side.href)document.querySelector('.sidebar').classList.add('no-side-ad');}
-  function loadCamera(cam,scroll=false){current=cam;
+  function loadCamera(cam,scroll=false){current=cam;if($('playerArea')._jnDestroy)$('playerArea')._jnDestroy();
     $('playerArea').querySelector('iframe')?.remove();$('playerArea').querySelector('.embedded-help')?.remove();$('playerArea').classList.remove('has-video');
     $('playerCover').style.backgroundImage=`linear-gradient(150deg,#294050,#1c2938),url('${thumbnail(cam)}')`;
     $('playerArtLabel').textContent=cam.label;
@@ -145,9 +146,9 @@
   }
   function playCamera(){
   if(current.id==='dotonbori'||current.id==='arashiyama'){
-    const url=current.id==='dotonbori'?'https://www.youtube.com/@RVJplanet/streams':'https://ja.kyoto.travel/tourism/single01.php?category_id=8&tourism_id=2683';
-    window.open(url,'_blank','noopener,noreferrer');
-    showToast('기존 영상이 종료돼 운영사 최신 방송 페이지를 열었습니다');
+    const vids=current.id==='dotonbori'?[{id:'i2PpmC1IeKk',name:'도톤보리 RVJJP'},{id:'SRZJKXLaZ4E',name:'에비스바시'}]:[{id:'JLlY6Cg17cc',name:'교토 대나무숲'},{id:'jqtsC5BYlIk',name:'도게츠교'}];
+    JapanLivePlayer.mount($('playerArea'),{title:current.name,videos:vids});
+    $('playerCover').hidden=true;$('playerArtLabel').hidden=true;$('playButton').hidden=true;$('playerInstruction').hidden=true;
     return;
   }
   const iframe=document.createElement('iframe');iframe.src=`https://www.youtube.com/embed/${current.video}?autoplay=1&rel=0&playsinline=1`;iframe.title=current.name+' 공식 YouTube 영상';iframe.allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share';iframe.referrerPolicy='strict-origin-when-cross-origin';iframe.allowFullscreen=true;iframe.loading='eager';$('playerArea').append(iframe);$('playerArea').classList.add('has-video');const help=document.createElement('div');help.className='embedded-help';const direct=document.createElement('a');direct.href=videoURL(current);direct.target='_blank';direct.rel='noopener noreferrer';direct.textContent='▶ YouTube에서 보기';const source=document.createElement('a');source.href=current.url;source.target='_blank';source.rel='noopener noreferrer';source.textContent='방송 출처 확인';help.append(direct,source);$('playerArea').append(help);$('playerCover').hidden=true;$('playerArtLabel').hidden=true;$('playButton').hidden=true;$('playerInstruction').hidden=true;}
