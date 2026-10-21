@@ -1,0 +1,38 @@
+/* JAPULSE homepage single muted live preview (2026-10-22). */
+.jp-intro-content{display:flex;flex-direction:column}
+.jp-home-video{width:100%;min-width:0;margin:15px 0 1px;background:#102f3a;border:1px solid #537780;border-radius:15px;overflow:hidden;box-shadow:0 14px 35px #06161c4d}
+.jp-home-live-stage{position:relative;aspect-ratio:16/9;background:#0a2029 url("https://i.ytimg.com/vi/8H3nRCFVR6Y/hqdefault.jpg") center/cover no-repeat;overflow:hidden}
+.jp-home-live-frame,.jp-home-live-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.jp-home-live-overlay{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:15px;background:linear-gradient(180deg,#071a24b0 0%,#071b2600 35%,#081c2abf 100%);pointer-events:none}
+.jp-home-live-stage.is-playing .jp-home-live-overlay{display:none}
+.jp-home-live-label{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border-radius:999px;background:#0b2634dc;color:#fff;font-weight:800;font-size:10px;letter-spacing:.05em}
+.jp-home-live-overlay-bottom{max-width:100%;color:#fff}
+.jp-home-live-overlay-bottom p{color:#fff!important;font-size:13px!important;margin:0 0 10px!important;text-shadow:0 1px 2px #07151d}
+.jp-home-live-fallback{pointer-events:auto;border:0;border-radius:9px;padding:10px 15px;background:#fa6650;color:#09232c;font-size:13px;font-weight:900}
+.jp-home-live-fallback[hidden]{display:none!important}
+.jp-home-live-info{display:flex;flex-wrap:wrap;align-items:center;gap:5px 9px;padding:10px 13px;background:#112f3a}
+.jp-home-live-info strong{font-size:13px;color:#fff}
+.jp-home-live-info span{font-size:11px;color:#c6dbe0}
+.jp-home-live-info a{margin-left:auto;font-size:11px;font-weight:800;color:#a5e5ee;text-decoration:underline;text-underline-offset:2px}
+.jp-home-video .jp-home-live-note{margin:0!important;padding:0 13px 10px;font-size:10px!important;color:#bdcbd2!important;line-height:1.5!important;background:#112f3a}
+.jp-intro-content .jp-home-search{margin:13px 0 6px}
+.jp-intro-content .jp-head-actions{margin-top:6px}
+@media(min-width:840px){
+ .jp-intro-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);grid-template-areas:"eyebrow video" "heading video" "description video" "search video" "actions video";column-gap:26px;align-content:center;align-items:center}
+ .jp-intro-content>.jp-eyebrow{grid-area:eyebrow;align-self:end}
+ .jp-intro-content>h1{grid-area:heading}
+ .jp-intro-content>p{grid-area:description}
+ .jp-intro-content>.jp-home-search{grid-area:search}
+ .jp-intro-content>.jp-head-actions{grid-area:actions;align-self:start}
+ .jp-intro-content>.jp-home-video{grid-area:video;align-self:center;margin:0}
+ .jp-intro-content .jp-head-actions a{padding:10px 12px;font-size:12px}
+}
+@media(max-width:640px){
+ .jp-home-video{margin:12px 0 2px;border-radius:12px}
+ .jp-home-live-info{padding:9px 11px;gap:4px 8px}
+ .jp-home-live-info strong{font-size:12px}
+ .jp-home-live-info span,.jp-home-live-info a{font-size:10px}
+ .jp-home-live-overlay{padding:10px}
+ .jp-home-live-overlay-bottom p{font-size:12px!important}
+ .jp-home-video .jp-home-live-note{padding:0 11px 9px}
+}
