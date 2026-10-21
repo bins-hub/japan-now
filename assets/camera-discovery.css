@@ -1,0 +1,25 @@
+/* JAPULSE camera discovery; outside-camera links only, no rebroadcast */
+.jp-live-discovery-controls{display:grid;gap:11px;margin:13px 0}
+.jp-live-discovery-controls input{width:100%;border:1px solid var(--jp-border,#dce7e8);border-radius:12px;background:white;padding:12px 14px;color:var(--jp-ink,#132a31);font-size:14px}
+.jp-live-area-buttons{display:flex;gap:7px;overflow-x:auto;padding:1px 0 8px;scrollbar-width:thin;white-space:nowrap}
+.jp-live-area-button{background:white;border:1px solid var(--jp-border,#dce7e8);color:var(--jp-ink,#132a31);border-radius:999px;padding:7px 13px;white-space:nowrap;font-size:12px;font-weight:750;flex:none}
+.jp-live-area-button[aria-pressed="true"]{background:#0a6570;color:white;border-color:#0a6570}
+.jp-live-count{font-size:12px;color:var(--jp-secondary,#5e737b);margin:0 0 10px;font-weight:750}
+.jp-live-discovery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.jp-live-discovery-card{display:flex;flex-direction:column;min-width:0;min-height:136px;gap:12px;background:#fff;border:1px solid var(--jp-border,#dce7e8);border-radius:14px;padding:14px;color:var(--jp-ink,#132a31);transition:border-color .15s,transform .15s,box-shadow .15s}
+.jp-live-discovery-card:hover{transform:translateY(-2px);border-color:#0a6570;box-shadow:0 6px 16px #0a354014}
+.jp-live-discovery-card:focus-visible{outline:3px solid #fa6650;outline-offset:3px}
+.jp-live-discovery-card[hidden]{display:none!important}
+.jp-live-card-top{display:flex;justify-content:space-between;align-items:center;gap:5px;flex-wrap:wrap}
+.jp-live-region{background:#e8f4f4;color:#145663;border-radius:99px;padding:3px 8px;font-size:11px;font-weight:800}
+.jp-live-card-top .jp-weather{background:#19333a;color:#fff;border-radius:99px;padding:3px 7px;font-size:11px;font-weight:800;white-space:nowrap}
+.jp-live-discovery-card strong{font-size:15px;line-height:1.35;overflow-wrap:anywhere}
+.jp-live-card-foot{display:flex;align-items:end;justify-content:space-between;gap:5px;margin-top:auto;flex-wrap:wrap}
+.jp-live-card-foot small{font-size:10px;color:var(--jp-secondary,#5e737b)}
+.jp-live-card-foot span{font-size:11px;color:var(--jp-teal,#0a6570);font-weight:800}
+.jp-live-more{margin:15px auto 0;display:block;padding:10px 20px;border-radius:999px;border:1px solid #0a6570;background:#fff;color:#0a6570;font-weight:850;font-size:13px}
+.jp-live-more[hidden]{display:none}
+.jp-live-empty{padding:14px;color:var(--jp-secondary,#5e737b)}
+.jp-live-note{font-size:11px;color:var(--jp-secondary,#5e737b);margin:11px 0 0}
+@media(max-width:760px){.jp-live-discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.jp-live-discovery-card{padding:11px;min-height:130px;gap:8px}.jp-live-discovery-card strong{font-size:13px}}
+@media(max-width:370px){.jp-live-discovery-grid{grid-template-columns:minmax(0,1fr)}}
