@@ -36,3 +36,22 @@
  .jp-home-live-overlay-bottom p{font-size:12px!important}
  .jp-home-video .jp-home-live-note{padding:0 11px 9px}
 }
+
+/* Camera thumbnail switcher: small images only, not six extra YouTube players. */
+.jp-home-cam-switcher{background:#112f3a;padding:10px 12px 8px;border-top:1px solid #456b77}
+.jp-home-cam-heading{font-size:11px;font-weight:800;color:#d0e6e8;margin-bottom:7px}
+.jp-home-cam-track{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}
+.jp-home-cam-choice{min-width:0;display:flex;flex-direction:column;gap:4px;padding:4px;border:2px solid transparent;border-radius:8px;background:#183b46;color:#eff9fa;text-align:left;cursor:pointer;transition:border-color .16s,background .16s}
+.jp-home-cam-choice:hover{background:#225364}
+.jp-home-cam-choice[aria-pressed="true"]{border-color:#fa6650;background:#254a54}
+.jp-home-cam-choice:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.jp-home-cam-thumb{position:relative;display:block;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:5px;background:#294653}
+.jp-home-cam-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.jp-home-cam-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:24px;height:24px;border-radius:100%;background:#061a24ae;color:white;font-size:10px}
+.jp-home-cam-name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:28px;font-size:10px;line-height:1.4;font-weight:750;padding-inline:2px}
+@media(max-width:640px){
+ .jp-home-cam-switcher{padding:9px 10px 7px}
+ .jp-home-cam-track{display:flex;gap:7px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin;padding-bottom:8px}
+ .jp-home-cam-choice{flex:0 0 103px;scroll-snap-align:start}
+ .jp-home-cam-name{min-height:27px}
+}
