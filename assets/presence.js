@@ -14,7 +14,10 @@ const demo=params.get("presence_demo")==="1";
 const raw=Number(params.get("presence_count"));
 const defaultCount=Number.isSafeInteger(raw)&&raw>=1&&raw<=999?raw:28;
 const endpoint=window.JAPULSE_PRESENCE_ENDPOINT;
-if(!demo&&(typeof endpoint!=="string"||!/^https:\/\//.test(endpoint)))return;
+if(!demo&&(typeof endpoint!=="string"||!/^https:\/\//.test(endpoint))){
+ import("/assets/presence-firebase.js?v=20261021-f1").catch(()=>{});
+ return;
+}
 let target=null;
 if(!demo){try{const u=new URL(endpoint);if(u.protocol!=="https:")return;target=u.toString();}catch(_){return;}}
 const slot=document.createElement("div");slot.className="jp-presence"+(demo?" jp-presence-demo":"");
