@@ -7,10 +7,10 @@ if(!root)return;
 const directory=root.closest("[data-jp-directory]");
 const lang=(document.documentElement.lang||"ko").toLowerCase().slice(0,2);
 const dict={
-ko:{title:"일본 전국 카메라 50곳 모아보기",subtitle:"기존 안내 11곳 · 외부 원본 39곳 · 페이지 주소 확인, 현재 방송 상태는 미확인",search:"지역·카메라 이름 검색",all:"전체",more:"카메라 더 보기",empty:"조건에 맞는 카메라가 없습니다.",internal:"JAPULSE 안내",external:"외부 원본",watch:"원본에서 보기 ↗",local:"카메라 보기 →",notice:"외부 영상은 재송출하지 않습니다. 연결된 제공 사이트에서 재생 가능 여부·촬영 시각을 확인하세요.",found:"곳의 카메라 페이지"},
-en:{title:"Explore 50 camera sources across Japan",subtitle:"11 guides · 39 external source pages · source links reviewed, broadcasts unverified",search:"Search places and cameras",all:"All",more:"Show more cameras",empty:"No camera matches your filters.",internal:"JAPULSE guide",external:"Source website",watch:"Open source ↗",local:"View camera →",notice:"We do not rebroadcast third-party streams. Check availability and timestamp at the source.",found:"camera pages"},
-ja:{title:"日本全国のカメラ50地点を探す",subtitle:"サイト内11件・外部39件。配信元ページを確認済み、現在の配信状況は未確認です。",search:"地域・カメラ名を検索",all:"すべて",more:"もっと見る",empty:"該当するカメラはありません。",internal:"JAPULSE案内",external:"外部配信元",watch:"配信元を見る ↗",local:"カメラを見る →",notice:"第三者の映像は再配信していません。実際の配信状況と撮影時刻は配信元でご確認ください。",found:"地点のカメラページ"},
-zh:{title:"探索日本全国50处摄像头资源",subtitle:"站内11处·外部39处，来源页面已核对，实时播放状态仍须自行确认",search:"搜索地区与摄像头",all:"全部",more:"查看更多摄像头",empty:"未找到匹配结果。",internal:"JAPULSE介绍",external:"外部来源",watch:"查看来源 ↗",local:"查看摄像头 →",notice:"本站不擅自转播第三方视频。播放状态和拍摄时间请以原网站为准。",found:"处摄像头页面"}
+ko:{title:"일본 전국 카메라 50곳 모아보기",regionCams:"지역 카메라",emptyRegion:"이 권역의 관광 카메라는 아직 등록되지 않았습니다. 아래 공식 도로 카메라 자료를 참고하세요.",subtitle:"기존 안내 11곳 · 외부 원본 39곳 · 페이지 주소 확인, 현재 방송 상태는 미확인",search:"지역·카메라 이름 검색",all:"전체",more:"카메라 더 보기",empty:"조건에 맞는 카메라가 없습니다.",internal:"JAPULSE 안내",external:"외부 원본",watch:"원본에서 보기 ↗",local:"카메라 보기 →",notice:"외부 영상은 재송출하지 않습니다. 연결된 제공 사이트에서 재생 가능 여부·촬영 시각을 확인하세요.",found:"곳의 카메라 페이지"},
+en:{title:"Explore 50 camera sources across Japan",regionCams:"regional camera guides",emptyRegion:"No tourist cameras are listed here yet. See official road-camera resources below.",subtitle:"11 guides · 39 external source pages · source links reviewed, broadcasts unverified",search:"Search places and cameras",all:"All",more:"Show more cameras",empty:"No camera matches your filters.",internal:"JAPULSE guide",external:"Source website",watch:"Open source ↗",local:"View camera →",notice:"We do not rebroadcast third-party streams. Check availability and timestamp at the source.",found:"camera pages"},
+ja:{title:"日本全国のカメラ50地点を探す",regionCams:"地域のカメラ",emptyRegion:"この地域の観光カメラはまだ未登録です。下の公式道路カメラ情報をご確認ください。",subtitle:"サイト内11件・外部39件。配信元ページを確認済み、現在の配信状況は未確認です。",search:"地域・カメラ名を検索",all:"すべて",more:"もっと見る",empty:"該当するカメラはありません。",internal:"JAPULSE案内",external:"外部配信元",watch:"配信元を見る ↗",local:"カメラを見る →",notice:"第三者の映像は再配信していません。実際の配信状況と撮影時刻は配信元でご確認ください。",found:"地点のカメラページ"},
+zh:{title:"探索日本全国50处摄像头资源",regionCams:"地区摄像头",emptyRegion:"该地区暂未收录旅游摄像头。请查看下方官方道路摄像头资源。",subtitle:"站内11处·外部39处，来源页面已核对，实时播放状态仍须自行确认",search:"搜索地区与摄像头",all:"全部",more:"查看更多摄像头",empty:"未找到匹配结果。",internal:"JAPULSE介绍",external:"外部来源",watch:"查看来源 ↗",local:"查看摄像头 →",notice:"本站不擅自转播第三方视频。播放状态和拍摄时间请以原网站为准。",found:"处摄像头页面"}
 };
 const t=dict[lang]||dict.en;
 const areaNames={
@@ -64,10 +64,12 @@ function render(){
  if(selected!=="all")filtered.sort((a,b)=>Number(b.entry.source==="JAPULSE")-Number(a.entry.source==="JAPULSE"));
  const showing=new Set(filtered.slice(0,visible).map(({a})=>a));
  list.forEach(({a})=>{a.hidden=!showing.has(a);});
+ h.textContent=selected==="all"?t.title:(areaNames[selected]?.[lang]||selected)+" · "+t.regionCams;
  const area=selected==="all"?"":(areaNames[selected]?.[lang]||selected)+" · ";
  results.textContent=area+String(filtered.length)+" "+t.found;
  more.hidden=filtered.length<=visible;
  empty.hidden=filtered.length!==0;
+ empty.textContent=selected!=="all"&&!term?t.emptyRegion:t.empty;
 }
 more.addEventListener("click",()=>{visible+=9;render();});
 search.addEventListener("input",()=>{visible=6;render();});
@@ -81,10 +83,6 @@ if(directory){
   const next=event.detail?.region;
   if(next!=="all"&&!order.includes(next))return;
   selected=next;visible=6;search.value="";
-  [...buttons.children].forEach(b=>{
-   const index=order.indexOf(next),active=order.indexOf(b.textContent===t.all?"all":order.find(code=>(areaNames[code]?.[lang]||code)===b.textContent))===index;
-   b.setAttribute("aria-pressed",String(active));
-  });
   render();
  });
 }
