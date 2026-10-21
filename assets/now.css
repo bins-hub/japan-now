@@ -34,3 +34,8 @@
 @media(max-width:850px){.jp-now-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.jp-now-hero{padding:26px 0 28px}.jp-now-grid{grid-template-columns:1fr 1fr;gap:8px}.jp-now-card{padding:11px;gap:7px}.jp-now-card h3{font-size:14px}.jp-now-card p{font-size:11px}.jp-now-section h2{font-size:20px}.jp-now-hero-card{padding:14px}.jp-now-jump a{font-size:11px;padding:7px 10px}.jp-now-home-teaser{padding:14px}.jp-now-home-teaser h2{font-size:17px}}
 @media(max-width:370px){.jp-now-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Compact four-section navigation without extra vertical scrolling */
+.jp-tabs.jp-tabs-four{grid-template-columns:repeat(4,minmax(0,1fr))}
+.jp-tabs.jp-tabs-four .jp-tab{min-height:49px}
+@media(max-width:640px){.jp-tabs.jp-tabs-four{gap:6px}.jp-tabs.jp-tabs-four .jp-tab{min-height:44px;padding:4px;font-size:12px}.jp-menu{gap:0}.jp-menu a{padding-left:5px;padding-right:5px}}
