@@ -38,7 +38,7 @@ function selectRegion(next,viaMap=false){
  const label=region==="all"?(regionButtons[0]?.textContent||"All"):(regionButtons.find(x=>x.dataset.jpRegion===region)?.textContent||region);
  if(mapCurrent)mapCurrent.textContent=label;
  root.dispatchEvent(new CustomEvent("jp-region-changed",{detail:{region}}));
- if(viaMap){const results=root.querySelector("[data-jp-results-start]");results?.scrollIntoView({behavior:"smooth",block:"start"});}
+ if(viaMap){const results=root.querySelector("[data-jp-extra-cameras]")||root.querySelector("[data-jp-results-start]");results?.scrollIntoView({behavior:"smooth",block:"start"});}
 }
 regionButtons.forEach(b=>b.addEventListener("click",()=>selectRegion(b.dataset.jpRegion)));
 root.addEventListener("jp-map-select",e=>{const next=e.detail?.region;if(regionButtons.some(b=>b.dataset.jpRegion===next))selectRegion(next,true);});
