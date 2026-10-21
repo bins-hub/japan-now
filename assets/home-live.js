@@ -3,8 +3,8 @@
   "use strict";
   const root = document.querySelector("[data-jp-home-live]");
   if (!root) return;
-  const id = root.getAttribute("data-video-id");
-  if (!/^[A-Za-z0-9_-]{11}$/.test(id || "")) return;
+  let activeId = root.getAttribute("data-video-id");
+  if (!/^[A-Za-z0-9_-]{11}$/.test(activeId || "")) return;
   const frame = root.querySelector("[data-jp-live-frame]");
   const stage = root.querySelector("[data-jp-live-screen]");
   const status = root.querySelector("[data-jp-live-status]");
@@ -19,6 +19,87 @@
     ja: { loading:"ミュートで動画に接続中", playing:"動画再生中 · LIVE配信かは配信元で確認", blocked:"自動再生が制限されています。再生を押してください。", error:"再生できません。配信元でご確認ください。", ended:"動画が終了しました。配信元をご確認ください。", reduced:"データ節約・視覚効果の設定により自動再生を停止しています。", retry:"▶ 動画を再生" },
     zh: { loading:"静音连接视频中", playing:"视频播放中 · 请以来源网站为准确认直播状态", blocked:"浏览器阻止了自动播放，请点击播放。", error:"无法播放视频，请查看原始来源。", ended:"视频已结束，请查看来源。", reduced:"根据省流量/减少动态效果设置，已跳过自动播放。", retry:"▶ 播放视频" }
   }[key];
+
+  // Only one video is ever embedded: the thumbnail buttons simply switch its source.
+  // These are existing JAPULSE camera candidates, NOT verified currently-live streams.
+  const cameras = [
+    { id:"8H3nRCFVR6Y", names:{ko:"도쿄 시부야",en:"Tokyo Shibuya",ja:"東京・渋谷",zh:"东京涩谷"} },
+    { id:"i2PpmC1IeKk", names:{ko:"오사카 도톤보리",en:"Osaka Dotonbori",ja:"大阪・道頓堀",zh:"大阪道顿堀"} },
+    { id:"1cnReFAU04k", names:{ko:"후지산",en:"Mount Fuji",ja:"富士山",zh:"富士山"} },
+    { id:"RBHsITnIoI0", names:{ko:"삿포로",en:"Sapporo",ja:"札幌",zh:"札幌"} },
+    { id:"JLlY6Cg17cc", names:{ko:"교토 아라시야마",en:"Kyoto Arashiyama",ja:"京都・嵐山",zh:"京都岚山"} },
+    { id:"yETDDgrE2E4", names:{ko:"후쿠오카 하카타",en:"Fukuoka Hakata",ja:"福岡・博多",zh:"福冈博多"} }
+  ];
+  const labels = {
+    ko:{title:"카메라 선택",hint:"작은 화면을 눌러 위의 영상 바꾸기",camera:" · 공개 카메라"},
+    en:{title:"Choose a camera",hint:"Tap a thumbnail to switch the main video",camera:" · public camera"},
+    ja:{title:"カメラを選択",hint:"小さな画面を押すと上の映像が切り替わります",camera:" · 公開カメラ"},
+    zh:{title:"选择摄像头",hint:"点击缩略图可切换上方视频",camera:" · 公开视频"}
+  }[key];
+  const videoName = root.querySelector(".jp-home-live-info strong");
+  const sourceLink = root.querySelector(".jp-home-live-info a[href*='youtube.com/watch']");
+  const topLabel = root.querySelector(".jp-home-live-label");
+  const originalNote = root.querySelector(".jp-home-live-note");
+  const switcher = document.createElement("div");
+  switcher.className = "jp-home-cam-switcher";
+  switcher.setAttribute("role","group");
+  switcher.setAttribute("aria-label", labels.title);
+  const switcherHeading = document.createElement("div");
+  switcherHeading.className = "jp-home-cam-heading";
+  switcherHeading.textContent = labels.hint;
+  const track = document.createElement("div");
+  track.className = "jp-home-cam-track";
+  const thumbnails = cameras.map(function(camera) {
+    const button = document.createElement("button");
+    button.type="button";
+    button.className="jp-home-cam-choice";
+    button.setAttribute("aria-label",camera.names[key]);
+    button.setAttribute("aria-pressed",String(camera.id===activeId));
+    const thumbnail=document.createElement("span");
+    thumbnail.className="jp-home-cam-thumb";
+    const img=document.createElement("img");
+    img.src="https://i.ytimg.com/vi/"+camera.id+"/hqdefault.jpg";
+    img.alt="";
+    img.loading="lazy";
+    img.decoding="async";
+    img.width=160;
+    img.height=90;
+    const icon=document.createElement("span");
+    icon.className="jp-home-cam-play";
+    icon.setAttribute("aria-hidden","true");
+    icon.textContent="▶";
+    thumbnail.append(img,icon);
+    const name=document.createElement("span");
+    name.className="jp-home-cam-name";
+    name.textContent=camera.names[key];
+    button.append(thumbnail,name);
+    button.addEventListener("click",function(){ selectCamera(camera); });
+    track.appendChild(button);
+    return {button,camera};
+  });
+  switcher.append(switcherHeading,track);
+  if(originalNote)root.insertBefore(switcher,originalNote);
+  else root.appendChild(switcher);
+  function selectCamera(camera) {
+    if (camera.id === activeId) return;
+    activeId = camera.id;
+    root.setAttribute("data-video-id",activeId);
+    stage.style.backgroundImage='url("https://i.ytimg.com/vi/'+activeId+'/hqdefault.jpg")';
+    if(videoName)videoName.textContent=camera.names[key]+labels.camera;
+    if(sourceLink)sourceLink.href="https://www.youtube.com/watch?v="+encodeURIComponent(activeId);
+    if(topLabel)topLabel.textContent="◉ JAPAN CAMERA · "+camera.names[key];
+    thumbnails.forEach(function(item){
+      item.button.setAttribute("aria-pressed",String(item.camera.id===activeId));
+    });
+    clearTimer();
+    playing=false;
+    waiting();
+    if (player && ready) {
+      try { player.mute(); player.loadVideoById(activeId); }
+      catch (_) { fallback(copy.error); return; }
+      watchTimer=setTimeout(function(){if(!playing)fallback(copy.blocked);},12000);
+    } else if (!connecting) start();
+  }
   let player = null, connecting = false, ready = false, playing = false, watchTimer = 0, apiPromise = null;
   function clearTimer() { if (watchTimer) { clearTimeout(watchTimer); watchTimer = 0; } }
   function waiting() {
@@ -70,13 +151,14 @@
       frame.replaceChildren();
       const holder = document.createElement("div");
       frame.appendChild(holder);
+      const requestedId = activeId;
       player = new YT.Player(holder, {
-        width: "100%", height: "100%", videoId: id,
+        width: "100%", height: "100%", videoId: requestedId,
         playerVars: { autoplay: 1, mute: 1, playsinline: 1, controls: 1, rel: 0, origin: location.origin },
         events: {
           onReady: function (event) {
             connecting = false; ready = true;
-            try { event.target.mute(); event.target.playVideo(); } catch (_) { fallback(copy.blocked); }
+            try { event.target.mute(); if (activeId !== requestedId) event.target.loadVideoById(activeId); else event.target.playVideo(); } catch (_) { fallback(copy.blocked); }
             clearTimer();
             watchTimer = setTimeout(function () { if (!playing) fallback(copy.blocked); }, 12000);
           },
@@ -101,11 +183,12 @@
     }).catch(function () { connecting = false; ready = false; fallback(copy.error); });
   }
   retry.addEventListener("click", function () { start(); });
+  let pausedForHidden=false;
   document.addEventListener("visibilitychange", function () {
     if (!player || !ready) return;
     try {
-      if (document.hidden && playing) player.pauseVideo();
-      else if (!document.hidden && playing) { player.mute(); player.playVideo(); }
+      if (document.hidden && playing) { pausedForHidden=true; player.pauseVideo(); }
+      else if (!document.hidden && pausedForHidden) { pausedForHidden=false; player.mute(); player.playVideo(); }
     } catch (_) {}
   });
   const reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
