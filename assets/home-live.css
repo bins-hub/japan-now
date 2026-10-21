@@ -1,7 +1,7 @@
 /* JAPULSE homepage single muted live preview (2026-10-22). */
 .jp-intro-content{display:flex;flex-direction:column}
 .jp-home-video{width:100%;min-width:0;margin:15px 0 1px;background:#102f3a;border:1px solid #537780;border-radius:15px;overflow:hidden;box-shadow:0 14px 35px #06161c4d}
-.jp-home-live-stage{position:relative;aspect-ratio:16/9;background:#0a2029 url("https://i.ytimg.com/vi/8H3nRCFVR6Y/hqdefault.jpg") center/cover no-repeat;overflow:hidden}
+.jp-home-live-stage{position:relative;aspect-ratio:16/9;min-height:200px;background:#0a2029 url("https://i.ytimg.com/vi/8H3nRCFVR6Y/hqdefault.jpg") center/cover no-repeat;overflow:hidden}
 .jp-home-live-frame,.jp-home-live-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .jp-home-live-overlay{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:15px;background:linear-gradient(180deg,#071a24b0 0%,#071b2600 35%,#081c2abf 100%);pointer-events:none}
 .jp-home-live-stage.is-playing .jp-home-live-overlay{display:none}
