@@ -1,0 +1,34 @@
+/* JAPULSE mobile floating live player. Independent of the original camera switcher. */
+.jp-live-sticky-placeholder{display:block;width:100%;height:0;pointer-events:none}
+.jp-live-sticky-close{display:none}
+@media (max-width:640px){
+  .jp-home-live-stage.jp-live-floating{
+    position:fixed!important;
+    top:var(--jp-live-floating-top,88px)!important;
+    right:10px!important;
+    left:auto!important;
+    width:min(74vw,300px)!important;
+    height:auto!important;
+    min-height:0!important;
+    aspect-ratio:16/9;
+    z-index:120;
+    border:1px solid #8bafb7;
+    border-radius:13px;
+    overflow:hidden;
+    box-shadow:0 10px 30px #00191ec9;
+    background-color:#09232b;
+  }
+  .jp-home-live-stage.jp-live-floating .jp-home-live-overlay{padding:6px}
+  .jp-home-live-stage.jp-live-floating .jp-home-live-label{font-size:8px;padding:3px 5px;max-width:calc(100% - 31px)}
+  .jp-home-live-stage.jp-live-floating .jp-home-live-overlay-bottom p{font-size:10px!important;line-height:1.25!important;margin-bottom:3px!important}
+  .jp-home-live-stage.jp-live-floating .jp-home-live-fallback{padding:5px 8px;font-size:10px}
+  .jp-home-live-stage.jp-live-floating .jp-live-sticky-close{
+    display:grid;place-items:center;position:absolute;right:5px;top:5px;
+    z-index:8;width:29px;height:29px;padding:0;border:1px solid #ffffff4d;
+    border-radius:50%;background:#0a202bdc;color:white;font-size:20px;
+    line-height:1;cursor:pointer;
+  }
+  .jp-home-live-stage.jp-live-floating .jp-live-sticky-close:focus-visible{
+    outline:3px solid #ff8d79;outline-offset:2px
+  }
+}
