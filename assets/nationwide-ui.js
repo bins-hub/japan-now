@@ -30,7 +30,18 @@ if(empty)empty.hidden=matched!==0;
 }
 function change(buttons,field,value){buttons.forEach(b=>b.setAttribute("aria-pressed",String(b.getAttribute(field)===value)));}
 statusButtons.forEach(b=>b.addEventListener("click",()=>{status=b.dataset.jpStatus;change(statusButtons,"data-jp-status",status);render();}));
-regionButtons.forEach(b=>b.addEventListener("click",()=>{region=b.dataset.jpRegion;change(regionButtons,"data-jp-region",region);render();}));
+const mapCurrent=root.querySelector("[data-jp-map-current]");
+function selectRegion(next,viaMap=false){
+ region=next;change(regionButtons,"data-jp-region",region);
+ if(viaMap){if(search)search.value="";status="all";change(statusButtons,"data-jp-status",status);}
+ render();
+ const label=region==="all"?(regionButtons[0]?.textContent||"All"):(regionButtons.find(x=>x.dataset.jpRegion===region)?.textContent||region);
+ if(mapCurrent)mapCurrent.textContent=label;
+ root.dispatchEvent(new CustomEvent("jp-region-changed",{detail:{region}}));
+ if(viaMap){const results=root.querySelector("[data-jp-results-start]");results?.scrollIntoView({behavior:"smooth",block:"start"});}
+}
+regionButtons.forEach(b=>b.addEventListener("click",()=>selectRegion(b.dataset.jpRegion)));
+root.addEventListener("jp-map-select",e=>{const next=e.detail?.region;if(regionButtons.some(b=>b.dataset.jpRegion===next))selectRegion(next,true);});
 search.addEventListener("input",render);
 if(location.hash.startsWith("#pref-")){
 const el=root.querySelector(location.hash);if(el){region="all";render();setTimeout(()=>el.scrollIntoView({block:"center"}),80);}
