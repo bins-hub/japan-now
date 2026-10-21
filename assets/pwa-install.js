@@ -2,6 +2,7 @@
 (function(){"use strict";
 if(!window.isSecureContext)return;
 const standalone=()=>window.matchMedia("(display-mode: standalone)").matches||window.navigator.standalone===true;
+if("serviceWorker" in navigator)window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js",{scope:"/",updateViaCache:"none"}).catch(()=>{});},{once:true});
 const lang=(document.documentElement.lang||"ko").toLowerCase();
 const code=lang.startsWith("ja")?"ja":lang.startsWith("en")?"en":lang.startsWith("zh")?"zh":"ko";
 const labels={
@@ -10,7 +11,8 @@ en:{button:"Install JAPULSE",title:"Add JAPULSE to your home screen",tip:"In Saf
 ja:{button:"JAPULSEをインストール",title:"ホーム画面にJAPULSEを追加",tip:"Safariの共有ボタン（□↑）→「ホーム画面に追加」を選択してください。必要に応じてSafariで開いてください。",close:"閉じる"},
 zh:{button:"安装JAPULSE",title:"添加JAPULSE到主屏幕",tip:"请在Safari中点击分享按钮（□↑），选择“添加到主屏幕”。如有需要，请先在Safari中打开网站。",close:"关闭"}
 };
-const t=labels[code],isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1);
+const t=labels[code],isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1),isAndroid=/Android/i.test(navigator.userAgent);
+const androidTips={ko:"Chrome 오른쪽 위 ⋮ 메뉴에서 '앱 설치' 또는 '홈 화면에 추가'를 선택하세요. 다른 앱에서 열었다면 Chrome에서 다시 열어 주세요.",en:"In Chrome, open the ⋮ menu and select 'Install app' or 'Add to Home screen'. Open in Chrome if you're using an in-app browser.",ja:"Chromeの⋮メニューから「アプリをインストール」または「ホーム画面に追加」を選択してください。アプリ内ブラウザの場合はChromeで開いてください。",zh:"请在Chrome的⋮菜单中选择“安装应用”或“添加到主屏幕”。若是在应用内浏览器中，请先用Chrome打开。"};
 let deferred=null,button=null,dialog=null;
 try{if(Number(localStorage.getItem("japulse.pwa.dismissUntil")||0)>Date.now())return;}catch(e){}
 if(standalone())return;
@@ -24,14 +26,13 @@ function ensureButton(){if(button||standalone())return;
  button._dismissEl=x;
 }
 function showIOS(){closeDialog();dialog=document.createElement("section");dialog.className="jp-pwa-panel";dialog.setAttribute("role","dialog");dialog.setAttribute("aria-label",t.title);
- const h=document.createElement("h2");h.textContent=t.title;const p=document.createElement("p");p.textContent=t.tip;const close=document.createElement("button");close.type="button";close.textContent=t.close;close.addEventListener("click",closeDialog);dialog.append(h,p,close);document.body.append(dialog);}
+ const h=document.createElement("h2");h.textContent=t.title;const p=document.createElement("p");p.textContent=isIOS?t.tip:androidTips[code];const close=document.createElement("button");close.type="button";close.textContent=t.close;close.addEventListener("click",closeDialog);dialog.append(h,p,close);document.body.append(dialog);}
 async function installNow(){
  if(standalone()){if(button){button._dismissEl?.remove();button.remove();button=null;}return;}
  if(deferred){const evt=deferred;deferred=null;try{await evt.prompt();await evt.userChoice;}catch(e){}if(button){button._dismissEl?.remove();button.remove();button=null;}return;}
- if(isIOS)showIOS();
+ if(isIOS||isAndroid)showIOS();
 }
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferred=e;ensureButton();});
 window.addEventListener("appinstalled",()=>{closeDialog();if(button){button._dismissEl?.remove();button.remove();button=null;}});
-if(isIOS)document.addEventListener("DOMContentLoaded",ensureButton,{once:true});
-if("serviceWorker" in navigator)window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js",{scope:"/",updateViaCache:"none"}).catch(()=>{});},{once:true});
+if(isIOS||isAndroid){if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ensureButton,{once:true});else ensureButton();}
 })();
