@@ -1,4 +1,4 @@
-/* JAPULSE mobile-only floating live player, isolated for easy rollback. */
+/* JAPULSE large mobile sticky live player, isolated for easy rollback. */
 .jp-home-sticky-placeholder[hidden]{display:none!important}
 .jp-home-sticky-controls{display:none;position:absolute;z-index:7;top:7px;right:7px;gap:5px}
 .jp-home-sticky-controls button{display:grid;place-items:center;width:32px;height:32px;padding:0;border:1px solid #ffffffa6;border-radius:9px;background:#071e28ed;color:white;font-size:16px;line-height:1;font-weight:800;box-shadow:0 1px 5px #0007;cursor:pointer}
@@ -7,9 +7,10 @@
   .jp-home-live-stage.jp-is-floating{
     position:fixed!important;
     top:var(--jp-floating-top,90px);
-    right:max(10px,env(safe-area-inset-right,0px));
-    left:auto;
-    width:min(68vw,260px);
+    left:50%;
+    right:auto;
+    transform:translateX(-50%);
+    width:min(calc(100vw - 20px),680px);
     height:auto;
     min-height:0;
     aspect-ratio:16/9;
@@ -27,6 +28,6 @@
   .jp-home-live-stage.jp-is-floating .jp-home-live-fallback{font-size:11px;padding:6px 8px}
 }
 @media(max-width:360px){
-  .jp-home-live-stage.jp-is-floating{width:62vw}
+  .jp-home-live-stage.jp-is-floating{width:calc(100vw - 16px)}
   .jp-home-sticky-controls button{width:29px;height:29px}
 }
