@@ -1,0 +1,29 @@
+/* JAPULSE on-site YouTube camera landing page. Official player only, no capture or rebroadcast. */
+.jp-camera-page{max-width:1000px;margin:0 auto;padding:0 16px 55px;}
+.jp-camera-top{background:linear-gradient(115deg,#123543,#1b5660);color:#effaff;padding:30px 16px;}
+.jp-camera-top .jp-camera-page{padding:0 16px;}
+.jp-camera-top h1{font-size:clamp(25px,5vw,36px);margin:9px 0 10px;line-height:1.27;letter-spacing:-.03em;}
+.jp-camera-top p{max-width:810px;line-height:1.75;font-size:14px;color:#d3e8ea;margin:0;}
+.jp-camera-kicker{font-size:11px;font-weight:900;letter-spacing:.1em;color:#9bdce1}
+.jp-camera-main{margin:23px auto 0;}
+.jp-camera-layout{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:18px;}
+.jp-camera-display{background:#142f3e;border-radius:15px;overflow:hidden;border:1px solid #496575;}
+.jp-camera-screen{position:relative;aspect-ratio:16/9;display:grid;place-items:center;background:radial-gradient(circle at top right,#375e6b,#0c2533 65%);color:white}
+.jp-camera-screen iframe{width:100%;height:100%;border:0;position:absolute;inset:0}
+.jp-camera-play{padding:16px 22px;background:#ef755b;border:0;border-radius:99px;color:#142c36;font-size:15px;font-weight:900;cursor:pointer;box-shadow:0 6px 20px #0004}
+.jp-camera-screen-help{position:absolute;bottom:10px;text-align:center;left:10px;right:10px;color:#b5d4dd;font-size:11px;pointer-events:none}
+.jp-camera-under{padding:12px 14px;font-size:11px;line-height:1.65;color:#bad3db}
+.jp-camera-side{display:flex;flex-direction:column;gap:11px}
+.jp-camera-side article{border:1px solid #dbe6e7;background:white;border-radius:13px;padding:15px}
+.jp-camera-side h2{font-size:15px;margin:0 0 8px}
+.jp-camera-side p{font-size:12px;line-height:1.7;color:#526f78;margin:0 0 10px}
+.jp-camera-side .jp-weather{display:inline-flex;border-radius:99px;padding:5px 10px;background:#e0f4ef;color:#125962;font-weight:900}
+.jp-camera-actions{display:flex;gap:9px;flex-wrap:wrap;margin:13px 0}
+.jp-camera-actions a{display:inline-block;border-radius:9px;border:1px solid #c5d9dc;padding:10px 13px;font-size:12px;font-weight:800;color:#0d6170;background:#fff}
+.jp-camera-actions a.primary{color:white;background:#0b636d;border-color:#0b636d}
+.jp-camera-section{background:#fff;border:1px solid #dce7e8;border-radius:13px;padding:18px;margin-top:18px;}
+.jp-camera-section h2{font-size:20px;margin:0 0 9px}
+.jp-camera-section p{font-size:13px;line-height:1.8;color:#425e67;margin:0}
+.jp-camera-disclaimer{font-size:11px;color:#6b7f85;line-height:1.7;margin-top:18px}
+@media(max-width:760px){.jp-camera-layout{grid-template-columns:1fr}.jp-camera-side{display:grid;grid-template-columns:1fr 1fr}.jp-camera-top{padding:23px 0}.jp-camera-section{padding:13px}.jp-camera-side article{padding:12px}}
+@media(max-width:420px){.jp-camera-side{grid-template-columns:1fr}.jp-camera-play{font-size:13px}.jp-camera-actions{gap:6px}.jp-camera-actions a{font-size:11px;padding:8px 10px}}
