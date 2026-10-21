@@ -1,0 +1,21 @@
+/* JAPULSE clickable prefecture map, 2026-10-21; CC0 base asset credited in UI */
+.jp-map-explorer{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:16px;align-items:center;padding:16px;background:linear-gradient(140deg,#eaf5f5,#f4f8f6);border:1px solid #cce1e4;border-radius:16px;margin:0 0 14px}
+.jp-map-side{min-width:0;align-self:start}
+.jp-map-side h3{font-size:16px;margin:0 0 7px;letter-spacing:-.025em}
+.jp-map-side p{font-size:12px;color:#52707a;line-height:1.65;margin:0 0 11px}
+.jp-map-panel .jp-filters{flex-wrap:wrap;overflow:visible;gap:7px;padding:0 0 12px}
+.jp-map-panel .jp-filter{padding:7px 12px}
+.jp-map-slot{max-width:490px;margin:0 auto;min-height:170px}
+.jp-map-slot svg{display:block;width:100%;height:auto;max-height:490px;overflow:visible}
+.jp-map-region{cursor:pointer;outline:none;transition:opacity .14s,filter .14s}
+.jp-map-region:hover{filter:brightness(1.11)}
+.jp-map-region[aria-pressed=true]{filter:brightness(.87) saturate(1.65);stroke:#073e49;stroke-width:10}
+.jp-map-region:focus-visible{stroke:#fb694f;stroke-width:13;filter:brightness(1.13)}
+.jp-map-label{font-size:37px}
+.jp-map-meta{margin:10px 0 0;font-size:10px;color:#67818a;text-align:center}
+.jp-map-meta a{text-decoration:underline;text-underline-offset:2px}
+.jp-map-selection{background:white;border:1px solid #d2e4e5;border-radius:10px;padding:11px 13px;color:#185c68;font-weight:800;font-size:13px}
+.jp-map-fallback{color:#345e66}
+.jp-map-fallback[hidden]{display:none}
+@media(max-width:720px){.jp-map-explorer{grid-template-columns:1fr;padding:11px;gap:8px}.jp-map-side{display:contents}.jp-map-side h3{order:0}.jp-map-slot{order:1;width:min(100%,400px)}.jp-map-panel{order:2}.jp-map-panel .jp-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.jp-map-panel .jp-filter{padding:8px 2px;font-size:10px}.jp-map-side p{order:3}.jp-map-selection{padding:9px;font-size:12px}.jp-map-meta{font-size:9px}}
+@media(max-width:380px){.jp-map-panel .jp-filters{grid-template-columns:repeat(3,minmax(0,1fr))}}
