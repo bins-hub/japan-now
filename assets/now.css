@@ -1,0 +1,36 @@
+/* JAPULSE NOW · season-aware travel discovery hub */
+.jp-now-hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 90% 5%,#226b75 0%,transparent 46%),linear-gradient(120deg,#112d3a,#102f37 65%,#193e47);color:#fff;padding:41px 0 34px}
+.jp-now-hero .jp-eyebrow{color:#a1d6db;font-weight:900;letter-spacing:.12em;font-size:11px}
+.jp-now-hero h1{font-weight:900;letter-spacing:-.055em;font-size:clamp(27px,4.5vw,43px);margin:9px 0 14px;line-height:1.24}
+.jp-now-hero p{font-size:14px;line-height:1.8;max-width:740px;color:#d1e4e8;margin:0}
+.jp-now-jst{margin-top:14px;font-size:12px;font-weight:700;color:#b6d7dc}
+.jp-now-jump{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.jp-now-jump a{padding:9px 14px;border:1px solid #8aaeb0;border-radius:99px;background:#ffffff0d;color:#fff;font-size:12px;font-weight:800}
+.jp-now-jump a:hover{background:#ffffff25}
+.jp-now-main{padding:18px 0 52px}
+.jp-now-section{margin:21px 0 34px;scroll-margin-top:92px}
+.jp-now-section h2{font-size:23px;letter-spacing:-.04em;line-height:1.35;margin:0 0 7px}
+.jp-now-intro{color:#536e75;font-size:13px;line-height:1.75;margin:0 0 16px}
+.jp-now-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.jp-now-card{display:flex;flex-direction:column;gap:9px;padding:17px;border-radius:15px;background:#fff;border:1px solid #d9e6e7;min-width:0}
+.jp-now-card h3{font-size:17px;line-height:1.45;margin:0;letter-spacing:-.02em}
+.jp-now-card p{font-size:12px;line-height:1.72;color:#58717a;margin:0}
+.jp-now-card .jp-weather{align-self:start;background:#e1f3ef;color:#14545f;border-radius:99px;padding:5px 9px;font-weight:900;font-size:13px}
+.jp-now-card .jp-now-area{font-size:10px;letter-spacing:.08em;font-weight:900;color:#287c84}
+.jp-now-card .jp-now-link{display:inline-flex;align-items:center;margin-top:auto;justify-content:space-between;padding-top:9px;border-top:1px solid #e6eeee;color:#0a6470;font-size:12px;font-weight:850}
+.jp-now-card .jp-now-link:hover{text-decoration:underline}
+.jp-now-hero-card{background:linear-gradient(145deg,#e2f5f3,#f9fbfb);border:1px solid #c7e3df;border-radius:18px;padding:22px}
+.jp-now-hero-card h2{font-size:26px}
+.jp-now-source{font-size:11px;line-height:1.7;color:#6a838a;margin-top:13px}
+.jp-now-source a{text-decoration:underline;text-underline-offset:2px}
+.jp-now-notice{background:#fff;border:1px solid #d9e6e7;border-radius:12px;padding:15px;font-size:12px;color:#526f76;line-height:1.8}
+.jp-now-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}
+.jp-now-actions a{border:1px solid #c2d9dc;border-radius:10px;padding:10px 14px;background:#fff;color:#145b65;font-weight:850;font-size:12px}
+.jp-now-actions a.primary{background:#0b606b;color:#fff;border-color:#0b606b}
+.jp-now-home-teaser{background:linear-gradient(135deg,#e5f5f2,#ffffff);border:1px solid #c9e2e1;border-radius:15px;padding:19px;display:flex;align-items:center;gap:16px;justify-content:space-between;flex-wrap:wrap}
+.jp-now-home-teaser h2{font-size:21px;margin:0 0 6px}
+.jp-now-home-teaser p{margin:0;color:#476a72;font-size:12px}
+.jp-now-home-teaser>a{background:#0d5c68;color:#fff;padding:12px 16px;border-radius:10px;font-weight:850;font-size:13px;white-space:nowrap}
+@media(max-width:850px){.jp-now-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.jp-now-hero{padding:26px 0 28px}.jp-now-grid{grid-template-columns:1fr 1fr;gap:8px}.jp-now-card{padding:11px;gap:7px}.jp-now-card h3{font-size:14px}.jp-now-card p{font-size:11px}.jp-now-section h2{font-size:20px}.jp-now-hero-card{padding:14px}.jp-now-jump a{font-size:11px;padding:7px 10px}.jp-now-home-teaser{padding:14px}.jp-now-home-teaser h2{font-size:17px}}
+@media(max-width:370px){.jp-now-grid{grid-template-columns:minmax(0,1fr)}}
