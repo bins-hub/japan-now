@@ -1,0 +1,27 @@
+/* JAPULSE RUN & SHOWER | 2026-10-21 */
+.jn-shower{margin:14px 0 20px;padding:19px;border:1px solid #d4e6e8;background:#f5fafb;border-radius:17px;color:#224b54;box-shadow:0 6px 20px rgba(30,76,85,.05)}
+.jn-shower *{box-sizing:border-box}
+.jn-shower-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.jn-shower-eyebrow{display:block;font-size:10px;letter-spacing:.12em;font-weight:900;color:#cc654e}
+.jn-shower h3{font-size:21px;margin:5px 0;color:#173c46}
+.jn-shower-intro{font-size:12px;line-height:1.7;color:#52737b;max-width:660px;margin:4px 0 10px}
+.jn-shower-tabs{display:flex;gap:7px;overflow-x:auto;padding:3px 0 12px;scrollbar-width:thin}
+.jn-shower-tab{flex:0 0 auto;cursor:pointer;border-radius:999px;padding:9px 13px;border:1px solid #bfd6da;background:#fff;color:#365c65;font-size:12px;font-weight:800}
+.jn-shower-tab[aria-pressed="true"]{background:#1a5561;color:#fff;border-color:#1a5561}
+.jn-shower-tab:focus-visible,.jn-shower a:focus-visible,.jn-shower-jump:focus-visible{outline:3px solid #ff9b78;outline-offset:2px}
+.jn-shower-panel{background:#fff;border:1px solid #e3edef;border-radius:13px;padding:17px}
+.jn-shower-panel-top{display:flex;gap:10px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.jn-shower-name{font-size:18px;line-height:1.35;font-weight:900;color:#20444d;margin:0}
+.jn-shower-kind{display:inline-flex;background:#e8f3f4;border-radius:9px;padding:5px 8px;font-size:10px;font-weight:800;color:#38626a}
+.jn-shower-address{margin:7px 0 15px;color:#617980;font-size:12px;line-height:1.6}
+.jn-shower-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.jn-shower-fact{padding:10px 11px;border-radius:10px;background:#f3f8f9;min-width:0}
+.jn-shower-fact b{display:block;margin-bottom:5px;color:#53747c;font-size:11px}
+.jn-shower-fact span{font-size:12px;line-height:1.65;white-space:pre-line;color:#214750;overflow-wrap:anywhere}
+.jn-shower-note{font-size:12px;line-height:1.7;margin:12px 0;color:#5b6872}
+.jn-shower-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px}
+.jn-shower-link{display:inline-flex;align-items:center;justify-content:center;min-height:39px;text-decoration:none;border-radius:9px;padding:9px 14px;font-size:12px;font-weight:850;background:#fa604b;color:#fff!important}
+.jn-shower-link.alt{background:#315c68}
+.jn-shower-disclaimer{color:#75858a;font-size:11px;line-height:1.6;margin:12px 0 0}
+.jn-shower-jump{display:inline-flex;align-items:center;background:#fff6ef;color:#af553b!important;border:1px solid #f1d8c9;border-radius:7px;font-size:12px;line-height:1.4;font-weight:850;padding:6px 9px;text-decoration:none!important;margin:0 0 12px}
+@media(max-width:620px){.jn-shower{padding:12px}.jn-shower h3{font-size:19px}.jn-shower-panel{padding:12px}.jn-shower-facts{grid-template-columns:1fr}.jn-shower-tab{padding:8px 11px}.jn-shower-links a{flex:1 1 125px}}
