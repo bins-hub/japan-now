@@ -23,3 +23,20 @@
 .jp-live-note{font-size:11px;color:var(--jp-secondary,#5e737b);margin:11px 0 0}
 @media(max-width:760px){.jp-live-discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.jp-live-discovery-card{padding:11px;min-height:130px;gap:8px}.jp-live-discovery-card strong{font-size:13px}}
 @media(max-width:370px){.jp-live-discovery-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Camera results are directly under the interactive map; keep mobile scrolling short. */
+.jp-section[data-jp-extra-cameras]{margin:8px 0 18px;padding:14px 0 5px;border-top:1px solid #d5e4e4;scroll-margin-top:88px}
+.jp-section[data-jp-extra-cameras] .jp-section-header{margin-bottom:7px}
+.jp-section[data-jp-extra-cameras] .jp-section-header h2{font-size:19px}
+.jp-section[data-jp-extra-cameras] .jp-live-discovery-controls{margin:8px 0}
+.jp-section[data-jp-extra-cameras] .jp-live-discovery-grid{gap:9px}
+.jp-section[data-jp-extra-cameras] .jp-live-discovery-card{min-height:112px;padding:12px}
+.jp-section[data-jp-extra-cameras] .jp-live-discovery-card strong{font-size:14px}
+.jp-section[data-jp-extra-cameras] .jp-live-note{margin-top:13px}
+@media(max-width:640px){
+.jp-section[data-jp-extra-cameras]{margin-top:6px;padding-top:12px}
+.jp-section[data-jp-extra-cameras] .jp-section-header h2{font-size:17px}
+.jp-section[data-jp-extra-cameras] .jp-live-discovery-card{min-height:112px;padding:10px}
+.jp-section[data-jp-extra-cameras] .jp-live-discovery-card strong{font-size:12px}
+.jp-section[data-jp-extra-cameras] .jp-live-card-foot{gap:4px}
+}
