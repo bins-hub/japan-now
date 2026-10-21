@@ -26,6 +26,8 @@ fetch(source,{credentials:"same-origin"}).then(r=>{if(!r.ok)throw Error("Map "+r
   const current=e.detail?.region||"all";
   own.querySelectorAll("[data-jp-map-region]").forEach(g=>g.setAttribute("aria-pressed",String(g.getAttribute("data-jp-map-region")===current)));
  });
+ const initial=root?.querySelector('[data-jp-region][aria-pressed="true"]')?.getAttribute("data-jp-region")||"all";
+ own.querySelectorAll("[data-jp-map-region]").forEach(g=>g.setAttribute("aria-pressed",String(g.getAttribute("data-jp-map-region")===initial)));
  if(msg)msg.dataset.jpMapReady="true";
 }).catch(()=>{
  const fallback=root?.querySelector("[data-jp-map-fallback]");
