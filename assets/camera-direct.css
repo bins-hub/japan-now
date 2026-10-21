@@ -27,3 +27,15 @@
 .jp-camera-disclaimer{font-size:11px;color:#6b7f85;line-height:1.7;margin-top:18px}
 @media(max-width:760px){.jp-camera-layout{grid-template-columns:1fr}.jp-camera-side{display:grid;grid-template-columns:1fr 1fr}.jp-camera-top{padding:23px 0}.jp-camera-section{padding:13px}.jp-camera-side article{padding:12px}}
 @media(max-width:420px){.jp-camera-side{grid-template-columns:1fr}.jp-camera-play{font-size:13px}.jp-camera-actions{gap:6px}.jp-camera-actions a{font-size:11px;padding:8px 10px}}
+
+/* Haneda source switcher: manual recovery when a provider's static live ID expires. */
+.jp-haneda-switcher{margin:0 0 12px;padding:13px 14px;background:#fff;border:1px solid #d4e5e7;border-radius:13px}
+.jp-haneda-switcher-label{font-size:12px;font-weight:850;color:#1c5360;margin:0 0 9px}
+.jp-haneda-source-options{display:flex;gap:8px;flex-wrap:wrap}
+.jp-haneda-source-options button{padding:9px 12px;border:1px solid #c6dce0;border-radius:8px;background:#f4f9f9;color:#245461;cursor:pointer;font:800 12px system-ui,-apple-system,sans-serif}
+.jp-haneda-source-options button[aria-pressed=true]{background:#126775;color:#fff;border-color:#126775}
+.jp-haneda-source-options button:focus-visible{outline:3px solid #fb6950;outline-offset:2px}
+.jp-haneda-switcher-hint{font-size:11px;color:#5b7480;line-height:1.6;margin:9px 0 0}
+.jp-haneda-availability{font-size:11px;color:#af552d;background:#fff2e9;border:1px solid #f2d9c8;border-radius:8px;padding:9px 11px;margin:9px 0 0;line-height:1.65}
+.jp-haneda-availability[hidden]{display:none}
+@media(max-width:580px){.jp-haneda-source-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.jp-haneda-source-options button{padding:9px 3px;font-size:10px}.jp-haneda-switcher{padding:11px}}
