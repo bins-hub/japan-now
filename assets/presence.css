@@ -1,1 +1,6 @@
 .jp-presence{display:flex;align-items:center;gap:7px;width:max-content;max-width:calc(100% - 20px);margin:8px auto 12px;padding:8px 13px;border:1px solid #bfdee0;background:#eaf6f4;color:#195967;border-radius:99px;font:750 12px/1.3 system-ui,-apple-system,sans-serif}.jp-presence[hidden]{display:none!important}.jp-presence-dot{width:7px;height:7px;border-radius:50%;background:#19a66b;box-shadow:0 0 0 3px #19a66b22}.jp-presence-number{font-size:13px;font-weight:900;font-variant-numeric:tabular-nums}@media(max-width:420px){.jp-presence{font-size:11px;padding:7px 10px}}
+/* Explicit preview state; this count is simulated and never shown to ordinary visitors. */
+.jp-presence-demo{border-color:#e5c996;background:#fff6e5;color:#643f13;flex-wrap:wrap;justify-content:center}
+.jp-presence-demo .jp-presence-dot{background:#db8250;box-shadow:0 0 0 3px #db825025}
+.jp-presence-demo-badge{padding:3px 7px;border-radius:999px;background:#ffe4b8;color:#6e390f;font-size:10px;font-weight:850;white-space:nowrap}
+@media(max-width:420px){.jp-presence-demo{max-width:calc(100% - 12px);gap:5px}.jp-presence-demo-badge{font-size:9px}}
