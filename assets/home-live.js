@@ -230,7 +230,13 @@
       connecting = false; ready = false; fallback(copy.error);
     });
   }
-  retry.addEventListener("click", function () { start(); });
+  retry.addEventListener("click", function () {
+    alternateIndex = 0;
+    if (sourceLink) sourceLink.href = "https://www.youtube.com/watch?v=" + encodeURIComponent(activeId);
+    stage.style.backgroundImage = 'url("https://i.ytimg.com/vi/' + activeId + '/hqdefault.jpg")';
+    resetPlayer();
+    start();
+  });
   let pausedForHidden=false;
   document.addEventListener("visibilitychange", function () {
     if (!player || !ready) return;
