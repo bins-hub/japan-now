@@ -1,0 +1,11 @@
+.jp-place-guide{box-sizing:border-box;min-width:0;margin:24px 0;padding:clamp(18px,3vw,30px);border:1px solid #dde4e0;border-radius:16px;background:#fff;color:#263a33;font-size:16px;line-height:1.85;overflow-wrap:anywhere}
+.jp-place-guide h2{margin:0 0 22px;font-size:clamp(22px,3vw,28px);line-height:1.45;letter-spacing:-.025em;color:#17382b}
+.jp-place-guide h3{margin:24px 0 10px;font-size:18px;line-height:1.5;color:#214735}
+.jp-place-guide p{margin:8px 0 16px;color:inherit;max-width:76ch}
+.jp-place-guide ol{margin:0;padding-inline-start:24px;max-width:76ch}
+.jp-place-guide li{margin:0 0 14px;padding-inline-start:5px}
+.jp-place-guide a{color:#176245;text-decoration:underline;text-underline-offset:3px}
+.jp-place-guide a:focus-visible{outline:3px solid #247b59;outline-offset:4px}
+.jp-place-sources{margin-top:24px;padding-top:18px;border-top:1px solid #dde4e0;font-size:14px;line-height:1.7;color:#53665e}
+.jp-place-sources p{margin:6px 0}
+@media(max-width:600px){.jp-place-guide{border-radius:12px}.jp-place-guide h3{font-size:17px}}
