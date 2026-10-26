@@ -1,0 +1,14 @@
+/* Shared readability corrections for the site's light and dark page families. */
+.jn-language-bar a[aria-current="page"],.langs a[aria-current="page"]{background:#b73e2f!important;border-color:#b73e2f!important;color:#fff!important}
+.jn-run-head>span{color:#a83e2f!important}
+.jn-run-head p,.feature-note p{color:#536770!important}
+.feature-note .eyebrow,.lf-section .lf-eyebrow{color:#a83e2f!important}
+.jn-rl-tab.active,.jnbox button,.lf-pills a:first-child,.jn-shower-link:not(.alt){background:#b73e2f!important;color:#fff!important}
+.jncontrols button{background:#355669!important}
+.jn-source-review .jn-byline{color:#50696e!important}
+.jn-source-review .jn-source-notice{color:#50696e!important}
+.jn-translate-guide .jn-translate-disclaimer{color:#50696e!important}
+.jn-shower-eyebrow,.jn-locale-eat b{color:#a83e2f!important}
+.jn-shower-disclaimer,.lf-h p,.lf-faq small,.jp-now-source,.jp-now-source a,.jp-camera-disclaimer{color:#50666d!important}
+.block .aside p{color:#4d626a}
+.jp-pref-section h2 span{color:#50666d!important}
