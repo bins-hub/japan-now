@@ -11,7 +11,7 @@ for(const id of ids){
   const pattern=new RegExp("\\b"+id+": \\{kind:\"(loop|return)\", d:\"([^\"]+)\"");
   const match=js.match(pattern);
   if(!match){errs.push("Missing animated path: "+id);continue;}
-  const nums=[...match[2].matchAll(/-?\\d+(?:\\.\\d+)?/g)].map(x=>Number(x[0]));
+  const nums=[...match[2].matchAll(/-?\d+(?:\.\d+)?/g)].map(x=>Number(x[0]));
   if(nums.length<8||Math.abs(nums[0]-nums.at(-2))>0.001||Math.abs(nums[1]-nums.at(-1))>0.001)errs.push("Route does not return to its starting point: "+id);
 }
 for(const lang of langs){
@@ -23,7 +23,7 @@ for(const lang of langs){
   const canonical=(html.match(/<link rel="canonical" href="([^"]+)"/)||[])[1];
   if(canonical!=="https://japulse.com/"+lang+"run-eat/")errs.push("Canonical changed: "+file);
   if((html.match(/<link rel="alternate" hreflang=/g)||[]).length!==5)errs.push("Hreflang count changed: "+file);
-  if((html.match(/<h1(?:\\s[^>]*)?>/g)||[]).length!==1)errs.push("H1 changed: "+file);
+  if((html.match(/<h1(?:\s[^>]*)?>/g)||[]).length!==1)errs.push("H1 changed: "+file);
 }
 for(const token of ["requestAnimationFrame","getPointAtLength","prefers-reduced-motion","IntersectionObserver","aria-label","t.complete"])if(!js.includes(token))errs.push("Missing animation/accessibility feature: "+token);
 if(!css.includes("jp-route-animated"))errs.push("Missing scoped route CSS");
