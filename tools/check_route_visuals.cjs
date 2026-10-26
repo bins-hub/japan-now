@@ -18,7 +18,7 @@ for(const lang of langs){
   const file=lang+"run-eat/index.html";
   const html=fs.readFileSync(path.join(root,file),"utf8");
   if(!html.includes('href="/assets/run-route-visuals.css?v=20261027-a1"'))errs.push("Missing route CSS in "+file);
-  if(!html.includes('src="/assets/run-route-visuals.js?v=20261027-a1"'))errs.push("Missing animated route JS in "+file);
+  if(!html.includes('src="/assets/run-route-visuals.js?v=20261027-a2"'))errs.push("Missing animated route JS in "+file);
   for(const id of ids)if(!html.includes('id="'+id+'"'))errs.push("Missing course "+id+" in "+file);
   const canonical=(html.match(/<link rel="canonical" href="([^"]+)"/)||[])[1];
   if(canonical!=="https://japulse.com/"+lang+"run-eat/")errs.push("Canonical changed: "+file);
