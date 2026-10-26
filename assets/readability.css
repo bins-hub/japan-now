@@ -12,3 +12,5 @@
 .jn-shower-disclaimer,.lf-h p,.lf-faq small,.jp-now-source,.jp-now-source a,.jp-camera-disclaimer{color:#50666d!important}
 .block .aside p{color:#4d626a}
 .jp-pref-section h2 span{color:#50666d!important}
+.block .tile small{color:#a83e2f}
+.action:not(.secondary),.embed-fallback a:first-child,.play span{background:#b73e2f;color:#fff}

@@ -68,6 +68,7 @@
     const thumbnail=document.createElement("span");
     thumbnail.className="jp-home-cam-thumb";
     const img=document.createElement("img");
+    img.addEventListener("error",function(){img.src="https://japulse.com/assets/camera-placeholder.svg";},{once:true});
     img.src="https://i.ytimg.com/vi/"+camera.id+"/hqdefault.jpg";
     img.alt="";
     img.loading="lazy";
@@ -186,6 +187,8 @@
     const seq = ++playSeq;
     const cameraIdAtStart = activeId;
     const requestedId = sourceOverride || activeId;
+    clearTimer();
+    watchTimer=setTimeout(function(){if(seq===playSeq&&!playing){resetPlayer();fallback(copy.error);}},20000);
     loadApi().then(function (YT) {
       if (seq !== playSeq) return;
       frame.replaceChildren();
