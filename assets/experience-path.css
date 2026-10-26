@@ -1,0 +1,22 @@
+/* JAPULSE WATCH/RUN/EAT original editorial add-on, 2026-10-26 */
+.jp-trip-depth{box-sizing:border-box;margin:24px 0;padding:clamp(18px,3vw,30px);border:1px solid #dae4dd;border-radius:16px;background:#f7fbfa;color:#193b32;line-height:1.75;overflow-wrap:anywhere}
+.jp-trip-depth *{box-sizing:border-box}
+.jp-trip-depth .kicker{font-size:12px;font-weight:800;letter-spacing:.08em;color:#176349}
+.jp-trip-depth h2{font-size:clamp(22px,3vw,28px);line-height:1.4;color:#173c30;margin:6px 0 14px}
+.jp-trip-depth h3{font-size:17px;line-height:1.45;color:#15523c;margin:0 0 9px}
+.jp-trip-depth h4{font-size:17px;color:#174c39;margin:19px 0 8px}
+.jp-trip-depth p,.main .jp-trip-depth p{color:#284b40;margin:0 0 10px}
+.jp-trip-depth .depth-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+.jp-trip-depth .depth-grid>div{background:#fff;border:1px solid #d8e6de;border-radius:12px;padding:15px;min-width:0}
+.jp-trip-depth .depth-grid p{font-size:14px}
+.jp-trip-depth ol{padding-inline-start:23px;margin:8px 0 17px}
+.jp-trip-depth li,.main .jp-trip-depth li{color:#284b40;padding-left:4px;margin-bottom:12px}
+.jp-trip-depth li::marker{color:#0e704f;font-weight:700}
+.jp-trip-depth .depth-warning{background:#eaf4ef;border-left:3px solid #317c60;padding:12px;border-radius:7px}
+.jp-trip-depth .depth-links{display:flex;flex-wrap:wrap;gap:8px;margin:17px 0}
+.jp-trip-depth a{color:#086444;text-decoration:underline;text-underline-offset:3px}
+.jp-trip-depth .depth-links a{border:1px solid #aacfc0;border-radius:9px;font-weight:700;font-size:13px;padding:8px 12px}
+.jp-trip-depth a:focus-visible{outline:3px solid #196a4d;outline-offset:3px}
+.jp-trip-depth .depth-source{padding-top:14px;border-top:1px solid #d6e1d9;font-size:13px}
+.jp-trip-depth .depth-source p{font-size:13px}
+@media(max-width:790px){.jp-trip-depth .depth-grid{grid-template-columns:1fr}.jp-trip-depth{border-radius:12px}}
