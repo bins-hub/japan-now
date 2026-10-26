@@ -22,3 +22,9 @@ jobs:
           node --check tools/check_route_visuals.cjs
       - name: Validate route start-to-finish animations
         run: node tools/check_route_visuals.cjs
+      - name: Verify enhanced RUN EAT content and client-side scripts
+        run: |
+          node --check assets/run-eat-plus.js
+          node --check assets/run-route-visuals.js
+          node --check tools/check_run_eat_plus.cjs
+          node tools/check_run_eat_plus.cjs

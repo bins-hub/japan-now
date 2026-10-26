@@ -1,0 +1,29 @@
+
+/* JAPULSE RUN & EAT — verified places, itinerary planner, 2026-10-27 */
+.jp-run-proof,.jp-run-planner{border:1px solid #d7e2dd;border-radius:16px;background:#f7fbf9;padding:clamp(14px,2.5vw,24px);color:#203d38;line-height:1.72;overflow-wrap:anywhere}
+.jp-run-proof *,.jp-run-planner *{box-sizing:border-box}
+.jp-run-proof{margin:16px 0 20px}
+.jp-run-proof h3,.jp-run-planner h2{font-size:clamp(18px,2.3vw,23px);color:#194839;margin:4px 0 13px;line-height:1.45}
+.jp-run-proof h4{font-size:15px;color:#21614d;margin:18px 0 7px}
+.jp-run-proof p,.jp-run-planner p{font-size:14px;color:#2e5146;margin:6px 0 12px;line-height:1.7}
+.jp-run-proof ol{margin:8px 0;padding-left:22px}
+.jp-run-proof li{font-size:14px;margin-bottom:8px}
+.jp-run-proof .jp-source-links{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.jp-run-proof .jp-source-links a,.jp-run-planner .jp-plan-result a{display:inline-block;border:1px solid #8abda9;border-radius:10px;padding:8px 12px;text-decoration:underline;font-size:13px;font-weight:750;color:#095d43;background:#fff;max-width:100%}
+.jp-run-proof .jp-note{font-size:12px;color:#43645b;background:#e7f2ec;padding:11px 12px;border-left:3px solid #2d896e;border-radius:7px}
+.jp-run-planner{margin:22px 0}
+.jp-run-planner .jp-plan-kicker{font-size:11px;font-weight:900;letter-spacing:.09em;color:#17725d}
+.jp-run-planner .jp-plan-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:17px 0}
+.jp-run-planner label{display:flex;flex-direction:column;font-size:12px;font-weight:700;color:#225243;gap:6px}
+.jp-run-planner select{width:100%;padding:11px 10px;border:1px solid #a9c8bd;border-radius:8px;background:#fff;color:#18392f;font-size:14px;min-height:44px}
+.jp-run-planner button{display:inline-flex;min-height:44px;align-items:center;background:#116e59;color:#fff;font-size:14px;font-weight:800;border:0;border-radius:10px;padding:11px 18px;cursor:pointer}
+.jp-run-planner button:focus-visible,.jp-run-planner select:focus-visible{outline:3px solid #ed865e;outline-offset:2px}
+.jp-run-planner .jp-plan-result{margin-top:18px;border-top:1px solid #c8d9d0;padding-top:17px}
+.jp-run-planner .jp-plan-result h3{font-size:18px;color:#194d3c;margin:0 0 12px}
+.jp-run-planner .jp-plan-result ol{margin:6px 0 15px;padding-left:21px}
+.jp-run-planner .jp-plan-result li{margin-bottom:12px;font-size:14px}
+.jp-run-planner .jp-plan-result .jp-plan-links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.jp-run-planner .jp-plan-disclaimer{font-size:12px}
+.jp-route-animated .jp-route-status{display:inline-flex;align-items:center;min-width:115px}
+@media(max-width:940px){.jp-run-planner .jp-plan-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.jp-run-planner .jp-plan-grid{grid-template-columns:1fr}.jp-run-proof,.jp-run-planner{padding:13px;border-radius:12px}.jp-run-proof .jp-source-links a{width:100%;text-align:center}}

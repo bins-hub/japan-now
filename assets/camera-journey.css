@@ -1,0 +1,10 @@
+/* WATCH -> RUN -> EAT: concise nearby-region navigation */
+.jp-camera-next{margin:20px 0 26px;border:1px solid #c9dcd2;border-radius:14px;padding:18px 20px;background:#f1f9f5;color:#193e33;line-height:1.65}
+.jp-camera-next *{box-sizing:border-box}
+.jp-camera-next .jp-cnext-label{font-size:11px;font-weight:900;letter-spacing:.1em;color:#13634e}
+.jp-camera-next h2{font-size:clamp(19px,2.6vw,24px);margin:6px 0 8px;color:#133e30}
+.jp-camera-next p{font-size:13px;margin:8px 0 14px;color:#355b50}
+.jp-camera-next .jp-cnext-actions{display:flex;gap:9px;flex-wrap:wrap}
+.jp-camera-next .jp-cnext-actions a{background:#fff;border:1px solid #8dbda9;border-radius:9px;padding:9px 13px;color:#0b6248;font-weight:800;text-decoration:none;font-size:13px}
+.jp-camera-next .jp-cnext-actions a:hover,.jp-camera-next .jp-cnext-actions a:focus-visible{text-decoration:underline;outline-offset:3px}
+@media(max-width:560px){.jp-camera-next{padding:14px}.jp-camera-next .jp-cnext-actions a{width:100%;text-align:center}}
