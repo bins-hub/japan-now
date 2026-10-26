@@ -19,7 +19,7 @@ LABELS = {
 }
 START = '<!-- JAPULSE PLACE GUIDE START -->'
 END = '<!-- JAPULSE PLACE GUIDE END -->'
-CSS = 'https://japulse.com/assets/place-guide.css?v=20261026'
+CSS = 'https://japulse.com/assets/place-guide.css?v=20261026-contrast'
 
 
 def render(place, lang):
