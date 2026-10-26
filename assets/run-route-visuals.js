@@ -70,7 +70,7 @@
     const status=document.createElement("span");status.className="jp-route-status";status.setAttribute("role","status");status.setAttribute("aria-live","off");status.textContent=t.ready;
     ctrls.append(play,replay,status);
     const helper=document.createElement("p");helper.className="jp-route-bottom-note";helper.textContent=t.maps;
-    panel.append(kicker,heading,graphic,ctrls,note,helper);
+    panel.append(kicker,heading,ctrls,graphic,note,helper);
     const shower=article.querySelector(".jn-shower-jump");
     if(shower)shower.insertAdjacentElement("afterend",panel);else article.querySelector("h2")?.insertAdjacentElement("afterend",panel);
     let frame=0,playing=false,done=0,started=0,visible=false,autoLoop=!reduced,replayTimer=0;
