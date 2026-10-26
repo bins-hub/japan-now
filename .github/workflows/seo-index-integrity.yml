@@ -16,3 +16,9 @@ jobs:
           node-version: '22'
       - name: Validate sitemap and multilingual indexing signals
         run: node tools/check_index_integrity.cjs
+      - name: Check animated route JavaScript syntax
+        run: |
+          node --check assets/run-route-visuals.js
+          node --check tools/check_route_visuals.cjs
+      - name: Validate route start-to-finish animations
+        run: node tools/check_route_visuals.cjs

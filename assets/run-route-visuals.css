@@ -1,0 +1,17 @@
+/* JAPULSE animated route diagrams, scoped to existing RUN & EAT articles. */
+.jp-route-animated{box-sizing:border-box;margin:18px 0 23px;padding:clamp(14px,2.4vw,22px);border-radius:17px;border:1px solid #cadbd7;background:#f6fbf9;color:#214c43;max-width:100%;overflow:hidden}
+.jp-route-animated *{box-sizing:border-box}
+.jp-route-animated .jp-route-kicker{margin:0;color:#16735f;font-weight:800;font-size:11px;letter-spacing:.1em;line-height:1.6}
+.jp-route-animated h3{font-size:clamp(17px,2.5vw,21px)!important;margin:5px 0 13px!important;color:#183d36!important;line-height:1.45!important}
+.jp-route-animated .jp-route-graphic{background:#edf6f3;border:1px solid #d9e7e2;border-radius:12px;overflow:hidden}
+.jp-route-animated svg{display:block;width:100%;height:auto;aspect-ratio:820/395}
+.jp-route-animated .jp-route-controls{margin:11px 0 9px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.jp-route-animated button{border:1px solid #0e7864;border-radius:9px;background:#08735f;color:#fff;cursor:pointer;font-size:14px;font-weight:750;padding:10px 13px;min-height:42px}
+.jp-route-animated button:nth-child(2){background:#fff;color:#146553}
+.jp-route-animated button:hover{filter:brightness(.93)}
+.jp-route-animated button:focus-visible{outline:3px solid #f3654d;outline-offset:3px}
+.jp-route-animated .jp-route-status{font-size:13px;color:#39675b;font-weight:650}
+.jp-route-animated .jp-route-disclaimer,.jp-route-animated .jp-route-bottom-note{margin:8px 0!important;color:#395950!important;line-height:1.6!important;font-size:13px!important}
+.jp-route-animated .jp-route-bottom-note{font-weight:700}
+@media(max-width:600px){.jp-route-animated{padding:12px;border-radius:12px}.jp-route-animated .jp-route-graphic{border-radius:9px}.jp-route-animated .jp-route-graphic svg text{letter-spacing:0!important}.jp-route-animated button{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.jp-route-animated{scroll-behavior:auto}}
