@@ -73,7 +73,7 @@
     panel.append(kicker,heading,graphic,ctrls,note,helper);
     const shower=article.querySelector(".jn-shower-jump");
     if(shower)shower.insertAdjacentElement("afterend",panel);else article.querySelector("h2")?.insertAdjacentElement("afterend",panel);
-    let frame=0,playing=false,done=0,started=0,visible=false;
+    let frame=0,playing=false,done=0,started=0,visible=false,autoLoop=!reduced,replayTimer=0;
     const duration=10800;
     const setProgress=(fraction)=>{
       const f=Math.min(1,Math.max(0,fraction));
@@ -82,13 +82,13 @@
       halo.setAttribute("cx",pt.x);halo.setAttribute("cy",pt.y);
       progress.style.strokeDashoffset=String(total*(1-f));
     };
-    const stop=()=>{playing=false;cancelAnimationFrame(frame);frame=0;play.textContent=t.play;play.setAttribute("aria-label",t.play);};
+    const stop=()=>{playing=false;cancelAnimationFrame(frame);clearTimeout(replayTimer);replayTimer=0;frame=0;play.textContent=t.play;play.setAttribute("aria-label",t.play);};
     const tick=time=>{
       if(!playing)return;
       if(!started)started=time;
       done=Math.min(1,(time-started)/duration);
       setProgress(done);
-      if(done===1){stop();status.textContent=t.complete;return;}
+      if(done===1){stop();status.textContent=t.complete;if(visible&&autoLoop&&!reduced)replayTimer=setTimeout(()=>startAnimation(true),1600);return;}
       frame=requestAnimationFrame(tick);
     };
     const startAnimation=(restart=false)=>{
@@ -104,14 +104,14 @@
       };
       frame=requestAnimationFrame(begin);
     };
-    play.addEventListener("click",()=>{if(playing){stop();status.textContent=t.ready;}else{startAnimation();}});
-    replay.addEventListener("click",()=>{stop();startAnimation(true);});
-    controllers.push({panel,start:startAnimation,stop,visible:()=>visible,setVisible:v=>visible=v,isPlaying:()=>playing});
+    play.addEventListener("click",()=>{if(playing){autoLoop=false;stop();status.textContent=t.ready;}else{autoLoop=true;startAnimation();}});
+    replay.addEventListener("click",()=>{autoLoop=true;stop();startAnimation(true);});
+    controllers.push({panel,start:startAnimation,stop,visible:()=>visible,setVisible:v=>visible=v,allowAuto:()=>autoLoop,resetAuto:()=>{autoLoop=true;},isPlaying:()=>playing});
     if(reduced){setProgress(1);done=1;status.textContent=t.complete;}
   }
   if(!reduced&&"IntersectionObserver" in window){
     const watch=new IntersectionObserver(entries=>{
-      for(const entry of entries){const c=controllers.find(x=>x.panel===entry.target);if(!c)continue;c.setVisible(entry.isIntersecting);if(entry.isIntersecting&&!c.isPlaying())c.start(true);else if(!entry.isIntersecting)c.stop();}
+      for(const entry of entries){const c=controllers.find(x=>x.panel===entry.target);if(!c)continue;c.setVisible(entry.isIntersecting);if(entry.isIntersecting&&!c.isPlaying()&&c.allowAuto())c.start(true);else if(!entry.isIntersecting)c.stop();}
     },{threshold:.22});
     controllers.forEach(x=>watch.observe(x.panel));
   }else if(!reduced){
