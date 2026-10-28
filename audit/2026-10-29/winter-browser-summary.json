@@ -1,0 +1,24 @@
+{
+  "commit": "0826bb0831aabb534f06ec9eeaf33bff01bd5aef",
+  "locales": [
+    "en",
+    "ja",
+    "zh-cn"
+  ],
+  "desktop": {
+    "imagesPerPage": 7,
+    "detailsPerPage": 3,
+    "openedPerPage": 3,
+    "overflow": false,
+    "pointerClickVerified": true
+  },
+  "frame390": {
+    "clientWidth": 375,
+    "scrollWidth": 375,
+    "imagesPerPage": 7,
+    "openedPerPage": 3,
+    "enAndJa": "pointer clicks verified",
+    "zh-cn": "driver pointer click timed out; Enter key opened all three; mobile touch not verified"
+  },
+  "images": "All three newly repeated place images had naturalWidth 960 in desktop checks. On the final Chinese page all three completed loading. This is not an audit of every site image."
+}

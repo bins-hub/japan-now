@@ -1,0 +1,119 @@
+{
+  "codeCommit": "0826bb0831aabb534f06ec9eeaf33bff01bd5aef",
+  "results": [
+    {
+      "path": "en/live/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "a2e7ced0241c463d6ce12b97f8f3206d2ad9b4634a857e9ae3a8889d4fc5bafb"
+    },
+    {
+      "path": "en/now/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "81d009a9a7f7e0e9edb1d43efa05d546c8a2d4b59ee4482c2ac03092c6e38254"
+    },
+    {
+      "path": "en/run-eat/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "2204707f367fb43c4cd45def2599cd70d9306686c8d037a7735d7f2e640a11c3"
+    },
+    {
+      "path": "en/local-food/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "98c2d97312b099ca5e2bfd4e058c84da2eb24b8e95023cb10deb7d668f14135c"
+    },
+    {
+      "path": "en/season/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "126c1562056cbb99b67ab7fb804a8de9bc960595b31c21c62886c404deeb733c"
+    },
+    {
+      "path": "en/season/winter/tokyo/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "3bbb9f500ce006f35f67c6af364a790e28f4b79a6861e2f081d37b86484f5be0"
+    },
+    {
+      "path": "ja/live/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "db673b58f6513f5552d575231d209c1f9c5796c9ad6067ff557d025bea2559f0"
+    },
+    {
+      "path": "ja/now/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "eadc1baddc42f71be224b83cbcb036e20498f416ccd3bed5646ea3b726881a6d"
+    },
+    {
+      "path": "ja/run-eat/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "03a63bacb73cb8cf7cad23dc904e122a32eec35312b1e2b49e7b16aecf1cbb77"
+    },
+    {
+      "path": "ja/local-food/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "ef18a9ac9b717f1b0ad5de1ae1b758fed0f1e0b1a5bace5bd4ea9ef9af64c5c8"
+    },
+    {
+      "path": "ja/season/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "ea0f3ee44835b275675f2ba25e5fcd3a1af922c94650c25144142ef3d4b4b5f7"
+    },
+    {
+      "path": "ja/season/winter/tokyo/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "34b86ce91cd6ed04f9ed32d5f46c19214a163d99ac7a19105bb14eb7ebe8b9b0"
+    },
+    {
+      "path": "zh-cn/live/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "e5950630456c5ec8e3c70e97107b7c9acd5caa7f9a0d3622327a3356a224a589"
+    },
+    {
+      "path": "zh-cn/now/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "a6c189ebdc4b658347cb1a46ffdf1b68d87cc534708ffad7b4d5a9430a982ad5"
+    },
+    {
+      "path": "zh-cn/run-eat/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "cd3d3d7a2e1a62cb5d4d513550f7f3f999df691f190f783cd67bb9c41b663368"
+    },
+    {
+      "path": "zh-cn/local-food/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "714a7b7b4696310752933b5ffe561143d0fe042e2f0a30b75d344ac7872bc82f"
+    },
+    {
+      "path": "zh-cn/season/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "f07ccde24fa646d974b023c6120e65145f8b16e823c3e721cadc8ce1e56dc586"
+    },
+    {
+      "path": "zh-cn/season/winter/tokyo/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "fe805d6111bb70f15e44fbdd5dc5ad550e6cb01bfefbab5c946c472f5743f5b5"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "be3b091ba6a8ca617fcf6e1978228e5b7cbfed1262fcbd6865fcf758136b2b05"
+    }
+  ]
+}
