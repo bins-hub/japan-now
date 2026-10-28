@@ -124,11 +124,12 @@
     retry.hidden = true;
     stage.classList.remove("is-playing");
   }
-  function fallback(message) {
+  function fallback(message, sourceOnly) {
     clearTimer();
     status.textContent = message;
     overlayMessage.textContent = message;
-    retry.textContent = copy.retry;
+    retry.textContent = sourceOnly ? (key === "ko" ? "▶ YouTube 원본 보기" : key === "ja" ? "▶ YouTubeで見る" : key === "zh" ? "▶ 在 YouTube 观看" : "▶ Watch on YouTube") : copy.retry;
+    retry.dataset.sourceOnly = sourceOnly ? "1" : "0";
     retry.hidden = false;
     stage.classList.remove("is-playing");
   }
@@ -221,10 +222,10 @@
             if (seq !== playSeq) return;
             playing = false; connecting = false; fallback(copy.blocked);
           },
-          onError: function () {
+          onError: function (event) {
             if (seq !== playSeq) return;
             resetPlayer();
-            if (!tryAnotherTokyoFeed()) fallback(copy.error);
+            if (!tryAnotherTokyoFeed()) fallback(copy.error, event && (event.data === 100 || event.data === 101 || event.data === 150));
           }
         }
       });
@@ -234,6 +235,11 @@
     });
   }
   retry.addEventListener("click", function () {
+    if (retry.dataset.sourceOnly === "1") {
+      const href = sourceLink && sourceLink.href ? sourceLink.href : "https://www.youtube.com/watch?v=" + encodeURIComponent(activeId);
+      window.open(href, "_blank", "noopener,noreferrer");
+      return;
+    }
     alternateIndex = 0;
     if (sourceLink) sourceLink.href = "https://www.youtube.com/watch?v=" + encodeURIComponent(activeId);
     stage.style.backgroundImage = 'url("https://i.ytimg.com/vi/' + activeId + '/hqdefault.jpg")';
