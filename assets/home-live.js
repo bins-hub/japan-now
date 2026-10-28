@@ -56,7 +56,7 @@ function mount(auto){
 frame.replaceChildren();
 const iframe=document.createElement("iframe");
 iframe.title=active.names[key]+" YouTube";
-iframe.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(active.id)+"?playsinline=1&rel=0&autoplay="+(auto?"1":"0")+"&mute="+(auto?"1":"0");
+iframe.src="https://www.youtube.com/embed/"+encodeURIComponent(active.id)+"?playsinline=1&rel=0&autoplay="+(auto?"1":"0")+"&mute="+(auto?"1":"0");
 iframe.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
 iframe.referrerPolicy="strict-origin-when-cross-origin";
 iframe.setAttribute("allowfullscreen","");
@@ -77,10 +77,10 @@ buttons.forEach(item=>item.btn.setAttribute("aria-pressed",String(item.cam.id===
 frame.replaceChildren();stage.classList.remove("is-playing");
 status.textContent=tr.hint;overlay.textContent=tr.hint;
 retry.textContent=tr.play;retry.hidden=false;
-if(play)mount(false);
+if(play)mount(true);
 }
 retry.addEventListener("click",()=>mount(false));
-choose(active,false);
+choose(active,true);
 // Native YouTube iframe avoids depending on the iframe API; user click starts playback.
 // Cross-origin playback restrictions are controlled by the video publisher.
 })();
