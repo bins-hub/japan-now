@@ -35,15 +35,56 @@
   const official=document.createElement('a');official.href='https://www.youtube.com/results?search_query=MBS+NEWS+%E9%81%93%E9%A0%93%E5%A0%80+%E3%83%A9%E3%82%A4%E3%83%96';official.target='_blank';official.rel='noopener noreferrer';official.textContent='MBS 도톤보리 영상 검색 ↗';official.style.cssText='border-radius:7px;padding:9px 12px;background:#355669;color:#fff;font-size:13px;font-weight:700;text-decoration:none';
   const help=document.createElement('p');help.textContent='영상이 재생되지 않으면 빨간 원본 보기 또는 MBS 도톤보리 영상 검색에서 현재 공개된 영상을 확인하세요. 영상 등록은 현재 LIVE를 보장하지 않습니다.';help.style.cssText='padding:12px 14px;margin:0;background:#173a48;color:#d8e7ed;font-size:13px;line-height:1.6';
   const label=document.createElement('span');label.style.cssText='font-size:12px;color:#e7f1f4;margin-right:auto';
+  let player=null,checkTimer=0,sequence=0;
+  const notice=document.createElement('span');
+  notice.setAttribute('role','status');notice.setAttribute('aria-live','polite');
+  notice.style.cssText='color:#fff;font-size:12px;padding:0 6px';
+  controls.prepend(notice);
+  function status(message){notice.textContent=message;}
+  function clearPlayer(){clearTimeout(checkTimer);checkTimer=0;if(player){try{player.destroy();}catch(e){}player=null;}host.querySelectorAll('iframe:not([title]),div[id^="widget"]').forEach(el=>el.remove());frame.style.display='block';frame.removeAttribute('src');}
+  function fail(message){
+    clearTimeout(checkTimer);
+    status(message+' · 원본 영상 확인 가능');
+    if(active===0){active=1;show();return;}
+    status('두 카메라 모두 재생 확인 실패 · YouTube 원본이나 검색에서 확인');
+  }
+  function loadYoutube(){
+    if(window.YT&&window.YT.Player)return Promise.resolve(window.YT);
+    if(window.__jpDotonboriApiPromise)return window.__jpDotonboriApiPromise;
+    window.__jpDotonboriApiPromise=new Promise((resolve,reject)=>{
+      const previous=window.onYouTubeIframeAPIReady;
+      const timeout=setTimeout(()=>reject(Error('YouTube API 시간 초과')),15000);
+      window.onYouTubeIframeAPIReady=()=>{if(typeof previous==='function')try{previous();}catch(e){}clearTimeout(timeout);resolve(window.YT);};
+      const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';
+      script.onerror=()=>{clearTimeout(timeout);reject(Error('API 로딩 실패'));};
+      document.head.appendChild(script);
+    }).catch(error=>{window.__jpDotonboriApiPromise=null;throw error;});
+    return window.__jpDotonboriApiPromise;
+  }
   function show(){
-    const v=videos[active];
-    frame.src='https://www.youtube.com/embed/'+encodeURIComponent(v.id)+'?autoplay=1&mute=1&playsinline=1&rel=0';
+    const token=++sequence,v=videos[active];
+    clearPlayer();
     frame.title='오사카 '+v.name+' 공개 영상';
     source.href='https://www.youtube.com/watch?v='+encodeURIComponent(v.id);
-    label.textContent=v.name+' · 자동재생 시도 · 방송 상태 미확인';
+    label.textContent=v.name+' · 방송 상태 확인 중';
+    status('영상 연결 중…');
+    checkTimer=setTimeout(()=>{if(token===sequence)fail('재생 연결 시간 초과');},20000);
+    loadYoutube().then(YT=>{
+      if(token!==sequence)return;
+      const holder=document.createElement('div');host.replaceChild(holder,frame);
+      // Reinsert the same frame node for the next source change, preserving layout.
+      frame.style.display='none';host.insertBefore(frame,controls);
+      player=new YT.Player(holder,{width:'100%',height:'100%',videoId:v.id,playerVars:{autoplay:1,mute:1,playsinline:1,rel:0,origin:location.origin},events:{
+        onReady:e=>{if(token!==sequence)return;try{e.target.mute();e.target.playVideo();}catch(error){}},
+        onStateChange:e=>{if(token!==sequence)return;if(e.data===1){clearTimeout(checkTimer);status('재생 중 · LIVE 여부는 원본에서 확인');}else if(e.data===0)fail('영상 종료');},
+        onError:e=>{if(token!==sequence)return;fail('영상 재생 오류 '+e.data);},
+        onAutoplayBlocked:()=>{if(token!==sequence)return;clearTimeout(checkTimer);status('자동재생 차단 · 영상의 ▶ 버튼을 눌러 주세요');}
+      }});
+      player.getIframe().style.cssText='position:absolute;inset:0;width:100%;height:100%;border:0';
+    }).catch(()=>{if(token!==sequence)return;clearTimeout(checkTimer);frame.style.display='block';frame.src='https://www.youtube.com/embed/'+encodeURIComponent(v.id)+'?autoplay=1&mute=1&playsinline=1';status('재생 상태 감지 불가 · 영상 또는 원본에서 확인');});
   }
-  retry.addEventListener('click',()=>{frame.src='about:blank';show()});
-  next.addEventListener('click',()=>{active=(active+1)%videos.length;show()});
+  retry.addEventListener('click',()=>{active=0;show();});
+  next.addEventListener('click',()=>{active=(active+1)%videos.length;show();});
   controls.append(label,retry,next,source,official);
   host.replaceChildren(frame,controls);
   host.insertAdjacentElement('afterend',help);
