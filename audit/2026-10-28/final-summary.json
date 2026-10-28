@@ -1,0 +1,114 @@
+{
+  "scope_date": "2026-10-28",
+  "browser_verified_code_commit": "cf34ea058fd5744b22b28fe374479025a5c3ad90",
+  "backup_branch": "backup/japulse-audit-20261028-c180f3f",
+  "backup_commit": "c180f3f8953cb08060afa8f47033ffd86b1b3e05",
+  "indexed_pages": 304,
+  "per_language": {
+    "ko": 76,
+    "en": 76,
+    "ja": 76,
+    "zh-CN": 76
+  },
+  "initial_http": {
+    "checked": 304,
+    "status_200": 304,
+    "errors": 0,
+    "artifact": "http-before.json"
+  },
+  "final_desktop": {
+    "checked": 304,
+    "empty_body": 0,
+    "h1_or_hreflang_failures": 0,
+    "document_horizontal_overflow": 0,
+    "pending_external_image_pages": 113,
+    "placeholder_image_pages": 4,
+    "all_media_verified": false
+  },
+  "final_narrow_frame": {
+    "checked": 304,
+    "requested_frame_width": 390,
+    "observed_core_document_client_width": 375,
+    "empty_body": 0,
+    "document_horizontal_overflow": 0,
+    "real_browser_rendering": true,
+    "mobile_user_agent_emulated": false,
+    "touch_device_verified": false
+  },
+  "extra_width_checks": {
+    "requested_widths": [
+      360,
+      768
+    ],
+    "core_pages_checked": 16,
+    "document_horizontal_overflow": 0
+  },
+  "korean_source_parity": {
+    "localized_pages": 102,
+    "onsen_pages": 48,
+    "move_pages": 54,
+    "identical_structure_media_controls": true,
+    "untranslated_static_dynamic_korean": 0,
+    "facility_cards": 27,
+    "airport_routes": 8,
+    "day_trip_routes": 9
+  },
+  "onsen_interactions": {
+    "languages": 4,
+    "total": 27,
+    "price_at_most_800": 15,
+    "private_family_confirmed": 5,
+    "arima": 2,
+    "no_match": 0,
+    "reset": 27,
+    "price_sort_ascending": true
+  },
+  "move_interactions": {
+    "languages": 4,
+    "KIX_routes": 3,
+    "Hakone_search": 1,
+    "Tokyo_city_routes": 3,
+    "comparison_rows_after_Tokyo_filter": 3,
+    "selected_step_index": 8,
+    "visible_step_cards": 1,
+    "English_HAKONE_search": 1,
+    "hotel_map_url_matches": true,
+    "actual_Google_Maps_route_opened": true
+  },
+  "journeys": {
+    "languages": 4,
+    "steps": [
+      "home",
+      "LIVE",
+      "Kanto map (7 prefectures)",
+      "Shibuya camera",
+      "Tokyo region",
+      "SEASON",
+      "ONSEN",
+      "MOVE",
+      "Hakone detail"
+    ],
+    "language_retained": true
+  },
+  "other_structural_candidates": {
+    "total_pages": 66,
+    "cameras": 33,
+    "season": 9,
+    "guides": 9,
+    "contact": 3,
+    "run-eat": 3,
+    "live": 3,
+    "now": 3,
+    "local-food": 3,
+    "confirmed_missing_content": false
+  },
+  "limitations": [
+    "LIVE playback success was not observed in this browser.",
+    "113 pages had external images still pending at the fast DOM observation; 4 homepages displayed fallback images. Full image availability is not certified.",
+    "304-page checks measured rendered content, headings, metadata and overflow, not every button on every page.",
+    "The 66 structural candidates outside ONSEN/MOVE still require semantic review.",
+    "Final per-page desktop/mobile JSON and final interaction JSON were created or held in the execution/browser environment but were not uploaded before the environment became unavailable.",
+    "The final English counter-label grammar cleanup is after the last browser verification; behavior and counts were verified at the cited code commit.",
+    "Legacy classic.html, preview.html and offline.html were statically inspected for noindex only; their attempted final browser pass did not run."
+  ]
+}

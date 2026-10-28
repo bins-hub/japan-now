@@ -72,6 +72,13 @@ def build(apply=False):
     h=translate(h,i)
     h=re.sub(r'<html lang="[^"]+"','<html lang="'+('zh-CN' if lang=='zh-cn' else lang)+'"',h)
     h=h.replace("toLocaleLowerCase('ko')",f"toLocaleLowerCase('{lang}')").replace("textContent,'ko'",f"textContent,'{lang}'")
+    if lang=='en':
+     # Count labels work for both singular and plural results.
+     h=h.replace("document.getElementById('onsen-count').textContent=n+' areas';","document.getElementById('onsen-count').textContent='Areas shown: '+n;")
+     h=h.replace("counter.textContent=matched.length+' facilities shown / total '+cards.length+' items';","counter.textContent='Facilities shown: '+matched.length+' / '+cards.length;")
+     h=h.replace("count.textContent=n+' routes';","count.textContent='Routes shown: '+n;")
+     h=h.replace("status.textContent='Search results: '+count+' items / All '+cards.length+' items';","status.textContent='Routes shown: '+count+' / '+cards.length;")
+     h=h.replace("status.textContent='Comparison results: '+n+' items / All '+rows.length+' items';","status.textContent='Comparison results: '+n+' / '+rows.length;")
     # Translate only public page links; media/assets and source operators keep their original URLs.
     routes=['onsen','move','season','live','now','run-eat','local-food','regions','cameras','about','privacy','contact','guides']
     for route in routes:
