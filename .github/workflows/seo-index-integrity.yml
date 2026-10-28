@@ -40,3 +40,5 @@ jobs:
         run: node tools/check_locale_navigation.cjs
       - name: Verify weather on dynamic cards and provider timeouts
         run: node tools/check_weather_dynamic.cjs
+      - name: Keep ONSEN and MOVE identical to the Korean source
+        run: node tools/check_guide_source_parity.cjs

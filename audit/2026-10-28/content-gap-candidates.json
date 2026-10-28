@@ -1,0 +1,1607 @@
+{
+  "warning": "Counts and currency tokens are diagnostic candidates only. Semantic translation, runtime controls and full layout equivalence require direct review. Passing heading counts does not certify parity.",
+  "pages": [
+    {
+      "page": "en/index.html",
+      "source": "index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/index.html",
+      "source": "index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/index.html",
+      "source": "index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/contact/index.html",
+      "source": "contact/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        }
+      }
+    },
+    {
+      "page": "ja/contact/index.html",
+      "source": "contact/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        }
+      }
+    },
+    {
+      "page": "zh-cn/contact/index.html",
+      "source": "contact/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        }
+      }
+    },
+    {
+      "page": "en/run-eat/index.html",
+      "source": "run-eat/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 12,
+          "localized": 10
+        }
+      }
+    },
+    {
+      "page": "ja/run-eat/index.html",
+      "source": "run-eat/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 12,
+          "localized": 9
+        }
+      }
+    },
+    {
+      "page": "zh-cn/run-eat/index.html",
+      "source": "run-eat/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 12,
+          "localized": 10
+        }
+      }
+    },
+    {
+      "page": "en/move/index.html",
+      "source": "move/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/index.html",
+      "source": "move/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/index.html",
+      "source": "move/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/index.html",
+      "source": "season/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 9,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/season/index.html",
+      "source": "season/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 9,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/season/index.html",
+      "source": "season/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 9,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/live/index.html",
+      "source": "live/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 12,
+          "localized": 11
+        }
+      }
+    },
+    {
+      "page": "ja/live/index.html",
+      "source": "live/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 12,
+          "localized": 11
+        }
+      }
+    },
+    {
+      "page": "zh-cn/live/index.html",
+      "source": "live/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 12,
+          "localized": 11
+        }
+      }
+    },
+    {
+      "page": "en/onsen/index.html",
+      "source": "onsen/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/index.html",
+      "source": "onsen/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/index.html",
+      "source": "onsen/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/now/index.html",
+      "source": "now/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 5,
+          "localized": 4
+        }
+      }
+    },
+    {
+      "page": "ja/now/index.html",
+      "source": "now/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 5,
+          "localized": 4
+        }
+      }
+    },
+    {
+      "page": "zh-cn/now/index.html",
+      "source": "now/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 5,
+          "localized": 4
+        }
+      }
+    },
+    {
+      "page": "en/local-food/index.html",
+      "source": "local-food/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 9,
+          "localized": 7
+        }
+      }
+    },
+    {
+      "page": "ja/local-food/index.html",
+      "source": "local-food/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 9,
+          "localized": 6
+        }
+      }
+    },
+    {
+      "page": "zh-cn/local-food/index.html",
+      "source": "local-food/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 9,
+          "localized": 7
+        }
+      }
+    },
+    {
+      "page": "en/about/index.html",
+      "source": "about/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/about/index.html",
+      "source": "about/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/about/index.html",
+      "source": "about/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/privacy/index.html",
+      "source": "privacy/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/privacy/index.html",
+      "source": "privacy/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/privacy/index.html",
+      "source": "privacy/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/narita-ueno/index.html",
+      "source": "move/narita-ueno/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/narita-ueno/index.html",
+      "source": "move/narita-ueno/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/narita-ueno/index.html",
+      "source": "move/narita-ueno/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/narita-shinjuku/index.html",
+      "source": "move/narita-shinjuku/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/narita-shinjuku/index.html",
+      "source": "move/narita-shinjuku/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/narita-shinjuku/index.html",
+      "source": "move/narita-shinjuku/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/kansai-namba/index.html",
+      "source": "move/kansai-namba/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/kansai-namba/index.html",
+      "source": "move/kansai-namba/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/kansai-namba/index.html",
+      "source": "move/kansai-namba/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/kyoto-arashiyama/index.html",
+      "source": "move/kyoto-arashiyama/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/kyoto-arashiyama/index.html",
+      "source": "move/kyoto-arashiyama/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/kyoto-arashiyama/index.html",
+      "source": "move/kyoto-arashiyama/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/sapporo-otaru/index.html",
+      "source": "move/sapporo-otaru/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/sapporo-otaru/index.html",
+      "source": "move/sapporo-otaru/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/sapporo-otaru/index.html",
+      "source": "move/sapporo-otaru/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/shinjuku-kawaguchiko/index.html",
+      "source": "move/shinjuku-kawaguchiko/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/shinjuku-kawaguchiko/index.html",
+      "source": "move/shinjuku-kawaguchiko/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/shinjuku-kawaguchiko/index.html",
+      "source": "move/shinjuku-kawaguchiko/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/kansai-shin-osaka/index.html",
+      "source": "move/kansai-shin-osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/kansai-shin-osaka/index.html",
+      "source": "move/kansai-shin-osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/kansai-shin-osaka/index.html",
+      "source": "move/kansai-shin-osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/new-chitose-sapporo/index.html",
+      "source": "move/new-chitose-sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/new-chitose-sapporo/index.html",
+      "source": "move/new-chitose-sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/new-chitose-sapporo/index.html",
+      "source": "move/new-chitose-sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/tokyo-hakone/index.html",
+      "source": "move/tokyo-hakone/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/tokyo-hakone/index.html",
+      "source": "move/tokyo-hakone/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/tokyo-hakone/index.html",
+      "source": "move/tokyo-hakone/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/kansai-kyoto/index.html",
+      "source": "move/kansai-kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/kansai-kyoto/index.html",
+      "source": "move/kansai-kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/kansai-kyoto/index.html",
+      "source": "move/kansai-kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/osaka-kobe/index.html",
+      "source": "move/osaka-kobe/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/osaka-kobe/index.html",
+      "source": "move/osaka-kobe/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/osaka-kobe/index.html",
+      "source": "move/osaka-kobe/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/tokyo-kamakura/index.html",
+      "source": "move/tokyo-kamakura/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/tokyo-kamakura/index.html",
+      "source": "move/tokyo-kamakura/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/tokyo-kamakura/index.html",
+      "source": "move/tokyo-kamakura/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/osaka-nara/index.html",
+      "source": "move/osaka-nara/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/osaka-nara/index.html",
+      "source": "move/osaka-nara/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/osaka-nara/index.html",
+      "source": "move/osaka-nara/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/haneda-hamamatsucho/index.html",
+      "source": "move/haneda-hamamatsucho/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/haneda-hamamatsucho/index.html",
+      "source": "move/haneda-hamamatsucho/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/haneda-hamamatsucho/index.html",
+      "source": "move/haneda-hamamatsucho/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/osaka-kyoto/index.html",
+      "source": "move/osaka-kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/osaka-kyoto/index.html",
+      "source": "move/osaka-kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/osaka-kyoto/index.html",
+      "source": "move/osaka-kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/haneda-shinagawa/index.html",
+      "source": "move/haneda-shinagawa/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/haneda-shinagawa/index.html",
+      "source": "move/haneda-shinagawa/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/haneda-shinagawa/index.html",
+      "source": "move/haneda-shinagawa/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/move/kyoto-nara/index.html",
+      "source": "move/kyoto-nara/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/move/kyoto-nara/index.html",
+      "source": "move/kyoto-nara/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/move/kyoto-nara/index.html",
+      "source": "move/kyoto-nara/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/autumn/kyoto/index.html",
+      "source": "season/autumn/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/autumn/kyoto/index.html",
+      "source": "season/autumn/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/autumn/kyoto/index.html",
+      "source": "season/autumn/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/autumn/sapporo/index.html",
+      "source": "season/autumn/sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/autumn/sapporo/index.html",
+      "source": "season/autumn/sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/autumn/sapporo/index.html",
+      "source": "season/autumn/sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/autumn/tokyo/index.html",
+      "source": "season/autumn/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/autumn/tokyo/index.html",
+      "source": "season/autumn/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/autumn/tokyo/index.html",
+      "source": "season/autumn/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/autumn/osaka/index.html",
+      "source": "season/autumn/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/autumn/osaka/index.html",
+      "source": "season/autumn/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/autumn/osaka/index.html",
+      "source": "season/autumn/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/winter/kyoto/index.html",
+      "source": "season/winter/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/winter/kyoto/index.html",
+      "source": "season/winter/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/winter/kyoto/index.html",
+      "source": "season/winter/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/winter/sapporo/index.html",
+      "source": "season/winter/sapporo/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 8,
+          "localized": 7
+        }
+      }
+    },
+    {
+      "page": "ja/season/winter/sapporo/index.html",
+      "source": "season/winter/sapporo/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 8,
+          "localized": 7
+        }
+      }
+    },
+    {
+      "page": "zh-cn/season/winter/sapporo/index.html",
+      "source": "season/winter/sapporo/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 8,
+          "localized": 7
+        }
+      }
+    },
+    {
+      "page": "en/season/winter/tokyo/index.html",
+      "source": "season/winter/tokyo/index.html",
+      "candidates": {
+        "images": {
+          "ko": 7,
+          "localized": 4
+        },
+        "details": {
+          "ko": 3,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/season/winter/tokyo/index.html",
+      "source": "season/winter/tokyo/index.html",
+      "candidates": {
+        "images": {
+          "ko": 7,
+          "localized": 4
+        },
+        "details": {
+          "ko": 3,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/season/winter/tokyo/index.html",
+      "source": "season/winter/tokyo/index.html",
+      "candidates": {
+        "images": {
+          "ko": 7,
+          "localized": 4
+        },
+        "details": {
+          "ko": 3,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/season/winter/osaka/index.html",
+      "source": "season/winter/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/winter/osaka/index.html",
+      "source": "season/winter/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/winter/osaka/index.html",
+      "source": "season/winter/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/cherry-blossoms/kyoto/index.html",
+      "source": "season/cherry-blossoms/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/cherry-blossoms/kyoto/index.html",
+      "source": "season/cherry-blossoms/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/cherry-blossoms/kyoto/index.html",
+      "source": "season/cherry-blossoms/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/cherry-blossoms/sapporo/index.html",
+      "source": "season/cherry-blossoms/sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/cherry-blossoms/sapporo/index.html",
+      "source": "season/cherry-blossoms/sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/cherry-blossoms/sapporo/index.html",
+      "source": "season/cherry-blossoms/sapporo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/cherry-blossoms/tokyo/index.html",
+      "source": "season/cherry-blossoms/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/cherry-blossoms/tokyo/index.html",
+      "source": "season/cherry-blossoms/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/cherry-blossoms/tokyo/index.html",
+      "source": "season/cherry-blossoms/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/season/cherry-blossoms/osaka/index.html",
+      "source": "season/cherry-blossoms/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/season/cherry-blossoms/osaka/index.html",
+      "source": "season/cherry-blossoms/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/season/cherry-blossoms/osaka/index.html",
+      "source": "season/cherry-blossoms/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/gero/index.html",
+      "source": "onsen/gero/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/gero/index.html",
+      "source": "onsen/gero/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/gero/index.html",
+      "source": "onsen/gero/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/shibu/index.html",
+      "source": "onsen/shibu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/shibu/index.html",
+      "source": "onsen/shibu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/shibu/index.html",
+      "source": "onsen/shibu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/noboribetsu/index.html",
+      "source": "onsen/noboribetsu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/noboribetsu/index.html",
+      "source": "onsen/noboribetsu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/noboribetsu/index.html",
+      "source": "onsen/noboribetsu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/arima/index.html",
+      "source": "onsen/arima/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/arima/index.html",
+      "source": "onsen/arima/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/arima/index.html",
+      "source": "onsen/arima/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/dogo/index.html",
+      "source": "onsen/dogo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/dogo/index.html",
+      "source": "onsen/dogo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/dogo/index.html",
+      "source": "onsen/dogo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/atami/index.html",
+      "source": "onsen/atami/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/atami/index.html",
+      "source": "onsen/atami/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/atami/index.html",
+      "source": "onsen/atami/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/yufuin/index.html",
+      "source": "onsen/yufuin/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/yufuin/index.html",
+      "source": "onsen/yufuin/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/yufuin/index.html",
+      "source": "onsen/yufuin/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/kinugawa/index.html",
+      "source": "onsen/kinugawa/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/kinugawa/index.html",
+      "source": "onsen/kinugawa/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/kinugawa/index.html",
+      "source": "onsen/kinugawa/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/kaga/index.html",
+      "source": "onsen/kaga/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/kaga/index.html",
+      "source": "onsen/kaga/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/kaga/index.html",
+      "source": "onsen/kaga/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/ginzan/index.html",
+      "source": "onsen/ginzan/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/ginzan/index.html",
+      "source": "onsen/ginzan/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/ginzan/index.html",
+      "source": "onsen/ginzan/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/kinosaki/index.html",
+      "source": "onsen/kinosaki/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/kinosaki/index.html",
+      "source": "onsen/kinosaki/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/kinosaki/index.html",
+      "source": "onsen/kinosaki/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/beppu/index.html",
+      "source": "onsen/beppu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/beppu/index.html",
+      "source": "onsen/beppu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/beppu/index.html",
+      "source": "onsen/beppu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/kusatsu/index.html",
+      "source": "onsen/kusatsu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/kusatsu/index.html",
+      "source": "onsen/kusatsu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/kusatsu/index.html",
+      "source": "onsen/kusatsu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/hakone/index.html",
+      "source": "onsen/hakone/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/hakone/index.html",
+      "source": "onsen/hakone/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/hakone/index.html",
+      "source": "onsen/hakone/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/onsen/jozankei/index.html",
+      "source": "onsen/jozankei/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/onsen/jozankei/index.html",
+      "source": "onsen/jozankei/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/onsen/jozankei/index.html",
+      "source": "onsen/jozankei/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/regions/kyoto/index.html",
+      "source": "regions/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/regions/kyoto/index.html",
+      "source": "regions/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/regions/kyoto/index.html",
+      "source": "regions/kyoto/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/regions/tokyo/index.html",
+      "source": "regions/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/regions/tokyo/index.html",
+      "source": "regions/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/regions/tokyo/index.html",
+      "source": "regions/tokyo/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/regions/fuji/index.html",
+      "source": "regions/fuji/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/regions/fuji/index.html",
+      "source": "regions/fuji/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/regions/fuji/index.html",
+      "source": "regions/fuji/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/regions/osaka/index.html",
+      "source": "regions/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/regions/osaka/index.html",
+      "source": "regions/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/regions/osaka/index.html",
+      "source": "regions/osaka/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/regions/hokkaido/index.html",
+      "source": "regions/hokkaido/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/regions/hokkaido/index.html",
+      "source": "regions/hokkaido/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/regions/hokkaido/index.html",
+      "source": "regions/hokkaido/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/regions/kyushu/index.html",
+      "source": "regions/kyushu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/regions/kyushu/index.html",
+      "source": "regions/kyushu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/regions/kyushu/index.html",
+      "source": "regions/kyushu/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "en/guides/camera-troubleshooting/index.html",
+      "source": "guides/camera-troubleshooting/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "ja/guides/camera-troubleshooting/index.html",
+      "source": "guides/camera-troubleshooting/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "zh-cn/guides/camera-troubleshooting/index.html",
+      "source": "guides/camera-troubleshooting/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "en/guides/where-to-watch/index.html",
+      "source": "guides/where-to-watch/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "ja/guides/where-to-watch/index.html",
+      "source": "guides/where-to-watch/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "zh-cn/guides/where-to-watch/index.html",
+      "source": "guides/where-to-watch/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "en/guides/travel-prep/index.html",
+      "source": "guides/travel-prep/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "ja/guides/travel-prep/index.html",
+      "source": "guides/travel-prep/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "zh-cn/guides/travel-prep/index.html",
+      "source": "guides/travel-prep/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "en/cameras/kabukicho/index.html",
+      "source": "cameras/kabukicho/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/kabukicho/index.html",
+      "source": "cameras/kabukicho/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/kabukicho/index.html",
+      "source": "cameras/kabukicho/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/iki/index.html",
+      "source": "cameras/iki/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/iki/index.html",
+      "source": "cameras/iki/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/iki/index.html",
+      "source": "cameras/iki/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/sapporo/index.html",
+      "source": "cameras/sapporo/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/sapporo/index.html",
+      "source": "cameras/sapporo/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/sapporo/index.html",
+      "source": "cameras/sapporo/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/hakata/index.html",
+      "source": "cameras/hakata/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/hakata/index.html",
+      "source": "cameras/hakata/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/hakata/index.html",
+      "source": "cameras/hakata/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/dotonbori/index.html",
+      "source": "cameras/dotonbori/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/dotonbori/index.html",
+      "source": "cameras/dotonbori/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/dotonbori/index.html",
+      "source": "cameras/dotonbori/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "en/cameras/okinawa/index.html",
+      "source": "cameras/okinawa/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/okinawa/index.html",
+      "source": "cameras/okinawa/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/okinawa/index.html",
+      "source": "cameras/okinawa/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 4,
+          "localized": 3
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/arashiyama/index.html",
+      "source": "cameras/arashiyama/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/arashiyama/index.html",
+      "source": "cameras/arashiyama/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/arashiyama/index.html",
+      "source": "cameras/arashiyama/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        }
+      }
+    },
+    {
+      "page": "en/cameras/fuji/index.html",
+      "source": "cameras/fuji/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 5,
+          "localized": 4
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/fuji/index.html",
+      "source": "cameras/fuji/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 5,
+          "localized": 4
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/fuji/index.html",
+      "source": "cameras/fuji/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 5,
+          "localized": 4
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/sensoji/index.html",
+      "source": "cameras/sensoji/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/sensoji/index.html",
+      "source": "cameras/sensoji/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/sensoji/index.html",
+      "source": "cameras/sensoji/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/osaka-sky/index.html",
+      "source": "cameras/osaka-sky/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/osaka-sky/index.html",
+      "source": "cameras/osaka-sky/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/osaka-sky/index.html",
+      "source": "cameras/osaka-sky/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/shibuya/index.html",
+      "source": "cameras/shibuya/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "ja/cameras/shibuya/index.html",
+      "source": "cameras/shibuya/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "zh-cn/cameras/shibuya/index.html",
+      "source": "cameras/shibuya/index.html",
+      "candidates": {
+        "h2": {
+          "ko": 6,
+          "localized": 5
+        },
+        "buttons": {
+          "ko": 1,
+          "localized": 0
+        }
+      }
+    },
+    {
+      "page": "en/cameras/haneda/index.html",
+      "source": "cameras/haneda/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "ja/cameras/haneda/index.html",
+      "source": "cameras/haneda/index.html",
+      "candidates": {}
+    },
+    {
+      "page": "zh-cn/cameras/haneda/index.html",
+      "source": "cameras/haneda/index.html",
+      "candidates": {}
+    }
+  ]
+}

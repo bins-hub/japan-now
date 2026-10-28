@@ -1,0 +1,5 @@
+.jp-global-services{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;margin:16px 0 24px;font:700 14px/1.4 system-ui,sans-serif}
+.jp-global-services a{display:flex;align-items:center;justify-content:center;min-width:0;min-height:46px;padding:10px 5px;color:#f2fbfb!important;background:#174c59;border:1px solid #73979d;border-radius:9px;text-decoration:none!important;text-align:center}
+.jp-global-services a:hover{background:#246372}.jp-global-services a[aria-current="page"]{background:#ff8669;color:#102832!important;border-color:#ff8669}.jp-global-services a:focus-visible{outline:3px solid #ffba89;outline-offset:3px}
+@media(max-width:900px){.jp-global-services{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:530px){.jp-global-services{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}}

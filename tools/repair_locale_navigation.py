@@ -21,7 +21,7 @@ def run():
         prefix = next((p for p in LOCALES.values() if p and route.startswith(p)), '')
         base = route[len(prefix):]
         if base:
-            html = re.sub(r'<nav\b(?=[^>]*(?:class="(?:jp-lang|langs)"|aria-label="Language"))[^>]*>.*?</nav>', '', html, flags=re.S)
+            html = re.sub(r'<nav\b(?=[^>]*(?:class="(?:jp-lang|langs)"|aria-label="Language[^\"]*"|id="jp-language-route-switch"))[^>]*>.*?</nav>', '', html, flags=re.S)
         # Language links remain visible on the homepage only.
         held = []
         def hold(m):

@@ -6,10 +6,15 @@ let anchors=0,scripts=0;
 for(const url of urls){
  const route=new URL(url).pathname.slice(1),prefix=prefixes.find(p=>route.startsWith(p))||'',base=route.slice(prefix.length);
  const html=fs.readFileSync(path.join(root,route+'index.html'),'utf8');
+ if(base){
+  const services=html.match(/<nav class="jp-global-services"[^>]*>([\s\S]*?)<\/nav>/);
+  assert.ok(services,url+' missing cross-service navigation');
+  for(const section of ['live','now','run-eat','local-food','season','onsen','move'])assert.ok(services[1].includes('/'+prefix+section+'/'),url+' unreachable service '+section);
+ }
  const langs=[...html.matchAll(/<link\b[^>]*hreflang="([^"]+)"/g)].map(m=>m[1]);
  assert.deepEqual(new Set(langs),new Set(['ko','en','ja','zh-CN','x-default']),url+' must expose reciprocal language metadata');
  let body=html;
- const languageNav=/<nav\b(?=[^>]*(?:class="(?:jp-lang|langs)"|aria-label="Language"))[^>]*>[\s\S]*?<\/nav>/g;
+ const languageNav=/<nav\b(?=[^>]*(?:class="(?:jp-lang|langs)"|aria-label="Language[^\"]*"|id="jp-language-route-switch"))[^>]*>[\s\S]*?<\/nav>/g;
  if(base)assert.equal((body.match(languageNav)||[]).length,0,url+' internal language picker');
  else {assert.equal((body.match(languageNav)||[]).length,1,url+' homepage language picker');body=body.replace(languageNav,'');}
  if(prefix)for(const m of body.matchAll(/<a\b[^>]*href="([^"]+)"/g)){

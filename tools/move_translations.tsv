@@ -1,0 +1,346 @@
+8|||Compare eight routes from major Japanese airports into the city. Choose a route for your destination and check actual departures on the map.|||日本の主要空港から市内への8経路を比較できます。目的地に合う路線を選び、地図で実際の出発便を確認しましょう。|||比较日本主要机场到市区的8条路线，选择适合目的地的线路并在地图确认实际班次。
+15|||Open the appropriate search for airport-to-city travel or city-to-sightseeing trips.|||空港から市内、都市から観光地など、目的に合う検索画面を開いてください。|||按机场至市区或城市至景点的需求，打开对应搜索。
+17|||Eight airport routes from Narita, Haneda, Kansai and New Chitose|||成田・羽田・関西・新千歳空港の8経路|||成田、羽田、关西、新千岁机场8条交通路线
+20|||Nine sightseeing routes from Tokyo, Osaka, Kyoto and Sapporo|||東京・大阪・京都・札幌発の観光地9経路|||从东京、大阪、京都、札幌出发的9条景点路线
+22|||Choose a travel type to open its search section.|||移動の種類を選ぶと対応する検索画面へ移動します。|||选择移动类型后进入对应搜索区域。
+30|||The remaining five airport routes with official source links.|||公式資料を確認した残り5つの空港経路です。|||附有官方来源的其余5条机场路线。
+39|||Use this checklist to choose real transport. Links go to airports and operators rather than guessing fixed fares or last-train times.|||実際の交通選択に使うチェックリストです。運賃・最終時刻を推測せず、空港と運営会社の公式案内へつなぎます。|||用于实际交通选择的清单。不猜测固定费用或末班时间，直接连接机场与运营方官方信息。
+41|||Terminals 1, 2 and 3 and rail stations may be in different places. Check the arrival terminal on your ticket first.|||第1・第2・第3ターミナルと鉄道駅の位置が異なる場合があります。まず航空券の到着ターミナルを確認してください。|||第一、二、三航站楼与铁路站位置可能不同，请先确认机票上的到达航站楼。
+43|||Landing time is not train boarding time. Allow for immigration, baggage collection and walking to the station.|||着陸時刻は列車の乗車時刻ではありません。入国審査、荷物受取、駅への移動を含めて計画してください。|||落地时间并非列车乘车时间，请计入入境、取行李及前往车站的时间。
+45|||For evening arrivals, check the last service for that date officially. After it, compare airport buses, taxis and nearby accommodation.|||夜間到着は当日の最終便を公式時刻表で確認してください。最終便後は空港バス、タクシー、空港近くの宿泊を比較しましょう。|||夜间抵达请先查当天官方末班时间。末班后比较机场巴士、出租车及机场附近住宿。
+47|||The arrival station may require another subway or walking connection to the hotel. Use the hotel-address input to check the complete journey.|||到着駅からホテルへ地下鉄や徒歩が必要な場合があります。ホテル住所入力で全行程を確認してください。|||到达站至酒店可能还需地铁换乘或步行，请用酒店地址输入功能确认完整路线。
+54|||Choose the airport and destination to display the corresponding route below. Confirm actual times and fares using official information and maps.|||空港と目的地を選ぶと下の該当経路を表示します。実際の時間・運賃は公式案内と地図で確認してください。|||选择机场和目的地后显示下方对应路线，实际时间与费用请查官方指南及地图。
+63|||Hotel directions run a new airport-to-hotel public-transport search. The selected train does not necessarily run directly to the hotel.|||ホテルへの案内は空港からホテルまでの公共交通を地図で新しく検索します。選択した列車がホテルまで直行する意味ではありません。|||酒店路线会在地图重新搜索机场至酒店公共交通，并不表示所选列车直达酒店。
+65|||Enter a hotel name or address to reveal the map button.|||ホテル名か住所を入力すると地図ボタンが表示されます。|||输入酒店名称或地址后显示地图按钮。
+66|||Choose your airport and destination.|||空港と目的地を選択してください。|||请选择机场与目的地。
+69|||Choose your priority to change guidance for the selected airport. This compares travel conditions, not real-time rankings of price or speed.|||重視する条件を選ぶと選択中の空港の案内が変わります。リアルタイムの料金・時間順位ではなく利用条件に基づく参考情報です。|||选择重点后更新所选机场指南。这是使用条件参考，并非实时价格或速度排名。
+88|||Direct JR connections to Tokyo and Shinjuku. Check current bookings and fares with JR.|||JRで東京・新宿に直結。予約と現在の料金はJR公式案内で確認。|||JR直达东京、新宿，预约及当前费用请查JR官方指南。
+91|||Airport station → Narita Express → Tokyo or Shinjuku Station|||空港駅→成田エクスプレス→東京駅または新宿駅|||机场站→成田特快→东京站或新宿站
+93|||Varies by train · check official timetable|||列車により異なる・公式時刻表を確認|||因列车而异，请查官方时刻表
+94|||Times are approximate train journeys; waiting, transfers and walking may be excluded.|||時間は列車移動のおおよその目安で、待ち時間・乗り換え・徒歩を含まない場合があります。|||所示为列车参考时间，可能不含等候、换乘及步行。
+100|||Fast trains toward Ueno and Nippori. Compare the final destination and transfers.|||上野・日暮里方面の速達列車。目的地と乗り換え動線を比較。|||前往上野、日暮里的快速列车，请比较目的地及换乘路线。
+101|||Keisei airport station at Terminals 1 or 2 → Skyliner → Keisei Ueno|||第1・第2ターミナルの京成駅→スカイライナー→京成上野駅|||第一或第二航站楼京成站→Skyliner→京成上野站
+102|||About 41 minutes from Terminal 2·3 Station · adult one-way ¥2,470|||第2・第3ターミナル駅から約41分・大人片道2,470円|||从第二、三航站楼站约41分钟，成人单程2,470日元
+105|||Keikyu Railway|||京急電鉄|||京急电铁
+106|||Use Keikyu toward Shinagawa. Check terminal and train destination.|||品川方面は京急線を利用。ターミナルと列車の行き先を確認。|||使用开往品川的京急线路，确认航站楼及列车终点。
+107|||Airport Keikyu station → Shinagawa-bound train → Shinagawa Station|||空港京急駅→品川方面の京急列車→品川駅|||机场京急站→品川方向京急列车→品川站
+108|||Airport guide estimate about 15 minutes · check fare officially|||空港公式目安約15分・運賃は公式確認|||机场官方参考约15分钟，费用另查官方
+111|||Connect to JR Yamanote Line and other services at Hamamatsucho.|||浜松町でJR山手線などへ乗り換え。|||在滨松町换乘JR山手线等线路。
+112|||Airport Tokyo Monorail station → Hamamatsucho Station|||空港東京モノレール駅→浜松町駅|||机场东京单轨电车站→滨松町站
+113|||Airport guide estimate about 20 minutes · check fare officially|||空港公式目安約20分・運賃は公式確認|||机场官方参考约20分钟，费用另查官方
+117|||Compare Rapi:t and Airport Express. Airport guides indicate about 34–43 minutes depending on train type.|||ラピートと空港急行を比較。空港公式目安約34〜43分で列車種別によって異なります。|||比较Rapi:t与机场急行，机场官方参考约34—43分钟，随列车种类变化。
+118|||Terminal 1 second-floor station → Nankai Rapi:t or Airport Express → Nankai Namba|||第1ターミナル2階空港駅→南海ラピートまたは空港急行→南海難波駅|||第一航站楼二层机场站→南海Rapi:t或机场急行→南海难波站
+119|||Rapi:t fastest about 34 minutes · Airport Express about 43 minutes · confirm fares officially|||ラピート最短約34分・空港急行約43分・運賃は公式確認|||Rapi:t最快约34分钟，机场急行约43分钟，费用另查官方
+123|||About 75 minutes in airport guides. Check reserved seats and fares.|||空港公式案内で約75分。指定席・運賃を確認。|||机场官方参考约75分钟，请确认指定座位及费用。
+124|||Terminal 1 second-floor JR Kansai Airport Station → Haruka → Kyoto|||第1ターミナル2階JR関西空港駅→はるか→京都駅|||第一航站楼二层JR关西机场站→Haruka→京都站
+125|||Airport guide estimate about 75 minutes · confirm fares officially|||空港公式目安約75分・運賃は公式確認|||机场官方参考约75分钟，费用另查官方
+127|||About 50 minutes in airport guides. Convenient for Shinkansen connections.|||空港公式案内で約50分。新幹線乗り換えに便利。|||机场官方参考约50分钟，便于换乘新干线。
+128|||Terminal 1 second-floor JR Kansai Airport Station → Haruka → Shin-Osaka|||第1ターミナル2階JR関西空港駅→はるか→新大阪駅|||第一航站楼二层JR关西机场站→Haruka→新大阪站
+129|||Airport guide estimate about 50 minutes · confirm fares officially|||空港公式目安約50分・運賃は公式確認|||机场官方参考约50分钟，费用另查官方
+133|||JR rail to Sapporo Station. Check actual service and fares with JR Hokkaido.|||JRで札幌駅へ。実際の運行・料金はJR北海道を確認。|||乘JR至札幌站，实际运营及费用请查JR北海道。
+134|||JR New Chitose Airport Station → Rapid Airport → JR Sapporo|||JR新千歳空港駅→快速エアポート→JR札幌駅|||JR新千岁机场站→快速Airport→JR札幌站
+135|||Confirm train-specific times and fares officially|||列車ごとの時間・運賃を公式確認|||按具体列车确认官方时间与费用
+138|||① Search starting city and destination. ② Check duration and transfers. ③ Review the official timetable and set the actual departure time on the map.|||①出発都市・目的地を検索。②所要時間・乗り換えを確認。③公式時刻表を確認し、地図で実際の出発時刻を設定してください。|||①搜索出发城市与目的地。②确认时间及换乘。③查看官方时刻表并在地图设定实际出发时间。
+140|||Search your starting city and destination first.|||まず出発都市と目的地を検索してください。|||请先搜索出发城市及目的地。
+141|||Search nine sightseeing routes; expand the comparison table and step-by-step guide if needed. Airport transfers have a separate menu.|||観光地9経路を検索し、必要なら比較表・段階別案内を開けます。空港移動は別メニューです。|||搜索9条景点路线，按需展开比较表及分步指南。机场交通另有菜单。
+143|||Select a starting city or search a destination, attraction or transport mode. There are nine routes. Reconfirm exact fares and times with each official source.|||出発都市を選ぶか目的地・観光地・交通手段を検索してください。全9経路を確認できます。正確な運賃・時間は各経路の公式案内で再確認してください。|||选择出发城市或搜索目的地、景点、交通工具，共9条路线。准确费用及时间请按各路线官方信息重查。
+144|||Search examples: Nara, Hakone, Otaru, JR, highway bus. Open a result for official timetables and fares.|||検索例：奈良・箱根・小樽・JR・高速バス。検索結果から経路を選び、詳細で公式時刻表・料金を確認してください。|||搜索示例：奈良、箱根、小樽、JR、高速巴士。选择结果并在详情页查看官方时刻表及费用。
+195|||Choose one route to see transport, duration, fare-checking instructions, journey steps, maps and official timetables. Compare alternative operators in the detail guide.|||経路を選ぶと交通手段、所要時間、運賃確認方法、移動手順、地図、公式時刻表を表示します。別会社の代替経路は詳細で比較できます。|||选择路线后显示交通、时间、费用查询方法、移动步骤、地图及官方时刻表，其他运营方替代路线可在详情比较。
+200|||About 80 minutes (Romancecar example)|||約80分（ロマンスカーの例）|||约80分钟，浪漫特快示例
+202|||Romancecar base ticket + express ticket ¥2,470 (paper tickets)|||ロマンスカー基本券＋特急券2,470円（紙の券）|||浪漫特快基本票加特急票2,470日元，纸质票基准
+207|||Direct Romancecar / ordinary rail transfer at Odawara|||ロマンスカー直通／普通列車は小田原で乗り換え|||浪漫特快直达／普通列车在小田原换乘
+243|||Times and fares are not live. They vary by travel date and ticket conditions; official fares and timetables take priority.|||時間・料金はリアルタイム情報ではありません。運行日・購入条件で異なり、公式運賃・時刻表の確認を優先します。|||时间与费用并非实时信息，随运营日及购票条件变化，以官方费用和时刻表为准。
+245|||Four stages cover departure, transfer, arrival and final destination. Where alternatives are shown, use the detail guide and official timetable for your actual train.|||出発駅、乗り換え、下車駅、最終目的地の4段階です。複数路線がある場合は実際に乗る列車に合わせて詳細と公式時刻表を確認してください。|||按出发站、换乘、下车站及最终目的地分四步。列有多种路线时，请按实际乘车班次查详情及官方时刻表。
+249|||Direct Romancecar / for ordinary trains, check whether to change at Odawara|||ロマンスカー直通／普通列車は小田原の乗り換えを確認|||浪漫特快直达，普通列车需确认是否在小田原换乘
+251|||Continue by Hakone mountain railway, bus or to accommodation|||箱根登山電車・バス、または宿まで移動|||继续乘箱根登山电车、巴士或前往住宿
+256|||Continue to your final destination in Kyoto|||京都市内の最終目的地へ移動|||前往京都市内最终目的地
+258|||Direct highway bus / direct Fuji Excursion / rail transfer at Otsuki|||高速バス直行／富士回遊直通／鉄道は大月で乗り換え|||高速巴士直达／富士回游直达／铁路在大月换乘
+259|||Check local lake and sightseeing loop buses|||湖・観光地の周遊バスを確認|||确认湖区及景点循环巴士
+263|||Check walking or bus access to Nara Park|||奈良公園までの徒歩・バスを確認|||确认至奈良公园的步行及巴士
+267|||Continue to sights within Kobe|||神戸市内の観光地へ移動|||前往神户市内景点
+269|||Check the walk to Otaru Canal|||小樽運河までの徒歩経路を確認|||确认至小樽运河步行路线
+270|||Board a JR train toward Kamakura or Zushi|||鎌倉・逗子方面のJR列車に乗車|||乘开往镰仓、逗子方向的JR列车
+271|||Check onward transport for the Great Buddha or Enoshima|||大仏・江ノ島は追加移動を確認|||大佛及江之岛需确认后续交通
+275|||Continue toward Nara Park|||奈良公園方面へ移動|||前往奈良公园方向
+279|||Check the walk to the bamboo grove and Togetsukyo Bridge|||竹林・渡月橋までの徒歩を確認|||确认至竹林及渡月桥的步行
+280|||This is not live transport information. Check departure times, operation and transfers on the map.|||路線案内はリアルタイム交通情報ではありません。地図で出発時間、運行、乗り換えを確認してください。|||路线指南并非实时交通信息，请在地图确认出发时间、运营及换乘。
+282|||This table follows the city and search filters above. Only officially verified prices are stated; unconfirmed sections are not guessed. Trains and dates can differ.|||上の都市・検索条件に連動する比較表です。公式金額を確認した経路のみ料金を掲載し、未確認区間は推測しません。列車・日付で異なります。|||比较表与上方城市及关键词筛选联动。仅标明已核对官方金额的路线，不推测未确认区间，列车及日期可能不同。
+291|||¥2,470 (paper base fare ¥1,270 + express ticket ¥1,200)|||2,470円（紙の基本運賃1,270円＋特急券1,200円）|||2,470日元，纸质基本车票1,270日元加特急票1,200日元
+298|||Romancecar: adult one-way paper-ticket basis. Digital purchases or fare changes may differ. Waiting, transfers and walking to the destination are extra.|||ロマンスカーは大人片道の紙の券が基準。デジタル購入や改定で価格が変わる場合があります。待ち時間・乗り換え・徒歩は別です。|||浪漫特快按成人单程纸质票计算，数字购票或调价可能不同。至目的地的等候、换乘及步行另计。
+304|||These are common routes during a trip, separate from airport access. Check exact departure/arrival stations and transfers; fares and times vary by travel date.|||空港以外の旅行中によく使う経路です。出発駅・到着駅・乗り換え条件を確認してください。料金・時間は日付により変わります。|||这些是旅途中常用的非机场路线。请确认出发站、到达站与换乘，费用及时间随旅行日期变化。
+307|||Direct limited-express trains run from Shinjuku to Hakone-Yumoto. All seats are reserved; both a base ticket and express ticket are required.|||新宿から箱根湯本へ直通特急を利用できます。全席指定で、基本乗車券と特急券が必要です。|||新宿至箱根汤本有直达特急，全席指定，须同时持基本车票及特急票。
+308|||Official example: about 80 minutes. Distinguish the express surcharge from the total fare.|||公式例の所要時間は約80分。特急追加料金と合計運賃を区別してください。|||官方示例约80分钟，请区分特急附加费与总费用。
+314|||Compare JR from Osaka Station to Kyoto Station, and Hankyu from Osaka-Umeda toward Kyoto-Kawaramachi. The best choice depends on accommodation location.|||大阪駅から京都駅はJR、大阪梅田から京都河原町方面は阪急を比較してください。宿泊地により適した経路が変わります。|||大阪站至京都站比较JR，大阪梅田至京都河原町比较阪急，最佳路线随住宿位置变化。
+315|||JR Osaka and Hankyu Osaka-Umeda are different stations. Compare times and fares using the exact start and end stations.|||JR大阪駅と阪急大阪梅田駅は別の駅です。正確な発着駅で時間と運賃を確認してください。|||JR大阪站与阪急大阪梅田站是不同车站，请按准确发到站确认时间与费用。
+322|||For Kawaguchiko, compare buses from Busta Shinjuku and trains from Shinjuku Station. Kawaguchiko and Mount Fuji Fifth Station are different destinations.|||河口湖駅へはバスタ新宿発のバスと新宿駅発の鉄道を比較。河口湖と富士山五合目は異なる目的地です。|||前往河口湖站可比较Busta新宿巴士与新宿站铁路。河口湖与富士山五合目是不同目的地。
+323|||Congestion and seasonal service affect journey time. Check seat reservations and operating dates with the operator.|||渋滞や季節運行で所要時間が変わります。座席予約と実際の運行日は運営会社で確認してください。|||堵车与季节运营影响时间，请向运营方确认座位预约及实际运行日期。
+326|||Reviewed 2026-10-28. These are transport-choice guides, not live fares or reservation availability.|||資料確認2026-10-28。交通選択の案内であり、リアルタイム料金・空席ではありません。|||资料核对2026-10-28。这是交通选择指南，并非实时费用或预约余位。
+328|||Check officially stated durations and distinguish departure and arrival stations.|||公式交通案内の所要時間と発着駅の違いを確認してください。|||确认官方交通参考时间，并区分发到车站。
+331|||Compare JR Miyakoji Rapid and Kintetsu from Kyoto to Nara Park: duration, station locations, transfers, official timetables and maps.|||京都から奈良公園へJRみやこ路快速と近鉄を比較。時間、駅位置、乗り換え、公式時刻表、地図経路。|||比较京都至奈良公园的JR都路快速与近铁：时间、车站位置、换乘、官方时刻表及地图。
+334|||Compare JR Special Rapid, Hankyu and Hanshin limited express from Osaka-Umeda to Kobe Sannomiya: time, stations and directions.|||大阪梅田から神戸三宮へJR新快速、阪急・阪神特急の時間、発着駅、経路を比較。|||比较大阪梅田至神户三宫的JR新快速、阪急及阪神特急：时间、发到站与路线。
+336|||JR Rapid Airport or ordinary train from Sapporo to Otaru: 33–46 minutes. Check onward access to the canal and the official timetable.|||札幌から小樽へJR快速エアポート・普通列車で33〜46分。運河への移動と公式時刻表を確認。|||札幌至小樽乘JR快速Airport或普通列车约33—46分钟，确认运河交通及官方时刻表。
+340|||Direct JR Yokosuka Line from Tokyo to Kamakura, with official timetables, station locations and sightseeing directions.|||東京から鎌倉へJR横須賀線直通。JR時刻表、駅位置、日帰り観光地への経路を案内。|||东京至镰仓JR横须贺线直达，并提供JR时刻表、车站位置及一日游景点路线。
+342|||About 40 minutes from Osaka-Namba to Kintetsu Nara, or about 50 minutes from JR Osaka to JR Nara. Compare stations, transfers and directions.|||大阪難波から近鉄奈良約40分、JR大阪からJR奈良約50分。駅の違い・乗り換え・経路を比較。|||大阪难波至近铁奈良约40分钟，JR大阪至JR奈良约50分钟，比较车站差异、换乘及路线。
+343|||Compare JR Sagano Line to Saga-Arashiyama, Hankyu connections from Kyoto-Kawaramachi, Randen and walks to Togetsukyo Bridge.|||京都駅からJR嵯峨野線、京都河原町から阪急乗り換え、嵐電と渡月橋への徒歩を比較。|||比较京都站JR嵯峨野线、京都河原町阪急换乘、岚电及至渡月桥的步行。
+345|||Which is more convenient for Tokyo: Narita or Haneda?|||東京旅行は成田と羽田のどちらが便利？|||东京旅行选成田还是羽田更方便？
+346|||It depends on accommodation and arrival time. Haneda is generally closer to central Tokyo; Narita has major rail routes to Tokyo, Shinjuku and Ueno. Compare total hotel travel and transfers.|||宿の場所と到着時刻によります。羽田は都心に近い一方、成田にも東京・新宿・上野への主要鉄道があります。ホテルまでの乗り換えと総時間を比較してください。|||取决于住宿和抵达时间。羽田通常更接近市中心，成田也有至东京、新宿、上野的主要铁路。请比较至酒店的换乘和总时间。
+347|||Is the train from Kansai Airport to Namba the same as to Kyoto?|||関西空港から難波と京都は同じ列車ですか？|||关西机场至难波与京都乘同一列车吗？
+348|||No. Namba uses Nankai routes; Kyoto uses services such as JR Haruka. Operators differ even at the same airport station, so check signs.|||いいえ。難波は南海、京都はJRはるかなどを確認。空港駅でも運営会社が異なるため案内表示を確認してください。|||不是。难波查看南海线路，京都查看JR Haruka等。即使同在机场站，运营方也不同，须看清标识。
+349|||Should I book a train for a late-night arrival?|||深夜到着で列車を予約しても大丈夫？|||深夜抵达可以预订列车吗？
+350|||Allow for flight delays and immigration. Last-train times depend on date and operator; check official timetables before reviewing booking conditions.|||便の遅れと入国審査を考慮してください。最終時刻は日付・会社で異なるため公式時刻表を確認して予約条件を検討してください。|||考虑航班延误及入境时间。末班随日期及运营方变化，须先查官方时刻表再考虑预约条件。
+351|||Is a transport pass always cheaper?|||交通パスは必ず安くなりますか？|||交通通票一定更便宜吗？
+352|||No. It depends on days, routes and number of trips. Compare an ordinary ticket if only travelling one way from airport to hotel.|||いいえ。日数・区間・回数によります。空港から宿へ片道だけなら通常券と比較してください。|||不是，取决于天数、区间及次数。若仅机场至住宿单程，请与普通票比较。
+354|||Rail access differs by terminal. Set travel date, time and exact hotel address in Google Maps. Prioritize official rail information for hours, fares and seat reservations.|||ターミナルで駅への入口が異なります。Googleマップで日付・時刻・ホテルの正確な住所を設定し、運行・料金・予約は鉄道会社の公式情報を優先してください。|||航站楼不同，铁路入口也不同。在Google地图设日期、时间及酒店准确地址，运营、费用和座位预约优先查铁路官方资料。
+355|||Reviewed 2026-10-28. This is not live service information or ticket sales; unverified transport prices are not estimated.|||資料確認2026-10-28。リアルタイム運行情報や販売ではなく、未確認の交通費を推測して表示しません。|||核对2026-10-28。本页不是实时运营或售票服务，不推测未经确认的交通费。
+358|||JAPULSE · independent travel information based on official transport guides|||JAPULSE・公式交通案内に基づく独立旅行情報サービス|||JAPULSE · 基于官方交通指南的独立旅行信息服务
+370|||Reviewed 2026-10-28. Confirm ticket products, actual service and waiting times officially.|||確認2026-10-28。券種、各便の運行・待ち時間は公式資料を確認してください。|||核对2026-10-28，票种、实际运行及等候时间请查官方。
+372|||Airport Keisei station → Skyliner → Keisei Ueno. This is in a different location from JR Ueno.|||空港の京成駅→スカイライナー→京成上野駅。JR上野駅とは位置が異なります。|||机场京成站→Skyliner→京成上野站，与JR上野站位置不同。
+373|||Immigration, baggage collection, terminal transfers and the final hotel connection are not included in the stated duration.|||入国審査、手荷物受取、ターミナル移動、ホテルまでの最終区間は所要時間に含みません。|||所示时间不含入境、取行李、航站楼移动及最后前往酒店的一段。
+377|||Check the operator timetable for your travel date, allowing for flight delays and baggage collection.|||旅行日の運営会社公式時刻表を確認し、便の遅れや手荷物受取時間を考慮してください。|||按旅行日期查运营方官方时刻表，并考虑航班延误和取行李时间。
+379|||The train arrival station may not be your hotel. Check onward transfers and walking separately on the map.|||到着駅とホテルは異なる場合があります。ホテルまでの乗り換え・徒歩を地図で別途確認してください。|||列车到达站可能并非酒店，需在地图另查换乘及步行。
+383|||Narita to Ueno transfer notes|||成田空港から上野への乗り換え注意|||成田机场至上野换乘注意
+384|||Skyliner arrives at Keisei Ueno, whose exits differ from JR Ueno. Check whether walking or transferring best fits your hotel location.|||スカイライナーは京成上野駅に到着し、JR上野駅とは出口が異なります。宿の場所に合わせ徒歩と乗り換えを地図で比較してください。|||Skyliner到达京成上野站，出口不同于JR上野站。按住宿位置比较步行或换乘是否更方便。
+385|||Can I board directly at Narita Terminal 3?|||成田第3ターミナルから直接乗れますか？|||成田第三航站楼可直接乘车吗？
+386|||Terminal 3 passengers must follow airport signs to Terminal 2·3 Station. Add terminal walking, security and immigration time separately.|||第3ターミナル利用者は案内に従い第2・第3ターミナル駅へ移動します。ターミナル移動、保安・入国の時間を別途考慮してください。|||第三航站楼旅客须按机场指引前往第二、三航站楼站，另计航站楼移动、安检及入境时间。
+387|||JAPULSE · official-operator-based guide · not live booking|||JAPULSE・公式運営会社資料に基づく案内・リアルタイム予約ではありません|||JAPULSE · 基于官方运营方资料，并非实时预约服务
+395|||Check each service officially|||運行便ごとに公式確認|||按班次官方确认
+397|||Ordinary-car adult one-way ¥3,330|||普通車大人片道3,330円|||普通车厢成人单程3,330日元
+398|||Reviewed 2026-10-28 · varies by date, section and ticket type.|||確認2026-10-28・日付、区間、券種で異なる場合があります。|||核对2026-10-28，可能随日期、区间及票种变化。
+400|||For Terminal 1 use Narita Airport Station; for Terminals 2·3 use Airport Terminal 2 Station. Choose an N’EX that stops at Shinjuku.|||第1ターミナルは成田空港駅、第2・第3は空港第2ビル駅で、新宿停車のN’EXを確認します。|||第一航站楼使用成田机场站，第二、三航站楼使用机场第二大楼站，确认停靠新宿的N’EX。
+401|||Immigration, baggage and hotel access are extra. Check the specific train and last service officially.|||入国審査、荷物受取、ホテルへの移動は別です。乗る列車と最終便を公式時刻表で確認してください。|||入境、取行李及酒店交通另计，乘车班次与末班请查官方时刻表。
+406|||Use the linked operator official timetable for the travel date.|||利用日の上記運営会社の公式時刻表で確認してください。|||按乘车日期查看上方运营方官方时刻表。
+408|||Transfers or walking depend on the station and hotel. Set the hotel as your final map destination.|||下車駅とホテルにより乗り換え・徒歩が必要です。地図の最終目的地をホテルに変更してください。|||按下车站和酒店位置可能需换乘或步行，请将地图最终目的地设为酒店。
+410|||JAPULSE · official transport guide · not live booking|||JAPULSE・公式交通情報に基づく案内・リアルタイム予約ではありません|||JAPULSE · 基于官方交通信息，并非实时预约服务
+414|||Rapi:t fastest 34 minutes / Airport Express about 45 minutes|||ラピート最短34分／空港急行約45分|||Rapi:t最快34分钟／机场急行约45分钟
+415|||Rapi:t requires an express ticket in addition to base fare; regular express ticket ¥700|||ラピートは基本運賃に特急券が別途必要。レギュラー特急券700円|||Rapi:t在基本费用外须另购特急票，普通特急票700日元
+416|||At Kansai Airport Station board Rapi:t or Airport Express for Namba. Rapi:t requires an express ticket.|||関西空港駅で難波行きラピートまたは空港急行に乗車。ラピートは特急券が必要です。|||在关西机场站乘开往难波的Rapi:t或机场急行，Rapi:t须特急票。
+420|||Reviewed 2026-10-28 · times are operator/tourism examples; waiting, transfers and walking are extra.|||確認2026-10-28・所要時間は交通会社・公式観光案内の例で、待ち時間・乗り換え・徒歩は別です。|||核对2026-10-28，时间为运营方及官方旅游示例，等候、换乘及步行另计。
+427|||Kyoto official tourism guide: rapid train about 11 minutes, depending on service|||京都市公式観光案内：快速約11分、列車により異なる|||京都市官方旅游指南：快速约11分钟，随列车而异
+429|||Kyoto Sagano Line platform → Saga-Arashiyama; walk onward to Togetsukyo Bridge|||京都駅嵯峨野線ホーム→嵯峨嵐山駅。渡月橋まで徒歩|||京都站嵯峨野线站台→嵯峨岚山站，再步行至渡月桥
+430|||Use official fare search for your date and ticket conditions. Unconfirmed amounts are not estimated.|||運行日・券の条件に合わせ公式運賃検索で確認してください。未確認金額は推測しません。|||按运营日期和票种条件查询官方费用，不推测未确认金额。
+432|||Kyoto-Kawaramachi / Karasuma → Katsura → Hankyu Arashiyama|||京都河原町・烏丸→桂→阪急嵐山駅|||京都河原町／乌丸→桂→阪急岚山站
+433|||Varies by train and transfer · check official timetable|||列車・乗り換えにより異なる・公式時刻表を確認|||随列车及换乘变化，请查官方时刻表
+434|||Change at Katsura for Hankyu Arashiyama Line. Its station differs from JR Saga-Arashiyama.|||桂で阪急嵐山線に乗り換え。JR嵯峨嵐山駅とは位置が異なります。|||在桂站换乘阪急岚山线，车站位置不同于JR嵯峨岚山站。
+436|||Shijo-Omiya or Randen-Tenjingawa → Randen Arashiyama|||四条大宮または嵐電天神川→嵐電嵐山駅|||四条大宫或岚电天神川→岚电岚山站
+437|||About 25 minutes from Shijo-Omiya (tourism guide example)|||四条大宮から約25分（観光案内の例）|||四条大宫出发约25分钟，旅游指南示例
+438|||Board Randen at Shijo-Omiya, or transfer from Tozai Subway at Uzumasa-Tenjingawa.|||四条大宮で嵐電に乗車、または地下鉄東西線太秦天神川で嵐電へ乗り換え。|||在四条大宫乘岚电，或从地铁东西线太秦天神川换乘岚电。
+440|||Set date and time to check actual stops, departure platform and the final walk to your sight.|||移動日時を設定し、停車駅、実際の出発ホーム、下車後の徒歩を確認してください。|||输入日期时间，确认实际停站、出发站台及下车后至景点的步行。
+443|||Kyoto official tourism guide: rapid train Kyoto→Saga-Arashiyama about 11 minutes, then about 8 minutes on foot toward Togetsukyo Bridge. Add walking inside Kyoto Station to the Sagano platforms.|||京都市公式観光案内：京都→嵯峨嵐山は快速約11分、渡月橋付近まで徒歩約8分。京都駅の嵯峨野線ホームまでの駅内移動を加えてください。|||京都市官方旅游指南：京都至嵯峨岚山快速约11分钟，再步行约8分钟到渡月桥附近，另加京都站内前往嵯峨野线站台的时间。
+445|||Reviewed 2026-10-28 · reconfirm for your travel date|||確認2026-10-28・実際の利用日に再確認|||核对2026-10-28，按实际乘车日再次确认
+450|||From Kyoto Station first compare JR Sagano Line. Hankyu and Randen Arashiyama stations differ from JR Saga-Arashiyama.|||京都駅発ならまずJR嵯峨野線を比較。阪急・嵐電の嵐山駅はJR嵯峨嵐山駅と別の場所です。|||从京都站出发先比较JR嵯峨野线，阪急及岚电岚山站与JR嵯峨岚山站位置不同。
+452|||Official information compared 2026-10-28. Exits, platforms and first/last services may change by date; local signs and official timetables take priority.|||公式資料照合2026-10-28。出口・ホーム・始発最終は運行日で変わる場合があり、現地案内と公式時刻表を優先してください。|||官方资料对照2026-10-28。出口、站台及首末班可能随日期变化，以现场指引及官方时刻表为准。
+455|||Check first and last services for your departure date, including the return journey and connecting last trains. Use the official operator links in this guide.|||出発日の始発・最終便に加え、宿への帰路と乗り換えの最終便も確認してください。本文の公式交通リンクを利用できます。|||按出发日查首末班，同时确认返回住宿及换乘末班，使用正文运营方官方链接。
+457|||In peak seasons compare JR Sagano Line or subway plus Randen to avoid crowded buses.|||繁忙期はバス混雑を避けるためJR嵯峨野線や地下鉄・嵐電を比較してください。|||旺季可比较JR嵯峨野线或地铁加岚电，避开巴士拥挤。
+459|||Check elevators, lockers and luggage storage. With large bags, consider transfer count and walking inside stations. Operator baggage rules may differ.|||エレベーター、ロッカー、荷物預かりを確認。大きな荷物は乗り換え回数と駅内移動も考慮し、会社別の持込規則を確認してください。|||确认电梯、储物柜及行李寄存。大行李需考虑换乘次数和站内步行，各运营方携带规定可能不同。
+461|||The arrival station is not always the attraction entrance. Check exits and walking/bus time, adding a margin on busy days.|||到着駅が観光地の入口とは限りません。出口、徒歩・バス時間を確認し、混雑日は余裕を持ってください。|||到达站不一定就是景点入口，请查出口、步行及巴士时间，拥挤日预留余量。
+463|||Kyoto tourism notes that the Sagano platforms are farther inside Kyoto Station. Rapid trains take about 11 minutes to Saga-Arashiyama, then about 8 minutes walking toward Togetsukyo Bridge.|||京都市観光案内では嵯峨野線ホームは京都駅内で遠い位置です。嵯峨嵐山まで快速約11分、渡月橋付近へ徒歩約8分が目安です。|||京都市旅游指南说明嵯峨野线站台在站内较远处。快速至嵯峨岚山约11分钟，再步行约8分钟至渡月桥附近。
+465|||Reviewed 2026-10-28. Static guide; not a guarantee of today first/last services or live booking availability.|||確認2026-10-28。静的な旅行案内で、当日の始発・最終便やリアルタイム空席を保証しません。|||核对2026-10-28，静态旅行指南，不保证当日首末班或实时预约余位。
+467|||Are JR Saga-Arashiyama and Hankyu Arashiyama the same station?|||JR嵯峨嵐山駅と阪急嵐山駅は同じですか？|||JR嵯峨岚山站与阪急岚山站相同吗？
+468|||No. Compare the walk according to whether you will visit Togetsukyo Bridge or the bamboo grove.|||別の駅です。渡月橋と竹林のどちらへ行くかで徒歩経路を比較してください。|||不是同一站，请按渡月桥或竹林目的地比较步行路线。
+469|||Which is convenient from Kyoto Station?|||京都駅からは何が便利ですか？|||京都站出发选什么方便？
+470|||Kyoto official tourism guides introduce the JR Sagano Line from Kyoto Station.|||京都市公式観光案内は京都駅からJR嵯峨野線を使う方法を紹介しています。|||京都市官方旅游指南介绍从京都站使用JR嵯峨野线。
+474|||After choosing transport, also check weather, seasonal conditions and information around your destination for the travel date.|||交通を決めたら、旅行日の天気・季節情報・目的地周辺の案内も確認しましょう。|||确定交通后，也应查看旅行当天的天气、季节情况与目的地周边信息。
+483|||JAPULSE · recheck official fares and timetables before travel|||JAPULSE・旅行前に公式運賃・時刻表を再確認|||JAPULSE · 旅行前重查官方费用与时刻表
+486|||Reviewed 2026-10-28. Indicative durations exclude date variations, transfers, waiting and onward access to sights.|||確認2026-10-28。時間は案内上の目安で、運行日、乗り換え・待ち時間、観光地への移動は別です。|||核对2026-10-28。时间为参考，运营日差异、换乘、等候及前往最终景点另计。
+491|||From about 33 minutes (Hokkaido official tourism guide)|||約33分から（北海道公式観光案内）|||约33分钟起，北海道官方旅游指南
+492|||Check for Otaru-bound trains; not every airport train continues to Otaru.|||小樽行きか確認。一部空港列車は小樽まで行きません。|||确认列车开往小樽，部分机场列车不到小樽。
+494|||Look up the exact fare with the operator. Unverified fares are not shown.|||正確な運賃は運営会社の公式検索で確認。未確認料金は表示しません。|||准确费用请查运营方官方搜索，未核实费用不标示。
+497|||Depending on train, up to about 46 minutes in tourism guides|||列車によって約46分まで（観光案内の範囲）|||按列车最多约46分钟，旅游指南参考范围
+498|||More intermediate stops. Check transfers and timing in the official train search.|||途中停車駅が多いため、乗り換え・時間は公式列車検索で確認。|||中途停站较多，换乘及时间请查官方列车搜索。
+500|||Platforms may differ by train. Select date and time and check onward transfers and walking to your final hotel or sight.|||列車ごとにホームが異なる場合があります。日時を選び、最終の宿・観光地までの乗り換え・徒歩を確認してください。|||各列车站台可能不同，选择日期时间并确认到最终住宿或景点的换乘与步行。
+503|||JR Hokkaido covers New Chitose, Sapporo and Otaru. Check whether your train reaches Otaru and its seat types.|||新千歳空港・札幌・小樽はJR北海道の案内を確認。小樽行き運行と座席種類は列車ごとに確認してください。|||新千岁、札幌、小樽由JR北海道提供信息，逐班确认是否至小樽及座位类型。
+504|||Check train destination and fare in JR Hokkaido official timetables, then compare pass coverage.|||JR北海道公式時刻表で行き先・運賃を確認し、パスの利用範囲と比較してください。|||先在JR北海道官方时刻表确认终点及费用，再比较通票覆盖范围。
+505|||Trains for Teine or Hoshimi do not reach Otaru: check the destination. JR Hokkaido states baggage limits including two pieces, each up to 30 kg.|||手稲・ほしみ行きは小樽へ行きません。必ず行き先を確認。JR北海道は荷物2個・各30kg以下などの制限を案内しています。|||开往手稻或星见的列车不到小樽，须确认终点。JR北海道规定行李最多2件、每件不超过30公斤等限制。
+506|||Do all New Chitose Airport trains go to Otaru?|||新千歳空港の列車はすべて小樽へ行きますか？|||新千岁机场所有列车都到小樽吗？
+507|||No. Only some run through to Otaru; check the destination.|||いいえ。一部のみ小樽へ直通します。行き先を確認してください。|||不是，仅部分直达小樽，请确认列车终点。
+508|||Is Otaru Canal immediately outside Otaru Station?|||小樽運河は駅のすぐ前ですか？|||小樽运河就在小樽站门前吗？
+509|||A walk is needed after arrival. Check map directions from the station to Otaru Canal.|||下車後に徒歩が必要です。駅から小樽運河への地図経路を確認してください。|||下车后仍需步行，请查车站至小樽运河地图路线。
+515|||JAPULSE · independent guide using official transport sources · reconfirm fares and dates|||JAPULSE・公式交通資料による独立旅行案内・実際の運賃と運行日を再確認|||JAPULSE · 采用官方交通资料的独立指南，须重查实际费用与运行日
+519|||JAPULSE MOVE · complete sightseeing transport guide|||JAPULSE MOVE・観光地交通ガイド|||JAPULSE MOVE · 景点交通完整指南
+521|||Compare highway bus, direct Fuji Excursion and rail via Otsuki. Kawaguchiko Station and Mount Fuji Fifth Station are different destinations.|||高速バス、富士回遊直通、大月乗り換えを比較。河口湖駅と富士山五合目は別の目的地です。|||比较高速巴士、富士回游直达及大月换乘。河口湖站与富士山五合目是不同目的地。
+522|||Reviewed 2026-10-28 · fares and times vary by date, seat and purchase method.|||確認2026-10-28・料金と時間は日付・座席・購入方法で異なります。|||核对2026-10-28，费用及时间随日期、座位和购买方式变化。
+527|||Direct from Shinjuku Expressway Bus Terminal|||新宿高速バスターミナルから直行|||新宿高速巴士总站直达
+528|||Official example about 1 hour 45 minutes; road conditions can change this|||公式案内約1時間45分・道路状況で変動|||官方参考约1小时45分钟，随路况变化
+529|||Adult one-way ¥2,200 · child ¥1,100 (official listing)|||大人片道2,200円・子ども1,100円（公式表記）|||成人单程2,200日元，儿童1,100日元，官方标示
+531|||Check direct-service departure and duration in the official timetable|||直通便の時刻・所要時間は公式時刻表を検索|||直达班次及时间请查官方时刻表
+532|||Check the actual total including reserved-seat express ticket on the booking screen|||指定席特急券を含む実際の総額は予約画面で確認|||含指定席特急票的实际总价请在预约页面确认
+534|||JR East example about 2 hours 30 minutes, depending on connections|||JR東日本の接続例で約2時間30分|||JR东日本衔接班次示例约2小时30分钟
+535|||Check JR express ticket and Fujikyu fare separately|||JR特急券と富士急行運賃を別途確認|||JR特急票与富士急行费用分别确认
+536|||Transport is described station to station. Local access, waiting and hotel travel are extra.|||出発駅から到着駅までの案内です。現地移動・待ち時間・ホテル移動は別です。|||本指南为车站至车站交通，当地移动、等候及酒店交通另计。
+538|||Shinjuku New South Exit → Busta Shinjuku fourth floor → bus to Kawaguchiko Station|||新宿駅新南口方面→バスタ新宿4階→河口湖駅で下車|||新宿站新南口方向→Busta新宿四层→巴士至河口湖站下车
+540|||JR Shinjuku → via Otsuki → Kawaguchiko (no change on direct trains)|||JR新宿→大月経由→河口湖（直通列車は乗り換えなし）|||JR新宿→经大月→河口湖，直达车无需换乘
+541|||JR Shinjuku → Otsuki → change to Fujikyu → Kawaguchiko|||JR新宿→大月→富士急行線へ乗り換え→河口湖|||JR新宿→大月→换乘富士急行线→河口湖
+542|||Set your date on the map and confirm actual boarding points. Operators and platforms differ on some sections.|||地図で出発日を設定し実際の乗車位置を確認。区間によって会社やホームが異なります。|||在地图设出发日期并确认实际乘车点，部分区间运营方与站台不同。
+544|||Official bus guide: Shinjuku→Kawaguchiko, adult one-way ¥2,200, child ¥1,100, about 1 hour 45 minutes. Congestion changes actual duration; this is not the rail fare.|||公式高速バス案内：新宿→河口湖、大人片道2,200円、子ども1,100円、約1時間45分。渋滞で変動し、鉄道運賃とは異なります。|||官方高速巴士：新宿至河口湖，成人单程2,200日元、儿童1,100日元，约1小时45分钟。堵车影响实际时间，不可与铁路费用混淆。
+546|||Highway bus and Fuji Excursion have different boarding points. For connecting rail trips check whether to change at Otsuki.|||高速バスとJR富士回遊は乗車場所が異なります。接続列車では大月乗り換えの有無を確認してください。|||高速巴士与JR富士回游乘车地点不同，铁路衔接需确认是否在大月换乘。
+547|||Compare ordinary one-way/return tickets with passes using your actual trip count. Operator rules determine pass coverage.|||実際の移動回数で片道・往復券とパスの総額を比較し、適用路線は運営会社の案内を優先してください。|||按实际乘车次数比较单程、往返票与通票价格，覆盖线路以运营方指南为准。
+548|||First/last and available services vary with date and time. In each official timetable set departure station, arrival station and travel date.|||始発・最終・便は日時で異なります。各公式時刻表で出発駅・到着駅・利用日を設定してください。|||首末班及班次随日期时间变化，在各运营方官方时刻表设发到站及出发日。
+549|||Can road congestion delay the bus?|||渋滞でバスは遅れますか？|||堵车会使巴士晚点吗？
+550|||Yes. About 1 hour 45 minutes is an operator estimate; actual road conditions can change it.|||はい。約1時間45分は運営会社の目安で、道路状況で異なります。|||会。约1小时45分钟是运营方参考，实际随路况变化。
+551|||Is Kawaguchiko the same destination as Mount Fuji Fifth Station?|||富士山五合目へは河口湖で降りればよいですか？|||去富士山五合目在河口湖下车吗？
+552|||They are different destinations. Check the separate bus route and seasonal operation.|||五合目と河口湖駅は別の目的地です。別のバス路線と季節運行を確認してください。|||五合目与河口湖站不同，须查单独巴士线路与季节运营。
+555|||JAPULSE · based on official operators · reconfirm for your travel date|||JAPULSE・公式運営会社資料に基づく案内・利用日に再確認|||JAPULSE · 依据官方运营方资料，须按乘车日重查
+560|||HARUKA One-way Ticket adult ¥1,800 through 2026-10-31; ¥1,900 from 2026-11-01. Check eligibility.|||HARUKA One-way Ticket大人1,800円（2026-10-31まで）、1,900円（2026-11-01から）。購入条件を確認。|||HARUKA One-way Ticket成人1,800日元至2026-10-31，2026-11-01起1,900日元，需确认购买条件。
+561|||JR Kansai Airport → Haruka → Shin-Osaka. Check exits and platforms for Shinkansen transfers.|||JR関西空港→はるか→新大阪。新幹線乗り換えは出口・ホームを確認。|||JR关西机场→Haruka→新大阪，换乘新干线须确认出口及站台。
+565|||Special Rapid fastest about 33 minutes; Rapid fastest about 37, depending on service|||特別快速最短約33分、快速最短約37分、便により異なる|||特别快速最快约33分钟，快速最快约37分钟，随班次而异
+566|||Adult one-way unreserved ¥1,230; reserved ¥2,230|||大人片道自由席1,230円・指定席2,230円|||成人单程自由席1,230日元，指定席2,230日元
+567|||JR New Chitose Airport → Sapporo-bound Rapid Airport → JR Sapporo. Check destination and seat type.|||JR新千歳空港→札幌方面快速エアポート→JR札幌。行き先・座席種類を確認。|||JR新千岁机场→札幌方向快速Airport→JR札幌，确认终点及座位类型。
+572|||For Hakone day trips or onsen stays, reach Hakone-Yumoto, then check onward transport to your hotel or sights.|||箱根の日帰り・温泉旅行は箱根湯本まで移動後、宿や観光地への最終交通を確認してください。|||箱根当天游或温泉旅行先至箱根汤本，再确认前往住宿及景点的最后一段交通。
+574|||About 80–90 minutes, depending on train|||約80〜90分・列車により異なる|||约80—90分钟，随列车变化
+575|||Base ticket plus reserved express ticket. Shinjuku↔Hakone-Yumoto: paper base ¥1,270, regular express ¥1,200, ticketless express ¥1,150. Standard purchase total ¥2,470.|||基本乗車券＋指定席特急券。新宿↔箱根湯本：紙の基本券1,270円、通常特急券1,200円、チケットレス1,150円。通常購入合計2,470円。|||基本票加指定席特急票。新宿往返箱根汤本区间：纸质基本票1,270日元、普通特急票1,200日元、无纸特急票1,150日元。普通购买合计2,470日元。
+577|||Varies with train and transfers|||列車・乗り換えにより異なる|||随列车及换乘变化
+578|||Ordinary ticket applies; check exact train/section fares officially|||普通乗車券適用。列車・区間ごとの実際の運賃は公式検索|||适用普通票，实际列车及区间费用请查官方
+579|||Shinjuku Odakyu platform → Romancecar → Hakone-Yumoto. Choose a direct service.|||新宿駅小田急ホーム→ロマンスカー→箱根湯本。直通便を選択。|||新宿小田急站台→浪漫特快→箱根汤本，选择直达班次。
+580|||Shinjuku Odakyu → Odawara (possible earlier change by train) → Hakone-Yumoto. Check transfer displays.|||新宿小田急→小田原（列車により途中乗り換え）→箱根湯本。乗り換え表示を確認。|||新宿小田急→小田原，部分列车途中可能需换乘→箱根汤本，确认换乘标识。
+581|||Official adult one-way: paper base ¥1,270 + ordinary express ¥1,200 = ¥2,470. IC base is ¥1,261; ticketless express ¥1,150, so totals vary by purchase method. Check each Romancecar timetable.|||公式大人片道：紙の基本券1,270円＋通常特急券1,200円＝2,470円。IC基本1,261円、チケットレス特急1,150円で購入方法により総額が異なります。所要時間は便別時刻表を確認。|||官方成人单程：纸质基本票1,270日元加普通特急票1,200日元，共2,470日元。IC基本费1,261日元，无纸特急票1,150日元，总价随购买方式变化。各班浪漫特快时间另查时刻表。
+583|||Choose direct Romancecar services. For ordinary trains, check train-specific transfers at Odawara.|||ロマンスカーは直通列車を選択。普通列車は小田原の乗り換えを便ごとに確認。|||浪漫特快选直达班次，普通列车按班次确认小田原换乘。
+584|||Compare the Hakone Freepass total with ordinary return tickets plus express tickets, according to the local transport you will actually use.|||利用する観光交通に合わせ、箱根フリーパスと通常往復券＋特急券の総額を比較して決めてください。|||按实际使用的当地观光交通，比较箱根周游券与普通往返票加特急票总额后决定。
+585|||Romancecar is all reserved seats. Express tickets can be reserved/bought from 10:00 one month before travel. Distinguish base and express tickets.|||ロマンスカーは全席指定。乗車1か月前10:00から特急券の予約・購入が可能です。基本乗車券と特急券を区別してください。|||浪漫特快全席指定，乘车一个月前10:00起可预约购买特急票，请区分基本票与特急票。
+586|||Does Romancecar require a separate express ticket?|||ロマンスカーは別途特急券が必要ですか？|||浪漫特快须另购特急票吗？
+587|||Yes. A reserved express ticket is needed in addition to the base fare.|||はい。基本運賃のほかに指定席特急券が必要です。|||是，基本费用之外须指定席特急票。
+588|||Is Hakone-Yumoto the final stop for my onsen accommodation?|||箱根湯本が温泉宿の最終目的地ですか？|||箱根汤本是温泉住宿的最终目的地吗？
+589|||Depending on accommodation, another mountain railway, bus or walk may be required.|||宿の場所により登山電車、バス、徒歩がさらに必要な場合があります。|||按住宿位置可能还需登山电车、巴士或步行。
+593|||Romancecar has different fares, durations and transfers from ordinary Odakyu trains. Choose between speed and savings and compare official timetables.|||ロマンスカーは普通列車と料金・時間・乗り換えが異なります。速さと費用の優先度を決め、公式時刻表で比較してください。|||浪漫特快与普通小田急的费用、时间和换乘不同，请按速度或省钱重点比较官方时刻表。
+595|||Check the Shinjuku platform and reserved-seat requirement, your travel-date timetable, and onward connections from Hakone-Yumoto to the bath or sight.|||新宿のホームと指定席の要否、利用日の時刻表、箱根湯本から温泉・観光地への乗り換えを確認。|||确认新宿站台及指定席要求、旅行日时刻表，以及箱根汤本至温泉景点的后续换乘。
+597|||Weather or disruption may change services. Distinguish the Romancecar surcharge from ordinary fare, and check pass inclusions.|||悪天候や交通障害で運行変更の場合があります。ロマンスカー特急料と普通運賃、各パスの対象範囲を区別してください。|||天气及交通异常可能调整运行，须区分浪漫特快附加费与普通费用并确认通票包含范围。
+598|||Can I use Romancecar with only an ordinary ticket?|||普通乗車券だけでロマンスカーに乗れますか？|||仅普通票可以乘浪漫特快吗？
+599|||No. Check express-ticket and reserved-seat requirements in addition to ordinary fare.|||いいえ。普通運賃に加え特急券・指定座席の条件を確認してください。|||不可以，普通费用之外需确认特急票及指定座位条件。
+604|||HARUKA One-way Ticket adult ¥2,200 through 2026-10-31; ¥2,700 from 2026-11-01. Conditions differ from ordinary tickets.|||HARUKA One-way Ticket大人2,200円（2026-10-31まで）、2,700円（2026-11-01から）。通常券と条件が異なります。|||HARUKA One-way Ticket成人2,200日元至2026-10-31，2026-11-01起2,700日元，条件不同于普通票。
+605|||JR Kansai Airport → Haruka → JR Kyoto. Add time from the flight terminal to the rail station.|||JR関西空港→はるか→JR京都。航空ターミナルから鉄道駅への移動時間は別途加算。|||JR关西机场→Haruka→JR京都，另计航站楼至铁路站时间。
+607|||Haruka reaches Kyoto Station, but ticket products have different seat conditions. Allow separately for immigration and platform access.|||はるかは京都駅へつながりますが、券種で指定席条件が異なります。入国とホーム移動の時間を別途考慮してください。|||Haruka至京都站，但不同票种指定席条件不同，入境及前往站台时间另计。
+608|||Does Kyoto Station arrival mean I am at my hotel?|||京都駅に着けば宿へ直接到着ですか？|||到京都站就直接到住宿了吗？
+609|||No. Depending on your hotel, continue by subway, bus, taxi or on foot.|||いいえ。宿により地下鉄・バス・タクシー・徒歩が必要です。|||不是，按住宿位置仍需地铁、巴士、出租车或步行。
+619|||About 21 minutes (Umeda area access guide)|||約21分（梅田エリアのアクセス案内）|||约21分钟，梅田地区交通指南
+620|||Board JR Special Rapid and alight at JR Sannomiya in Kobe.|||JRホームで新快速に乗り、神戸のJR三ノ宮駅で下車。|||在JR站台乘新快速，在神户JR三之宫站下车。
+621|||Hankyu Kobe Line limited express|||阪急神戸線特急|||阪急神户线特急
+623|||About 27 minutes (Umeda area access guide)|||約27分（梅田エリアのアクセス案内）|||约27分钟，梅田地区交通指南
+624|||JR Osaka and Hankyu Osaka-Umeda have different platforms|||JR大阪と阪急大阪梅田はホームが異なります|||JR大阪与阪急大阪梅田站台不同
+625|||Hanshin Main Line limited express|||阪神本線特急|||阪神本线特急
+627|||About 32 minutes (Umeda area access guide)|||約32分（梅田エリアのアクセス案内）|||约32分钟，梅田地区交通指南
+628|||Board a Kobe-Sannomiya-bound train at Hanshin Osaka-Umeda|||阪神大阪梅田から神戸三宮方面の列車に乗車|||在阪神大阪梅田乘神户三宫方向列车
+630|||JR, Hankyu and Hanshin use different platforms and entrances. Check your actual operator station map.|||JR・阪急・阪神はホームと入口が異なります。利用する会社の駅図で乗車位置を確認してください。|||JR、阪急及阪神站台和入口不同，请查实际运营方车站图确认乘车位置。
+631|||Do Osaka and Osaka-Umeda use the same platform?|||大阪駅と大阪梅田駅は同じホームですか？|||大阪站与大阪梅田是同一站台吗？
+632|||No. Separate the JR, Hankyu and Hanshin platforms.|||いいえ。JR・阪急・阪神のホームを区別してください。|||不是，须区分JR、阪急及阪神站台。
+633|||Does Kobe sightseeing start at Sannomiya?|||神戸観光は三宮から始めますか？|||神户观光从三宫开始吗？
+634|||Sannomiya is a major hub. Check separate walking or bus connections to Kitano Ijinkan, Meriken Park and your final sight.|||三宮は主な交通拠点です。北野異人館・メリケンパークなど最終目的地への徒歩・バスは別途確認してください。|||三宫是主要交通枢纽，北野异人馆、美利坚公园等最终目的地的步行或巴士需另查。
+640|||Check exact date-specific duration and fare with JR|||正確な時間・運賃は日付別のJR公式検索|||准确时间及费用按日期查JR官方
+641|||Tokyo Station underground Yokosuka platform → train for Kamakura, Zushi or Kurihama → Kamakura|||東京駅地下の横須賀線ホーム→鎌倉・逗子・久里浜方面→鎌倉駅下車|||东京站地下横须贺线站台→镰仓、逗子或久里滨方向→镰仓站下车
+642|||Visit Kita-Kamakura first|||北鎌倉を先に観光|||先游北镰仓
+643|||JR Tokyo → Kita-Kamakura → Kamakura|||JR東京→北鎌倉→鎌倉|||JR东京→北镰仓→镰仓
+644|||Check both sections in the timetable for your date|||2区間とも利用日の時刻表を確認|||两个区间均按日期查时刻表
+645|||For temples first, alight at Kita-Kamakura then continue to Kamakura|||寺院観光を先にする場合は北鎌倉で下車し、後で鎌倉へ|||先游寺院可在北镰仓下车，再前往镰仓
+647|||Check Yokosuka Line train destinations and stops from Tokyo Station, using the official JR station map.|||東京発横須賀線の実際の行き先・停車駅を選び、JR公式駅図を参照してください。|||确认东京出发横须贺线实际终点及停站，并参考JR官方车站图。
+648|||Must I change for Kamakura?|||鎌倉へは乗り換えが必要ですか？|||前往镰仓须换乘吗？
+649|||Some JR Yokosuka trains run directly from Tokyo toward Kamakura. Check destination and stops in the timetable.|||JR横須賀線には東京から鎌倉方面の直通列車があります。行き先と停車駅を時刻表で確認してください。|||JR横须贺线有东京至镰仓方向直达车，需查时刻表终点及停站。
+650|||Does the same train reach Enoshima?|||同じ列車で江ノ島へ行けますか？|||同一列车可以去江之岛吗？
+651|||Kamakura Station and Enoshima are different locations. Continue by Enoden or another route.|||鎌倉駅と江ノ島は別の場所です。江ノ電などで追加移動できます。|||镰仓站与江之岛不同，需江之电等其他线路继续移动。
+657|||About 40 minutes (Nara tourism association)|||約40分（奈良観光協会の案内）|||约40分钟，奈良旅游协会
+658|||Osaka-Namba Kintetsu platform → direct Nara-bound train → Kintetsu Nara|||大阪難波の近鉄ホーム→奈良方面直通列車→近鉄奈良|||大阪难波近铁站台→奈良方向直达车→近铁奈良
+661|||About 50 minutes (Nara tourism association)|||約50分（奈良観光協会の案内）|||约50分钟，奈良旅游协会
+662|||JR Osaka → direct Nara-bound Yamatoji Rapid → JR Nara. Distinguish this from Namba departures.|||JR大阪→奈良方面直通大和路快速→JR奈良。難波発とは区別してください。|||JR大阪→奈良方向直达大和路快速→JR奈良，须与难波出发线路区分。
+664|||Nara tourism association: Kintetsu direct about 40 minutes, JR Yamatoji Rapid direct about 50. Check different station locations.|||奈良市観光協会：近鉄直通約40分、JR大和路快速直通約50分。駅位置の違いを確認してください。|||奈良市旅游协会：近铁直达约40分钟，JR大和路快速直达约50分钟，须确认车站位置不同。
+665|||Are Kintetsu Nara and JR Nara the same station?|||近鉄奈良とJR奈良は同じ駅ですか？|||近铁奈良与JR奈良是同一站吗？
+666|||No. Choose departure and arrival stations according to your route toward Nara Park.|||いいえ。奈良公園への動線に合わせて発着駅を選んでください。|||不是，请按奈良公园方向路线选择发到站。
+667|||Must I go from Namba to JR Osaka Station first?|||難波からJR大阪へ行く必要がありますか？|||难波出发必须先去JR大阪站吗？
+668|||There is a direct option from Kintetsu Osaka-Namba to Nara.|||近鉄大阪難波から奈良へ直行する選択肢があります。|||可从近铁大阪难波直接前往奈良。
+673|||Airport guide about 20 minutes; varies by train and terminal|||空港公式目安約20分・列車とターミナルで異なる|||机场官方参考约20分钟，随列车及航站楼变化
+675|||Haneda Tokyo Monorail → Hamamatsucho → change to JR Yamanote or another line if needed|||羽田空港東京モノレール→浜松町→必要ならJR山手線などへ乗り換え|||羽田机场东京单轨电车→滨松町→按需换乘JR山手线等
+680|||For Kyoto Station first compare JR; for Kawaramachi or Gion, Hankyu. JR Osaka and Hankyu Osaka-Umeda have separate platforms.|||京都駅周辺ならJR、河原町・祇園なら阪急を比較。JR大阪と阪急大阪梅田は別ホームです。|||京都站周边优先比较JR，河原町、祇园比较阪急。JR大阪与阪急大阪梅田为独立站台。
+682|||About 30-plus minutes, depending on train|||約30分台・列車によって異なる|||约30多分钟，随列车变化
+683|||Look up the ordinary fare with JR; unverified amounts are not stated here|||普通運賃はJR公式検索で確認・未確認金額は掲載しません|||普通费用请查JR官方，此处不标未核实金额
+685|||Varies by train type, including limited express|||特急など列車種別により異なる|||随特急等列车种类变化
+686|||Look up ordinary-ticket fares on the Hankyu website|||普通券運賃は阪急公式サイトで検索|||普通票费用请查阪急官网
+687|||Hankyu Kyo-train Garaku (weekends and holidays)|||阪急京とれいん雅洛（土日祝）|||阪急京Train雅洛，周末及节假日
+688|||Official timetable example 09:32 → 10:15 (43 minutes)|||公式時刻表の例09:32→10:15（43分）|||官方时刻表示例09:32→10:15，43分钟
+689|||Ordinary fare, no extra limited-express charge|||追加特急料金なし・普通運賃適用|||普通费用，无额外特急附加费
+690|||JR Osaka → JR Kyoto. Check Special Rapid stops and departure platform.|||JR大阪→JR京都。新快速の停車駅・出発ホームを確認。|||JR大阪→JR京都，确认新快速停站及出发站台。
+691|||Hankyu Osaka-Umeda → Kyoto-Kawaramachi; alight at Karasuma if better for your destination.|||阪急大阪梅田→京都河原町。目的地によって烏丸で下車。|||阪急大阪梅田→京都河原町，按目的地可在乌丸下车。
+692|||Osaka-Umeda → Kyoto-Kawaramachi. Check operating days and service frequency in advance.|||大阪梅田→京都河原町。運行日・本数を事前確認。|||大阪梅田→京都河原町，提前确认运行日及班次数量。
+694|||Operators start and arrive at different stations. Compare JR for Kyoto Station, Hankyu for Kawaramachi/Gion.|||両社は出発駅・到着駅が異なります。京都駅ならJR、河原町・祇園なら阪急を比較。|||两家运营方发到站不同，京都站比较JR，河原町、祇园比较阪急。
+695|||Are Kyoto Station and Kyoto-Kawaramachi the same station?|||京都駅と京都河原町は同じ駅ですか？|||京都站与京都河原町是同一站吗？
+696|||No. Kyoto Station is JR; Kawaramachi is Hankyu in another area. Choose for your accommodation location.|||いいえ。京都駅はJR、河原町は別地域の阪急駅です。宿の場所に合わせて選んでください。|||不是，京都站为JR，河原町为另一区域阪急站，请按住宿位置选择。
+697|||Does Hankyu go directly to Kyoto Station?|||阪急で京都駅へ直接行けますか？|||阪急能直达京都站吗？
+698|||Hankyu main central-Kyoto arrival is Kyoto-Kawaramachi, different from JR Kyoto Station.|||阪急の京都中心部の主な到着駅は京都河原町で、JR京都駅とは異なります。|||阪急在京都市中心的主要到达站为京都河原町，不同于JR京都站。
+703|||Terminal 3 about 11 minutes; Terminals 1·2 about 14 minutes|||第3ターミナル約11分、第1・第2約14分|||第三航站楼约11分钟，第一、二航站楼约14分钟
+704|||Check the fare in official search|||運賃は公式検索で確認|||费用请查官方搜索
+705|||At the arrival-terminal Keikyu station, check trains toward Shinagawa.|||到着ターミナルの京急駅で品川方面の列車を確認してください。|||在到达航站楼京急站确认品川方向列车。
+710|||About 45 minutes (Nara tourism guide)|||約45分（奈良観光協会案内）|||约45分钟，奈良旅游协会指南
+711|||Add walking or city bus from JR Nara to Nara Park|||JR奈良から奈良公園へ徒歩・市内バスを追加|||JR奈良站至奈良公园另需步行或市内巴士
+714|||About 35 minutes (tourism association guide)|||約35分（観光協会案内）|||约35分钟，旅游协会指南
+715|||Extra express fare. Check direct services or train-specific transfers.|||特急料金別。直通便と列車別の乗り換えを確認。|||特急费另计，确认直达或部分列车换乘。
+717|||Nara tourism association: JR Miyakoji Rapid about 45 minutes; Kintetsu express about 35. Kintetsu express tickets cost extra.|||奈良市観光協会：JRみやこ路快速約45分、近鉄特急約35分。近鉄特急券は追加料金です。|||奈良市旅游协会：JR都路快速约45分钟，近铁特急约35分钟，近铁特急票另收费。
+718|||Are JR Nara and Kintetsu Nara the same station?|||JR奈良と近鉄奈良は同じ駅ですか？|||JR奈良与近铁奈良相同吗？
+719|||They are in different locations. For Nara Park, compare walking and bus access from each station.|||別の場所の駅です。奈良公園へは各駅からの徒歩・バスを比較してください。|||两站位置不同，去奈良公园请比较各站步行及巴士路线。
+720|||Does Kintetsu limited express cost extra?|||近鉄特急は追加料金が必要ですか？|||近铁特急须加钱吗？
+721|||Yes. An express ticket is needed in addition to ordinary fare; check the exact amount through official booking or fare search.|||はい。普通券のほか特急券が必要です。正確な金額は公式予約・運賃検索を確認してください。|||是，普通票外须特急票，准确费用请查官方预约或费用搜索。
+155|||Tokyo to Hakone transport|||東京から箱根への交通|||东京至箱根交通
+160|||Osaka to Kyoto transport|||大阪から京都への交通|||大阪至京都交通
+164|||Tokyo to Kawaguchiko transport|||東京から河口湖への交通|||东京至河口湖交通
+168|||Kyoto to Nara transport|||京都から奈良への交通|||京都至奈良交通
+172|||Osaka to Kobe transport|||大阪から神戸への交通|||大阪至神户交通
+176|||Sapporo to Otaru transport|||札幌から小樽への交通|||札幌至小樽交通
+180|||Tokyo to Kamakura transport|||東京から鎌倉への交通|||东京至镰仓交通
+184|||Osaka to Nara transport|||大阪から奈良への交通|||大阪至奈良交通
+188|||Kyoto to Arashiyama transport|||京都から嵐山への交通|||京都至岚山交通
+254|||JR Special Rapid / Hankyu Kyoto Line, depending on chosen route|||JR新快速／阪急京都線・選択路線による|||JR新快速／阪急京都线，按所选路线
+261|||JR Miyakoji Rapid or Kintetsu express; check direct service for each train|||JRみやこ路快速または近鉄特急・列車ごとに直通を確認|||JR都路快速或近铁特急，按列车确认直达
+265|||Choose JR Special Rapid, Hankyu express or Hanshin express|||JR新快速／阪急・阪神特急から選択|||选择JR新快速、阪急特急或阪神特急
+266|||Sannomiya station of the chosen operator|||各社の三宮駅|||所选运营方三宫站
+268|||JR rapid or ordinary train for Otaru; check destination|||小樽行きJR快速・普通列車・行き先を確認|||开往小樽的JR快速或普通列车，确认终点
+273|||Choose Kintetsu Nara Line or JR Yamatoji Rapid|||近鉄奈良線／JR大和路快速を選択|||选择近铁奈良线或JR大和路快速
+277|||Choose JR Sagano Line, Hankyu via Katsura, or Randen|||JR嵯峨野線／阪急桂乗り換え／嵐電を選択|||选择JR嵯峨野线、阪急桂换乘或岚电
+305|||Shinjuku to Hakone onsen transport|||新宿から箱根温泉への交通|||新宿至箱根温泉交通
+310|||Odakyu official guide ↗|||小田急公式案内 ↗|||小田急官方指南 ↗
+316|||JR station-to-station route ↗|||JR駅間経路 ↗|||JR车站间路线 ↗
+317|||JR West official information ↗|||JR西日本公式情報 ↗|||JR西日本官方信息 ↗
+318|||Hankyu official information ↗|||阪急公式情報 ↗|||阪急官方信息 ↗
+320|||Shinjuku to Kawaguchiko transport|||新宿から河口湖への交通|||新宿至河口湖交通
+324|||Official highway bus guide ↗|||高速バス公式案内 ↗|||高速巴士官方指南 ↗
+325|||Fujikyu official information ↗|||富士急行公式情報 ↗|||富士急行官方信息 ↗
+330|||Kyoto to Nara: JR and Kintetsu station differences|||京都から奈良：JRと近鉄の駅の違い|||京都至奈良：JR与近铁车站差异
+333|||Osaka to Kobe Sannomiya transport comparison|||大阪→神戸三宮の交通比較|||大阪至神户三宫交通比较
+335|||Sapporo to Otaru day-trip rail guide|||札幌→小樽の日帰り鉄道ガイド|||札幌至小樽一日游铁路指南
+337|||JAPULSE MOVE · popular nearby trips|||JAPULSE MOVE・人気の近郊旅行|||JAPULSE MOVE · 热门近郊旅行
+368|||About 41 minutes from Terminal 2·3 Station|||第2・第3ターミナル駅から約41分|||从第二、三航站楼站约41分钟
+431|||Hankyu Railway|||阪急電鉄|||阪急电铁
+435|||Randen tram|||嵐電|||岚电
+448|||JR Kyoto → JR Saga-Arashiyama / transfer at Hankyu Katsura → Hankyu Arashiyama|||JR京都→JR嵯峨嵐山／阪急桂乗り換え→阪急嵐山|||JR京都→JR嵯峨岚山／阪急桂换乘→阪急岚山
+471|||Related Japan travel information|||関連する日本旅行情報|||相关日本旅行信息
+472|||Other transport routes|||他の交通経路|||其他交通路线
+473|||Travel information to check together|||併せて確認したい旅行情報|||建议一并确认的旅行信息
+475|||Related area travel information|||関連地域の旅行情報|||相关地区旅行信息
+477|||Other sightseeing routes|||他の観光地への移動|||其他景点交通
+478|||Previous transport guide|||前の交通ガイド|||上一篇交通指南
+479|||Next transport guide|||次の交通ガイド|||下一篇交通指南
+480|||Current local conditions in Japan|||現在の日本の現地状況|||日本当前当地情况
+481|||Japan weather and seasonal information|||日本の天気・季節情報|||日本天气与季节信息
+482|||MOVE route search|||MOVE経路検索|||MOVE路线搜索
+487|||Other routes|||他の経路を見る|||查看其他路线
+488|||Compare transport duration and departure stations|||交通別の所要時間と出発駅を比較|||按交通工具比较时间与出发站
+495|||Operator timetables and fares ↗|||運営会社の時刻表・料金 ↗|||运营方时刻表与费用 ↗
+499|||Departure and arrival station map|||出発駅・到着駅の地図|||出发站与到达站地图
+501|||Station-to-station route map ↗|||駅間経路地図 ↗|||车站间路线地图 ↗
+502|||Duration source · official tourism information ↗|||所要時間の出典・公式観光情報 ↗|||时间来源与官方旅游信息 ↗
+510|||Related information|||併せて見る情報|||相关信息
+513|||Local LIVE cameras|||現地LIVEカメラ|||当地实时摄像头
+523|||Actual public-transport directions ↗|||実際の公共交通経路 ↗|||实际公共交通路线 ↗
+524|||Other sightseeing routes|||他の観光地経路を見る|||查看其他景点路线
+525|||Compare transport, time and fare at a glance|||交通別の時間・料金を一覧比較|||一览比较交通、时间与费用
+526|||Fares and conditions to confirm|||料金・確認条件|||费用与待确认条件
+537|||Station locations and transfers|||駅位置・乗り換え方法|||车站位置与换乘方法
+539|||Official timetables and fares ↗|||公式時刻表・運賃を確認 ↗|||确认官方时刻表与费用 ↗
+543|||Check stations and transfers on the map ↗|||地図で駅・乗り換えを確認 ↗|||在地图确认车站及换乘 ↗
+590|||Hakone onsen facilities|||箱根の温泉施設を見る|||查看箱根温泉设施
+591|||Hakone onsen and Romancecar →|||箱根温泉とロマンスカー →|||箱根温泉与浪漫特快 →
+592|||Shinjuku to Hakone-Yumoto travel tips|||新宿から箱根湯本への移動ヒント|||新宿至箱根汤本交通提示
+594|||Three checks before leaving|||出発前の3項目|||出发前三项确认
+596|||Alternatives and cautions|||代案と注意|||替代方案及注意事项
+606|||Kansai Airport to Kyoto tips|||関西空港から京都への移動ヒント|||关西机场至京都交通提示
+611|||Onsen travel|||温泉旅行|||温泉旅行
+629|||JR Osaka → JR Sannomiya / Hankyu or Hanshin Osaka-Umeda → corresponding Kobe-Sannomiya station|||JR大阪→JR三ノ宮／阪急・阪神大阪梅田→各社神戸三宮|||JR大阪→JR三之宫／阪急或阪神大阪梅田→对应神户三宫站
+635|||Kobe local camera scenery →|||神戸の現地カメラ風景 →|||神户当地摄像头景观 →
+638|||Direct JR Yokosuka Line|||JR横須賀線直通|||JR横须贺线直达
+659|||JR Yamatoji Rapid|||JR大和路快速|||JR大和路快速
+669|||Nara local travel →|||奈良の現地旅行 →|||奈良当地旅行 →
+674|||Official station and fare search|||乗車駅・運賃を公式検索|||官方乘车站及费用搜索
+722|||Nara local camera scenery →|||奈良の現地カメラ風景 →|||奈良当地摄像头景观 →
