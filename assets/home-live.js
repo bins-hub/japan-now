@@ -22,7 +22,7 @@ zh:{select:"点击缩略图切换视频",play:"▶ 播放视频",open:"在 YouTu
 }[key];
 const cams=[
 {id:"8H3nRCFVR6Y",names:{ko:"도쿄 시부야",en:"Tokyo Shibuya",ja:"東京・渋谷",zh:"东京涩谷"}},
-{id:"i2PpmC1IeKk",names:{ko:"오사카 도톤보리",en:"Osaka Dotonbori",ja:"大阪・道頓堀",zh:"大阪道顿堀"}},
+{id:"6OgYfTMOmhY",names:{ko:"오사카 도톤보리",en:"Osaka Dotonbori",ja:"大阪・道頓堀",zh:"大阪道顿堀"}},
 {id:"1cnReFAU04k",names:{ko:"후지산",en:"Mount Fuji",ja:"富士山",zh:"富士山"}},
 {id:"RBHsITnIoI0",names:{ko:"삿포로",en:"Sapporo",ja:"札幌",zh:"札幌"}},
 {id:"JLlY6Cg17cc",names:{ko:"교토 아라시야마",en:"Kyoto Arashiyama",ja:"京都・嵐山",zh:"京都岚山"}},
