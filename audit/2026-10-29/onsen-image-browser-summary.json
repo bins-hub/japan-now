@@ -1,0 +1,20 @@
+{
+  "commit": "fe1200054750c4ec66e3ccf2eca49fd769eb49dc",
+  "desktop": {
+    "mainPages": 4,
+    "imagesPerMain": 15,
+    "externalImages": 0,
+    "detailPages": 60,
+    "detailImagesComplete": 60,
+    "detailOverflow": 0
+  },
+  "frame390": {
+    "pages": 64,
+    "externalImages": 0,
+    "overflow": 0,
+    "measuredContentWidth": 375,
+    "firstImageNotYetCompleteAtImmediateSnapshot": 1,
+    "immediateSnapshotPendingPage": "/en/onsen/kinugawa/"
+  },
+  "limits": "390px iframe is not a real touch device or mobile user agent. One immediate snapshot preceded image completion; that page passed the independent desktop image load check. No claim of zero latency or a user-device benchmark."
+}

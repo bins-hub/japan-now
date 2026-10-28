@@ -1,0 +1,987 @@
+{
+  "commit": "fe1200054750c4ec66e3ccf2eca49fd769eb49dc",
+  "note": "Measured in this execution environment, not a user-device benchmark. All assets requested by their content-hashed public URLs.",
+  "results": [
+    {
+      "path": "assets/onsen/hakone-360-dd0db24323.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 13202,
+      "seconds": 7.42,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/hakone-650-1c69c54ae8.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 43854,
+      "seconds": 7.52,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/hakone-960-d9d2131240.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 99756,
+      "seconds": 7.447,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kusatsu-360-b18bd17a1f.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 27332,
+      "seconds": 7.887,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kusatsu-650-7620a16fa9.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 82558,
+      "seconds": 7.811,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kusatsu-960-d9c259681b.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 175190,
+      "seconds": 7.516,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/beppu-360-a2dd39f6a0.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 11062,
+      "seconds": 8.014,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/beppu-650-6a4ead0562.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 31350,
+      "seconds": 7.881,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/beppu-960-86803487d4.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 58108,
+      "seconds": 5.833,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/yufuin-360-32c790421f.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12830,
+      "seconds": 5.816,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/yufuin-650-8a46a47708.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 45824,
+      "seconds": 5.756,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/yufuin-960-57bccdaf81.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 105878,
+      "seconds": 5.776,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/noboribetsu-360-801706129b.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 17930,
+      "seconds": 5.468,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/noboribetsu-650-a7564571f1.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 62878,
+      "seconds": 5.377,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/noboribetsu-960-83effa3379.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 142760,
+      "seconds": 5.459,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/jozankei-360-bdb1ae0991.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 19646,
+      "seconds": 5.276,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/jozankei-650-f52a2164de.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 56772,
+      "seconds": 5.825,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/jozankei-960-a88d67b61c.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 111386,
+      "seconds": 5.863,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kinosaki-360-775dfad576.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 17684,
+      "seconds": 5.847,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kinosaki-650-4729ca5ac3.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 58684,
+      "seconds": 5.818,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kinosaki-960-c650d79dc6.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 131466,
+      "seconds": 5.883,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/arima-360-1e3d1e8f77.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 21718,
+      "seconds": 5.808,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/arima-650-e9915f6710.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 64938,
+      "seconds": 5.827,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/arima-960-d51079d203.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 135496,
+      "seconds": 5.764,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/gero-360-0cc110b374.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 15610,
+      "seconds": 5.87,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/gero-650-5b0ee0b3b0.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 38694,
+      "seconds": 5.858,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/gero-800-ad0d9a7727.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 55892,
+      "seconds": 5.762,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/ginzan-360-7a6c6f1dcb.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 49948,
+      "seconds": 5.832,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/ginzan-650-041e72fff2.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 156734,
+      "seconds": 5.843,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/ginzan-960-7edb8bc9a9.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 329824,
+      "seconds": 5.808,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/dogo-360-0430a15abd.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 24258,
+      "seconds": 5.792,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/dogo-650-0ce0ec5709.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 76768,
+      "seconds": 5.799,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/dogo-960-116b4000f8.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 172742,
+      "seconds": 6.034,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/atami-360-59b7956a67.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 13418,
+      "seconds": 5.968,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/atami-650-7f9f281b61.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 42232,
+      "seconds": 5.944,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/atami-960-f891f4eeb2.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 93438,
+      "seconds": 5.968,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kaga-360-e18500df6b.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 19868,
+      "seconds": 5.972,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kaga-650-7dae6e0ba7.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 68284,
+      "seconds": 5.886,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kaga-960-6eea584ed1.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 157394,
+      "seconds": 5.968,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/shibu-360-0b7e968ce0.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 21646,
+      "seconds": 5.925,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/shibu-650-fa47f88eff.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 73720,
+      "seconds": 5.339,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/shibu-960-bbab966fdf.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 163676,
+      "seconds": 5.252,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kinugawa-360-e01bd3e0df.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12960,
+      "seconds": 5.236,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kinugawa-650-4eca0778e2.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 44824,
+      "seconds": 5.231,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "assets/onsen/kinugawa-960-c10ca2081f.webp",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 102632,
+      "seconds": 5.269,
+      "contentType": "image/webp",
+      "direct": true
+    },
+    {
+      "path": "onsen/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 40856,
+      "seconds": 5.252,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/hakone/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 13449,
+      "seconds": 5.257,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/beppu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 11427,
+      "seconds": 5.245,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/kinugawa/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9364,
+      "seconds": 6.072,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/arima/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10755,
+      "seconds": 5.944,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/dogo/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10442,
+      "seconds": 5.936,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/kusatsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12726,
+      "seconds": 5.92,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/gero/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9673,
+      "seconds": 5.917,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/noboribetsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9483,
+      "seconds": 5.918,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/shibu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9447,
+      "seconds": 5.908,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/jozankei/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9418,
+      "seconds": 5.902,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/kaga/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9389,
+      "seconds": 5.936,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/ginzan/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9228,
+      "seconds": 5.92,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/atami/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9271,
+      "seconds": 5.934,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/yufuin/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10225,
+      "seconds": 5.952,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "onsen/kinosaki/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10046,
+      "seconds": 5.859,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 39172,
+      "seconds": 6.05,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/hakone/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 13122,
+      "seconds": 5.95,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/beppu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 11394,
+      "seconds": 5.82,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/kinugawa/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8864,
+      "seconds": 5.918,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/arima/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10475,
+      "seconds": 5.816,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/dogo/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10167,
+      "seconds": 5.865,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/kusatsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12616,
+      "seconds": 5.84,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/gero/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9506,
+      "seconds": 5.849,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/noboribetsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9278,
+      "seconds": 5.828,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/shibu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8972,
+      "seconds": 5.825,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/jozankei/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9206,
+      "seconds": 5.68,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/kaga/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9116,
+      "seconds": 6.028,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/ginzan/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8982,
+      "seconds": 5.969,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/atami/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9033,
+      "seconds": 5.935,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/yufuin/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9874,
+      "seconds": 5.925,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "en/onsen/kinosaki/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9836,
+      "seconds": 5.884,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 40497,
+      "seconds": 6.085,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/hakone/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 13615,
+      "seconds": 5.94,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/beppu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 11560,
+      "seconds": 5.932,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/kinugawa/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9177,
+      "seconds": 5.84,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/arima/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10752,
+      "seconds": 5.843,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/dogo/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10420,
+      "seconds": 5.818,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/kusatsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12966,
+      "seconds": 5.873,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/gero/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9788,
+      "seconds": 5.804,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/noboribetsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9500,
+      "seconds": 5.811,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/shibu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9193,
+      "seconds": 5.775,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/jozankei/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9507,
+      "seconds": 5.756,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/kaga/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9170,
+      "seconds": 5.922,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/ginzan/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9306,
+      "seconds": 5.903,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/atami/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9286,
+      "seconds": 5.891,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/yufuin/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10266,
+      "seconds": 5.916,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "ja/onsen/kinosaki/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10030,
+      "seconds": 5.844,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 38943,
+      "seconds": 6.02,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/hakone/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12739,
+      "seconds": 5.888,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/beppu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10911,
+      "seconds": 5.848,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/kinugawa/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8590,
+      "seconds": 5.84,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/arima/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 10117,
+      "seconds": 5.881,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/dogo/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9836,
+      "seconds": 5.785,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/kusatsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 12157,
+      "seconds": 5.822,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/gero/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9250,
+      "seconds": 5.806,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/noboribetsu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8953,
+      "seconds": 5.741,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/shibu/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8597,
+      "seconds": 5.825,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/jozankei/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8956,
+      "seconds": 5.716,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/kaga/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8675,
+      "seconds": 5.939,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/ginzan/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8785,
+      "seconds": 5.903,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/atami/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 8723,
+      "seconds": 5.856,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/yufuin/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9623,
+      "seconds": 5.883,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    },
+    {
+      "path": "zh-cn/onsen/kinosaki/index.html",
+      "status": 200,
+      "matchesLocal": true,
+      "bytes": 9530,
+      "seconds": 5.865,
+      "contentType": "text/html; charset=utf-8",
+      "direct": true
+    }
+  ]
+}
