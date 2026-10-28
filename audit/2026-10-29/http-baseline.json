@@ -1,0 +1,176 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "595b39e546b7a098060099a19b13d0f9af5c8a6c3ebff0bd2a8e05324ca964d2"
+  },
+  {
+    "path": "live/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "3029dcbdf9b53e0de213e758a616e65118c3b964c185677ee31a861deae3f79c"
+  },
+  {
+    "path": "now/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "69af4e01b22a4051e043d9a7d078d2e433a7db043b88ad91849a574934f843fc"
+  },
+  {
+    "path": "run-eat/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "6d782f33d55d2dfde0ce31e16237ccb8a10f9bbbf15def08344e228e892a47a7"
+  },
+  {
+    "path": "local-food/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "bc40e0abe79e3b014deeb5b6a8a90ab20cc02c2d9c604db737c28c0c43a46482"
+  },
+  {
+    "path": "season/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "e5620269140d0c0ae1dd08bf37d1d8ccb8229d598554e4a3a51953920dcf3ef2"
+  },
+  {
+    "path": "onsen/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "87209a288d54dc6a32458aedaa4fc6bafa3323c5038b2b6e8fbb4145e67d7f9c"
+  },
+  {
+    "path": "move/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "8d6b75251b9fc4c7148523ec946335077c09809dbc5964bfe63e03b19b31a842"
+  },
+  {
+    "path": "en/live/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "c2dfb7b5279c88e66be644060f44bb38bd047a16d84f14f77d247b44c05ec089"
+  },
+  {
+    "path": "en/now/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "a8d9c7c7b094e6d6ae2c470fe04e6cf92a326267485f6136153727f6cc09dc8a"
+  },
+  {
+    "path": "en/run-eat/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "7770b8130f4f4449b697f35a2b70c7dc7d1d10ddf1bec4dcdd0881e49d481dc7"
+  },
+  {
+    "path": "en/local-food/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "a31ddef90cba541518f36d46b99878af032fb6a0b45e404325966474126b79bc"
+  },
+  {
+    "path": "en/season/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "b7fb181d1cef2eba55d06bbbe06b0c2241c9b7f82a86f95a4d223571fdc2a66f"
+  },
+  {
+    "path": "en/onsen/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "628e376289088ca22a20aaf3242a78504aa89de4a5ac7f8d69419d1b762426a5"
+  },
+  {
+    "path": "en/move/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "719f67e3972acaaabbfa169c7b27d0b73d1047dcfb6668ddc43a3986825d66c5"
+  },
+  {
+    "path": "ja/live/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "be79d6fefee6daad0a5fe9b9d834564d63b314888e2da55cb9d75048c9a7f8ac"
+  },
+  {
+    "path": "ja/now/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "638885e78260805f308f91684165d7a1513abcaed752c7f933fd359844a53314"
+  },
+  {
+    "path": "ja/run-eat/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "45dc48a7da79dbff7c75221348d0b964184f1401fa6fac0c79cac2f28273cbcb"
+  },
+  {
+    "path": "ja/local-food/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "4df1ec70387418402fbc76af800cfb5fd2aa3b35985438b581cb3acb961584e9"
+  },
+  {
+    "path": "ja/season/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "f5bff3ca2f481cc799bf06475a3c070ec72a909f4d7a4d99a8d5c8007efb68d0"
+  },
+  {
+    "path": "ja/onsen/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "5f32e415c964905135813cdf2765d5b537b8a6a01d5f83cd54329b7e8aa64f9c"
+  },
+  {
+    "path": "ja/move/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "f03899880e38faf78f047e44de89d0e8e880633f86747cecc956fcbccab5a6fe"
+  },
+  {
+    "path": "zh-cn/live/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "15a99aed3f86acfd68490fd1f71b6c1316a88be979b36193bd35960a2e3a17dc"
+  },
+  {
+    "path": "zh-cn/now/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "35910a86939024c77f0b48665bacb07f88b570399d93759b505d333cb0928b6a"
+  },
+  {
+    "path": "zh-cn/run-eat/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "57f53e6949888f38ce5e1eba1904bf88ff8d4c7bcc0bd886a31323e400240e39"
+  },
+  {
+    "path": "zh-cn/local-food/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "cec343e2e708b632fd3bb38a083c1bfad580d119c582c841c18f5777e81ddfe1"
+  },
+  {
+    "path": "zh-cn/season/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "02bd0f8b037d0ee5ebbb21ebb0f626043c6412ed49a47407ce190d722c81ecd8"
+  },
+  {
+    "path": "zh-cn/onsen/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "4ec34dbbb0882c8884e231a2472b07b2aa88c3172a790ef7a62bccb4c7dd97c1"
+  },
+  {
+    "path": "zh-cn/move/index.html",
+    "status": 200,
+    "matchesMain": true,
+    "sha256": "4c71b7d89ce09ea0da4e8e7f438af38b3c9c55c09ac2570d532867acd0902a49"
+  }
+]
