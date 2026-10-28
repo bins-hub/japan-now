@@ -1,0 +1,85 @@
+{
+  "commit": "c77791249907d6837a1dfce106a9dae95af9a100",
+  "results": [
+    {
+      "path": "en/guides/travel-prep/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "en/guides/where-to-watch/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "en/guides/camera-troubleshooting/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "en/contact/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "en/season/winter/sapporo/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "ja/guides/travel-prep/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "ja/guides/where-to-watch/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "ja/guides/camera-troubleshooting/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "ja/contact/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "ja/season/winter/sapporo/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "zh-cn/guides/travel-prep/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "zh-cn/guides/where-to-watch/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "zh-cn/guides/camera-troubleshooting/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "zh-cn/contact/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "zh-cn/season/winter/sapporo/index.html",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matchesLocal": true
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "commit": "c77791249907d6837a1dfce106a9dae95af9a100",
+  "method": "Actual cloud browser. 15 desktop navigations with verify query, including pointer expansion on 9 guides. 15 narrow iframe pages; canonical URL and observed frame URL were required to match each target after an earlier fast traversal read stale frame documents. Nine narrow guide details opened via keyboard. No real touch-device emulation.",
+  "pages": [
+    {
+      "path": "/en/guides/travel-prep/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/en/guides/where-to-watch/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/en/guides/camera-troubleshooting/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/en/contact/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": null,
+      "cameraLinks": null,
+      "extraTipsOpenVerified": false,
+      "mailLinks": 3
+    },
+    {
+      "path": "/en/season/winter/sapporo/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": null,
+      "cameraLinks": null,
+      "extraTipsOpenVerified": false,
+      "mailLinks": null
+    },
+    {
+      "path": "/ja/guides/travel-prep/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/ja/guides/where-to-watch/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/ja/guides/camera-troubleshooting/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/ja/contact/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": null,
+      "cameraLinks": null,
+      "extraTipsOpenVerified": false,
+      "mailLinks": 3
+    },
+    {
+      "path": "/ja/season/winter/sapporo/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": null,
+      "cameraLinks": null,
+      "extraTipsOpenVerified": false,
+      "mailLinks": null
+    },
+    {
+      "path": "/zh-cn/guides/travel-prep/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/zh-cn/guides/where-to-watch/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/zh-cn/guides/camera-troubleshooting/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": 2,
+      "cameraLinks": 7,
+      "extraTipsOpenVerified": true,
+      "mailLinks": null
+    },
+    {
+      "path": "/zh-cn/contact/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": null,
+      "cameraLinks": null,
+      "extraTipsOpenVerified": false,
+      "mailLinks": 3
+    },
+    {
+      "path": "/zh-cn/season/winter/sapporo/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "faqQuestions": null,
+      "cameraLinks": null,
+      "extraTipsOpenVerified": false,
+      "mailLinks": null
+    }
+  ]
+}
