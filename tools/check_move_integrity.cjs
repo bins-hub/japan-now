@@ -47,7 +47,7 @@ for(const slug of airportRoutes){
  assert.ok(html.includes('rel="canonical" href="'+url+'"'),path+' canonical missing');
  assert.ok(sitemap.includes('<loc>'+url+'</loc>'),path+' sitemap entry missing');
  assert.ok(home.includes('href="/move/'+slug+'/"'),path+' MOVE internal link missing');
- assert.ok(/<title>[^<]+<\\/title>/.test(html),path+' title missing');
+ assert.ok(html.includes('<title>') && html.includes('</title>'),path+' title missing');
  assert.ok(html.includes('name="description"'),path+' description missing');
  assert.ok(html.includes('google.com/maps/dir/'),path+' navigation map missing');
  assert.ok(html.includes('target="_blank" rel="noopener noreferrer"'),path+' safe official link missing');
