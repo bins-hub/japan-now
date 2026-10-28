@@ -20,3 +20,6 @@ img,video,iframe{max-width:100%}
  .watch,.cam-watch{width:100%;max-width:100%;min-width:0}
 }
 @media(max-width:360px){.langs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Keep language selection on localized home pages; remove repeated selector on detail pages. */
+nav.langs[aria-label="Language"]{display:none!important}
