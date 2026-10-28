@@ -1,0 +1,137 @@
+{
+  "en": {
+    "travel-prep": {
+      "sections": [
+        ["Why check cameras before planning your trip?", "If you hope to see Mount Fuji or Dotonbori’s night scenery, local video can help you assess the atmosphere. Use it alongside local weather and transport information rather than as the sole basis for your itinerary."],
+        ["What to check in each destination", "Different places offer different clues: street atmosphere in Shibuya, neon signs and streets in Dotonbori, the surroundings of Arashiyama’s attractions, clouds and visibility near Lake Kawaguchi and Mount Fuji, or seasonal and snowy scenery in Sapporo."],
+        ["Watch for recordings and time differences", "Even if the view looks sunny, confirm that the video is being broadcast now. Check the original stream’s LIVE indicator, capture time and local time zone. Japan uses UTC+9, the same time zone as South Korea."],
+        ["Final checks before traveling", "Camera footage cannot replace official information on transport operations, typhoon, heavy-snow or earthquake warnings, or whether temples and attractions are open. Check the latest information from local authorities and operators."]
+      ],
+      "faq": [
+        ["If Mount Fuji is visible, is it a good day to climb?", "No. Summit visibility and mountain weather or trail safety are separate issues."],
+        ["Can I visit immediately if it looks quiet?", "The camera’s field of view may not reflect the overall crowds. Treat it as a reference only."]
+      ]
+    },
+    "where-to-watch": {
+      "sections": [
+        ["Where to find live cameras in Japan", "To see a particular location such as Shibuya in Tokyo or Dotonbori in Osaka, open the regional camera list, then follow the provider’s original YouTube link. JAPAN NOW brings public camera information and source links from several areas together in one guide."],
+        ["How to check whether a broadcast is live", "A camera information page opening does not mean the camera is currently broadcasting live. On the original YouTube page, check the LIVE indicator, whether the picture is recent and whether the broadcast has ended. Some videos may be recordings or temporarily interrupted streams."],
+        ["If the video will not play", "Some broadcasts cannot be embedded on external sites or may have regional restrictions. If playback fails within this site, try the original YouTube link and source page shown on the camera guide."],
+        ["Use cameras as supporting information", "Live cameras are a supplementary reference for weather and local atmosphere. Check official local guidance for important decisions about road restrictions, overall crowd levels, or climbing and swimming safety."]
+      ],
+      "faq": [
+        ["Are Japan’s live cameras free to view?", "JAPAN NOW’s camera information pages are free to read. External video platforms have their own terms, and mobile data charges are separate."],
+        ["Do the cameras broadcast 24 hours a day?", "It depends on the broadcast. Continuous live coverage is not guaranteed; check each provider’s actual status."]
+      ]
+    },
+    "camera-troubleshooting": {
+      "sections": [
+        ["The live broadcast may have ended", "A YouTube livestream may end or its video ID may change. A camera information page appearing in the directory does not guarantee that the video is currently live."],
+        ["It plays on YouTube but not on this site", "If the broadcaster does not allow external embedding, playback may be blocked in this site’s player. Open the camera page’s original YouTube link to try the source directly."],
+        ["A black screen on mobile", "Network conditions, browser permissions, extensions or platform restrictions may affect playback. Try another browser and check the original source link."],
+        ["Check whether the picture is current", "Do not assume a video is live from an old thumbnail or title alone. Check the original service’s LIVE indicator, publication time and broadcast status."]
+      ],
+      "faq": [
+        ["Does every listed camera always play?", "No. Broadcast interruptions, regional restrictions or external playback restrictions may apply."],
+        ["What should I open first if there is an error?", "Check that camera’s original YouTube link and source page first."]
+      ]
+    },
+    "labels": ["Frequently asked questions", "Choose a camera by location", "More practical tips"],
+    "contact": [
+      ["What you can contact us about", "We accept reports about broken camera links, video source corrections, travel, running and restaurant information, and copyright or other content-rights requests. Include the affected page URL and supporting evidence."],
+      ["How to contact us", "For site errors, video-source corrections and content questions, email <a href=\"mailto:n3888171@gmail.com\">n3888171@gmail.com</a>. Include the affected page URL and verifiable supporting information to help us review it."],
+      ["Privacy and copyright requests", "Send privacy and copyright requests to <a href=\"mailto:n3888171@gmail.com\">n3888171@gmail.com</a>. Do not send passwords or unnecessary sensitive information."],
+      ["Questions about the broadcast", "For interruptions to an original broadcast or platform restrictions, it may be faster to contact the relevant YouTube channel or video provider directly."]
+    ]
+  },
+  "ja": {
+    "travel-prep": {
+      "sections": [
+        ["旅程を決める前にカメラを見る理由", "富士山の眺望や道頓堀の夜景を期待する場合、現地の映像は雰囲気を知る参考になります。ただし旅程を決める唯一の根拠にはせず、現地の気象・交通情報と合わせて確認してください。"],
+        ["都市ごとの確認ポイント", "渋谷では街の雰囲気、道頓堀ではネオンや街並み、嵐山では観光地周辺の様子、富士山・河口湖では雲や見通し、札幌では季節や雪景色など、場所によって映像から分かる情報が異なります。"],
+        ["録画映像と時差に注意", "晴れて見えても、映像が今配信されているか確認してください。元の配信のLIVE表示、撮影時刻、現地のタイムゾーンを確認しましょう。日本は韓国と同じUTC+9です。"],
+        ["実際に移動する前の最終確認", "交通機関の運行、台風・大雪・地震などの警報、寺院や観光施設の営業状況をカメラ映像で代替することはできません。現地の公的機関や運営者の公式サイトで最新情報を確認してください。"]
+      ],
+      "faq": [
+        ["富士山が見えれば登山に適した日ですか？", "いいえ。山頂の見通しと、山の天気や登山道の安全は別の問題です。"],
+        ["混雑していなければ、すぐ訪問してもよいですか？", "カメラの撮影範囲と実際の地域全体の混雑は異なる場合があります。参考程度に利用してください。"]
+      ]
+    },
+    "where-to-watch": {
+      "sections": [
+        ["日本のライブカメラを探す場所", "東京・渋谷や大阪・道頓堀など特定の場所を見たい場合は、地域別カメラ一覧から提供者の元のYouTube配信へ進む方法が簡単です。JAPAN NOWは複数地域の公開カメラ情報と元リンクをまとめた案内サイトです。"],
+        ["本当にライブ配信か確認する方法", "カメラの紹介ページが開くことと、現在ライブ配信中であることは異なります。元のYouTubeページでLIVE表示、映像の新しさ、配信終了の案内を確認してください。以前の録画や一時中断中の配信もあります。"],
+        ["映像が再生されない場合", "外部サイトへの埋め込みが許可されていない配信や、地域制限のある配信があります。このサイト内で再生できない場合は、カメラ案内にある元のYouTubeリンクと出典ページを試してください。"],
+        ["利用上の注意", "ライブカメラは天気や現地の雰囲気を知る補助的な手段です。交通規制、観光地全体の混雑、登山・海水浴の安全など重要な判断は、地域の公式案内と合わせて確認してください。"]
+      ],
+      "faq": [
+        ["日本のライブカメラは無料ですか？", "JAPAN NOWのカメラ案内ページは無料で閲覧できます。外部動画サービスの利用条件やデータ通信料は別途確認してください。"],
+        ["カメラは24時間配信していますか？", "配信ごとに異なります。常時ライブ配信は保証されないため、各提供者の実際の状況を確認してください。"]
+      ]
+    },
+    "camera-troubleshooting": {
+      "sections": [
+        ["ライブ配信が終了した可能性があります", "YouTubeライブは配信が終了したり、動画IDが変わったりする場合があります。カメラ一覧に登録された案内ページが開いても、必ず現在ライブ配信中という意味ではありません。"],
+        ["このサイトでは再生できず、YouTubeだけで再生できる場合", "配信者が外部埋め込みを許可していないと、サイト内のプレイヤーでは再生できない場合があります。カメラページの元のYouTube動画を開くリンクから確認してください。"],
+        ["モバイルで黒い画面になる場合", "ネットワークの状態、ブラウザーの権限、拡張機能、プラットフォームの制限が影響する場合があります。別のブラウザーや元のリンクを確認してください。"],
+        ["映像が本当に現在のものか確認", "古いサムネイルや動画タイトルだけでライブ配信と判断しないでください。元のサービスのLIVE表示、公開時刻、配信状況を確認してください。"]
+      ],
+      "faq": [
+        ["一覧にあるカメラは必ず再生できますか？", "いいえ。配信停止、地域制限、外部再生の制限がある場合があります。"],
+        ["エラー時は何を先に開けばよいですか？", "該当カメラの元のYouTubeリンクと出典ページを先に確認してください。"]
+      ]
+    },
+    "labels": ["よくある質問", "場所別にカメラを選ぶ", "追加の実用ヒント"],
+    "contact": [
+      ["お問い合わせいただける内容", "カメラのリンク切れ、映像の出典訂正、旅行・ランニング・飲食店情報の修正、著作権やコンテンツの権利に関するご連絡を受け付けています。該当ページのURLと訂正の根拠を添えてください。"],
+      ["連絡方法", "サイトの不具合、映像の出典訂正、コンテンツに関するお問い合わせは<a href=\"mailto:n3888171@gmail.com\">n3888171@gmail.com</a>へお送りください。問題のページURLと確認できる根拠があると検討に役立ちます。"],
+      ["個人情報・著作権に関するお問い合わせ", "個人情報や著作権に関するご連絡は<a href=\"mailto:n3888171@gmail.com\">n3888171@gmail.com</a>へお送りください。パスワードなど不要な機密情報は送信しないでください。"],
+      ["配信に関するお問い合わせ", "元の配信の停止やプラットフォームの制限については、該当するYouTubeチャンネルや映像提供者へ直接問い合わせる方が早い場合があります。"]
+    ]
+  },
+  "zh-cn": {
+    "travel-prep": {
+      "sections": [
+        ["为什么要在安排行程前查看摄像头？", "如果期待欣赏富士山或大阪道顿堀夜景，现场视频可以帮助了解当地氛围。但不应仅凭视频决定行程，还要结合当地气象和交通信息。"],
+        ["各城市的查看重点", "不同地点能提供的信息不同：东京涩谷的街道氛围、大阪道顿堀的霓虹与街景、京都岚山景点周边的情况、富士山河口湖的云层和能见度，以及札幌的季节与雪景等。"],
+        ["注意录像和时间差", "即使画面晴朗，也应确认是否正在实时播出。查看原始直播的LIVE标识、拍摄时间和当地时区。日本与韩国一样使用UTC+9。"],
+        ["实际出发前的最后确认", "摄像头不能替代交通运行、台风、暴雪、地震预警，以及寺院或景点营业情况的官方信息。请在当地官方机构和运营方网站确认最新信息。"]
+      ],
+      "faq": [
+        ["能看到富士山，就说明适合登山吗？", "不是。山顶能见度与山区天气、登山道安全是不同的问题。"],
+        ["看起来不拥挤，就可以马上前往吗？", "摄像头的拍摄范围与整个地区的实际人流可能不同，只宜作为参考。"]
+      ]
+    },
+    "where-to-watch": {
+      "sections": [
+        ["在哪里寻找日本实时摄像头？", "想看东京涩谷或大阪道顿堀等特定地点，可以先查看地区摄像头列表，再打开提供方的原始YouTube视频。JAPAN NOW集中整理多个地区的公开摄像头信息与来源链接。"],
+        ["如何确认是真正的直播？", "摄像头介绍页面可以打开，不代表视频目前正在直播。请在原始YouTube页面确认LIVE标识、画面是否为近期，以及是否提示直播已结束。有些视频可能是过去的录像或暂时中断的直播。"],
+        ["视频无法播放时", "部分直播不允许嵌入外部网站，或存在地区限制。如果站内播放失败，请尝试摄像头指南中的原始YouTube链接和来源页面。"],
+        ["使用时的注意事项", "实时摄像头仅用于辅助了解天气或当地氛围。涉及交通管制、景点整体人流、登山或海水浴安全等重要判断，请同时查阅当地官方指引。"]
+      ],
+      "faq": [
+        ["日本实时摄像头可以免费查看吗？", "JAPAN NOW的摄像头指南页面可免费阅读。外部视频平台的使用条款及数据流量费用另计。"],
+        ["摄像头全天24小时直播吗？", "因直播而异。无法保证始终直播，请确认各提供方的实际状态。"]
+      ]
+    },
+    "camera-troubleshooting": {
+      "sections": [
+        ["直播可能已经结束", "YouTube直播可能结束，视频ID也可能改变。摄像头列表中的介绍页可以打开，不代表视频一定正在实时播出。"],
+        ["只能在YouTube播放，站内无法播放", "如果播出方不允许外部嵌入，本站播放器可能无法播放。请打开摄像头页面的原始YouTube链接进行确认。"],
+        ["手机出现黑屏时", "网络状态、浏览器权限、扩展程序或平台限制都可能影响播放。请尝试其他浏览器并查看原始链接。"],
+        ["确认画面是否为当前内容", "不要仅凭旧缩略图和视频标题判断是否为直播。请确认原始服务的LIVE标识、发布时间和播出状态。"]
+      ],
+      "faq": [
+        ["列表里的摄像头一定可以播放吗？", "不一定。可能存在停播、地区限制或外部播放限制。"],
+        ["出现错误时应先打开哪里？", "请先查看该摄像头的原始YouTube链接和来源页面。"]
+      ]
+    },
+    "labels": ["常见问题", "按地点选择摄像头", "更多实用提示"],
+    "contact": [
+      ["可以咨询哪些内容？", "我们接受摄像头错误链接、视频来源更正、旅行、跑步、餐厅信息修订，以及版权和内容权利相关请求。请附上相关页面地址及修订依据。"],
+      ["联系方式", "网站错误、视频来源更正和内容相关问题，请发送邮件至<a href=\"mailto:n3888171@gmail.com\">n3888171@gmail.com</a>。附上出现问题的页面地址和可核实的依据，有助于我们审阅。"],
+      ["隐私与版权请求", "隐私和版权相关请求请发送至<a href=\"mailto:n3888171@gmail.com\">n3888171@gmail.com</a>。请勿发送密码等不必要的敏感信息。"],
+      ["直播相关咨询", "对于原始直播停播或平台限制，直接联系相关YouTube频道或视频提供方可能更快。"]
+    ]
+  }
+}
