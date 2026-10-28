@@ -1,6 +1,7 @@
 """Translate the distinct Tokyo winter guide's practical information from its Korean source."""
 from pathlib import Path
 import re
+import html
 ROOT=Path(__file__).resolve().parent.parent
 DATA={
 'en':[
@@ -33,16 +34,38 @@ DATA={
 ('门票预算','上野公园散步免费，新宿御苑成人¥500，丸之内街道散步免费。因此这三处普通散步的最低门票费用为每位成人¥500。交通、餐饮、博物馆和收费活动另计。'),
 ('能以看雪为主要安排吗？','东京市中心冬季并非常年积雪地区。与仅为雪景安排行程相比，公园、夜景与室内美术馆、博物馆的组合更稳妥。'),
 ('最简单的路线是什么？','上午新宿御苑，下午上野公园，傍晚东京站周边。请确认新宿御苑冬季最后入园16:00，并分别查看所加博物馆的开放时间。')]}
+def align_place_details(lang, h, source):
+ # The source repeats its gallery photos inside three expandable place cards.
+ # Reuse translated venue facts rather than adding a second copy of them.
+ photos=re.findall(r'<details class="jp-season-place">.*?<img[^>]+src="([^"]+)".*?</details>',source,re.S)
+ credits=[('Nesnad, CC BY 4.0', 'Ueno%20Park%20-%202026%20Feb%2016%20various%2017.jpg'),('Mycomp, CC BY-SA 4.0','Shinjuku%20Gyoen%20(Park).jpg'),('Procrastinator acc, CC0 1.0','Tokyo%20station%20night.jpg')]
+ labels={'en':('Show place details','Reference photo, not a live view'), 'ja':('場所の詳細を開く','参考写真・ライブ映像ではありません'), 'zh-cn':('展开地点详情','参考照片，并非实时画面')}
+ assert len(photos)==3
+ for i,(title,text) in enumerate(DATA[lang][1:4]):
+  old='<section class="panel"><h2>'+title+'</h2><p>'+text+'</p></section>'
+  if old not in h:
+   assert f'data-jp-winter-place="{i}"' in h
+   continue
+  credit,file=credits[i]
+  picture='<img loading="lazy" decoding="async" src="'+photos[i]+'" alt="'+html.escape(title+' · '+labels[lang][1],quote=True)+'" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;margin:10px 0" referrerpolicy="no-referrer">'
+  attribution='<small>'+labels[lang][1]+' · <a href="https://commons.wikimedia.org/wiki/File:'+file+'" target="_blank" rel="noopener noreferrer">'+credit+' / Wikimedia Commons</a></small>'
+  new='<section class="panel" data-jp-winter-place="'+str(i)+'"><details class="jp-season-place"><summary aria-label="'+html.escape(title+' · '+labels[lang][0],quote=True)+'"><h2 style="display:inline;font-size:1.2em">'+title+'</h2></summary><div class="jp-season-place-detail">'+picture+attribution+'<p>'+text+'</p></div></details></section>'
+  assert h.count(old)==1
+  h=h.replace(old,new)
+ return h
+
 def run():
  source=(ROOT/'season/winter/tokyo/index.html').read_text()
  urls=list(dict.fromkeys(re.findall(r'href="(https://[^\"]+)"',source)))
  external=[u for u in urls if not any(x in u for x in ['japulse.com','wikimedia.org','creativecommons.org'])]
  for lang,sections in DATA.items():
   p=ROOT/lang/'season/winter/tokyo/index.html';h=p.read_text()
-  if 'id="jp-tokyo-winter-details"' in h:continue
+  if 'id="jp-tokyo-winter-details"' in h:
+   p.write_text(align_place_details(lang,h,source))
+   continue
   label={'en':'Official information and maps','ja':'公式情報・地図','zh-cn':'官方信息与地图'}[lang]
   block='<div id="jp-tokyo-winter-details">'+''.join('<section class="panel"><h2>'+title+'</h2><p>'+text+'</p></section>' for title,text in sections)
   block+='<section class="panel"><h2>'+label+'</h2><ul>'+''.join('<li><a href="'+u+'" target="_blank" rel="noopener noreferrer">'+u.split('/')[2]+' ↗</a></li>' for u in external)+'</ul></section></div>'
-  p.write_text(h.replace('</main>',block+'</main>'))
+  p.write_text(align_place_details(lang,h.replace('</main>',block+'</main>'),source))
  print('Translated Tokyo winter climate, venue hours, prices, transport, itinerary, budget, FAQs and source/map links into all three languages.')
 if __name__=='__main__':run()

@@ -1,0 +1,223 @@
+{
+  "commit": "3c603a2e5fa7e2f35bc477b314a2831bef8bfd86",
+  "method": "Actual cloud browser DOM checks. Desktop used ?verify=3c603a2 after an earlier plain /en/season/ browser cache remained stale. Narrow checks used existing 390px iframe harness; not a mobile user agent or touch device. Measured widths exclude the frame scrollbar. No claim of complete stream/image availability.",
+  "pages": [
+    {
+      "path": "/en/live/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/en/now/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/en/run-eat/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/en/local-food/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/en/season/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/ja/live/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/ja/now/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/ja/run-eat/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/ja/local-food/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/ja/season/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/zh-cn/live/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/zh-cn/now/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/zh-cn/run-eat/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/zh-cn/local-food/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    },
+    {
+      "path": "/zh-cn/season/",
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348,
+        "h1": 1
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "h1": 1
+      },
+      "addedGuidePresent": true
+    }
+  ],
+  "seasonRegression": {
+    "locale": "en",
+    "season": "winter",
+    "city": "tokyo",
+    "results": 1,
+    "link": "/en/season/winter/tokyo/"
+  }
+}
