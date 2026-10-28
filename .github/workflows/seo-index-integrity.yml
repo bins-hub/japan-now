@@ -28,3 +28,5 @@ jobs:
           node --check assets/run-route-visuals.js
           node --check tools/check_run_eat_plus.cjs
           node tools/check_run_eat_plus.cjs
+      - name: Validate MOVE routes, scripts and SEO
+        run: node tools/check_move_integrity.cjs
