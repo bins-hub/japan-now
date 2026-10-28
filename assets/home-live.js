@@ -23,7 +23,7 @@
   // Only one video is ever embedded: the thumbnail buttons simply switch its source.
   // These are existing JAPULSE camera candidates, NOT verified currently-live streams.
   const cameras = [
-    { id:"8H3nRCFVR6Y", names:{ko:"도쿄 시부야",en:"Tokyo Shibuya",ja:"東京・渋谷",zh:"东京涩谷"} },
+    { id:"dfVK7ld38Ys", names:{ko:"도쿄 시부야",en:"Tokyo Shibuya",ja:"東京・渋谷",zh:"东京涩谷"} },
     { id:"6OgYfTMOmhY", names:{ko:"오사카 도톤보리",en:"Osaka Dotonbori",ja:"大阪・道頓堀",zh:"大阪道顿堀"} },
     { id:"1cnReFAU04k", names:{ko:"후지산",en:"Mount Fuji",ja:"富士山",zh:"富士山"} },
     { id:"RBHsITnIoI0", names:{ko:"삿포로",en:"Sapporo",ja:"札幌",zh:"札幌"} },
@@ -33,8 +33,7 @@
   // Broadcasts may end or restrict embedding. Try alternate PUBLIC original uploads
   // for the SAME Shibuya crossing before showing an error. Never claim LIVE status.
   const alternativeFeeds = {
-    "8H3nRCFVR6Y": [
-      "dfVK7ld38Ys", // FNN Prime Online, Shibuya camera
+    "dfVK7ld38Ys": [
       "BBQpLKc1P04", // ANNnewsCH, another Shibuya live broadcast
       "f50R4vDlCmA"  // iTSCOM, Shibuya camera
     ]
@@ -188,7 +187,7 @@
     const cameraIdAtStart = activeId;
     const requestedId = sourceOverride || activeId;
     clearTimer();
-    watchTimer=setTimeout(function(){if(seq===playSeq&&!playing){resetPlayer();fallback(copy.error);}},20000);
+    watchTimer=setTimeout(function(){if(seq===playSeq&&!playing){resetPlayer();if(!tryAnotherTokyoFeed())fallback(copy.error);}},20000);
     loadApi().then(function (YT) {
       if (seq !== playSeq) return;
       frame.replaceChildren();
