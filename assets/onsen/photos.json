@@ -1,0 +1,441 @@
+{
+  "version": 1,
+  "quality": 77,
+  "photos": [
+    {
+      "slug": "hakone",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Hakone%20from%20Lake%20Ashi.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Mt.Hakone_from_Lake_Ashi.jpg/960px-Mt.Hakone_from_Lake_Ashi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 154525,
+      "sourceFetchSeconds": 17.39,
+      "attributionHtml": "<figcaption><a href=\"https://commons.wikimedia.org/wiki/File:Mt.Hakone%20from%20Lake%20Ashi.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">하코네 아시노호에서 본 산 풍경 · Wikimedia Commons · CC0 1.0</a> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener noreferrer\">라이선스</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 172,
+          "url": "/assets/onsen/hakone-360-dd0db24323.webp",
+          "bytes": 13202
+        },
+        {
+          "width": 650,
+          "height": 311,
+          "url": "/assets/onsen/hakone-650-1c69c54ae8.webp",
+          "bytes": 43854
+        },
+        {
+          "width": 960,
+          "height": 460,
+          "url": "/assets/onsen/hakone-960-d9d2131240.webp",
+          "bytes": 99756
+        }
+      ]
+    },
+    {
+      "slug": "kusatsu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yubatake%20(Kusatsu%20Onsen).jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Yubatake_%28Kusatsu_Onsen%29.jpg/960px-Yubatake_%28Kusatsu_Onsen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 266708,
+      "sourceFetchSeconds": 17.44,
+      "attributionHtml": "<figcaption><a href=\"https://commons.wikimedia.org/wiki/File:Yubatake%20(Kusatsu%20Onsen).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">구사쓰 유바타케 · おにく · CC0 1.0</a> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener noreferrer\">라이선스</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 240,
+          "url": "/assets/onsen/kusatsu-360-b18bd17a1f.webp",
+          "bytes": 27332
+        },
+        {
+          "width": 650,
+          "height": 433,
+          "url": "/assets/onsen/kusatsu-650-7620a16fa9.webp",
+          "bytes": 82558
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "url": "/assets/onsen/kusatsu-960-d9c259681b.webp",
+          "bytes": 175190
+        }
+      ]
+    },
+    {
+      "slug": "beppu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beppu%20Hot%20Springs%20(31338411912).jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Beppu_Hot_Springs_%2831338411912%29.jpg/960px-Beppu_Hot_Springs_%2831338411912%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 123633,
+      "sourceFetchSeconds": 17.47,
+      "attributionHtml": "<figcaption>벳푸 간나와 지구의 온천 증기 풍경 · 촬영/제공: David Stanley · <a href=\"https://commons.wikimedia.org/wiki/File:Beppu%20Hot%20Springs%20(31338411912).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/beppu-360-a2dd39f6a0.webp",
+          "bytes": 11062
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/beppu-650-6a4ead0562.webp",
+          "bytes": 31350
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "url": "/assets/onsen/beppu-960-86803487d4.webp",
+          "bytes": 58108
+        }
+      ]
+    },
+    {
+      "slug": "yufuin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Kinrin.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Lake_Kinrin.jpg/960px-Lake_Kinrin.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 175813,
+      "sourceFetchSeconds": 17.35,
+      "attributionHtml": "<figcaption>유후인 긴린코 호수 · 촬영/제공: STA3816 · <a href=\"https://commons.wikimedia.org/wiki/File:Lake%20Kinrin.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 258,
+          "url": "/assets/onsen/yufuin-360-32c790421f.webp",
+          "bytes": 12830
+        },
+        {
+          "width": 650,
+          "height": 467,
+          "url": "/assets/onsen/yufuin-650-8a46a47708.webp",
+          "bytes": 45824
+        },
+        {
+          "width": 960,
+          "height": 689,
+          "url": "/assets/onsen/yufuin-960-57bccdaf81.webp",
+          "bytes": 105878
+        }
+      ]
+    },
+    {
+      "slug": "noboribetsu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noboribetsu-jigokudani.JPG?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Noboribetsu-jigokudani.JPG/960px-Noboribetsu-jigokudani.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 226213,
+      "sourceFetchSeconds": 16.57,
+      "attributionHtml": "<figcaption>노보리베쓰 지옥계곡 · 촬영/제공: Prosperosity · <a href=\"https://commons.wikimedia.org/wiki/File:Noboribetsu-jigokudani.JPG\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/noboribetsu-360-801706129b.webp",
+          "bytes": 17930
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/noboribetsu-650-a7564571f1.webp",
+          "bytes": 62878
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "url": "/assets/onsen/noboribetsu-960-83effa3379.webp",
+          "bytes": 142760
+        }
+      ]
+    },
+    {
+      "slug": "jozankei",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JozankeiOnsen.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/JozankeiOnsen.jpg/960px-JozankeiOnsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 194623,
+      "sourceFetchSeconds": 16.62,
+      "attributionHtml": "<figcaption>조잔케이 온천 마을 · 촬영/제공: Selixshiraii · <a href=\"https://commons.wikimedia.org/wiki/File:JozankeiOnsen.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/jozankei-360-bdb1ae0991.webp",
+          "bytes": 19646
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/jozankei-650-f52a2164de.webp",
+          "bytes": 56772
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "url": "/assets/onsen/jozankei-960-a88d67b61c.webp",
+          "bytes": 111386
+        }
+      ]
+    },
+    {
+      "slug": "kinosaki",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinosaki%20onsen%20Kita-yanagi%20street.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Kinosaki_onsen_Kita-yanagi_street.jpg/960px-Kinosaki_onsen_Kita-yanagi_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 200170,
+      "sourceFetchSeconds": 16.56,
+      "attributionHtml": "<figcaption>기노사키 온천 전통 거리 · 촬영/제공: Drivephotographer · <a href=\"https://commons.wikimedia.org/wiki/File:Kinosaki%20onsen%20Kita-yanagi%20street.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 202,
+          "url": "/assets/onsen/kinosaki-360-775dfad576.webp",
+          "bytes": 17684
+        },
+        {
+          "width": 650,
+          "height": 366,
+          "url": "/assets/onsen/kinosaki-650-4729ca5ac3.webp",
+          "bytes": 58684
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "url": "/assets/onsen/kinosaki-960-c650d79dc6.webp",
+          "bytes": 131466
+        }
+      ]
+    },
+    {
+      "slug": "arima",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kin-no-yu%20Arima%20Onsen%202013.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kin-no-yu_Arima_Onsen_2013.jpg/960px-Kin-no-yu_Arima_Onsen_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 227815,
+      "sourceFetchSeconds": 16.5,
+      "attributionHtml": "<figcaption><a href=\"https://commons.wikimedia.org/wiki/File:Kin-no-yu%20Arima%20Onsen%202013.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">아리마 킨노유 목욕탕 건물 · Wpcpey · CC BY-SA 4.0</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">라이선스</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/arima-360-1e3d1e8f77.webp",
+          "bytes": 21718
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/arima-650-e9915f6710.webp",
+          "bytes": 64938
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "url": "/assets/onsen/arima-960-d51079d203.webp",
+          "bytes": 135496
+        }
+      ]
+    },
+    {
+      "slug": "gero",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gero%20OnsenTown.JPG?width=650",
+      "resolvedSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gero_OnsenTown.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "sourceBytes": 76342,
+      "sourceFetchSeconds": 15.0,
+      "attributionHtml": "<figcaption>게로 온천 마을 전경 · 촬영/제공: Jpatokal · <a href=\"https://commons.wikimedia.org/wiki/File:Gero%20OnsenTown.JPG\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/gero-360-0cc110b374.webp",
+          "bytes": 15610
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/gero-650-5b0ee0b3b0.webp",
+          "bytes": 38694
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "url": "/assets/onsen/gero-800-ad0d9a7727.webp",
+          "bytes": 55892
+        }
+      ]
+    },
+    {
+      "slug": "ginzan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ginzan%20Onsen%20-%20GinzanOnsen7426.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Ginzan_Onsen_-_GinzanOnsen7426.jpg/960px-Ginzan_Onsen_-_GinzanOnsen7426.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 503288,
+      "sourceFetchSeconds": 15.96,
+      "attributionHtml": "<figcaption>긴잔 온천의 목조 료칸 거리 · 촬영/제공: lumoplank · <a href=\"https://commons.wikimedia.org/wiki/File:Ginzan%20Onsen%20-%20GinzanOnsen7426.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "url": "/assets/onsen/ginzan-360-7a6c6f1dcb.webp",
+          "bytes": 49948
+        },
+        {
+          "width": 650,
+          "height": 867,
+          "url": "/assets/onsen/ginzan-650-041e72fff2.webp",
+          "bytes": 156734
+        },
+        {
+          "width": 960,
+          "height": 1280,
+          "url": "/assets/onsen/ginzan-960-7edb8bc9a9.webp",
+          "bytes": 329824
+        }
+      ]
+    },
+    {
+      "slug": "dogo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogo%20onsen.JPG?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Dogo_onsen.JPG/960px-Dogo_onsen.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 261969,
+      "sourceFetchSeconds": 15.97,
+      "attributionHtml": "<figcaption>도고온센 본관 건물 · 촬영/제공: Tordu01 · <a href=\"https://commons.wikimedia.org/wiki/File:Dogo%20onsen.JPG\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/dogo-360-0430a15abd.webp",
+          "bytes": 24258
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/dogo-650-0ce0ec5709.webp",
+          "bytes": 76768
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "url": "/assets/onsen/dogo-960-116b4000f8.webp",
+          "bytes": 172742
+        }
+      ]
+    },
+    {
+      "slug": "atami",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama%20from%20Atami%20Castle.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Panorama_from_Atami_Castle.jpg/960px-Panorama_from_Atami_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 148684,
+      "sourceFetchSeconds": 15.92,
+      "attributionHtml": "<figcaption>아타미성에서 내려다본 아타미 해안 도시 · 촬영/제공: Photos of Japan · <a href=\"https://commons.wikimedia.org/wiki/File:Panorama%20from%20Atami%20Castle.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 164,
+          "url": "/assets/onsen/atami-360-59b7956a67.webp",
+          "bytes": 13418
+        },
+        {
+          "width": 650,
+          "height": 296,
+          "url": "/assets/onsen/atami-650-7f9f281b61.webp",
+          "bytes": 42232
+        },
+        {
+          "width": 960,
+          "height": 437,
+          "url": "/assets/onsen/atami-960-f891f4eeb2.webp",
+          "bytes": 93438
+        }
+      ]
+    },
+    {
+      "slug": "kaga",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamanaka%20Onsen.JPG?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Yamanaka_Onsen.JPG/960px-Yamanaka_Onsen.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 234998,
+      "sourceFetchSeconds": 15.52,
+      "attributionHtml": "<figcaption>가가 야마나카 온천의 야마나카자 · 촬영/제공: Kakidai · <a href=\"https://commons.wikimedia.org/wiki/File:Yamanaka%20Onsen.JPG\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 234,
+          "url": "/assets/onsen/kaga-360-e18500df6b.webp",
+          "bytes": 19868
+        },
+        {
+          "width": 650,
+          "height": 422,
+          "url": "/assets/onsen/kaga-650-7dae6e0ba7.webp",
+          "bytes": 68284
+        },
+        {
+          "width": 960,
+          "height": 623,
+          "url": "/assets/onsen/kaga-960-6eea584ed1.webp",
+          "bytes": 157394
+        }
+      ]
+    },
+    {
+      "slug": "shibu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shibu%20Onsen.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Shibu_Onsen.jpg/960px-Shibu_Onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 251260,
+      "sourceFetchSeconds": 14.6,
+      "attributionHtml": "<figcaption>시부 온천의 전통 골목 · 촬영/제공: Lsattayamas · <a href=\"https://commons.wikimedia.org/wiki/File:Shibu%20Onsen.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 270,
+          "url": "/assets/onsen/shibu-360-0b7e968ce0.webp",
+          "bytes": 21646
+        },
+        {
+          "width": 650,
+          "height": 488,
+          "url": "/assets/onsen/shibu-650-fa47f88eff.webp",
+          "bytes": 73720
+        },
+        {
+          "width": 960,
+          "height": 721,
+          "url": "/assets/onsen/shibu-960-bbab966fdf.webp",
+          "bytes": 163676
+        }
+      ]
+    },
+    {
+      "slug": "kinugawa",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinugawa%20Onsen.jpg?width=650",
+      "resolvedSourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Kinugawa_Onsen.jpg/960px-Kinugawa_Onsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "sourceBytes": 171102,
+      "sourceFetchSeconds": 14.59,
+      "attributionHtml": "<figcaption>기누가와 온천 지역 풍경 · 촬영/제공: Masashi Yanagiya · <a href=\"https://commons.wikimedia.org/wiki/File:Kinugawa%20Onsen.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">사진 원본·라이선스 확인 ↗</a></figcaption>",
+      "changes": "Resized and WebP encoded; no crop or content changes. Original license and credit links retained on each guide.",
+      "variants": [
+        {
+          "width": 360,
+          "height": 240,
+          "url": "/assets/onsen/kinugawa-360-e01bd3e0df.webp",
+          "bytes": 12960
+        },
+        {
+          "width": 650,
+          "height": 434,
+          "url": "/assets/onsen/kinugawa-650-4eca0778e2.webp",
+          "bytes": 44824
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "url": "/assets/onsen/kinugawa-960-c10ca2081f.webp",
+          "bytes": 102632
+        }
+      ]
+    }
+  ]
+}
