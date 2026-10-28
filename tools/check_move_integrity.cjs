@@ -7,17 +7,17 @@ const read = path => fs.readFileSync(path,'utf8');
 const home = read('move/index.html');
 const sitemap = read('sitemap.xml');
 function uniqueIds(html, path) {
-  const ids=[...html.matchAll(/\\bid="([^"]+)"/g)].map(m=>m[1]);
+  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(new Set(ids).size,ids.length,path+' has duplicate IDs');
 }
 function scriptsValid(html,path) {
-  const all=[...html.matchAll(/<script\\b([^>]*)>([\\s\\S]*?)<\\/script>/gi)];
+  const all=[...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)];
   for(const [i,item] of all.entries()){
-    if(/application\\/ld\\+json/.test(item[1])){JSON.parse(item[2]);continue;}
-    if(/\\bsrc=/.test(item[1]))continue;
+    if(/application\/ld\+json/.test(item[1])){JSON.parse(item[2]);continue;}
+    if(/\bsrc=/.test(item[1]))continue;
     new vm.Script(item[2],{filename:path+':script'+i});
   }
-  assert.equal((html.match(/<script\\b/gi)||[]).length,all.length,path+' unbalanced script tags');
+  assert.equal((html.match(/<script\b/gi)||[]).length,all.length,path+' unbalanced script tags');
 }
 uniqueIds(home,'MOVE home');
 scriptsValid(home,'MOVE home');
