@@ -32,5 +32,7 @@ jobs:
         run: node tools/check_move_integrity.cjs
       - name: Audit sitewide internal links
         run: node tools/check_site_links.cjs
+      - name: Audit localized content parity across all pages
+        run: node tools/audit_i18n_parity.cjs
       - name: Audit responsive and policy navigation
         run: node tools/check_mobile_policy.cjs
