@@ -1,0 +1,209 @@
+{
+  "commit": "cc8e1059d111c115999fa09e927a49b34bf391c7",
+  "results": [
+    {
+      "path": "en/cameras/arashiyama/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "d4c9bd30364a52213f2602db8b5cd7b9c2624ee83ca6bbb7856aa2600460d421"
+    },
+    {
+      "path": "en/cameras/dotonbori/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "fd2048e4c8512e4ad37c3e80b24cd34738b5444758d7299ebe682125c6958b1d"
+    },
+    {
+      "path": "en/cameras/fuji/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "897d3a0dbd0a85b6a0fa1df053663cf2711769cc847adfefe5c0868a3478b0f2"
+    },
+    {
+      "path": "en/cameras/hakata/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "6bd6f94df5a8e92f8fc26f73fb274b2b4573f9e7496278cd335e4c4537072a9e"
+    },
+    {
+      "path": "en/cameras/iki/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "1fd2426fb0933c1fed03d7edf6b50f4f3eefe0da369dbfcf3d30cc2f334394d7"
+    },
+    {
+      "path": "en/cameras/kabukicho/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "28dcf18cbd26b7147713fe05d2a74752b50afc6e7ec487d0a285510930965ba9"
+    },
+    {
+      "path": "en/cameras/okinawa/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "0a504da87b35bea68b27612e8d3ef88e786233ad916c7916af120b40fdde27a1"
+    },
+    {
+      "path": "en/cameras/osaka-sky/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "403e92c965adb6e0c7d67a67b8864d6da55bd5656b8474a2b71887267681ffbb"
+    },
+    {
+      "path": "en/cameras/sapporo/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "0087cecef2fcf0a1141025f4d3dfe47fd853be530f81efd7e71fa8dba0585067"
+    },
+    {
+      "path": "en/cameras/sensoji/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "3b651aac7d1d4d3ff34583a99dda755a970f4f870701822e0737e6770251a58d"
+    },
+    {
+      "path": "en/cameras/shibuya/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "d7d47d95d52c4b6ff5e12730f8023125bebfd1cb54f1d02e46cf5dea6acbb70f"
+    },
+    {
+      "path": "ja/cameras/arashiyama/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "4569ca8b2ade81e7e28400a783aa8114bde9b2f803b0987794ad39f9b8e24b01"
+    },
+    {
+      "path": "ja/cameras/dotonbori/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "8f9f97a5ed61291febbac2cc57acacca373002a82041fadeed2a14d68405be94"
+    },
+    {
+      "path": "ja/cameras/fuji/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "e6d72c8ce6d5e0b400dc70748859c4ac93fef349cc221b7849e35f1872cfcb45"
+    },
+    {
+      "path": "ja/cameras/hakata/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "d62997872c035fffb02c821481e2517a04ae539a1bd0001a9f81f93164fde08b"
+    },
+    {
+      "path": "ja/cameras/iki/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "2e9f27b78ace388eba0d9074532fa78258aaab92fcf140623a617cd156457b06"
+    },
+    {
+      "path": "ja/cameras/kabukicho/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "89e3290dceeca0b19b22178f351acfb9c555c2f66dd50e6d8abdaeb6737dffee"
+    },
+    {
+      "path": "ja/cameras/okinawa/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "800553b0507fe6567d051b7b5fbd612beca6e14128a90067c6762609426a1001"
+    },
+    {
+      "path": "ja/cameras/osaka-sky/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "b58ab6b674b158448e0f88aa27e218d44dfdc355f0ab30967cfe4ccfbe4b47c2"
+    },
+    {
+      "path": "ja/cameras/sapporo/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "010ac484d162ebaa92e41af57ada991c2f8d979840a7729e7eddcb0fb6f60941"
+    },
+    {
+      "path": "ja/cameras/sensoji/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "1cf3e4b6fb77131b226ac7d22d213d31f168cba6f648b410b7fcd40ce58bec7d"
+    },
+    {
+      "path": "ja/cameras/shibuya/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "904d28f051cf22e67a96227ec67f405e65bc0d69e613455a1963ae9139bf1e69"
+    },
+    {
+      "path": "zh-cn/cameras/arashiyama/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "9e64cc9aba6e1aed0222288e6f5acb9bd4811003a2743e6121829679697af0c9"
+    },
+    {
+      "path": "zh-cn/cameras/dotonbori/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "90e47fe61b92faa02614b79790e3861a11039dc672a381db07b39fb6736044a4"
+    },
+    {
+      "path": "zh-cn/cameras/fuji/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "8d385254e6232e8feda2d43f6a11aacc6c5858b43c34eeb09813847f913cc9b6"
+    },
+    {
+      "path": "zh-cn/cameras/hakata/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "05ba1860d90c3d0ccda0d472abb7dcc24ccf1495084247799c41a966dd9db048"
+    },
+    {
+      "path": "zh-cn/cameras/iki/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "9e2d5ed63beec152e5626ab60346bc45e880f939dc330171ad98ad462cc5b700"
+    },
+    {
+      "path": "zh-cn/cameras/kabukicho/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "8fb03f9cbeebcfd96573bf2d8396be8ed3b21a9df69f2ce8cb19eb2669fd6f8a"
+    },
+    {
+      "path": "zh-cn/cameras/okinawa/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "5b95c5d3f308e41f394f2f5881d8d4a728bf01a11a048491564e00c1f57a0b06"
+    },
+    {
+      "path": "zh-cn/cameras/osaka-sky/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "eaf11cec602bae45540969e0108515d071d903927f5690f63a7a7fe57a0412fc"
+    },
+    {
+      "path": "zh-cn/cameras/sapporo/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "39bcab5229d97b776f19ab5c7b048ec16e0032705e3471df9d04ddbe7eebdc4b"
+    },
+    {
+      "path": "zh-cn/cameras/sensoji/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "d36444f713074d9aefcc55716af67aad1f07e6b8431cb53168879d05faf1a6e8"
+    },
+    {
+      "path": "zh-cn/cameras/shibuya/index.html",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "ce76bdcfa5f82f7f5b794ca810a861f38e7920b87570de87fea6c8e6e3bd25d7"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matchesWorkingTree": true,
+      "sha256": "8958230152b4e1b08120b0aa232dd6c3a8672a0cd0424a9ac59d54033f9fa827"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "commit": "cc8e1059d111c115999fa09e927a49b34bf391c7",
+  "method": "Actual browser: 33 desktop navigations with ?verify=cc8e105 and 33 pages inside existing 390px iframe harness. No mobile user agent/touch or successful live-stream playback certification.",
+  "pages": [
+    {
+      "path": "/en/cameras/arashiyama/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/dotonbori/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/fuji/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/hakata/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/iki/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/kabukicho/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/okinawa/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/osaka-sky/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/sapporo/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/sensoji/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/en/cameras/shibuya/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/arashiyama/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/dotonbori/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/fuji/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/hakata/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/iki/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/kabukicho/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/okinawa/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/osaka-sky/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/sapporo/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/sensoji/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/ja/cameras/shibuya/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/arashiyama/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/dotonbori/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/fuji/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/hakata/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/iki/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/kabukicho/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/okinawa/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/osaka-sky/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/sapporo/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/sensoji/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    },
+    {
+      "path": "/zh-cn/cameras/shibuya/",
+      "questions": 2,
+      "playerContainerPresent": true,
+      "h1Desktop": 1,
+      "desktop": {
+        "clientWidth": 1348,
+        "scrollWidth": 1348
+      },
+      "frame390": {
+        "clientWidth": 375,
+        "scrollWidth": 375
+      }
+    }
+  ]
+}
