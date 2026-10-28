@@ -36,3 +36,7 @@ jobs:
         run: node tools/audit_i18n_parity.cjs
       - name: Audit responsive and policy navigation
         run: node tools/check_mobile_policy.cjs
+      - name: Enforce locale navigation and homepage camera parity
+        run: node tools/check_locale_navigation.cjs
+      - name: Verify weather on dynamic cards and provider timeouts
+        run: node tools/check_weather_dynamic.cjs

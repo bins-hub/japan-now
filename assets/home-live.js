@@ -11,6 +11,7 @@
   const overlayMessage = root.querySelector("[data-jp-live-overlay-message]");
   const retry = root.querySelector("[data-jp-live-retry]");
   if (!frame || !stage || !status || !overlayMessage || !retry) return;
+  stage.style.backgroundImage='url("https://i.ytimg.com/vi/'+activeId+'/hqdefault.jpg")';
   const lang = (document.documentElement.lang || "ko").toLowerCase();
   const key = lang.startsWith("zh") ? "zh" : lang.startsWith("ja") ? "ja" : lang.startsWith("en") ? "en" : "ko";
   const copy = {

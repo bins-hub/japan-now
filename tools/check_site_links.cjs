@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const xml=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
-const pages=new Set([...xml.matchAll(/<loc>(https:\/\/japulse\.com\/[^<]+)<\/loc>/g)].map(m=>new URL(m[1]).pathname));
+const pages=new Set([...xml.matchAll(/<loc>(https:\/\/japulse\.com\/[^<]*)<\/loc>/g)].map(m=>new URL(m[1]).pathname));
 const failures=[];let links=0,foreign=0;
 const fileFor=p=>path.join(root,p.endsWith('/')?p.slice(1)+'index.html':p.slice(1));
 for(const page of pages){

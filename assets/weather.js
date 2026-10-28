@@ -11,7 +11,6 @@ const coords={"hokkaido":[43.0618,141.3545],"aomori":[40.8244,140.74],"iwate":[3
 const lang=(document.documentElement.lang||"ko").toLowerCase().slice(0,2);
 const t=({ko:{loading:"날씨 확인 중",missing:"날씨 정보 없음",forecast:"현재 예상 날씨",jst:"일본 현지"},en:{loading:"Loading weather",missing:"Weather unavailable",forecast:"Current forecast",jst:"Japan time"},ja:{loading:"天気を確認中",missing:"天気情報なし",forecast:"現在の予報",jst:"日本時間"},zh:{loading:"正在获取天气",missing:"天气暂不可用",forecast:"当前预报",jst:"日本时间"}})[lang]||({loading:"Loading weather",missing:"Weather unavailable",forecast:"Current forecast",jst:"Japan time"});
 const nodes=[...document.querySelectorAll("[data-jp-weather]")];
-if(!nodes.length)return;
 const TTL=15*60*1000,MAX_STALE=90*60*1000,MAX_CONCURRENT=3;
 const loaded=new Set(),queue=[],pending=new Map();let active=0;
 const groups=new Map();
@@ -48,8 +47,11 @@ const promise=new Promise(resolve=>{queue.push({key,resolve});work();});pending.
 function work(){
 while(active<MAX_CONCURRENT&&queue.length){
 const {key,resolve}=queue.shift();active++;const c=coords[key];
+// A stalled provider must release its queue slot and leave a useful terminal state.
+const controller=new AbortController();
+const timeout=setTimeout(()=>controller.abort(),12000);
 const url="https://api.met.no/weatherapi/locationforecast/2.0/compact?lat="+Number(c[0]).toFixed(4)+"&lon="+Number(c[1]).toFixed(4);
-fetch(url,{method:"GET",mode:"cors",credentials:"omit",cache:"default"}).then(r=>{if(!r.ok)throw Error("MET weather "+r.status);return r.json();}).then(data=>{
+fetch(url,{method:"GET",mode:"cors",credentials:"omit",cache:"default",signal:controller.signal}).then(r=>{if(!r.ok)throw Error("MET weather "+r.status);return r.json();}).then(data=>{
 const entries=data&&data.properties&&data.properties.timeseries;
 if(!Array.isArray(entries)||!entries.length)throw Error("No weather timeseries");
 const now=Date.now();
@@ -61,7 +63,7 @@ if(!Number.isFinite(temp))throw Error("Missing forecast temperature");
 const result={at:Date.now(),temp,symbol,forecastTime:entry.time};
 try{localStorage.setItem(storageKey(key),JSON.stringify(result));}catch(_){}
 show(key,result);
-}).catch(()=>{const old=readCache(key);if(old)show(key,old,true);else missing(key);}).finally(()=>{active--;pending.delete(key);resolve();work();});
+}).catch(()=>{const old=readCache(key);if(old)show(key,old,true);else missing(key);}).finally(()=>{clearTimeout(timeout);active--;pending.delete(key);resolve();work();});
 }
 }
 function load(key){
@@ -72,12 +74,30 @@ request(key);
 }
 function activate(el){
 const key=el.getAttribute("data-jp-weather");if(!groups.has(key))return;
-if(!loaded.has(key)){loaded.add(key);load(key);}
+loaded.add(key);load(key);
 }
+let io=null;
 if("IntersectionObserver" in window){
-const io=new IntersectionObserver(events=>{events.forEach(e=>{if(e.isIntersecting){activate(e.target);io.unobserve(e.target);}})},{rootMargin:"220px 0px"});
+io=new IntersectionObserver(events=>{events.forEach(e=>{if(e.isIntersecting){activate(e.target);io.unobserve(e.target);}})},{rootMargin:"220px 0px"});
 for(const el of nodes)io.observe(el);
 }else nodes.slice(0,12).forEach(activate);
+// Search and camera discovery replace cards after the initial script has run.
+// Register those badges too; deduplicate requests and reuse the same local cache.
+const registered=new WeakSet(nodes);
+function register(el){
+if(registered.has(el))return;
+const key=el.getAttribute("data-jp-weather");if(!coords[key])return;
+registered.add(el);
+const list=(groups.get(key)||[]).filter(node=>node.isConnected);
+list.push(el);groups.set(key,list);
+el.textContent="⌛ --°";el.title=t.loading;
+if(io)io.observe(el);else activate(el);
+}
+new MutationObserver(records=>{for(const record of records)for(const node of record.addedNodes){
+if(node.nodeType!==1)continue;
+if(node.matches("[data-jp-weather]"))register(node);
+node.querySelectorAll("[data-jp-weather]").forEach(register);
+}}).observe(document.body,{childList:true,subtree:true});
 function clock(){for(const el of document.querySelectorAll("[data-jp-jst]")){el.textContent=t.jst+" · "+new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Tokyo",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date())+" JST";}}
 clock();setInterval(clock,60000);
 // Refresh only weather keys that have been viewed. Honor browser cache + local TTL.
