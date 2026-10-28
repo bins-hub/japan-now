@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const vm = require('node:vm');
 const routes = ['tokyo-hakone','osaka-kyoto','shinjuku-kawaguchiko','kyoto-nara','osaka-kobe','sapporo-otaru','tokyo-kamakura','osaka-nara','kyoto-arashiyama'];
+const airportRoutes = ['narita-shinjuku','haneda-shinagawa','kansai-namba','narita-ueno','haneda-hamamatsucho','kansai-kyoto','kansai-shin-osaka','new-chitose-sapporo'];
 const read = path => fs.readFileSync(path,'utf8');
 const home = read('move/index.html');
 const sitemap = read('sitemap.xml');
@@ -40,4 +41,16 @@ for(const slug of routes){
   assert.ok(html.includes('id="move-related-guides"'),path+' related links missing');
   assert.ok(html.includes('"@type":"FAQPage"'),path+' FAQ schema missing');
 }
+for(const slug of airportRoutes){
+ const path='move/'+slug+'/index.html',html=read(path),url='https://japulse.com/move/'+slug+'/';
+ uniqueIds(html,path);scriptsValid(html,path);
+ assert.ok(html.includes('rel="canonical" href="'+url+'"'),path+' canonical missing');
+ assert.ok(sitemap.includes('<loc>'+url+'</loc>'),path+' sitemap entry missing');
+ assert.ok(home.includes('href="/move/'+slug+'/"'),path+' MOVE internal link missing');
+ assert.ok(/<title>[^<]+<\\/title>/.test(html),path+' title missing');
+ assert.ok(html.includes('name="description"'),path+' description missing');
+ assert.ok(html.includes('google.com/maps/dir/'),path+' navigation map missing');
+ assert.ok(html.includes('target="_blank" rel="noopener noreferrer"'),path+' safe official link missing');
+}
+console.log('Airport SEO PASS: eight independent guides');
 console.log('MOVE integrity PASS: 9 destination pages, 8 airport routes, scripts, SEO, internal navigation');
