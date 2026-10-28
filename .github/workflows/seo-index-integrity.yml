@@ -42,3 +42,5 @@ jobs:
         run: node tools/check_weather_dynamic.cjs
       - name: Keep ONSEN and MOVE identical to the Korean source
         run: node tools/check_guide_source_parity.cjs
+      - name: Verify localized MOVE search regardless of letter case
+        run: node tools/check_move_search.cjs

@@ -60,11 +60,15 @@ def build(apply=False):
     target=ROOT/lang/rel;previous=target.read_text();h=source
     h=re.sub(r'<nav\b[^>]*id="jp-language-route-switch"[^>]*>.*?</nav>','',h,flags=re.S)
     # Existing native names stay native; all practical content is generated from Korean.
-    for tag,regex in [('title',r'<title>.*?</title>'),('description',r'<meta name="description" content="[^"]*">'),('h1',r'<h1\b[^>]*>.*?</h1>')]:
+    for tag,regex in [('title',r'<title>.*?</title>'),('description',r'<meta name="description" content="[^"]*">')]:
      original=re.search(regex,previous,re.S)
      if original:h=re.sub(regex,lambda m:original[0],h,count=1,flags=re.S)
-    native_title=unescape(re.sub('<[^>]+>','',re.search(r'<h1\b[^>]*>(.*?)</h1>',previous,re.S)[1]))
-    h=re.sub(r'(<img\b[^>]*\balt=")[^"]*(")',lambda m:m[1]+escape(native_title,quote=True)+m[2],h)
+    native_title=translate(unescape(re.sub('<[^>]+>',' ',re.search(r'<h1\b[^>]*>(.*?)</h1>',source,re.S)[1])),i)
+    def image_alt(m):
+     raw=unescape(m[2]);translated=translate(raw,i)
+     if re.search('[가-힣]',translated):translated=native_title
+     return m[1]+escape(translated,quote=True)+m[3]
+    h=re.sub(r'(<img\b[^>]*\balt=")([^"]*)(")',image_alt,h)
     h=translate(h,i)
     h=re.sub(r'<html lang="[^"]+"','<html lang="'+('zh-CN' if lang=='zh-cn' else lang)+'"',h)
     h=h.replace("toLocaleLowerCase('ko')",f"toLocaleLowerCase('{lang}')").replace("textContent,'ko'",f"textContent,'{lang}'")
