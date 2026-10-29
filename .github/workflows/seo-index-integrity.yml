@@ -16,6 +16,8 @@ jobs:
           node-version: '22'
       - name: Validate sitemap and multilingual indexing signals
         run: node tools/check_index_integrity.cjs
+      - name: Match FAQ structured data to readable page content
+        run: python3 tools/check_faq_visibility.py
       - name: Check animated route JavaScript syntax
         run: |
           node --check assets/run-route-visuals.js
