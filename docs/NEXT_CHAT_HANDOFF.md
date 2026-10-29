@@ -207,3 +207,12 @@
 - 기존 검사 12개(`check_*.cjs` 11개 및 `audit_i18n_parity.cjs`) 모두 통과. 304페이지 색인 구조, 9,527개 링크·파일·앵커, 다국어 228페이지 및 ONSEN/MOVE 102페이지 구조 검사 포함. `git diff --check` 통과.
 - 배포·공개 화면 검증은 아래 후속 기록을 확인한다. 모바일 실기기 확인으로 보고하지 않는다.
 - 복구는 이 기능 커밋의 revert를 우선하며 main 강제 덮어쓰기 금지.
+
+### 한글 메뉴 배포 확인
+
+- 한글화 기능 커밋 `e137e1aa659c66addf93ec727a30f2bbd1159f26`. 홈 한글 메뉴의 좁은 화면 줄바꿈을 위한 CSS 후속 커밋 `9088ea747e1212f942a03a6437938ebd870d6bea` 추가. 이 후속 커밋은 한국어 홈 기존 inline style에만 flex-wrap 규칙을 추가하며 검색 메타데이터는 유지.
+- 최종 [SEO 자동검사](https://github.com/bins-hub/japan-now/actions/runs/40803867399), [Pages 배포](https://github.com/bins-hub/japan-now/actions/runs/40803866987) 모두 성공. 후속 CSS 적용 후 로컬 검사 12개도 재통과.
+- 공개 홈 PC에서 상단 7개 한글 메뉴와 본문 7개 한글 버튼, ‘일본 현지 상황 보기’ 확인. 온천 버튼 실제 클릭 → `/onsen/`, 그 페이지 7개 한글 공통 메뉴·가로 넘침 없음 확인.
+- 홈 일반 URL 브라우저 캐시에 첫 한글화 버전이 남았으므로 `?verify=9088ea7`에서 최종 flex-wrap=wrap 규칙까지 확인. PC 화면 증거: [스크린샷](../audit/2026-10-29/korean-menu-browser.jpg).
+- 모바일 반응형 기본 검사 통과 및 줄바꿈 CSS 보완이며 Android/iOS 실기기 또는 좁은 뷰포트 렌더링을 이번 작업에서 확인한 것은 아니다. 영상 화면에 ‘연결 중’이 표시되어 실시간 송출 성공으로 보고하지 않는다.
+- 공개 한국어 페이지 HTTP 본문 대조 기록은 [배포 JSON](../audit/2026-10-29/korean-label-delivery.json)을 확인한다. 최초 순회 홈 응답은 CSS 배포 전 버전이었으므로 최종 배포 후 홈만 다시 검사했다.
