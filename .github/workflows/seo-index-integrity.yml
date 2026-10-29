@@ -18,6 +18,8 @@ jobs:
         run: node tools/check_index_integrity.cjs
       - name: Match FAQ structured data to readable page content
         run: python3 tools/check_faq_visibility.py
+      - name: Enforce search metadata parity in all four languages
+        run: python3 tools/check_search_metadata_parity.py
       - name: Check animated route JavaScript syntax
         run: |
           node --check assets/run-route-visuals.js

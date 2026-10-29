@@ -1,0 +1,386 @@
+{
+  "en/onsen/shibu/": {
+    "name": "Shibu Onsen",
+    "description": "A historic hot spring town in Yamanouchi, Nagano Prefecture."
+  },
+  "en/onsen/hakone/": {
+    "name": "Hakone",
+    "description": "Hakone · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/kusatsu/": {
+    "name": "Kusatsu",
+    "description": "Kusatsu · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/dogo/": {
+    "name": "Dogo",
+    "description": "Dogo · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/kinugawa/": {
+    "name": "Kinugawa Onsen",
+    "description": "A river-valley hot spring area near Nikko, Tochigi Prefecture."
+  },
+  "en/onsen/kinosaki/": {
+    "name": "Kinosaki",
+    "description": "Kinosaki · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/gero/": {
+    "name": "Gero",
+    "description": "Gero · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/ginzan/": {
+    "name": "Ginzan",
+    "description": "Ginzan · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/arima/": {
+    "name": "Arima",
+    "description": "Arima · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/atami/": {
+    "name": "Atami",
+    "description": "Atami · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/beppu/": {
+    "name": "Beppu",
+    "description": "Beppu · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/kaga/": {
+    "name": "Kaga Onsen",
+    "description": "Kaga includes multiple hot spring towns such as Yamashiro and Yamanaka in Ishikawa Prefecture."
+  },
+  "en/onsen/jozankei/": {
+    "name": "Jozankei",
+    "description": "Jozankei · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/yufuin/": {
+    "name": "Yufuin",
+    "description": "Yufuin · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/onsen/noboribetsu/": {
+    "name": "Noboribetsu",
+    "description": "Noboribetsu · hot spring guide. Check day-use admission, opening hours, last entry, tattoos, private bath policies and access on official facility websites. These vary by location."
+  },
+  "en/move/tokyo-kamakura/": {
+    "name": "Tokyo → Kamakura",
+    "description": "Tokyo → Kamakura. Route and station information: JR Yokosuka Line. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/haneda-hamamatsucho/": {
+    "name": "Haneda Airport → Hamamatsucho",
+    "description": "Haneda Airport → Hamamatsucho. Route and station information: Tokyo Monorail. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/haneda-shinagawa/": {
+    "name": "Haneda Airport → Shinagawa",
+    "description": "Haneda Airport → Shinagawa. Route and station information: Keikyu Railway. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/new-chitose-sapporo/": {
+    "name": "New Chitose Airport → Sapporo",
+    "description": "New Chitose Airport → Sapporo. Route and station information: JR Rapid Airport. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/osaka-nara/": {
+    "name": "Osaka → Nara",
+    "description": "Osaka → Nara. Route and station information: Kintetsu / JR. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/kansai-namba/": {
+    "name": "Kansai Airport → Namba",
+    "description": "Kansai Airport → Namba. Route and station information: Nankai Rapi:t / Airport Express. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/osaka-kyoto/": {
+    "name": "Osaka → Kyoto",
+    "description": "Osaka → Kyoto. Route and station information: JR / Hankyu. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/sapporo-otaru/": {
+    "name": "Sapporo → Otaru",
+    "description": "Sapporo → Otaru. Route and station information: JR Hokkaido. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/shinjuku-kawaguchiko/": {
+    "name": "Shinjuku → Kawaguchiko",
+    "description": "Shinjuku → Kawaguchiko. Route and station information: Express bus / Fuji Excursion. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/kyoto-arashiyama/": {
+    "name": "Kyoto → Arashiyama",
+    "description": "Kyoto → Arashiyama. Route and station information: JR Sagano Line / Hankyu. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/narita-ueno/": {
+    "name": "Narita Airport → Ueno",
+    "description": "Narita Airport → Ueno. Route and station information: Keisei Skyliner. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/kansai-kyoto/": {
+    "name": "Kansai Airport → Kyoto",
+    "description": "Kansai Airport → Kyoto. Route and station information: JR Haruka Limited Express. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/kansai-shin-osaka/": {
+    "name": "Kansai Airport → Shin-Osaka",
+    "description": "Kansai Airport → Shin-Osaka. Route and station information: JR Haruka Limited Express. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/tokyo-hakone/": {
+    "name": "Shinjuku → Hakone-Yumoto",
+    "description": "Shinjuku → Hakone-Yumoto. Route and station information: Odakyu Romancecar / Odakyu Line. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/osaka-kobe/": {
+    "name": "Osaka → Kobe Sannomiya",
+    "description": "Osaka → Kobe Sannomiya. Route and station information: JR / Hankyu / Hanshin. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/kyoto-nara/": {
+    "name": "Kyoto → Nara",
+    "description": "Kyoto → Nara. Route and station information: JR / Kintetsu. Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "en/move/narita-shinjuku/": {
+    "name": "Narita Airport → Shinjuku",
+    "description": "Narita Airport → Shinjuku. Route and station information: Narita Express (N'EX). Current timetables, ticket types and fares are shown by the official operator; do not rely on older prices."
+  },
+  "ja/onsen/shibu/": {
+    "name": "渋温泉",
+    "description": "長野県山ノ内町の石畳の温泉街です。"
+  },
+  "ja/onsen/hakone/": {
+    "name": "箱根",
+    "description": "箱根 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/kusatsu/": {
+    "name": "草津",
+    "description": "草津 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/dogo/": {
+    "name": "道後",
+    "description": "道後 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/kinugawa/": {
+    "name": "鬼怒川温泉",
+    "description": "栃木県日光エリアの渓谷沿いの温泉地です。"
+  },
+  "ja/onsen/kinosaki/": {
+    "name": "城崎",
+    "description": "城崎 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/gero/": {
+    "name": "下呂",
+    "description": "下呂 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/ginzan/": {
+    "name": "銀山",
+    "description": "銀山 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/arima/": {
+    "name": "有馬",
+    "description": "有馬 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/atami/": {
+    "name": "熱海",
+    "description": "熱海 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/beppu/": {
+    "name": "別府",
+    "description": "別府 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/kaga/": {
+    "name": "加賀温泉",
+    "description": "石川県の山代温泉・山中温泉など複数の温泉街から選びます。"
+  },
+  "ja/onsen/jozankei/": {
+    "name": "定山渓",
+    "description": "定山渓 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/yufuin/": {
+    "name": "由布院",
+    "description": "由布院 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/onsen/noboribetsu/": {
+    "name": "登別",
+    "description": "登別 · 温泉旅行ガイド. 日帰り入浴、営業時間、最終受付、タトゥー対応、貸切風呂、アクセスは施設の公式案内をご確認ください。"
+  },
+  "ja/move/tokyo-kamakura/": {
+    "name": "東京 → 鎌倉 アクセス方法",
+    "description": "東京 → 鎌倉の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/haneda-hamamatsucho/": {
+    "name": "羽田空港 → 浜松町 アクセス方法",
+    "description": "羽田空港 → 浜松町の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/haneda-shinagawa/": {
+    "name": "羽田空港 → 品川 アクセス方法",
+    "description": "羽田空港 → 品川の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/new-chitose-sapporo/": {
+    "name": "新千歳空港 → 札幌 アクセス方法",
+    "description": "新千歳空港 → 札幌の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/osaka-nara/": {
+    "name": "大阪 → 奈良 アクセス方法",
+    "description": "大阪 → 奈良の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/kansai-namba/": {
+    "name": "関西空港 → 難波 アクセス方法",
+    "description": "関西空港 → 難波の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/osaka-kyoto/": {
+    "name": "大阪 → 京都",
+    "description": "大阪 → 京都. 交通経路と駅情報: JR / Hankyu. 運賃・ダイヤは変更される可能性があります。最新情報は交通事業者の公式サイトで確認してください。"
+  },
+  "ja/move/sapporo-otaru/": {
+    "name": "札幌 → 小樽 アクセス方法",
+    "description": "札幌 → 小樽の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/shinjuku-kawaguchiko/": {
+    "name": "新宿 → 河口湖",
+    "description": "新宿 → 河口湖. 交通経路と駅情報: Express bus / Fuji Excursion. 運賃・ダイヤは変更される可能性があります。最新情報は交通事業者の公式サイトで確認してください。"
+  },
+  "ja/move/kyoto-arashiyama/": {
+    "name": "京都 → 嵐山 アクセス方法",
+    "description": "京都 → 嵐山の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/narita-ueno/": {
+    "name": "成田空港 → 上野 アクセス方法",
+    "description": "成田空港 → 上野の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/kansai-kyoto/": {
+    "name": "関西空港 → 京都 アクセス方法",
+    "description": "関西空港 → 京都の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/kansai-shin-osaka/": {
+    "name": "関西空港 → 新大阪 アクセス方法",
+    "description": "関西空港 → 新大阪の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/tokyo-hakone/": {
+    "name": "新宿 → 箱根湯本",
+    "description": "新宿 → 箱根湯本. 交通経路と駅情報: Odakyu Romancecar / Odakyu Line. 運賃・ダイヤは変更される可能性があります。最新情報は交通事業者の公式サイトで確認してください。"
+  },
+  "ja/move/osaka-kobe/": {
+    "name": "大阪 → 神戸三宮 アクセス方法",
+    "description": "大阪 → 神戸三宮の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/kyoto-nara/": {
+    "name": "京都 → 奈良 アクセス方法",
+    "description": "京都 → 奈良の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "ja/move/narita-shinjuku/": {
+    "name": "成田空港 → 新宿 アクセス方法",
+    "description": "成田空港 → 新宿の交通機関・出発駅・到着駅・公式時刻表と運賃。"
+  },
+  "zh-cn/onsen/shibu/": {
+    "name": "涩温泉",
+    "description": "位于长野县山之内町的传统石板街温泉区。"
+  },
+  "zh-cn/onsen/hakone/": {
+    "name": "箱根",
+    "description": "箱根 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/kusatsu/": {
+    "name": "草津",
+    "description": "草津 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/dogo/": {
+    "name": "道后",
+    "description": "道后 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/kinugawa/": {
+    "name": "鬼怒川温泉",
+    "description": "位于栃木县日光地区的河谷温泉地。"
+  },
+  "zh-cn/onsen/kinosaki/": {
+    "name": "城崎",
+    "description": "城崎 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/gero/": {
+    "name": "下吕",
+    "description": "下吕 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/ginzan/": {
+    "name": "银山",
+    "description": "银山 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/arima/": {
+    "name": "有马",
+    "description": "有马 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/atami/": {
+    "name": "热海",
+    "description": "热海 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/beppu/": {
+    "name": "别府",
+    "description": "别府 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/kaga/": {
+    "name": "加贺温泉",
+    "description": "石川县加贺地区有山代、山中等多个温泉街。"
+  },
+  "zh-cn/onsen/jozankei/": {
+    "name": "定山溪",
+    "description": "定山溪 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/yufuin/": {
+    "name": "由布院",
+    "description": "由布院 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/onsen/noboribetsu/": {
+    "name": "登别",
+    "description": "登别 · 温泉旅行指南. 请通过温泉设施官网确认是否可当天入浴、营业时间、最晚入场、纹身政策、私人浴池及交通方式。"
+  },
+  "zh-cn/move/tokyo-kamakura/": {
+    "name": "东京 → 镰仓",
+    "description": "东京 → 镰仓的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/haneda-hamamatsucho/": {
+    "name": "羽田机场 → 滨松町",
+    "description": "羽田机场 → 滨松町的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/haneda-shinagawa/": {
+    "name": "羽田机场 → 品川",
+    "description": "羽田机场 → 品川的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/new-chitose-sapporo/": {
+    "name": "新千岁机场 → 札幌",
+    "description": "新千岁机场 → 札幌的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/osaka-nara/": {
+    "name": "大阪 → 奈良",
+    "description": "大阪 → 奈良的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/kansai-namba/": {
+    "name": "关西机场 → 难波",
+    "description": "关西机场 → 难波的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/osaka-kyoto/": {
+    "name": "大阪 → 京都",
+    "description": "大阪 → 京都的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/sapporo-otaru/": {
+    "name": "札幌 → 小樽",
+    "description": "札幌 → 小樽的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/shinjuku-kawaguchiko/": {
+    "name": "新宿 → 河口湖",
+    "description": "新宿 → 河口湖的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/kyoto-arashiyama/": {
+    "name": "京都 → 岚山",
+    "description": "京都 → 岚山的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/narita-ueno/": {
+    "name": "成田机场 → 上野",
+    "description": "成田机场 → 上野的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/kansai-kyoto/": {
+    "name": "关西机场 → 京都",
+    "description": "关西机场 → 京都的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/kansai-shin-osaka/": {
+    "name": "关西机场 → 新大阪",
+    "description": "关西机场 → 新大阪的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/tokyo-hakone/": {
+    "name": "新宿 → 箱根汤本",
+    "description": "新宿 → 箱根汤本的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/osaka-kobe/": {
+    "name": "大阪 → 神户三宫",
+    "description": "大阪 → 神户三宫的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/kyoto-nara/": {
+    "name": "京都 → 奈良",
+    "description": "京都 → 奈良的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  },
+  "zh-cn/move/narita-shinjuku/": {
+    "name": "成田机场 → 新宿",
+    "description": "成田机场 → 新宿的出发车站、到达车站、换乘方式及官方时刻表与票价链接。"
+  }
+}
