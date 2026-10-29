@@ -1,0 +1,62 @@
+{
+  "en": {
+    "labels": {"LIVE":"Live cameras","NOW":"Weather & updates","RUN":"Running routes","EAT":"Food guides","SEASON":"Seasonal travel","ONSEN":"Hot springs","MOVE":"Transport"},
+    "phrases": {
+      "Explore Japan NOW":"Check Japan's weather & updates",
+      "Back to Japan LIVE":"Back to Japan live cameras",
+      "MOVE directions":"Transport directions",
+      "NOW weather":"Weather & updates",
+      "LIVE local atmosphere":"See the local atmosphere",
+      "LIVE local view":"See local camera views",
+      "MOVE transport":"Transport",
+      "Local LIVE cameras":"Local live cameras",
+      "LIVE local cameras":"Local live cameras",
+      "Local LIVE":"Local live cameras",
+      "SEASON travel":"Seasonal travel",
+      "NOW local weather":"Local weather & updates",
+      "MOVE transport options":"Transport options",
+      "Explore MOVE":"Explore transport options",
+      "MOVE route search":"Search transport routes",
+      "Airport·Sightseeing destination Transport MOVE":"Airport & sightseeing transport",
+      "MOVE All Route":"All transport routes",
+      "EAT local food":"Local food guides"
+    },
+    "teaser": ["NOW · Check Japan before you go", "Weather & updates · Check Japan before you go"]
+  },
+  "ja": {
+    "labels": {"LIVE":"ライブカメラ","NOW":"天気・現地情報","RUN":"ランニングコース","EAT":"グルメ","SEASON":"季節の旅","ONSEN":"温泉","MOVE":"交通・アクセス"},
+    "phrases": {
+      "日本 NOW を見る":"日本の天気・現地情報を見る",
+      "MOVE 道順":"交通ルートを調べる",
+      "NOW 天気":"天気・現地情報",
+      "LIVE 現地の様子":"ライブカメラで現地を見る",
+      "LIVE 現地の映像":"現地のライブカメラを見る",
+      "MOVE 交通手段":"交通・アクセス",
+      "LIVE 現地カメラ":"現地のライブカメラ",
+      "NOW 地域の天気":"各地の天気・現地情報",
+      "MOVE 移動方法":"交通・アクセス",
+      "空港·観光地 交通 MOVE":"空港・観光地へのアクセス",
+      "MOVE すべて 経路":"すべての交通ルート",
+      "EAT グルメ":"グルメ"
+    },
+    "teaser": ["NOW · 日本の「今」を見に行く", "天気・現地情報 · 日本の「今」を見に行く"]
+  },
+  "zh-cn": {
+    "labels": {"LIVE":"实时摄像头","NOW":"天气·实况","RUN":"跑步路线","EAT":"美食","SEASON":"四季旅行","ONSEN":"温泉","MOVE":"交通出行"},
+    "phrases": {
+      "查看日本 NOW":"查看日本天气与实况",
+      "MOVE 路线导航":"交通路线导航",
+      "NOW 天气":"天气·实况",
+      "LIVE 当地情况":"查看当地实时画面",
+      "LIVE 当地画面":"查看当地实时画面",
+      "MOVE 交通方式":"交通出行",
+      "LIVE 当地摄像头":"当地实时摄像头",
+      "NOW 当地天气":"当地天气与实况",
+      "MOVE 出行方式":"交通出行",
+      "机场·景点 交通 MOVE":"机场与景点交通",
+      "MOVE 全部 路线":"全部交通路线",
+      "EAT 当地美食":"当地美食"
+    },
+    "teaser": ["NOW · 看看日本现在的样子", "天气·实况 · 看看日本现在的样子"]
+  }
+}
