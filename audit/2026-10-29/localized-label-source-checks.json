@@ -1,0 +1,1142 @@
+[
+  {
+    "path": "en/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/now/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/local-food/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/run-eat/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/privacy/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/live/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/about/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/contact/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/regions/kyushu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/regions/hokkaido/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/regions/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/regions/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/regions/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/regions/fuji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/tokyo-kamakura/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/haneda-hamamatsucho/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/haneda-shinagawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/new-chitose-sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/osaka-nara/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/kansai-namba/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/osaka-kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/sapporo-otaru/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/shinjuku-kawaguchiko/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/kyoto-arashiyama/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/narita-ueno/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/kansai-kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/kansai-shin-osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/tokyo-hakone/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/osaka-kobe/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/kyoto-nara/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/move/narita-shinjuku/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/arashiyama/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/iki/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/shibuya/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/sensoji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/hakata/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/dotonbori/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/okinawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/osaka-sky/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/haneda/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/fuji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/kabukicho/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/cameras/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/shibu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/hakone/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/kusatsu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/dogo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/kinugawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/kinosaki/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/gero/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/ginzan/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/arima/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/atami/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/beppu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/kaga/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/jozankei/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/yufuin/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/onsen/noboribetsu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/guides/where-to-watch/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/guides/camera-troubleshooting/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/guides/travel-prep/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/autumn/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/autumn/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/autumn/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/autumn/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/cherry-blossoms/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/cherry-blossoms/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/cherry-blossoms/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/cherry-blossoms/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/winter/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/winter/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/winter/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "en/season/winter/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/now/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/local-food/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/run-eat/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/privacy/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/live/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/about/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/contact/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/regions/kyushu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/regions/hokkaido/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/regions/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/regions/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/regions/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/regions/fuji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/tokyo-kamakura/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/haneda-hamamatsucho/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/haneda-shinagawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/new-chitose-sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/osaka-nara/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/kansai-namba/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/osaka-kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/sapporo-otaru/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/shinjuku-kawaguchiko/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/kyoto-arashiyama/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/narita-ueno/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/kansai-kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/kansai-shin-osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/tokyo-hakone/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/osaka-kobe/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/kyoto-nara/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/move/narita-shinjuku/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/arashiyama/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/iki/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/shibuya/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/sensoji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/hakata/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/dotonbori/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/okinawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/osaka-sky/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/haneda/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/fuji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/kabukicho/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/cameras/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/shibu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/hakone/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/kusatsu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/dogo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/kinugawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/kinosaki/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/gero/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/ginzan/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/arima/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/atami/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/beppu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/kaga/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/jozankei/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/yufuin/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/onsen/noboribetsu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/guides/where-to-watch/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/guides/camera-troubleshooting/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/guides/travel-prep/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/autumn/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/autumn/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/autumn/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/autumn/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/cherry-blossoms/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/cherry-blossoms/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/cherry-blossoms/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/cherry-blossoms/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/winter/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/winter/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/winter/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "ja/season/winter/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/now/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/local-food/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/run-eat/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/privacy/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/live/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/about/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/contact/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/regions/kyushu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/regions/hokkaido/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/regions/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/regions/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/regions/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/regions/fuji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/tokyo-kamakura/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/haneda-hamamatsucho/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/haneda-shinagawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/new-chitose-sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/osaka-nara/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/kansai-namba/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/osaka-kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/sapporo-otaru/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/shinjuku-kawaguchiko/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/kyoto-arashiyama/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/narita-ueno/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/kansai-kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/kansai-shin-osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/tokyo-hakone/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/osaka-kobe/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/kyoto-nara/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/move/narita-shinjuku/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/arashiyama/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/iki/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/shibuya/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/sensoji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/hakata/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/dotonbori/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/okinawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/osaka-sky/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/haneda/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/fuji/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/kabukicho/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/cameras/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/shibu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/hakone/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/kusatsu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/dogo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/kinugawa/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/kinosaki/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/gero/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/ginzan/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/arima/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/atami/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/beppu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/kaga/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/jozankei/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/yufuin/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/onsen/noboribetsu/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/guides/where-to-watch/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/guides/camera-troubleshooting/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/guides/travel-prep/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/autumn/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/autumn/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/autumn/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/autumn/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/cherry-blossoms/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/cherry-blossoms/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/cherry-blossoms/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/cherry-blossoms/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/winter/kyoto/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/winter/osaka/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/winter/tokyo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  },
+  {
+    "path": "zh-cn/season/winter/sapporo/index.html",
+    "tags_links_scripts_metadata_preserved": true,
+    "old_service_labels": []
+  }
+]

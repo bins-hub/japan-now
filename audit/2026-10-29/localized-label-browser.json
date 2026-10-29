@@ -1,0 +1,315 @@
+{
+  "home": [
+    {
+      "lang": "en",
+      "menu": [
+        {
+          "href": "https://japulse.com/en/",
+          "text": "Home"
+        },
+        {
+          "href": "https://japulse.com/en/live/",
+          "text": "Live cameras"
+        },
+        {
+          "href": "https://japulse.com/en/now/",
+          "text": "Weather & updates"
+        },
+        {
+          "href": "https://japulse.com/en/run-eat/",
+          "text": "Running routes"
+        },
+        {
+          "href": "https://japulse.com/en/local-food/",
+          "text": "Food guides"
+        },
+        {
+          "href": "https://japulse.com/en/season/",
+          "text": "Seasonal travel"
+        },
+        {
+          "href": "https://japulse.com/en/onsen/",
+          "text": "Hot springs"
+        },
+        {
+          "href": "https://japulse.com/en/move/",
+          "text": "Transport"
+        }
+      ],
+      "overflow": false,
+      "tabs": [
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/live/",
+          "text": "◉ Live cameras"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/now/",
+          "text": "✦ Weather & updates"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/run-eat/",
+          "text": "↗ Running routes"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/local-food/",
+          "text": "🍜 Food guides"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/season/",
+          "text": "🍁 Seasonal travel"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/onsen/",
+          "text": "♨ Hot springs"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/en/move/",
+          "text": "🚆 Transport"
+        }
+      ],
+      "url": "https://japulse.com/en/?verify=49a5d4e",
+      "wrap": "wrap"
+    },
+    {
+      "lang": "ja",
+      "menu": [
+        {
+          "href": "https://japulse.com/ja/",
+          "text": "ホーム"
+        },
+        {
+          "href": "https://japulse.com/ja/live/",
+          "text": "ライブカメラ"
+        },
+        {
+          "href": "https://japulse.com/ja/now/",
+          "text": "天気・現地情報"
+        },
+        {
+          "href": "https://japulse.com/ja/run-eat/",
+          "text": "ランニングコース"
+        },
+        {
+          "href": "https://japulse.com/ja/local-food/",
+          "text": "グルメ"
+        },
+        {
+          "href": "https://japulse.com/ja/season/",
+          "text": "季節の旅"
+        },
+        {
+          "href": "https://japulse.com/ja/onsen/",
+          "text": "温泉"
+        },
+        {
+          "href": "https://japulse.com/ja/move/",
+          "text": "交通・アクセス"
+        }
+      ],
+      "overflow": false,
+      "tabs": [
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/live/",
+          "text": "◉ ライブカメラ"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/now/",
+          "text": "✦ 天気・現地情報"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/run-eat/",
+          "text": "↗ ランニングコース"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/local-food/",
+          "text": "🍜 グルメ"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/season/",
+          "text": "🍁 季節の旅"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/onsen/",
+          "text": "♨ 温泉"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/ja/move/",
+          "text": "🚆 交通・アクセス"
+        }
+      ],
+      "url": "https://japulse.com/ja/?verify=49a5d4e",
+      "wrap": "wrap"
+    },
+    {
+      "lang": "zh-CN",
+      "menu": [
+        {
+          "href": "https://japulse.com/zh-cn/",
+          "text": "首页"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/live/",
+          "text": "实时摄像头"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/now/",
+          "text": "天气·实况"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/run-eat/",
+          "text": "跑步路线"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/local-food/",
+          "text": "美食"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/season/",
+          "text": "四季旅行"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/onsen/",
+          "text": "温泉"
+        },
+        {
+          "href": "https://japulse.com/zh-cn/move/",
+          "text": "交通出行"
+        }
+      ],
+      "overflow": false,
+      "tabs": [
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/live/",
+          "text": "◉ 实时摄像头"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/now/",
+          "text": "✦ 天气·实况"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/run-eat/",
+          "text": "↗ 跑步路线"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/local-food/",
+          "text": "🍜 美食"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/season/",
+          "text": "🍁 四季旅行"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/onsen/",
+          "text": "♨ 温泉"
+        },
+        {
+          "clipped": false,
+          "href": "https://japulse.com/zh-cn/move/",
+          "text": "🚆 交通出行"
+        }
+      ],
+      "url": "https://japulse.com/zh-cn/?verify=49a5d4e",
+      "wrap": "wrap"
+    }
+  ],
+  "clicks": [
+    {
+      "labels": [
+        "Live cameras",
+        "Weather & updates",
+        "Running routes",
+        "Food guides",
+        "Seasonal travel",
+        "Hot springs",
+        "Transport"
+      ],
+      "overflow": false,
+      "url": "https://japulse.com/en/onsen/"
+    },
+    {
+      "labels": [
+        "Live cameras",
+        "Weather & updates",
+        "Running routes",
+        "Food guides",
+        "Seasonal travel",
+        "Hot springs",
+        "Transport"
+      ],
+      "overflow": false,
+      "url": "https://japulse.com/en/move/"
+    },
+    {
+      "labels": [
+        "ライブカメラ",
+        "天気・現地情報",
+        "ランニングコース",
+        "グルメ",
+        "季節の旅",
+        "温泉",
+        "交通・アクセス"
+      ],
+      "overflow": false,
+      "url": "https://japulse.com/ja/onsen/"
+    },
+    {
+      "labels": [
+        "ライブカメラ",
+        "天気・現地情報",
+        "ランニングコース",
+        "グルメ",
+        "季節の旅",
+        "温泉",
+        "交通・アクセス"
+      ],
+      "overflow": false,
+      "url": "https://japulse.com/ja/move/"
+    },
+    {
+      "labels": [
+        "实时摄像头",
+        "天气·实况",
+        "跑步路线",
+        "美食",
+        "四季旅行",
+        "温泉",
+        "交通出行"
+      ],
+      "overflow": false,
+      "url": "https://japulse.com/zh-cn/onsen/"
+    },
+    {
+      "labels": [
+        "实时摄像头",
+        "天气·实况",
+        "跑步路线",
+        "美食",
+        "四季旅行",
+        "温泉",
+        "交通出行"
+      ],
+      "overflow": false,
+      "url": "https://japulse.com/zh-cn/move/"
+    }
+  ]
+}
