@@ -1,0 +1,32 @@
+[
+  {
+    "faq": "지역 여행 자주 묻는 질문\n도쿄는 하루에 모두 돌아볼 수 있나요?\n\n주요 구역이 넓게 분산돼 있어 하루 한두 구역을 추천합니다.",
+    "overflow": false,
+    "url": "https://japulse.com/regions/tokyo/?verify=b6e6648",
+    "visible": true
+  },
+  {
+    "faq": "지역 여행 자주 묻는 질문\n오사카와 교토를 하루에 모두 관광할 수 있나요?\n\n이동은 가능하지만 깊이 있는 관광이라면 도시별로 하루를 배정하는 편이 좋습니다.",
+    "overflow": false,
+    "url": "https://japulse.com/regions/osaka/?verify=b6e6648",
+    "visible": true
+  },
+  {
+    "faq": "지역 여행 자주 묻는 질문\n후지산은 언제나 보이나요?\n\n아니요. 맑은 날도 구름이 산을 가릴 수 있으므로 당일 관측을 확인하세요.",
+    "overflow": false,
+    "url": "https://japulse.com/regions/fuji/?verify=b6e6648",
+    "visible": true
+  },
+  {
+    "faq": "지역 여행 자주 묻는 질문\n삿포로와 오타루를 같은 날 방문할 수 있나요?\n\n일정에 따라 가능하지만 겨울에는 이동 여유를 충분히 두세요.",
+    "overflow": false,
+    "url": "https://japulse.com/regions/hokkaido/?verify=b6e6648",
+    "visible": true
+  },
+  {
+    "faq": "지역 여행 자주 묻는 질문\n후쿠오카에서 벳푸를 당일치기로 갈 수 있나요?\n\n교통편에 따라 가능하지만 이동시간이 길 수 있어 충분한 시간을 확보하세요.",
+    "overflow": false,
+    "url": "https://japulse.com/regions/kyushu/?verify=b6e6648",
+    "visible": true
+  }
+]

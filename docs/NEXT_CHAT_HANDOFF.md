@@ -253,3 +253,11 @@
 - `tools/check_faq_visibility.py` 추가 및 GitHub SEO 검사에 연결. 사이트맵 304페이지의 FAQPage mainEntity와 본문 텍스트를 대조해 128개 질문·답변 전부 일치 확인. CSS상 실제 가시성·Google 리치결과 자격·검색 색인·AI 인용은 이 정적 검사만으로 판정하지 않는다.
 - 기존 12개 검사와 새 FAQ 검사, 합계 13개 검사 결과 및 배포·브라우저 확인은 아래 후속 기록 참고.
 - 복구는 기능 커밋 revert를 우선한다. main 강제 덮어쓰기 금지.
+
+### FAQ 보완 최종 배포 확인
+
+- 기능 커밋 `b6e6648eec9b22f072fbdf05986e3c9b4ab27ddf`. [SEO 자동검사](https://github.com/bins-hub/japan-now/actions/runs/40807954144) 및 [Pages 배포](https://github.com/bins-hub/japan-now/actions/runs/40807953772) 성공.
+- 기존 12개 검사와 새 FAQ 검사 총 13개 모두 통과. 새 검사에 수정 전 5페이지를 넣으면 질문·답변 누락 10건을 실제 검출함도 확인했다.
+- 실제 5페이지 HTTP 200·배포 본문과 최종 코드 바이트 일치: [HTTP 기록](../audit/2026-10-29/region-faq-delivery.json).
+- 공개 PC 브라우저에서 5개 FAQ의 질문·답변 표시와 가로 넘침 없음 확인: [브라우저 기록](../audit/2026-10-29/region-faq-browser.json), [도쿄 화면](../audit/2026-10-29/region-faq-tokyo.jpg).
+- 이번에 발견한 5개 FAQ 본문 불일치를 해결한 것이며, 사이트 전체 콘텐츠의 사실 검증·모바일 실기기·검색 순위·AI 인용 완료를 의미하지 않는다.

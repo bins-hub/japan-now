@@ -1,0 +1,27 @@
+[
+  {
+    "path": "regions/tokyo/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "regions/osaka/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "regions/fuji/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "regions/hokkaido/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "path": "regions/kyushu/index.html",
+    "status": 200,
+    "matches": true
+  }
+]
