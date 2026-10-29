@@ -123,7 +123,7 @@ def run():
                 title=name+((' onsen: ' if 'Onsen' not in name else ': ') if lang=='en' else '｜')+aspect+' | JAPULSE'
                 description=[f'{name}: {aspect}. Compare facility information and access; confirm current fees, opening hours and bathing rules with the official facility.',f'{name}の{aspect}を確認。施設別の利用情報と交通を比較し、最新の料金・営業時間・入浴条件は施設の公式案内でご確認ください。',f'查看{name}的{aspect}，比较设施使用信息与交通；最新费用、营业时间与入浴条件请以设施官方信息为准。'][i]
             elif base.startswith('move/'):
-                stem=NAMES[route]['name']
+                stem=NAMES[route]['name'].removesuffix(' アクセス方法')
                 title=[f'{stem}: time, fares & transfers | JAPULSE',f'{stem}の行き方｜所要時間・運賃・乗り換え | JAPULSE',f'{stem}怎么去｜时间、票价与换乘 | JAPULSE'][i]
                 # Existing descriptions retain any named operator and route caveats.
                 description=NAMES[route]['description']+[' Compare travel time, fares and transfers using official operator links and map directions.',' 所要時間・運賃・乗り換えを比較し、公式案内と地図で当日の移動をご確認ください。',' 比较所需时间、票价与换乘，通过官方来源与地图确认当天行程。'][i]
