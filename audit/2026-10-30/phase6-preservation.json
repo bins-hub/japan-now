@@ -1,0 +1,34 @@
+[
+  {
+    "file": "run-eat/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "local-food/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "en/run-eat/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "en/local-food/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "ja/run-eat/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "ja/local-food/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "zh-cn/run-eat/index.html",
+    "search_urls_scripts_images_preserved": true
+  },
+  {
+    "file": "zh-cn/local-food/index.html",
+    "search_urls_scripts_images_preserved": true
+  }
+]

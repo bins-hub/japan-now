@@ -353,3 +353,11 @@
 
 기능 커밋 `dadf42b00d3073bc7ffaadb9710314ef604e507d`를 main에 반영. [CI](https://github.com/bins-hub/japan-now/actions/runs/40991414446)와 [Pages](https://github.com/bins-hub/japan-now/actions/runs/40991414401) 모두 성공. 공개 HTML4개·CSS·sitemap 총6URL HTTP200 및 로컬 배포파일 바이트 일치. 공개 PC 1348px에서 4언어 각각 H1 1개·비교행5개·장소 펼침4개 클릭 후 열림·가로넘침없음 확인. 화면 육안검토 완료. 실제 모바일 뷰포트/기기 검증은 미완료다. `phase5-http.json`, `phase5-deployment.json` 참조.
 다음은 RUN/EAT 개별 코스·식당의 구체 비용·운영·이동 결정을 보강한다. 누적48페이지. 최신 main을 먼저 fetch하고 완료범위를 중복편집하지 않는다. 이후 다음 작업 배포 승인 유지.
+
+## 2026-10-30 6차 도쿄 RUN/EAT 비용·시간·선택 보강
+
+- 기준main `91dbad1b0ce309320b3c9b1e28c3abb04710a29a`, 백업 `backup/pre-tokyo-run-eat-value-20261030`, 작업 `content/tokyo-run-eat-value-20261030`.
+- RUN/EAT4언어8페이지 도쿄구간: 외곽무료/ASICS회원1100·비회원1500·3시간·현재시간·추가요금, 코스순서/계산시간/샤워·짐회수후점심. EAT난카이/본디/사보우루2비교·본디1800·시간/입구·일요일/15시대안·회원2900/비회원3300예산.
+- 본디현운영사2026가격, ASICS880엔과난카이과거750엔을현재가로사용안함. 사보우루와2시간혼용안함. 미확인필드만짧게표시. 기존식당지도·후기URL은접기에보존.
+- `audit/2026-10-30/PHASE6.ko.md`, 테스트/보존JSON. 데이터 `content/tokyo-run-eat-decisions.json`, 적용기 `tools/improve_tokyo_run_eat.py`, 기존현지화뒤실행. 재실행0.
+- 누적고유56페이지의일부본문개선. 전사이트완료아님. 다음오사카/교토/후쿠오카RUN/EAT→LIVE/NOW. 도쿄중복개발금지. 이후보강도배포승인유지. 모바일실기기미검증. 배포결과후속참조.

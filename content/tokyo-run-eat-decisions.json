@@ -1,0 +1,289 @@
+{
+  "checked": "2026-10-30",
+  "locales": {
+    "ko": {
+      "run_head": "황궁 러닝: 무료 코스와 샤워 비용 선택",
+      "run_intro": "황궁 외곽은 약 5~5.3km의 반시계 방향 코스입니다(GO TOKYO 안내 5.3km). 사쿠라다몬→오테몬→다케바시→한조몬→사쿠라다몬 순서로 돌아옵니다. 보행자 우선·좁은 구간 한 줄 통행이며 외苑 광장 전체가 러닝 구역은 아닙니다.",
+      "cols": [
+        "선택",
+        "비용",
+        "이용 조건"
+      ],
+      "run_rows": [
+        [
+          "숙소에서 환복 후 러닝",
+          "¥0",
+          "외곽 코스 이용료. 숙소·교통비 제외"
+        ],
+        [
+          "ASICS RUN TOKYO MARUNOUCHI",
+          "¥1,100 / ¥1,500",
+          "OneASICS 회원 / 비회원, 1회 최대 3시간"
+        ],
+        [
+          "렌탈·큰 락커",
+          "+¥330 / +¥1,100",
+          "렌탈 1점 / 대형 락커. 기본료와 별도"
+        ]
+      ],
+      "run_hours": "러너 시설: 평일 06:30–21:30(입장 20:30 마감), 토일공휴일 07:30–19:00(입장 18:00 마감). 매장 쇼핑 영업시간과 다릅니다. 주소: 丸の内2-5-2 三菱ビル B1F. JR 도쿄역 마루노우치 남쪽 출구 도보 3분, 니주바시마에역 5a 출구 도보 2분.",
+      "run_plan": "일정 예시(편집 추천): 09:00 접수·환복→러닝 32~38분(5.3km를 1km당 6~7분으로 계산)→샤워·환복 후 10:30까지 짐 회수→신보초 이동→11시 이후 점심. 시설에서 코스까지 이동·신호·휴식은 별도입니다. 식사 전 짐을 회수해 3시간 이용 한도를 넘기지 마세요.",
+      "run_choice": "샤워 없이 숙소로 돌아가면 코스 비용 ¥0. 식사까지 이어가면 샤워 시설이 있는 마루노우치 출발이 편합니다. 비회원 시설+본디 비프카레는 ¥3,300, 회원은 ¥2,900(교통·렌탈·추가 주문 제외).",
+      "eat_head": "황궁 러닝 뒤 신보초: 영업시간으로 고르기",
+      "eat_intro": "신보초는 황궁의 식당가가 아니라 별도 이동 구간입니다. 아래 비교는 같은 도시라는 이유로 바로 옆 식당처럼 안내하지 않고, 달리기·샤워를 마친 뒤 이동하는 점심 계획입니다.",
+      "eat_cols": [
+        "식당·선택 근거",
+        "메뉴 비용",
+        "영업·조건"
+      ],
+      "eat_rows": [
+        [
+          "키친난카이 神保町店 · 카츠카레",
+          "현재 가격 미확인",
+          "11:15–15:00 / 17:00–19:30, 소진 시 종료. 일·공휴일 휴무"
+        ],
+        [
+          "본디 神保町本店 · 오후·일요일 대안",
+          "비프/치킨/치즈/야채 카레 ¥1,800",
+          "평일 11:00–22:00, 토일공휴일 10:00–22:00, 주문 21:30 마감"
+        ],
+        [
+          "사보우루2 · 나폴리탄 후보",
+          "현재 가격 미확인",
+          "현재 운영시간 미확인. 옆 가게 사보우루 시간과 혼용하지 않음"
+        ]
+      ],
+      "eat_detail": [
+        "키친난카이: 神田神保町1-39-8. 신보초역 도보 4분. 지요다 관광협회는 14석과 점심 대기를 소개합니다. 관광 기사 속 750엔은 현재 메뉴로 검증하지 못해 예산에 사용하지 않았습니다. 일요일에는 본디를 선택할 수 있습니다.",
+        "본디: 神田神保町2-3 神田古書センタービル 2F. 입구는 건물 뒤쪽이며 야스쿠니 거리 쪽으로 들어가지 않습니다. 15시 이후 식사라면 중간 휴식이 있는 키친난카이 대신 연속 영업하는 본디가 맞습니다. 대기 시간·정기휴무·결제수단은 미확인입니다.",
+        "본디는 소스에 유제품을 사용한다고 밝힙니다. 야채카레를 비건 메뉴로 표시하지 않습니다. 유제품을 피해야 하면 이 메뉴를 선택 기준에서 제외하세요. 사보우루2의 기존 지도·후기 링크는 아래에 유지합니다."
+      ],
+      "links": [
+        "출발점 지도",
+        "샤워 시설 공식 안내",
+        "요금 개정 근거",
+        "외곽 통행 규칙",
+        "식당 선택·비용",
+        "러닝 계획",
+        "이동 지도",
+        "공식 메뉴·시간",
+        "관광협회 자료",
+        "기존 식당 지도·후기 자료"
+      ],
+      "checked": "자료 확인: 2026-10-30. 코스 지도는 길찾기 링크이며 GPS 트랙이 아닙니다."
+    },
+    "en": {
+      "run_head": "Imperial Palace run: free route or paid shower",
+      "run_intro": "The outer loop is approximately 5–5.3km (GO TOKYO lists 5.3km). Run counterclockwise: Sakuradamon → Otemon → Takebashi → Hanzomon → Sakuradamon. Give pedestrians priority and use single file in narrow sections. The entire outer garden plaza is not a running zone.",
+      "cols": [
+        "Choice",
+        "Cost",
+        "Conditions"
+      ],
+      "run_rows": [
+        [
+          "Change at your accommodation",
+          "¥0",
+          "Outer route access; accommodation and transport excluded"
+        ],
+        [
+          "ASICS RUN TOKYO MARUNOUCHI",
+          "¥1,100 / ¥1,500",
+          "OneASICS member / nonmember; maximum 3 hours per visit"
+        ],
+        [
+          "Rental / large locker",
+          "+¥330 / +¥1,100",
+          "Per rental item / large locker; additional to admission"
+        ]
+      ],
+      "run_hours": "Running station: weekdays 06:30–21:30 (last entry 20:30); weekends/holidays 07:30–19:00 (last entry 18:00). These are not the retail store hours. Address: Mitsubishi Building B1F, 2-5-2 Marunouchi. Walk 3 minutes from JR Tokyo Station Marunouchi South Exit or 2 minutes from Nijubashimae Exit 5a.",
+      "run_plan": "Editorial example: 09:00 check-in and change → 32–38-minute run (5.3km calculated at 6–7 min/km) → shower, change and collect bags by 10:30 → travel to Jimbocho → lunch after 11:00. Station-to-route travel, crossings and rests are additional. Collect bags before lunch to stay within the 3-hour limit.",
+      "run_choice": "Returning to your accommodation without a shower keeps route access at ¥0. For lunch afterward, a Marunouchi start with a shower station is practical. Station plus Bondy beef curry: ¥3,300 nonmember or ¥2,900 member, excluding transport, rentals and extras.",
+      "eat_head": "After the Palace run: choose Jimbocho by opening hours",
+      "eat_intro": "Jimbocho requires a separate transfer from the Palace; these are not restaurants at the running start. Plan lunch after finishing the run and shower.",
+      "eat_cols": [
+        "Restaurant and reason",
+        "Menu cost",
+        "Hours and conditions"
+      ],
+      "eat_rows": [
+        [
+          "Kitchen Nankai Jimbocho · katsu curry",
+          "Current price unconfirmed",
+          "11:15–15:00 / 17:00–19:30; closes when sold out. Closed Sundays/holidays"
+        ],
+        [
+          "Bondy Jimbocho main shop · afternoon/Sunday alternative",
+          "Beef/chicken/cheese/vegetable curry ¥1,800",
+          "Weekdays 11:00–22:00; weekends/holidays 10:00–22:00; last order 21:30"
+        ],
+        [
+          "Sabouru 2 · Napolitan candidate",
+          "Current price unconfirmed",
+          "Current hours unconfirmed; do not use adjacent Sabouru cafe hours"
+        ]
+      ],
+      "eat_detail": [
+        "Kitchen Nankai: 1-39-8 Kanda Jimbocho; 4-minute walk from Jimbocho Station. Chiyoda tourism lists 14 seats and lunch queues. Its article’s ¥750 is not verified as the current menu and is excluded from the budget. Choose Bondy on Sunday.",
+        "Bondy: Kanda Kosho Center Building 2F, 2-3 Kanda Jimbocho. Enter from the back, not Yasukuni Street. For a meal after 15:00, Bondy’s continuous hours fit better than Kitchen Nankai’s afternoon break. Queue duration, regular closure and payment methods are unconfirmed.",
+        "Bondy states that its sauce uses dairy. Vegetable curry is not labelled vegan here; exclude it if avoiding dairy. Existing Sabouru 2 map and review links remain below."
+      ],
+      "links": [
+        "Start map",
+        "Official shower station",
+        "Fee revision",
+        "Outer-loop rules",
+        "Meal choices and costs",
+        "Running plan",
+        "Transfer map",
+        "Official menu and hours",
+        "Tourism association",
+        "Existing restaurant maps and review sources"
+      ],
+      "checked": "Sources checked: 2026-10-30. Maps are directions links, not GPS tracks."
+    },
+    "ja": {
+      "run_head": "皇居ラン：無料の外周とシャワー料金を比較",
+      "run_intro": "外周は約5〜5.3km（GO TOKYOは5.3kmと案内）。桜田門→大手門→竹橋→半蔵門→桜田門を反時計回りに進みます。歩行者優先、狭い場所は一列で。皇居外苑の広場全体が走行区域ではありません。",
+      "cols": [
+        "選択",
+        "費用",
+        "利用条件"
+      ],
+      "run_rows": [
+        [
+          "宿泊先で着替えて走る",
+          "¥0",
+          "外周の利用料。宿泊・交通費は別"
+        ],
+        [
+          "ASICS RUN TOKYO MARUNOUCHI",
+          "¥1,100 / ¥1,500",
+          "OneASICS会員 / 非会員、1回最大3時間"
+        ],
+        [
+          "レンタル・大型ロッカー",
+          "+¥330 / +¥1,100",
+          "レンタル1点 / 大型ロッカー。基本料とは別"
+        ]
+      ],
+      "run_hours": "ランステーション：平日06:30–21:30（最終入店20:30）、土日祝07:30–19:00（最終入店18:00）。物販の営業時間とは異なります。丸の内2-5-2 三菱ビルB1F。JR東京駅丸の内南口から徒歩3分、二重橋前駅5a出口から徒歩2分。",
+      "run_plan": "編集部の行程例：09:00受付・着替え→32〜38分走る（5.3kmを6〜7分/kmで計算）→シャワー・着替え・10:30までに荷物回収→神保町へ移動→11時以降に昼食。施設とコース間の移動・信号・休憩は別です。食事前に荷物を回収し、3時間の利用上限を超えない計画に。",
+      "run_choice": "シャワーなしで宿泊先へ戻るなら外周利用は¥0。食事へ続けるならシャワーを使える丸の内出発が便利です。施設＋ボンディのビーフカレーは非会員¥3,300、会員¥2,900（交通・レンタル・追加注文は別）。",
+      "eat_head": "皇居ラン後の神保町：営業時間で選ぶ",
+      "eat_intro": "神保町は皇居の出発点に隣接する食堂街ではなく、別途移動が必要です。ランとシャワーを終えてから向かう昼食計画です。",
+      "eat_cols": [
+        "店・選ぶ理由",
+        "メニュー費用",
+        "営業時間・条件"
+      ],
+      "eat_rows": [
+        [
+          "キッチン南海 神保町店・カツカレー",
+          "現在価格は未確認",
+          "11:15–15:00 / 17:00–19:30、売切れ次第終了。日曜・祝日休み"
+        ],
+        [
+          "ボンディ 神保町本店・午後や日曜の選択肢",
+          "ビーフ・チキン・チーズ・野菜カレー ¥1,800",
+          "平日11:00–22:00、土日祝10:00–22:00、L.O.21:30"
+        ],
+        [
+          "さぼうる2・ナポリタン候補",
+          "現在価格は未確認",
+          "現在営業時間は未確認。隣のさぼうるの時間を転用しない"
+        ]
+      ],
+      "eat_detail": [
+        "キッチン南海：神田神保町1-39-8、神保町駅から徒歩4分。千代田区観光協会は14席と昼の行列を紹介しています。記事内の750円は現在メニューとして検証できず予算には使っていません。日曜日はボンディを選べます。",
+        "ボンディ：神田神保町2-3 神田古書センタービル2F。入口は建物裏側、靖国通り側からは入りません。15時以降の食事なら、昼休みのある南海より通し営業のボンディが合います。待ち時間・定休日・決済方法は未確認です。",
+        "ボンディはソースに乳製品を使用すると案内しています。野菜カレーをヴィーガンとは表示しません。乳製品を避ける場合は選択肢から外してください。さぼうる2の既存地図・口コミリンクは下に残しています。"
+      ],
+      "links": [
+        "出発地点図",
+        "公式ランステ案内",
+        "料金改定",
+        "外周ルール",
+        "食事の選択と費用",
+        "ラン計画",
+        "移動地図",
+        "公式メニュー・時間",
+        "観光協会資料",
+        "既存店の地図・口コミ資料"
+      ],
+      "checked": "資料確認：2026-10-30。地図は経路検索リンクでGPSトラックではありません。"
+    },
+    "zh-cn": {
+      "run_head": "皇居跑步：免费路线与淋浴费用比较",
+      "run_intro": "外圈约5–5.3km（GO TOKYO标为5.3km）。按樱田门→大手门→竹桥→半藏门→樱田门逆时针返回。行人优先，狭窄处单列通行。皇居外苑广场并非全区可跑步。",
+      "cols": [
+        "选择",
+        "费用",
+        "使用条件"
+      ],
+      "run_rows": [
+        [
+          "在住宿处换衣后跑步",
+          "¥0",
+          "外圈路线使用费；住宿和交通另计"
+        ],
+        [
+          "ASICS RUN TOKYO MARUNOUCHI",
+          "¥1,100 / ¥1,500",
+          "OneASICS会员 / 非会员，每次最多3小时"
+        ],
+        [
+          "租赁与大储物柜",
+          "+¥330 / +¥1,100",
+          "每件租赁 / 大储物柜，在基本费之外另计"
+        ]
+      ],
+      "run_hours": "跑者设施：工作日06:30–21:30（入场截至20:30），周末节假日07:30–19:00（入场截至18:00），与零售店营业时间不同。地址：丸之内2-5-2 三菱大厦B1F。JR东京站丸之内南口步行3分钟，二重桥前站5a出口步行2分钟。",
+      "run_plan": "编辑行程示例：09:00办理入场换衣→跑32–38分钟（按5.3km、配速6–7分钟/km计算）→淋浴换衣并在10:30前取回行李→前往神保町→11点后午餐。设施至路线的移动、信号灯及休息另计。用餐前取回行李，避免超过3小时使用上限。",
+      "run_choice": "不使用淋浴、回住宿处换衣时路线费用为¥0。跑后直接吃饭，可选丸之内的淋浴设施作为起点。设施加Bondy牛肉咖喱：非会员¥3,300、会员¥2,900，不含交通、租赁和加点。",
+      "eat_head": "皇居跑后去神保町：按营业时间选餐厅",
+      "eat_intro": "神保町需要从皇居另行移动，并非跑步起点旁的餐厅街。此处为跑步和淋浴结束后前往的午餐安排。",
+      "eat_cols": [
+        "餐厅与选择理由",
+        "菜单费用",
+        "营业时间与条件"
+      ],
+      "eat_rows": [
+        [
+          "Kitchen Nankai 神保町店 · 炸猪排咖喱",
+          "当前价格未确认",
+          "11:15–15:00 / 17:00–19:30，售完即止；周日及节假日休息"
+        ],
+        [
+          "Bondy 神保町本店 · 下午及周日替代",
+          "牛肉/鸡肉/芝士/蔬菜咖喱 ¥1,800",
+          "工作日11:00–22:00，周末节假日10:00–22:00，最后点单21:30"
+        ],
+        [
+          "Sabouru 2 · 那不勒斯意面候选",
+          "当前价格未确认",
+          "当前营业时间未确认，不套用隔壁Sabouru咖啡店时间"
+        ]
+      ],
+      "eat_detail": [
+        "Kitchen Nankai：神田神保町1-39-8，神保町站步行4分钟。千代田观光协会介绍有14个座位及午餐排队情况。文章中的750日元未核实为当前价格，不用于预算。周日可选Bondy。",
+        "Bondy：神田神保町2-3 神田古书中心大厦2楼。入口在楼后方，请勿从靖国通一侧进入。15点后用餐，连续营业的Bondy比有午间休息的Nankai合适。排队时长、固定休息日及支付方式未确认。",
+        "Bondy说明酱汁使用乳制品。这里不将蔬菜咖喱标为纯素；需避开乳制品时请排除此项。下方保留Sabouru 2原有地图及评论链接。"
+      ],
+      "links": [
+        "起点地图",
+        "官方淋浴设施",
+        "价格调整依据",
+        "外圈通行规则",
+        "餐厅选择与费用",
+        "跑步计划",
+        "交通地图",
+        "官方菜单与时间",
+        "观光协会资料",
+        "原有餐厅地图与评论资料"
+      ],
+      "checked": "资料核实：2026-10-30。地图为路线查询链接，不是GPS轨迹。"
+    }
+  }
+}
