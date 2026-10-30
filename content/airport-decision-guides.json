@@ -1,0 +1,537 @@
+{
+  "checked": "2026-10-30",
+  "common": {
+    "cols": [
+      [
+        "선택",
+        "성인 편도",
+        "선택 근거"
+      ],
+      [
+        "Option",
+        "Adult one way",
+        "Why choose it"
+      ],
+      [
+        "選択肢",
+        "大人片道",
+        "選ぶ理由"
+      ],
+      [
+        "选择",
+        "成人单程",
+        "选择理由"
+      ]
+    ],
+    "heads": [
+      [
+        "요금과 선택 기준",
+        "승차 위치·이동 순서",
+        "탑승 조건과 확인 자료"
+      ],
+      [
+        "Fares and choices",
+        "Where to board and continue",
+        "Boarding rules and sources"
+      ],
+      [
+        "料金と選び方",
+        "乗車場所と移動手順",
+        "乗車条件と出典"
+      ],
+      [
+        "票价与选择",
+        "乘车位置与行程",
+        "乘车条件与资料"
+      ]
+    ],
+    "map": [
+      "숙소까지 지도에서 이어 보기",
+      "Continue to your hotel on the map",
+      "地図で宿までの経路を見る",
+      "在地图上查看酒店路线"
+    ],
+    "checked": [
+      "자료 확인 2026-10-30",
+      "Sources checked 2026-10-30",
+      "資料確認 2026-10-30",
+      "资料核实 2026-10-30"
+    ],
+    "unknown": [
+      "날짜별 정확한 첫차·막차: 미확인.",
+      "Exact date-specific first and last departures: unverified.",
+      "日付別の正確な始発・終電：未確認。",
+      "按日期划分的准确首末班：未核实。"
+    ]
+  },
+  "routes": {
+    "haneda-shinagawa": {
+      "locales": {
+        "ko": {
+          "summary": "시나가와가 목적지라면 게이큐를 먼저 선택하세요. 모노레일은 하마마쓰초에 도착하므로 시나가와까지는 JR 환승과 추가 운임이 필요합니다.",
+          "rows": [
+            [
+              "게이큐 일반 승차권",
+              "¥330",
+              "시나가와 도착. 모노레일보다 공항 구간 종이표 기준 ¥190 적음"
+            ],
+            [
+              "도쿄 모노레일",
+              "¥520 + JR",
+              "하마마쓰초 경유를 원하는 경우"
+            ]
+          ],
+          "steps": [
+            "T3→시나가와 안내시간은 11분, T1·2는 14분입니다. 최단 안내값이며 대기·도보를 더해 계획하세요.",
+            "T3에서 도쿄·요코하마 방면 게이큐 개찰구는 도착층 2층입니다. T1·2는 지하 1층 철도 안내를 따릅니다."
+          ],
+          "rules": [
+            "표를 살 때 시나가와와 그 이후 JR 구간을 구분하세요. JR까지 이동한다면 발매기의 ‘JR선 시나가와 환승’을 선택할 수 있습니다."
+          ]
+        },
+        "en": {
+          "summary": "For Shinagawa, start with Keikyu. The monorail ends at Hamamatsucho, requiring a JR change and another fare to reach Shinagawa.",
+          "rows": [
+            [
+              "Keikyu paper ticket",
+              "¥330",
+              "Arrives at Shinagawa; ¥190 less than the monorail airport-sector paper fare"
+            ],
+            [
+              "Tokyo Monorail",
+              "¥520 + JR",
+              "When you want to travel via Hamamatsucho"
+            ]
+          ],
+          "steps": [
+            "Keikyu’s indicative times are 11 minutes from T3 and 14 from T1/2. Add waiting and walking to your plan.",
+            "At T3, the Keikyu gate towards Tokyo/Yokohama is on arrivals 2F. At T1/2 follow railway signs to B1F."
+          ],
+          "rules": [
+            "Distinguish Shinagawa from your onward JR destination when buying tickets. Machines offer a “Transfer to JR Lines at Shinagawa” option."
+          ]
+        },
+        "ja": {
+          "summary": "品川が目的地なら京急を第一候補に。モノレールは浜松町着なので、品川へはJR乗換と追加運賃が必要です。",
+          "rows": [
+            [
+              "京急普通乗車券",
+              "¥330",
+              "品川着。空港区間の紙の運賃はモノレールより¥190安い"
+            ],
+            [
+              "東京モノレール",
+              "¥520 + JR",
+              "浜松町経由で移動したい場合"
+            ]
+          ],
+          "steps": [
+            "京急の案内時間はT3から11分、T1・2から14分。待ち時間と徒歩を別に見込みます。",
+            "T3の東京・横浜方面京急改札は到着階2階。T1・2は地下1階の鉄道案内に従います。"
+          ],
+          "rules": [
+            "切符購入時は品川までか、その先のJR駅までかを区別。券売機の「JR線品川乗換」も選べます。"
+          ]
+        },
+        "zh-cn": {
+          "summary": "目的地是品川，优先选择京急。单轨到浜松町，前往品川还需换乘JR并另付票价。",
+          "rows": [
+            [
+              "京急普通车票",
+              "¥330",
+              "到品川；机场段纸票比单轨少¥190"
+            ],
+            [
+              "东京单轨",
+              "¥520 + JR",
+              "希望经浜松町行程时"
+            ]
+          ],
+          "steps": [
+            "京急参考时间为T3出发11分钟、T1/2出发14分钟，另计候车和步行。",
+            "T3前往东京/横滨的京急检票口位于到达层2楼；T1/2按铁路标志前往地下1层。"
+          ],
+          "rules": [
+            "购票时区分只到品川还是继续乘JR；售票机有“JR线品川换乘”选项。"
+          ]
+        }
+      },
+      "sources": [
+        [
+          "https://www.haneda-tokyo-access.com/en/ride/fares.html",
+          "Keikyu · time / transfer"
+        ],
+        [
+          "https://www.keikyu.co.jp/ride/ticket/",
+          "Keikyu · fare"
+        ],
+        [
+          "https://www.tokyo-monorail.co.jp/english/guidance/train_info.html",
+          "Tokyo Monorail · fare"
+        ],
+        [
+          "https://www.tokyo-haneda.com/en/access/train/index.html",
+          "Haneda · terminal gates"
+        ]
+      ]
+    },
+    "haneda-hamamatsucho": {
+      "locales": {
+        "ko": {
+          "summary": "하마마쓰초 숙소는 모노레일 직통이 단순합니다. 시나가와 숙소라면 하마마쓰초까지 갔다 돌아오기보다 게이큐를 비교하세요.",
+          "rows": [
+            [
+              "모노레일 종이표",
+              "¥520",
+              "하네다 각 터미널→하마마쓰초"
+            ],
+            [
+              "모노레일 IC",
+              "¥519",
+              "같은 카드로 입장·퇴장"
+            ]
+          ],
+          "steps": [
+            "공항 안내 기준 하마마쓰초까지 약 20분입니다. 열차 대기와 호텔까지의 도보는 별도로 잡으세요.",
+            "하마마쓰초에서 내린 뒤 숙소가 가까우면 도보, 다른 JR역이 목적지면 JR 환승으로 나눠 계획하세요."
+          ],
+          "rules": [
+            "어린이 종이표는 ¥260, IC는 ¥259입니다. 위 표는 모노레일 구간만이며 JR 운임은 포함하지 않습니다."
+          ]
+        },
+        "en": {
+          "summary": "For a Hamamatsucho hotel, the direct monorail is straightforward. For Shinagawa, compare Keikyu before travelling via Hamamatsucho.",
+          "rows": [
+            [
+              "Monorail paper ticket",
+              "¥520",
+              "Any Haneda terminal → Hamamatsucho"
+            ],
+            [
+              "Monorail IC card",
+              "¥519",
+              "Use the same card at both gates"
+            ]
+          ],
+          "steps": [
+            "The airport gives about 20 minutes to Hamamatsucho. Budget separately for waiting and the hotel walk.",
+            "After Hamamatsucho, choose a walk for a nearby hotel or a JR transfer for another JR station."
+          ],
+          "rules": [
+            "Child fares are ¥260 on paper or ¥259 by IC. The table covers only the monorail, excluding onward JR fares."
+          ]
+        },
+        "ja": {
+          "summary": "浜松町泊なら直通モノレールが分かりやすい選択。品川泊なら浜松町を経由する前に京急と比較しましょう。",
+          "rows": [
+            [
+              "モノレール紙の乗車券",
+              "¥520",
+              "羽田各ターミナル→浜松町"
+            ],
+            [
+              "モノレールIC",
+              "¥519",
+              "同じカードで入出場"
+            ]
+          ],
+          "steps": [
+            "空港の案内目安は浜松町まで約20分。待ち時間と宿までの徒歩は別に見込みます。",
+            "浜松町到着後は、近隣の宿なら徒歩、別のJR駅ならJR乗換で計画を分けます。"
+          ],
+          "rules": [
+            "小児は紙¥260、IC¥259。表はモノレール区間のみで、JR運賃は含みません。"
+          ]
+        },
+        "zh-cn": {
+          "summary": "住在浜松町，直达单轨更简单。住在品川，先比较京急，避免绕经浜松町。",
+          "rows": [
+            [
+              "单轨纸票",
+              "¥520",
+              "羽田各航站楼→浜松町"
+            ],
+            [
+              "单轨IC卡",
+              "¥519",
+              "使用同一张卡进出站"
+            ]
+          ],
+          "steps": [
+            "机场给出的浜松町参考时间约20分钟，候车和步行到酒店另计。",
+            "到浜松町后，附近酒店可步行；目的地是其他JR车站则安排换乘。"
+          ],
+          "rules": [
+            "儿童纸票¥260、IC卡¥259。表中只含单轨段，不含后续JR票价。"
+          ]
+        }
+      },
+      "sources": [
+        [
+          "https://www.tokyo-monorail.co.jp/english/guidance/train_info.html",
+          "Tokyo Monorail · fare table"
+        ],
+        [
+          "https://www.tokyo-haneda.com/en/access/train/index.html",
+          "Haneda · access time"
+        ]
+      ]
+    },
+    "kansai-namba": {
+      "locales": {
+        "ko": {
+          "summary": "난바까지 공항급행은 비용을 줄이는 선택, 라피트는 좌석을 지정하는 선택입니다. 최단 주행시간만 보지 말고 다음 출발편까지의 대기를 함께 비교하세요.",
+          "rows": [
+            [
+              "공항급행",
+              "¥970",
+              "약 45분, 좌석 지정 없이 비용 우선"
+            ],
+            [
+              "라피트 레귤러",
+              "¥1,670",
+              "기본 ¥970 + 특급 ¥700. 최단 34분"
+            ],
+            [
+              "라피트 티켓리스 특급권",
+              "¥1,520",
+              "기본 ¥970 + 특급 ¥550 합계. 공식 티켓리스 서비스 이용"
+            ]
+          ],
+          "steps": [
+            "두 열차 모두 난카이 난바역으로 갑니다. 숙소 주소를 지도 목적지로 넣어 난카이 난바에서의 마지막 도보 구간을 비교하세요."
+          ],
+          "rules": [
+            "라피트 특급권만으로는 탈 수 없습니다. 기본 승차권 또는 IC와 특급권을 함께 준비하세요.",
+            "레귤러 종이 특급권을 차내에서 사면 ¥300이 추가됩니다. 예약 서비스를 미리 이용할 수 있고 확실히 앉고 싶다면 라피트, 비용 우선이면 공항급행을 고르세요."
+          ]
+        },
+        "en": {
+          "summary": "Airport Express prioritises cost; Rapi:t adds a reserved seat. Compare the wait for the next departure as well as the fastest journey.",
+          "rows": [
+            [
+              "Airport Express",
+              "¥970",
+              "About 45 min; prioritise cost without a seat reservation"
+            ],
+            [
+              "Rapi:t Regular",
+              "¥1,670",
+              "¥970 base + ¥700 supplement; fastest 34 min"
+            ],
+            [
+              "Rapi:t ticketless supplement",
+              "¥1,520",
+              "¥970 base + ¥550 supplement total, via the official ticketless service"
+            ]
+          ],
+          "steps": [
+            "Both trains arrive at Nankai Namba. Use your hotel address as the map destination to compare the final walk."
+          ],
+          "rules": [
+            "The Rapi:t supplement alone is insufficient: you also need the base ticket or IC fare.",
+            "Buying the Regular supplement onboard adds ¥300. Choose Rapi:t if you can book and want a reserved seat; choose Airport Express for cost."
+          ]
+        },
+        "ja": {
+          "summary": "なんばへは空港急行が節約向き、ラピートは座席指定向き。最速所要時間だけでなく次の発車までの待ち時間も比較します。",
+          "rows": [
+            [
+              "空港急行",
+              "¥970",
+              "約45分。座席指定なしで費用優先"
+            ],
+            [
+              "ラピート・レギュラー",
+              "¥1,670",
+              "運賃¥970 + 特急料金¥700。最速34分"
+            ],
+            [
+              "ラピート・チケットレス特急券",
+              "¥1,520",
+              "運賃¥970 + 特急¥550の合計。公式チケットレス利用"
+            ]
+          ],
+          "steps": [
+            "どちらも南海なんば駅に到着。地図の目的地を宿の住所にして、駅からの徒歩を比較します。"
+          ],
+          "rules": [
+            "ラピート特急券だけでは乗れません。乗車券またはIC運賃も必要です。",
+            "レギュラー特急券を車内購入すると¥300加算。予約して着席したいならラピート、費用優先なら空港急行を選びます。"
+          ]
+        },
+        "zh-cn": {
+          "summary": "前往难波，机场急行偏重节省，Rapi:t提供指定席。除最快行车时间，还应比较下一班的等待时间。",
+          "rows": [
+            [
+              "机场急行",
+              "¥970",
+              "约45分钟，不指定座位，重视节省"
+            ],
+            [
+              "Rapi:t普通指定席",
+              "¥1,670",
+              "基础¥970 + 特急¥700，最快34分钟"
+            ],
+            [
+              "Rapi:t无纸化特急券",
+              "¥1,520",
+              "基础¥970 + 特急¥550合计，使用官方无纸化服务"
+            ]
+          ],
+          "steps": [
+            "两种列车均到南海难波站。地图目的地设为酒店地址，比较最后的步行路线。"
+          ],
+          "rules": [
+            "仅特急券不能乘Rapi:t，还需基础车票或IC卡支付基础票价。",
+            "在车内买普通特急券加收¥300。可提前预约且希望有指定席选Rapi:t，重视费用选机场急行。"
+          ]
+        }
+      },
+      "sources": [
+        [
+          "https://www.nankai.co.jp/en_railway/traffic/express/rapit.html",
+          "Nankai · current supplements"
+        ],
+        [
+          "https://www.nankai.co.jp/en_railway/access-fromkix",
+          "Nankai · journey times"
+        ],
+        [
+          "https://www.kixdutyfree.jp/en/kansai_airport_access_guide_info.html",
+          "Kansai airport duty-free · base fare"
+        ]
+      ]
+    },
+    "new-chitose-sapporo": {
+      "locales": {
+        "ko": {
+          "summary": "삿포로까지는 자유석과 u시트의 비용 차이부터 고르세요. 자유석은 예매 없이 이용하고, 좌석을 확정하려면 지정석을 구매합니다.",
+          "rows": [
+            [
+              "자유석",
+              "¥1,230",
+              "IC 또는 기본 승차권, 빈자리 이용"
+            ],
+            [
+              "종이 지정석",
+              "¥2,230",
+              "기본 ¥1,230 + 지정 ¥1,000"
+            ],
+            [
+              "에키넷 티켓리스 지정석",
+              "¥2,030",
+              "기본 ¥1,230 + 지정 ¥800 합계. 종이 지정석보다 ¥200 적음"
+            ]
+          ],
+          "steps": [
+            "JR역은 터미널 지하 1층에 있습니다. 국제선 입국 후 역까지 이동하는 시간은 열차 주행시간과 나눠 잡으세요."
+          ],
+          "rules": [
+            "특별쾌속 최단 33분·쾌속 37분·구간쾌속 43분입니다. 모든 편이 33분인 것은 아닙니다.",
+            "지정석은 표준 편성의 4호차입니다. 예약한 열차·좌석을 이용하고, 개찰구에서는 지정석 예약과 별도로 기본 승차권 또는 IC를 사용합니다."
+          ]
+        },
+        "en": {
+          "summary": "Choose between non-reserved seating and u-seat before paying. Non-reserved travel needs no booking; buy a reservation if you want an assigned seat.",
+          "rows": [
+            [
+              "Non-reserved",
+              "¥1,230",
+              "IC or base ticket; use an available seat"
+            ],
+            [
+              "Paper seat reservation",
+              "¥2,230",
+              "¥1,230 base + ¥1,000 reservation"
+            ],
+            [
+              "Ekinet ticketless reservation",
+              "¥2,030",
+              "¥1,230 base + ¥800 seat total; ¥200 less than paper"
+            ]
+          ],
+          "steps": [
+            "The station is on terminal B1F. Allow separate time to walk there after international arrivals."
+          ],
+          "rules": [
+            "Fastest runs: Special Rapid 33 min, Rapid 37, Semi-Rapid 43. Not every service takes 33 minutes.",
+            "Reserved seats are in car 4 of the standard formation. Use your booked train and seat; enter gates with a separate base ticket or IC card."
+          ]
+        },
+        "ja": {
+          "summary": "札幌へは自由席とuシートの費用差から選択。自由席は予約不要、座席を確保したい場合は指定券を購入します。",
+          "rows": [
+            [
+              "自由席",
+              "¥1,230",
+              "ICまたは乗車券で空席利用"
+            ],
+            [
+              "紙の指定券",
+              "¥2,230",
+              "運賃¥1,230 + 指定¥1,000"
+            ],
+            [
+              "えきねっとチケットレス指定券",
+              "¥2,030",
+              "運賃¥1,230 + 指定¥800の合計。紙より¥200安い"
+            ]
+          ],
+          "steps": [
+            "JR駅はターミナル地下1階。国際線到着後の駅までの移動は乗車時間と別に見込みます。"
+          ],
+          "rules": [
+            "最速は特別快速33分・快速37分・区間快速43分。全便が33分ではありません。",
+            "標準編成では4号車が指定席。予約した列車・座席を利用し、改札は別途乗車券かICで通ります。"
+          ]
+        },
+        "zh-cn": {
+          "summary": "前往札幌，先比较自由席和u-seat费用。自由席无需预约，希望固定座位则购买指定席。",
+          "rows": [
+            [
+              "自由席",
+              "¥1,230",
+              "IC卡或基础车票，使用空座位"
+            ],
+            [
+              "纸质指定席",
+              "¥2,230",
+              "基础¥1,230 + 指定¥1,000"
+            ],
+            [
+              "Ekinet无纸化指定席",
+              "¥2,030",
+              "基础¥1,230 + 指定¥800合计，比纸票少¥200"
+            ]
+          ],
+          "steps": [
+            "JR车站位于航站楼地下1层，国际到达后步行至车站的时间另计。"
+          ],
+          "rules": [
+            "最快参考：特别快速33分钟、快速37分钟、区间快速43分钟，并非每班都33分钟。",
+            "标准编组4号车为指定席。乘预约列车和座位，检票口仍须基础车票或IC卡。"
+          ]
+        }
+      },
+      "sources": [
+        [
+          "https://www.jrhokkaido.co.jp/global/english/travel/airport.html",
+          "JR Hokkaido · boarding / train types"
+        ],
+        [
+          "https://www.jrhokkaido.co.jp/global/english/ticket/regular/index.html",
+          "JR Hokkaido · regular fares"
+        ],
+        [
+          "https://www.jrhokkaido.co.jp/CM/Info/press/pdf/20251212_KO_reservedseatfee.pdf",
+          "JR Hokkaido · 2026 seat-price revision"
+        ],
+        [
+          "https://www.hokkaido-airports.com/en/new-chitose/access/jr/",
+          "New Chitose · station location"
+        ]
+      ]
+    }
+  }
+}
