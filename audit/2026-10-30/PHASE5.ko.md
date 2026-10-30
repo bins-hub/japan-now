@@ -43,3 +43,7 @@
 RUN/EAT의 개별러닝코스·식당 운영/시간·비용·동선 우선 → LIVE/NOW의 관찰에서 여행선택으로 이어지는 정보. 스키·축제 등 새페이지확장보다 기존정보를 채운다. 일본시설의 가격·운영자료를 조회한 것을 현장체험으로 표시하지 않는다.
 
 복구는5차기능커밋의 revert 우선, main 강제이동 금지. 배포후 최신main과 후속검증기록을 읽고 완료항목을 재개발하지 않는다.
+
+## 배포 후 확인
+
+기능 커밋 `dadf42b00d3073bc7ffaadb9710314ef604e507d`를 main에 반영. [CI](https://github.com/bins-hub/japan-now/actions/runs/40991414446)와 [Pages](https://github.com/bins-hub/japan-now/actions/runs/40991414401) 모두 성공. 공개 HTML4개·CSS·sitemap 총6URL HTTP200 및 로컬 배포파일 바이트 일치. 공개 PC 1348px에서 4언어 각각 H1 1개·비교행5개·장소 펼침4개 클릭 후 열림·가로넘침없음 확인. 화면 육안검토 완료. 실제 모바일 뷰포트/기기 검증은 미완료다. `phase5-http.json`, `phase5-deployment.json` 참조.

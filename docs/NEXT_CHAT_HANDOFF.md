@@ -348,3 +348,8 @@
 - HTML/OG/schema/인벤토리 설명·수정일 동기화, 색인304페이지 유지. 기존14검사·금액/기간/보존검사 결과는 `phase5-tests.json`, `phase5-preservation.json`.
 - 누적고유개선48페이지. 다음은 **RUN/EAT 개별코스·식당 시간/비용/동선 → LIVE/NOW 여행결정 정보**. 이번겨울4페이지·이전44페이지 중복제작하지 않는다.
 - 이후‘다음’도배포승인 유지. 백업→검사→배포→공개검증→기록까지 수행. 5차커밋/CI/실제배포 검증은 후속기록 참조. 모바일viewport/실기기는 미완료로 유지.
+
+### 5차 배포 완료 확인
+
+기능 커밋 `dadf42b00d3073bc7ffaadb9710314ef604e507d`를 main에 반영. [CI](https://github.com/bins-hub/japan-now/actions/runs/40991414446)와 [Pages](https://github.com/bins-hub/japan-now/actions/runs/40991414401) 모두 성공. 공개 HTML4개·CSS·sitemap 총6URL HTTP200 및 로컬 배포파일 바이트 일치. 공개 PC 1348px에서 4언어 각각 H1 1개·비교행5개·장소 펼침4개 클릭 후 열림·가로넘침없음 확인. 화면 육안검토 완료. 실제 모바일 뷰포트/기기 검증은 미완료다. `phase5-http.json`, `phase5-deployment.json` 참조.
+다음은 RUN/EAT 개별 코스·식당의 구체 비용·운영·이동 결정을 보강한다. 누적48페이지. 최신 main을 먼저 fetch하고 완료범위를 중복편집하지 않는다. 이후 다음 작업 배포 승인 유지.

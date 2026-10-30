@@ -1,0 +1,38 @@
+[
+  {
+    "path": "season/winter/sapporo/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "5fb8c056b55edee7be349e062cb297f6120490e763edc66cbeb256d4d4236f6e"
+  },
+  {
+    "path": "en/season/winter/sapporo/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "84832e3d7d70c12421915e11eec119ff3eb7fa1886d54495131cbe6a6ac094ef"
+  },
+  {
+    "path": "ja/season/winter/sapporo/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "b97afd6e68b7771c4439eb75921d196a5ff1ba9bd3d3025d362cb4a59e5a413c"
+  },
+  {
+    "path": "zh-cn/season/winter/sapporo/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "255f493d336f65b2a25e32a0b6a6fe4fd17fe79283646dd218b9a4dfe9f3b0ce"
+  },
+  {
+    "path": "assets/decision-guides.css",
+    "status": 200,
+    "match": true,
+    "sha256": "587ace50adb5c415874ff2b1152de1ba7f1a0fb60c97d3cb690307283f9d68b0"
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "match": true,
+    "sha256": "236ae2661d6fcaeaf1df0686f70d5bd60c23d25393cec111b34dfaa4c430af79"
+  }
+]

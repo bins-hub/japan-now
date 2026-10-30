@@ -1,0 +1,22 @@
+{
+  "commit": "dadf42b00d3073bc7ffaadb9710314ef604e507d",
+  "viewport_width": 1348,
+  "local_checks_passed": 14,
+  "ci_run": 40991414446,
+  "pages_run": 40991414401,
+  "ci": "success",
+  "pages": "success",
+  "locales": [
+    "ko",
+    "en",
+    "ja",
+    "zh-cn"
+  ],
+  "each_page": {
+    "h1": 1,
+    "table_body_rows": 5,
+    "details_open_after_click": 4,
+    "horizontal_overflow": false
+  },
+  "mobile_device_verification": "not completed"
+}
