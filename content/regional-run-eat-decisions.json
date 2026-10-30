@@ -1,0 +1,877 @@
+{
+  "checked": "2026-10-30",
+  "locales": {
+    "ko": {
+      "cols": [
+        "선택",
+        "거리·비용",
+        "추천 근거·조건"
+      ],
+      "sources": "확인한 자료 · 2026-10-30",
+      "old": "기존 식당 지도·후기",
+      "runlink": "러닝 코스로",
+      "eatlink": "식당 비교로",
+      "map": "이동 지도",
+      "run": {
+        "osaka": {
+          "title": "오사카성: 짧은 코스·긴 코스와 샤워 선택",
+          "rows": [
+            [
+              "쇼트 순환",
+              "2.9km · 코스 ¥0",
+              "1km당 6~7분이면 약 18~21분"
+            ],
+            [
+              "롱 순환",
+              "3.5km · 코스 ¥0",
+              "같은 페이스 약 21~25분"
+            ],
+            [
+              "RUNNING BASE 大阪城",
+              "¥1,000",
+              "락커·샤워 포함. 렌탈 세트 추가 ¥1,200"
+            ]
+          ],
+          "text": [
+            "코스 안내판을 따라 같은 출발점으로 돌아옵니다. 천수각·유료 정원 입장은 러닝에 포함하지 않습니다. 샤워 시설은 모리노미야 쪽 식당과 반대편인 JO-TERRACE OSAKA E TERRACE104(大阪城3-1), 오사카성공원역 도보 2분입니다.",
+            "시설은 평일 07:00–22:30(접수22:00), 토일공휴일 07:00–20:00(접수19:30), 평일 월요일 휴무. 수건·웨어 각 ¥350, 신발 ¥500 추가. 시설+렌탈 세트는 총 ¥2,200이며 세트 ¥1,200만 내는 것이 아닙니다.",
+            "편집 추천: 09:00 시설 접수→롱 코스→샤워·짐 회수→모리노미야 이동→11시 아스쇼쿠. 시설+밸런스박스는 ¥2,630(렌탈·교통 제외). 식사만 하면 ¥1,630. 표시 러닝시간은 거리×페이스 계산이며 공원 내 시설·식당 이동은 별도입니다."
+          ]
+        },
+        "kyoto": {
+          "title": "교토 가모가와: 4.3km는 왕복 코스",
+          "rows": [
+            [
+              "마루타마치 반환",
+              "약2.5km · ¥0",
+              "짧은 왕복, 6~7분/km 약15~18분"
+            ],
+            [
+              "다카노 반환",
+              "약4.3km · ¥0",
+              "마쓰가사키 인도교 반환, 약26~31분"
+            ],
+            [
+              "가모가와유",
+              "성인 ¥550",
+              "일반 목욕탕. 러닝 중 짐 보관은 미확인"
+            ]
+          ],
+          "text": [
+            "가모오하시에서 다카노가와를 따라 북쪽으로 가서 마쓰가사키 인도교에서 돌아옵니다. 교토시가 안내하는 4.3km 코스를 편도로 두 배 계산하지 마세요. 데마치야나기역에서 가모오하시까지 도보5분입니다.",
+            "가모가와유(下鴨上川原町56)는 14:00–다음날01:00, 일요일08:00–다음날01:00, 화요일 휴무. 대중목욕탕이지 러너 전용 보관소가 아닙니다. 오전 러닝은 숙소 환복→2.5km왕복→데마치 점심 순서로 계획하면 평일14시 목욕탕 개장을 기다리지 않습니다.",
+            "식사 선택: 수요일은 마스가타야 휴무, 화요일·넷째 수요일은 후타바 휴무(공휴일이면 다음날). 평일 늦은 오후에 마스가타야 점심을 붙이지 마세요. 강변에서 먹을 때는 솔개가 음식을 낚아채는 일을 피하도록 음식물을 노출하지 않습니다."
+          ]
+        },
+        "kyushu": {
+          "title": "후쿠오카: 2km 한 바퀴 또는 4km 두 바퀴",
+          "rows": [
+            [
+              "오호리 1바퀴",
+              "2km · 코스 ¥0",
+              "6~7분/km 약12~14분"
+            ],
+            [
+              "오호리 2바퀴",
+              "4km · 코스 ¥0",
+              "같은 페이스 약24~28분"
+            ],
+            [
+              "UNPLAN Fukuoka",
+              "¥500 / 수건 +¥100",
+              "샤워·락커 최대3시간, 함께 이용 시 예약필수"
+            ]
+          ],
+          "text": [
+            "호수의 조깅용 안쪽 길을 이용하고 자전거용 바깥 길과 구분합니다. UNPLAN은 大手門3-4-1, 07:00–20:00. 샤워만 이용하면 예약 없이 프런트로 갈 수 있지만, 달리는 동안 짐을 두려면 샤워+락커 예약을 선택합니다.",
+            "편집 추천: 09:30 시설→2바퀴→샤워·짐회수→11:00 호숫가 로열가든카페 점심. 평일 샐러드런치 ¥1,903+시설 ¥500=¥2,403, 수건 포함 ¥2,503. 롯폰마쓰의 기존 식당은 공원 밖 별도 동선이므로 시간 여유가 있을 때 선택하세요."
+          ]
+        },
+        "hokkaido": {
+          "title": "삿포로: 계절 샤워와 포장 아침 식사",
+          "rows": [
+            [
+              "나카지마공원",
+              "약1km 짧은 순환 · ¥0",
+              "거리표지의 짧은 구간, 공원 전체 둘레 아님"
+            ],
+            [
+              "街RUN 中島公園",
+              "¥500",
+              "2026-04-01~10-31, 09:00–21:00"
+            ],
+            [
+              "산도리아 본점",
+              "더블에그 ¥300 / 야키소바 ¥290",
+              "24시간 포장. 두 개 합계 ¥590"
+            ]
+          ],
+          "text": [
+            "거리표지를 따라 출발점으로 돌아옵니다. 6~7분/km이면 1km 약6~7분. 체육센터는 中島公園1-5, 호로히라바시역1번출구 도보5분. 락커·샤워·페이스수건·샴푸 포함, 20:30까지 돌아와야 합니다.",
+            "러너 서비스 공지 기간은 2026-10-31까지입니다. 11월 이후 샤워를 같은 요금·시간으로 계획하지 말고 숙소 환복으로 짜세요. 겨울 결빙 시에는 러닝 대신 짧은 산책 또는 실내 일정을 선택합니다.",
+            "산도리아 본점은 南8条西9丁目758-14, 공원에서 도보 약15분(삿포로 관광 안내). 달린 뒤 포장해서 숙소로 돌아가기 좋습니다. 일반 연말연시 휴무는12/31~1/2, 2026~27 세부 예외시간은 미확인. 예약·보관·배달은2023년6월부터 중단됐습니다."
+          ]
+        },
+        "okinawa": {
+          "title": "아라하: 거리 대신 시간으로 정하는 해안 왕복",
+          "rows": [
+            [
+              "해안 산책로",
+              "15분 전진+15분 복귀",
+              "편집 제안 30분. 실제 거리 미확인"
+            ],
+            [
+              "해변 샤워·락커",
+              "현재 요금·시간 미확인",
+              "러너 전용 시설 아님. 숙소 환복을 기본 계획으로"
+            ],
+            [
+              "하마야 소바",
+              "현재 매장 메뉴 가격 미확인",
+              "砂辺·宮城2-99, 10:00–17:30(LO17:00)"
+            ]
+          ],
+          "text": [
+            "공식 소개의 약600m는 모래 해변 길이이며 러닝코스 길이가 아닙니다. 산책로를 따라15분 이동한 지점에서 돌아오면 출발점 복귀를 계획하기 쉽습니다. 보행자가 많으면 걷기로 바꾸세요.",
+            "하마야는 아라하 바로 옆이 아닌 스나베·미야기 지역의 별도 이동 목적지입니다. 비치→하마야 지도에서 이동수단을 고르세요. 온라인몰 냉장 소바 세트 가격을 식당 한 그릇 가격으로 전용하지 않았습니다. 저녁 식사 후보로는 맞지 않습니다."
+          ]
+        }
+      },
+      "eat": {
+        "osaka": {
+          "title": "모리노미야 식사: 예산·시간으로 비교",
+          "rows": [
+            [
+              "아스쇼쿠 · 정식·가족 식사",
+              "밸런스박스 ¥1,630 / 가라아게 ¥1,530",
+              "매일11:00–21:00, LO20:30"
+            ],
+            [
+              "かりん · 아침·현금 정식",
+              "일일런치 ¥900(평일) / 햄버그 ¥950",
+              "07:30–18:00, 일·공휴일 휴무"
+            ],
+            [
+              "麦笑 · 우동 후보",
+              "현재 메뉴 가격 미확인",
+              "11:00–15:00 /18:00–22:00, 일요일 휴무·면 소진 조기종료"
+            ]
+          ],
+          "text": [
+            "아스쇼쿠는 森ノ宮中央2-1-70 키ュー즈몰1F. 어린이 플레이트(사과주스 포함)는 ¥950, 초등학생 이하 대상입니다. 성인 밸런스박스2개+어린이1개=¥4,210(추가 음료 제외). 11:30까지의 점심 좌석예약은 이용이12:30까지라 늦게 도착해도 종료시간이 연장되지 않습니다.",
+            "かりん은 森之宮2丁目1 제2단지7호동1F104로, 아스쇼쿠와 같은 건물이 아닙니다. 오사카공립대의2026-04-17 취재는 현금결제·실내흡연 가능으로 안내합니다. 어린이·비흡연 일행이면 몰의 아스쇼쿠가 선택하기 쉽고, 일요일에는かりん을 넣지 않습니다."
+          ]
+        },
+        "kyoto": {
+          "title": "데마치 식사: 점심·라멘·포장 간식 구분",
+          "rows": [
+            [
+              "満寿形屋 · 고등어초밥·우동",
+              "현재 세트 가격 미확인",
+              "상점가 공지10:00–15:00·소진종료, 수요일 휴무"
+            ],
+            [
+              "鴨町らーめん · 라멘",
+              "등록 메뉴 라멘 ¥800 / 미소 ¥850",
+              "등록 영업 화~토11:00–14:00,17:00–22:00; 월·일 휴무"
+            ],
+            [
+              "出町ふたば · 포장 화과자",
+              "현재 본점 단가 미확인",
+              "08:30–17:30, 화·넷째수 휴무(공휴일 다음날)"
+            ]
+          ],
+          "text": [
+            "마스가타야는 二神町179, 현금·PayPay 이용. 상점가 공식 시간10시와 리뷰 사이트12시가 달라, 식사 일정은12시 무렵으로 잡는 편집안을 제안합니다. 소진 조기마감은 가능하므로 15시 도착을 목표로 하지 않습니다.",
+            "가모마치 가격·변경시간은 매장 등록 메뉴/영업 공지가 실린食べログ 자료 기준입니다. 점심LO13:50, 일반 저녁LO21:50, 공휴일 저녁21:00까지이며 공식 홈페이지는 조회 실패했습니다. 영어·중국어 메뉴가 안내돼 있어 주문 언어가 중요한 일행의 선택지입니다.",
+            "후타바는 青龍町236, 데마치야나기역 도보4분. 포장 간식이며 앉아서 먹는 점심 정식의 대체가 아닙니다. 교토역 이세탄 판매가를 본점 가격으로 옮기지 않았습니다. 화과자 구입과 강변 러닝 사이에는 짐을 숙소에 두는 동선을 선택하세요."
+          ]
+        },
+        "kyushu": {
+          "title": "오호리 식사: 공원 안 점심과 롯폰마쓰 이동",
+          "rows": [
+            [
+              "Royal Garden Cafe 大濠公園 · 공원 안",
+              "평일 샐러드 ¥1,903 / 파스타 ¥2,013 / 햄버그 ¥2,288",
+              "점심11:00–15:00. 평일11시·토일공휴일09시 개장"
+            ],
+            [
+              "식당 오사이 · 롯폰마쓰 솥밥",
+              "일일 점심 ¥2,000 / 저녁정식 ¥3,500",
+              "07:30–LO10:30,11:00–15:00(LO14:00),17:00–23:00(LO22:30), 정기휴무없음"
+            ],
+            [
+              "うどん日和 · 롯폰마쓰 우동",
+              "현재 메뉴 가격 미확인",
+              "등록공지 점심만11:00–15:00, 화요일 휴무·면 소진종료"
+            ],
+            [
+              "大濠ふれあい食堂 · 정식 후보",
+              "현재 메뉴 가격 미확인",
+              "11:30–14:30(LO14:00),17:00–21:00(LO20:30), 수·일 휴무"
+            ]
+          ],
+          "text": [
+            "로열가든카페는 大濠公園1-3 보트하우스1F. 위 금액은 공식 평일 점심 메뉴의 세금포함가이며 샐러드·파스타·햄버그를 각각 선택한 금액입니다. 주말 가격으로 전용하지 않습니다. 9~2월 마지막 주문20:00, 3~8월20:30이며 폐점시각은 미확인입니다.",
+            "오사이는 六本松2-5-1 THE GLOVE1F. 예약 플랫폼에 등록된 점심은 솥밥·메인·반찬·두부·국·간식 구성 ¥2,000입니다. UNPLAN샤워 ¥500+점심=¥2,500, 수건 포함 ¥2,600. 공원 안 샐러드 점심과 비교해 이동을 더 할지, 솥밥 정식을 먹을지 고를 수 있습니다.",
+            "우동히요리는 六本松4-4-12, 점심만 운영한다는 매장 등록공지를 적용했습니다. 오호리후레아이는 荒戸3-2-4, 점심과 저녁 사이 휴식이 있습니다. 두 곳의 현재 메뉴 단가는 미확인이며, 지난 메뉴 가격을 예산에 쓰지 않았습니다."
+          ]
+        }
+      }
+    },
+    "en": {
+      "cols": [
+        "Choice",
+        "Distance / cost",
+        "Reason / conditions"
+      ],
+      "sources": "Sources checked · 2026-10-30",
+      "old": "Existing restaurant maps and reviews",
+      "runlink": "Running route",
+      "eatlink": "Compare meals",
+      "map": "Transfer map",
+      "run": {
+        "osaka": {
+          "title": "Osaka Castle: short or long loop, with an optional shower",
+          "rows": [
+            [
+              "Short loop",
+              "2.9 km · route ¥0",
+              "About 18–21 min at 6–7 min/km"
+            ],
+            [
+              "Long loop",
+              "3.5 km · route ¥0",
+              "About 21–25 min at the same pace"
+            ],
+            [
+              "RUNNING BASE Osaka Castle",
+              "¥1,000",
+              "Locker and shower; full rental pack +¥1,200"
+            ]
+          ],
+          "text": [
+            "Follow the course signs back to your start. Castle tower and paid garden entry are separate. The shower station is at JO-TERRACE OSAKA E TERRACE 104,3-1 Osakajo, a 2-minute walk from Osakajokoen Station; Morinomiya restaurants are on a different side of the park.",
+            "Station weekdays 07:00–22:30(last entry 22:00); weekends/holidays 07:00–20:00(last entry 19:30); closed on Mondays that are ordinary weekdays. Towel set or clothing ¥350 each, shoes ¥500 extra. Admission plus full rental pack totals ¥2,200, not just ¥1,200.",
+            "Editorial example:09:00 check in→long loop→shower and collect bags→travel to Morinomiya→11:00 Asushoku. Station plus Balance Box ¥2,630, excluding rentals/transport; meal only ¥1,630. Running times are distance×pace calculations; station and restaurant transfers are additional."
+          ]
+        },
+        "kyoto": {
+          "title": "Kyoto Kamo River: the 4.3 km course includes the return",
+          "rows": [
+            [
+              "Marutamachi turnaround",
+              "About 2.5 km · ¥0",
+              "Short out-and-back, about 15–18 min at 6–7 min/km"
+            ],
+            [
+              "Takano turnaround",
+              "About 4.3 km · ¥0",
+              "Turn at Matsugasaki footbridge; about 26–31 min"
+            ],
+            [
+              "Kamogawa-yu",
+              "Adult ¥550",
+              "Public bath; storage while running unconfirmed"
+            ]
+          ],
+          "text": [
+            "Start at Kamo Ohashi, head north along the Takano River and turn at Matsugasaki footbridge. Do not double Kyoto City’s 4.3 km course as if it were one way. Kamo Ohashi is a 5-minute walk from Demachiyanagi Station.",
+            "Kamogawa-yu,56 Shimogamo Kamigawara-cho:14:00–01:00 next day; Sundays 08:00–01:00; closed Tuesdays. It is a public bath, not a dedicated running locker station. For a morning run, change at your accommodation→2.5 km return route→Demachi lunch, avoiding the weekday 14:00 bath opening wait.",
+            "Meal choices: Masugataya closes Wednesdays; Futaba closes Tuesdays and fourth Wednesdays, shifting to the next day on holidays. Do not schedule Masugataya lunch in late afternoon. Keep riverside food covered to avoid black kites snatching it."
+          ]
+        },
+        "kyushu": {
+          "title": "Fukuoka: one 2 km lap or two 4 km laps",
+          "rows": [
+            [
+              "Ohori one lap",
+              "2 km · route ¥0",
+              "About 12–14 min at 6–7 min/km"
+            ],
+            [
+              "Ohori two laps",
+              "4 km · route ¥0",
+              "About 24–28 min at the same pace"
+            ],
+            [
+              "UNPLAN Fukuoka",
+              "¥500 / towel +¥100",
+              "Shower and locker up to 3 h; reserve for combined use"
+            ]
+          ],
+          "text": [
+            "Use the inner jogging path around the lake, separate from the outer cycling path. UNPLAN is at 3-4-1 Otemon,07:00–20:00. Shower-only customers can go to reception without booking; reserve shower+locker if leaving bags during the run.",
+            "Editorial example:09:30 station→two laps→shower and collect bags→11:00 Royal Garden Cafe by the lake. Weekday salad lunch ¥1,903+station ¥500=¥2,403, or ¥2,503 with towel. Existing Ropponmatsu restaurants require a separate transfer outside the park."
+          ]
+        },
+        "hokkaido": {
+          "title": "Sapporo: seasonal showers and takeaway breakfast",
+          "rows": [
+            [
+              "Nakajima Park",
+              "About 1 km short loop · ¥0",
+              "A marked short section, not the entire park perimeter"
+            ],
+            [
+              "Machi RUN Nakajima Park",
+              "¥500",
+              "2026-04-01–10-31,09:00–21:00"
+            ],
+            [
+              "Sandria main shop",
+              "Double egg ¥300 / yakisoba ¥290",
+              "24-hour takeaway; both total ¥590"
+            ]
+          ],
+          "text": [
+            "Follow distance markers back to your start.1 km at 6–7 min/km takes about 6–7 min. The sports center is at 1-5 Nakajima Park,5 minutes from Horohirabashi Exit 1. Locker,shower,face towel and shampoo included; return by 20:30.",
+            "The announced running service ends 2026-10-31. From November, plan to change at your accommodation rather than assume the same shower service. On icy winter paths, choose a short walk or indoor itinerary.",
+            "Sandria main shop:Minami 8 Nishi 9,758-14; about 15 minutes on foot from the park according to Sapporo tourism. Take food back to your accommodation. Normal New Year closure 12/31–1/2; detailed 2026–27 exceptions unconfirmed. Reservations,holds and delivery ended in June 2023."
+          ]
+        },
+        "okinawa": {
+          "title": "Araha: a timed coastal out-and-back",
+          "rows": [
+            [
+              "Coastal promenade",
+              "15 min out+15 min back",
+              "Editorial 30-minute plan; actual distance unconfirmed"
+            ],
+            [
+              "Beach shower and locker",
+              "Current price/hours unconfirmed",
+              "Not a running station; plan to change at accommodation"
+            ],
+            [
+              "Hamaya Soba",
+              "Current dine-in menu price unconfirmed",
+              "Sunabe/Miyagi 2-99,10:00–17:30(last order 17:00)"
+            ]
+          ],
+          "text": [
+            "The official approximate 600 m describes the sandy beach, not a running route. Turn after 15 minutes on the promenade to return to your start. Walk when pedestrian traffic is busy.",
+            "Hamaya is a separate destination in Sunabe/Miyagi, not beside Araha. Choose transport using the beach→Hamaya map. Refrigerated online soba sets are not used as dine-in bowl prices. It does not suit a dinner plan."
+          ]
+        }
+      },
+      "eat": {
+        "osaka": {
+          "title": "Morinomiya meals: compare budget and opening hours",
+          "rows": [
+            [
+              "Asushoku · set meals/families",
+              "Balance Box ¥1,630 / fried chicken ¥1,530",
+              "Daily 11:00–21:00,last order 20:30"
+            ],
+            [
+              "Karin · early opening/cash meals",
+              "Weekday daily lunch ¥900 / hamburger set ¥950",
+              "07:30–18:00,closed Sundays/holidays"
+            ],
+            [
+              "麦笑 (Mugishou) · udon candidate",
+              "Current menu price unconfirmed",
+              "11:00–15:00 /18:00–22:00; closed Sundays; may close when noodles sell out"
+            ]
+          ],
+          "text": [
+            "Asushoku is on Q’s Mall 1 F,2-1-70 Morinomiya Chuo. The ¥950 children’s plate includes apple juice and is for elementary-school children or younger. Two Balance Boxes plus one child plate total ¥4,210, excluding extra drinks. Lunch seat-only reservations up to 11:30 end at 12:30 even if arriving late.",
+            "Karin is at Morinomiya 2-chome 1,No.7 Building 1 F 104, not in the same building. Osaka Metropolitan University’s 2026-04-17 interview lists cash-only payment and indoor smoking. For children or nonsmokers Asushoku is the easier option; exclude Karin on Sunday."
+          ]
+        },
+        "kyoto": {
+          "title": "Demachi: lunch,ramen or takeaway sweets",
+          "rows": [
+            [
+              "Masugataya · mackerel sushi/udon",
+              "Current set price unconfirmed",
+              "Shopping-street listing 10:00–15:00 or sold out;closed Wednesdays"
+            ],
+            [
+              "Kamomachi ramen",
+              "Listed ramen ¥800 / miso ¥850",
+              "Listed Tue–Sat 11:00–14:00,17:00–22:00;closed Mon/Sun"
+            ],
+            [
+              "Demachi Futaba · takeaway sweets",
+              "Current main-shop unit price unconfirmed",
+              "08:30–17:30;closed Tue/fourth Wed,next day if holiday"
+            ]
+          ],
+          "text": [
+            "Masugataya:179 Futakami-cho;cash and PayPay. Its shopping street lists 10:00 opening while a review directory lists 12:00; our editorial lunch plan targets around noon. Do not aim for 15:00 arrival because stock can run out.",
+            "Kamomachi prices and amended hours come from the restaurant menu/business notice listed on Tabelog. Lunch last order 13:50,regular dinner 21:50;holiday dinner until 21:00. The official website could not be retrieved. English and Chinese menus are listed, useful when ordering language matters.",
+            "Futaba:236 Seiryu-cho,4 minutes from Demachiyanagi. It is takeaway confectionery,not a seated lunch substitute. Kyoto Station Isetan retail prices are not transferred to the main shop. Leave bags at your accommodation when combining sweet shopping with running."
+          ]
+        },
+        "kyushu": {
+          "title": "Ohori meals: lakeside lunch or a Ropponmatsu transfer",
+          "rows": [
+            [
+              "Royal Garden Cafe Ohori · inside park",
+              "Weekday salad ¥1,903 / pasta ¥2,013 / hamburger steak ¥2,288",
+              "Lunch 11:00–15:00;opens 11:00 weekdays,09:00 weekends/holidays"
+            ],
+            [
+              "Shokudo Osai · Ropponmatsu rice-pot meals",
+              "Daily lunch ¥2,000 / dinner set ¥3,500",
+              "07:30–last order 10:30;11:00–15:00(LO 14:00);17:00–23:00(LO 22:30);no regular closure"
+            ],
+            [
+              "Udon Hiyori · Ropponmatsu udon",
+              "Current menu price unconfirmed",
+              "Listed notice:lunch only 11:00–15:00,closed Tuesdays;until noodles sell out"
+            ],
+            [
+              "Ohori Fureai Shokudo · set-meal candidate",
+              "Current menu price unconfirmed",
+              "11:30–14:30(LO 14:00),17:00–21:00(LO 20:30);closed Wed/Sun"
+            ]
+          ],
+          "text": [
+            "Royal Garden Cafe:Boathouse 1 F,1-3 Ohori Koen. These are separate tax-inclusive choices from the official weekday lunch menu;do not apply them as weekend prices. Last order 20:00 September–February or 20:30 March–August;closing time unconfirmed.",
+            "Osai is at THE GLOVE 1 F,2-5-1 Ropponmatsu. Its booking-platform lunch includes pot-cooked rice,a main,sides,tofu,soup and a sweet for ¥2,000. UNPLAN shower ¥500+lunch=¥2,500,or ¥2,600 with towel. Compare a longer transfer for a rice set with the salad lunch inside the park.",
+            "Udon Hiyori is at 4-4-12 Ropponmatsu;we apply its listed lunch-only notice. Ohori Fureai is at 3-2-4 Arato,with a break between lunch and dinner. Current menu unit prices for these two are unconfirmed;older menu prices are not used for budgets."
+          ]
+        }
+      }
+    },
+    "ja": {
+      "cols": [
+        "選択",
+        "距離・費用",
+        "理由・条件"
+      ],
+      "sources": "資料確認・2026-10-30",
+      "old": "既存店の地図・口コミ",
+      "runlink": "ランコース",
+      "eatlink": "食事を比較",
+      "map": "移動地図",
+      "run": {
+        "osaka": {
+          "title": "大阪城：ショート・ロングとシャワーを選ぶ",
+          "rows": [
+            [
+              "ショート周回",
+              "2.9km・コース¥0",
+              "6〜7分/kmで約18〜21分"
+            ],
+            [
+              "ロング周回",
+              "3.5km・コース¥0",
+              "同ペース約21〜25分"
+            ],
+            [
+              "RUNNING BASE大阪城",
+              "¥1,000",
+              "ロッカー・シャワー込。手ぶらパック追加¥1,200"
+            ]
+          ],
+          "text": [
+            "コース案内板をたどり出発点へ戻ります。天守閣・有料庭園は別料金。シャワー施設は大阪城3-1、JO-TERRACE OSAKA E TERRACE104、大阪城公園駅徒歩2分。森ノ宮の食事先とは公園の別側です。",
+            "平日07:00–22:30(受付22:00)、土日祝07:00–20:00(受付19:30)、平日の月曜定休。タオルセット・ウェア各¥350、シューズ¥500追加。施設＋手ぶらパック合計¥2,200で、¥1,200だけではありません。",
+            "編集例：09:00受付→ロング周回→シャワー・荷物回収→森ノ宮移動→11:00アスショク。施設＋バランスボックス¥2,630(レンタル・交通別)、食事のみ¥1,630。走行時間は距離×ペースの計算で、施設・店までの移動は別。"
+          ]
+        },
+        "kyoto": {
+          "title": "京都鴨川：4.3kmは折り返して戻るコース",
+          "rows": [
+            [
+              "丸太町折り返し",
+              "約2.5km・¥0",
+              "短い往復、6〜7分/kmで約15〜18分"
+            ],
+            [
+              "高野折り返し",
+              "約4.3km・¥0",
+              "松ヶ崎人道橋折り返し、約26〜31分"
+            ],
+            [
+              "鴨川湯",
+              "大人¥550",
+              "一般銭湯。走行中の荷物預かりは未確認"
+            ]
+          ],
+          "text": [
+            "賀茂大橋から高野川を北上し松ヶ崎人道橋で折り返します。京都市の4.3kmコースを片道として倍にしないでください。出町柳駅から賀茂大橋まで徒歩5分。",
+            "鴨川湯は下鴨上川原町56、14:00–翌01:00、日曜08:00–翌01:00、火曜定休。ランナー専用預かり所ではなく一般銭湯です。朝は宿泊先で着替え→2.5km往復→出町の昼食なら平日14時の開店待ちを避けられます。",
+            "満寿形屋は水曜、ふたばは火曜・第4水曜休み(祝日なら翌日)。遅い午後に満寿形屋の昼食を組まない計画に。川辺ではトビに取られないよう食べ物を露出させないでください。"
+          ]
+        },
+        "kyushu": {
+          "title": "福岡：2kmを1周、または4kmを2周",
+          "rows": [
+            [
+              "大濠1周",
+              "2km・コース¥0",
+              "6〜7分/kmで約12〜14分"
+            ],
+            [
+              "大濠2周",
+              "4km・コース¥0",
+              "同ペース約24〜28分"
+            ],
+            [
+              "UNPLAN Fukuoka",
+              "¥500／タオル+¥100",
+              "シャワー・ロッカー最大3時間、併用は要予約"
+            ]
+          ],
+          "text": [
+            "湖の内側のジョギング道を利用し外側の自転車道と分けます。UNPLANは大手門3-4-1、07:00–20:00。シャワーのみ予約不要、走行中に荷物を預けるならシャワー＋ロッカー予約を選びます。",
+            "編集例：09:30施設→2周→シャワー・荷物回収→11:00湖畔ロイヤルガーデンカフェ。平日サラダランチ¥1,903＋施設¥500＝¥2,403、タオル込¥2,503。六本松の既存店は公園外への別途移動です。"
+          ]
+        },
+        "hokkaido": {
+          "title": "札幌：季節限定シャワーと持ち帰り朝食",
+          "rows": [
+            [
+              "中島公園",
+              "約1km短い周回・¥0",
+              "距離標示の短い区間。公園全体の外周ではない"
+            ],
+            [
+              "街RUN中島公園",
+              "¥500",
+              "2026-04-01〜10-31、09:00–21:00"
+            ],
+            [
+              "サンドリア本店",
+              "ダブルエッグ¥300／やきそば¥290",
+              "24時間テイクアウト、2つで¥590"
+            ]
+          ],
+          "text": [
+            "距離標示に沿って出発点へ戻ります。1kmは6〜7分/kmで約6〜7分。体育センターは中島公園1-5、幌平橋駅1番出口徒歩5分。ロッカー・シャワー・フェイスタオル・シャンプー込、20:30までに帰館。",
+            "街RUN告知期間は2026-10-31まで。11月以降に同料金・時間のシャワーを前提にせず宿泊先で着替える計画に。冬の凍結時は短い散歩や屋内に切り替えます。",
+            "サンドリア本店は南8条西9丁目758-14、公園から徒歩約15分(札幌観光案内)。持ち帰って宿泊先で食べる選択肢です。通常の年末年始休み12/31〜1/2、2026〜27の細かい例外時間は未確認。2023年6月から予約・取り置き・配達は廃止。"
+          ]
+        },
+        "okinawa": {
+          "title": "アラハ：距離より時間で決める海辺往復",
+          "rows": [
+            [
+              "海辺の遊歩道",
+              "15分進み＋15分戻る",
+              "編集案30分、実距離は未確認"
+            ],
+            [
+              "ビーチのシャワー・ロッカー",
+              "現料金・時間は未確認",
+              "ラン専用でないため宿泊先で着替える計画に"
+            ],
+            [
+              "浜屋そば",
+              "現在の店内メニュー価格は未確認",
+              "砂辺・宮城2-99、10:00–17:30(LO17:00)"
+            ]
+          ],
+          "text": [
+            "公式の約600mは砂浜の長さでランコースではありません。遊歩道で15分進んだ地点を折り返しに。歩行者が多ければ歩きに変えます。",
+            "浜屋はアラハの隣ではなく砂辺・宮城への別移動です。ビーチ→浜屋の地図で移動手段を選びます。通販冷蔵セット価格を店内1杯価格には使っていません。夕食候補には合いません。"
+          ]
+        }
+      },
+      "eat": {
+        "osaka": {
+          "title": "森ノ宮の食事：予算・時間で比較",
+          "rows": [
+            [
+              "アスショク・定食と家族利用",
+              "バランスボックス¥1,630／トリカラ¥1,530",
+              "毎日11:00–21:00、LO20:30"
+            ],
+            [
+              "かりん・朝から現金定食",
+              "日替わり¥900(平日)／ハンバーグ¥950",
+              "07:30–18:00、日祝休み"
+            ],
+            [
+              "麦笑・うどん候補",
+              "現在メニュー価格は未確認",
+              "11:00–15:00／18:00–22:00、日曜休み、麺売切れ早仕舞いあり"
+            ]
+          ],
+          "text": [
+            "アスショクは森ノ宮中央2-1-70、キューズモール1F。キッズプレート¥950はりんごジュース付で小学生以下対象。大人ボックス2＋子供1＝¥4,210(追加ドリンク別)。11:30までのランチ席予約は12:30までで、遅刻でも延長されません。",
+            "かりんは森之宮2丁目1、第二団地7号棟1F104で別建物。大阪公立大学2026-04-17取材は現金のみ・店内喫煙可と案内。子供連れ・非喫煙の同行者ならモールのアスショクが選びやすく、日曜にかりんを入れない計画に。"
+          ]
+        },
+        "kyoto": {
+          "title": "出町：昼食・ラーメン・持ち帰り菓子",
+          "rows": [
+            [
+              "満寿形屋・鯖寿司とうどん",
+              "現在セット価格は未確認",
+              "商店街掲載10:00–15:00、売切れ終了、水曜休み"
+            ],
+            [
+              "鴨町らーめん",
+              "掲載らーめん¥800／味噌¥850",
+              "掲載火〜土11:00–14:00、17:00–22:00、月日休み"
+            ],
+            [
+              "出町ふたば・持ち帰り菓子",
+              "現在本店単価は未確認",
+              "08:30–17:30、火・第4水休み(祝日の翌日)"
+            ]
+          ],
+          "text": [
+            "満寿形屋は二神町179、現金・PayPay。商店街公式は10時、口コミサイトは12時開店と異なるため、編集案は正午頃の昼食。売切れがあるので15時到着を目標にしません。",
+            "鴨町の価格・変更営業時間は食べログ掲載の店舗メニュー・営業告知基準。昼LO13:50、通常夜LO21:50、祝日夜21:00まで。公式HPは取得失敗。英語・中国語メニュー掲載があり、注文言語を重視する同行者の選択肢。",
+            "ふたばは青龍町236、出町柳駅徒歩4分。持ち帰り菓子で着席昼食の代わりではありません。京都駅伊勢丹価格を本店に転用せず、菓子購入とランの間は荷物を宿泊先に置く動線に。"
+          ]
+        },
+        "kyushu": {
+          "title": "大濠の食事：公園内の昼食か六本松へ移動",
+          "rows": [
+            [
+              "ロイヤルガーデンカフェ大濠公園・園内",
+              "平日サラダ¥1,903／パスタ¥2,013／ハンバーグ¥2,288",
+              "昼11:00–15:00、平日11時・土日祝09時開店"
+            ],
+            [
+              "食堂お菜・六本松の羽釜ご飯",
+              "日替わり昼¥2,000／夕食御膳¥3,500",
+              "07:30–LO10:30、11:00–15:00(LO14:00)、17:00–23:00(LO22:30)、定休なし"
+            ],
+            [
+              "うどん日和・六本松うどん",
+              "現在メニュー価格は未確認",
+              "掲載告知は昼のみ11:00–15:00、火曜休み、麺売切れ終了"
+            ],
+            [
+              "大濠ふれあい食堂・定食候補",
+              "現在メニュー価格は未確認",
+              "11:30–14:30(LO14:00)、17:00–21:00(LO20:30)、水日休み"
+            ]
+          ],
+          "text": [
+            "ロイヤルガーデンカフェは大濠公園1-3、ボートハウス1F。金額は公式平日ランチの税込価格で各料理を選ぶ場合です。週末価格に転用しません。LOは9〜2月20:00、3〜8月20:30、閉店時刻は未確認。",
+            "お菜は六本松2-5-1 THE GLOVE1F。予約プラットフォーム掲載の昼御膳は羽釜ご飯・メイン・小鉢・豆腐・汁物・甘味で¥2,000。UNPLANシャワー¥500＋昼食＝¥2,500、タオル込¥2,600。園内サラダ昼食と比べ、移動を増やして羽釜定食を選ぶか判断できます。",
+            "うどん日和は六本松4-4-12、店舗掲載の昼のみ営業告知を採用。大濠ふれあいは荒戸3-2-4、昼夜間に休憩あり。この2店の現メニュー単価は未確認で、過去価格を予算に使っていません。"
+          ]
+        }
+      }
+    },
+    "zh-cn": {
+      "cols": [
+        "选择",
+        "距离与费用",
+        "理由与条件"
+      ],
+      "sources": "资料核实・2026-10-30",
+      "old": "原有餐厅地图与评论",
+      "runlink": "跑步路线",
+      "eatlink": "比较餐厅",
+      "map": "交通地图",
+      "run": {
+        "osaka": {
+          "title": "大阪城：短圈、长圈与淋浴选择",
+          "rows": [
+            [
+              "短圈",
+              "2.9km・路线¥0",
+              "配速6–7分钟/km约18–21分钟"
+            ],
+            [
+              "长圈",
+              "3.5km・路线¥0",
+              "同配速约21–25分钟"
+            ],
+            [
+              "RUNNING BASE大阪城",
+              "¥1,000",
+              "含储物柜淋浴，全套租赁另加¥1,200"
+            ]
+          ],
+          "text": [
+            "沿路线标志回到起点；天守阁及收费庭园不含在跑步费用中。淋浴设施位于大阪城3-1、JO-TERRACE OSAKA E TERRACE104，大阪城公园站步行2分钟，与森之宫餐厅处于公园不同方向。",
+            "工作日07:00–22:30(入场截至22:00)，周末节假日07:00–20:00(入场截至19:30)，普通工作日的周一休息。毛巾套装及服装各¥350、鞋¥500另计。设施加全套租赁合计¥2,200，并非只付¥1,200。",
+            "编辑行程：09:00入场→长圈→淋浴取行李→前往森之宫→11:00 Asushoku。设施加平衡餐盒¥2,630(不含租赁交通)，只吃饭¥1,630。跑步时间按距离乘配速计算，设施餐厅间移动另计。"
+          ]
+        },
+        "kyoto": {
+          "title": "京都鸭川：4.3km包含折返路段",
+          "rows": [
+            [
+              "丸太町折返",
+              "约2.5km・¥0",
+              "短程往返，6–7分钟/km约15–18分钟"
+            ],
+            [
+              "高野折返",
+              "约4.3km・¥0",
+              "松崎人道桥折返，约26–31分钟"
+            ],
+            [
+              "鸭川汤",
+              "成人¥550",
+              "普通浴场，跑步时寄存行李未确认"
+            ]
+          ],
+          "text": [
+            "从贺茂大桥沿高野川向北，在松崎人道桥折返。不要把京都市4.3km路线当成单程再翻倍。出町柳站至贺茂大桥步行5分钟。",
+            "鸭川汤位于下鸭上川原町56，14:00–次日01:00，周日08:00–次日01:00，周二休息。它是普通浴场而非跑者寄存站。上午可在住宿处换衣→2.5km往返→出町午餐，避免等待工作日14点开门。",
+            "满寿形屋周三休息；Futaba周二及第四个周三休息，遇节假日顺延次日。不要在下午较晚时安排满寿形屋午餐。河边用餐时遮好食物，防止黑鸢抢食。"
+          ]
+        },
+        "kyushu": {
+          "title": "福冈：2km一圈或4km两圈",
+          "rows": [
+            [
+              "大濠一圈",
+              "2km・路线¥0",
+              "6–7分钟/km约12–14分钟"
+            ],
+            [
+              "大濠两圈",
+              "4km・路线¥0",
+              "同配速约24–28分钟"
+            ],
+            [
+              "UNPLAN Fukuoka",
+              "¥500／毛巾+¥100",
+              "淋浴加柜最多3小时，合并使用须预约"
+            ]
+          ],
+          "text": [
+            "使用湖边内侧跑步道，与外侧自行车道区分。UNPLAN位于大手门3-4-1，07:00–20:00。仅淋浴可直接到前台；跑步期间存包应预约淋浴加柜。",
+            "编辑行程：09:30设施→两圈→淋浴取包→11:00湖边Royal Garden Cafe。工作日沙拉午餐¥1,903加设施¥500＝¥2,403，含毛巾¥2,503。六本松原有餐厅需另行离开公园前往。"
+          ]
+        },
+        "hokkaido": {
+          "title": "札幌：季节性淋浴与外带早餐",
+          "rows": [
+            [
+              "中岛公园",
+              "约1km短圈・¥0",
+              "距离标识短路段，并非公园整圈"
+            ],
+            [
+              "街RUN中岛公园",
+              "¥500",
+              "2026-04-01至10-31，09:00–21:00"
+            ],
+            [
+              "Sandria本店",
+              "双蛋¥300／炒面¥290",
+              "24小时外带，两种合计¥590"
+            ]
+          ],
+          "text": [
+            "沿距离标识回起点；1km按6–7分钟/km约6–7分钟。体育中心位于中岛公园1-5，幌平桥站1号出口步行5分钟。含柜、淋浴、面巾、洗发用品，20:30前返回。",
+            "跑者服务公告仅至2026-10-31。11月后请按住宿处换衣规划，不沿用同价同时间淋浴服务。冬季结冰时改短程散步或室内行程。",
+            "Sandria本店位于南8条西9丁目758-14，札幌观光资料注明从公园步行约15分钟。适合外带回住宿处。通常年末年初12/31至1/2休息，2026–27详细例外未确认。2023年6月起取消预约、留货和配送。"
+          ]
+        },
+        "okinawa": {
+          "title": "Araha：用时间规划海边往返",
+          "rows": [
+            [
+              "海滨步道",
+              "前行15分钟+返回15分钟",
+              "编辑建议30分钟，实际距离未确认"
+            ],
+            [
+              "海滩淋浴与柜",
+              "当前费用和时间未确认",
+              "非专用跑者设施，默认回住宿处换衣"
+            ],
+            [
+              "Hamaya Soba",
+              "当前堂食菜单价格未确认",
+              "砂边・宫城2-99，10:00–17:30(LO17:00)"
+            ]
+          ],
+          "text": [
+            "官方约600m指沙滩长度，不是跑步路线。沿步道行进15分钟后折返可回到起点，行人多时改步行。",
+            "Hamaya在砂边宫城地区，并非Araha旁边；请在海滩至店铺地图选择交通方式。没有将网购冷藏面套装价格当堂食一碗价格。此店不适合晚餐行程。"
+          ]
+        }
+      },
+      "eat": {
+        "osaka": {
+          "title": "森之宫用餐：比较预算与时间",
+          "rows": [
+            [
+              "Asushoku・套餐和亲子用餐",
+              "平衡餐盒¥1,630／炸鸡¥1,530",
+              "每天11:00–21:00，LO20:30"
+            ],
+            [
+              "Karin・早开门现金套餐",
+              "工作日日替¥900／汉堡套餐¥950",
+              "07:30–18:00，周日节假日休息"
+            ],
+            [
+              "麦笑・乌冬候选",
+              "当前菜单价格未确认",
+              "11:00–15:00／18:00–22:00，周日休息，面售完提前结束"
+            ]
+          ],
+          "text": [
+            "Asushoku位于森之宫中央2-1-70、Q’s Mall一楼。¥950儿童餐含苹果汁，仅限小学生及以下。成人餐盒2份加儿童1份合计¥4,210，额外饮料另计。午餐仅订座最晚11:30入场，12:30结束，迟到不顺延。",
+            "Karin位于森之宫2丁目1、第二团地7号楼1F104，并非同楼。大阪公立大学2026-04-17采访说明仅现金、室内可吸烟。有儿童或不吸烟同伴可优先选商场Asushoku，周日不安排Karin。"
+          ]
+        },
+        "kyoto": {
+          "title": "出町：区分午餐、拉面与外带点心",
+          "rows": [
+            [
+              "满寿形屋・鲭鱼寿司与乌冬",
+              "当前套餐价格未确认",
+              "商店街公告10:00–15:00，售完即止，周三休息"
+            ],
+            [
+              "鸭町拉面",
+              "登记菜单拉面¥800／味噌¥850",
+              "登记周二至六11:00–14:00、17:00–22:00，周一周日休息"
+            ],
+            [
+              "出町Futaba・外带和菓子",
+              "当前本店单价未确认",
+              "08:30–17:30，周二及第四周三休息(节假日顺延)"
+            ]
+          ],
+          "text": [
+            "满寿形屋位于二神町179，现金及PayPay。商店街官方写10点，评论目录写12点，编辑午餐方案安排中午左右。可能售完提前结束，不以15点到店为目标。",
+            "鸭町价格及调整时间来自食べログ刊登的店铺菜单和营业公告。午餐LO13:50，普通晚餐LO21:50，节假日晚餐至21:00。官网查询失败。资料注明有英文及中文菜单，适合重视点餐语言的同行者。",
+            "Futaba位于青龙町236，出町柳站步行4分钟。外带和菓子不能代替坐下吃的午餐；未将京都站伊势丹价格套用于本店。结合买点心与跑步时可先将行李放住宿处。"
+          ]
+        },
+        "kyushu": {
+          "title": "大濠用餐：园内午餐或前往六本松",
+          "rows": [
+            [
+              "Royal Garden Cafe大濠公园・园内",
+              "工作日沙拉¥1,903／意面¥2,013／汉堡肉¥2,288",
+              "午餐11:00–15:00；工作日11点、周末节假日09点开门"
+            ],
+            [
+              "食堂お菜・六本松釜饭套餐",
+              "日替午餐¥2,000／晚餐套餐¥3,500",
+              "07:30–LO10:30、11:00–15:00(LO14:00)、17:00–23:00(LO22:30)，无固定休息日"
+            ],
+            [
+              "うどん日和・六本松乌冬",
+              "当前菜单价格未确认",
+              "登记公告仅午餐11:00–15:00，周二休息，面售完即止"
+            ],
+            [
+              "大濠ふれあい食堂・套餐候选",
+              "当前菜单价格未确认",
+              "11:30–14:30(LO14:00)、17:00–21:00(LO20:30)，周三周日休息"
+            ]
+          ],
+          "text": [
+            "Royal Garden Cafe位于大濠公园1-3、船屋一楼。以上各为官方工作日午餐含税价格，不套用于周末。9至2月LO20:00，3至8月LO20:30，闭店时间未确认。",
+            "Osai位于六本松2-5-1 THE GLOVE一楼。预约平台午餐含釜饭、主菜、小菜、豆腐、汤和甜点，¥2,000。UNPLAN淋浴¥500加午餐＝¥2,500，含毛巾¥2,600。可与园内沙拉午餐比较，决定是否多移动去吃釜饭套餐。",
+            "乌冬日和位于六本松4-4-12，采用登记的仅午餐营业公告。大濠Fureai位于荒户3-2-4，午晚餐间休息。两店当前菜单单价未确认，没有用过去价格编预算。"
+          ]
+        }
+      }
+    }
+  }
+}

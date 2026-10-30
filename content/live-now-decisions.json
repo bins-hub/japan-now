@@ -1,0 +1,445 @@
+{
+  "checked": "2026-10-30",
+  "locales": {
+    "ko": {
+      "live": {
+        "title": "카메라를 보고 오늘 갈 곳 고르기",
+        "intro": "영상에서 보이는 장소와 실제 목적지를 먼저 맞추세요. 아래는 관찰 결과를 일정으로 바꾸는 편집 가이드이며, 현재 영상이나 날씨를 자동 판독한 결과는 아닙니다.",
+        "cols": [
+          "보고 싶은 것",
+          "볼 화면·구분",
+          "다음 선택"
+        ],
+        "rows": [
+          [
+            "도쿄 도심 산책",
+            "시부야: 교차로 보행·노면. 황궁 화면이 아님",
+            "황궁5~5.3km·무료 또는 샤워 포함 계획"
+          ],
+          [
+            "오사카 먹거리·러닝",
+            "도톤보리: 번화가. 오사카성 공원과 다른 장소",
+            "공원2.9/3.5km→모리노미야 식사"
+          ],
+          [
+            "교토 강변",
+            "아라시야마: 가모가와의 수위·노면을 대신하지 않음",
+            "가모가와2.5/4.3km 반환 선택"
+          ],
+          [
+            "삿포로 겨울",
+            "오도리: 도심 적설 모습. 산 전망과 구분",
+            "무료공원/시로이유료/모이와 비용 비교"
+          ],
+          [
+            "후지산 전망",
+            "가와구치호: 산 윤곽·구름. 화면 내 시각 확인",
+            "구름에 가리면 전망만을 목적으로 한 추가 이동을 미루는 선택"
+          ]
+        ],
+        "paras": [
+          "영상이 멈추거나 재생되지 않으면 「다시 시도」→「다음 카메라」→「원본」 순서로 선택할 수 있습니다. 원본도 볼 수 없으면 영상 상태는 미확인으로 두고, 아래 NOW 예보와 이미 확인된 운영시간으로 계획을 이어가세요.",
+          "정지 사진은 표시된 촬영·갱신시각, 동영상은 진행 중인 원본의 시각을 기준으로 봅니다. 일본 현지시간 JST는 UTC+9입니다. 도로 사진은 노면 참고자료이며 철도 운행·입장 가능 여부를 뜻하지 않습니다."
+        ],
+        "links": [
+          "도쿄 러닝·비용",
+          "오사카 코스·식사",
+          "교토 반환 코스",
+          "삿포로 겨울 비교",
+          "후지산 카메라",
+          "예보와 당일 선택"
+        ],
+        "desc": "일본47개 지역 카메라를 찾고 시부야·도톤보리·아라시야마·삿포로·후지산 화면을 실제 여행 동선과 연결하세요. 촬영 장소 구분과 재생 대안, 비용·코스 비교를 제공합니다."
+      },
+      "now": {
+        "title": "오늘 일정: 날씨별로 바꾸는 실제 선택",
+        "intro": "출발할 시간과 돌아올 시간을 일본 현지시간으로 정한 뒤 아래 편집 선택표를 사용하세요. 현재 표시 기온은 MET Norway의 단기 예보이며 현장 실측값이 아닙니다. 표의 상황은 직접 선택하는 계획 기준입니다.",
+        "cols": [
+          "상황",
+          "실행할 일정",
+          "비용·시간 기준"
+        ],
+        "rows": [
+          [
+            "비·결빙 없이 짧게 달리기",
+            "후쿠오카 오호리1바퀴 또는 교토마루타마치왕복",
+            "2km 약12~14분 /2.5km 약15~18분, 코스¥0"
+          ],
+          [
+            "오사카 오전 달리기 후 점심",
+            "오사카성롱→샤워→모리노미야아스쇼쿠",
+            "코스3.5km, 시설+밸런스박스¥2,630"
+          ],
+          [
+            "삿포로 눈길·전망 흐림",
+            "시로이 실내유료관람 중심, 짧은 도심산책",
+            "성인¥1,200, 유료입장16:30마감"
+          ],
+          [
+            "저녁 맑은 전망을 우선",
+            "삿포로모이와와시로이조명 중 한 곳 선택",
+            "모이와성인왕복¥2,100; 시로이조명12/1시작예정"
+          ],
+          [
+            "강한 비·바람·결빙 또는 특보",
+            "강변·해변 러닝을 일정에서 빼고 실내식사·휴식",
+            "식당영업시간에 맞춰 이동; 외부기상특보 연결"
+          ]
+        ],
+        "paras": [
+          "가격은 교통·추가음식·렌탈을 제외한 해당시설/메뉴 기준입니다. 달리는 시간은6~7분/km로 계산했으며, 이동·신호·환복·대기는 별도입니다. 아스쇼쿠는11시개장, 삿포로街RUN샤워는2026-10-31까지이므로 이른 식사·11월샤워 계획을 그대로 붙이지 않습니다.",
+          "기온칸이 비거나 오류가 나면 0도로 해석하지 말고 예보값 미확인으로 봅니다. 그때도 요금·입장마감·경로 표는 이용할 수 있습니다. 강한비·바람이 예보된 목적지는 기상청의 해당시군 경보·주의보와 교통 운영상태를 기준으로 실내일정을 선택하세요."
+        ],
+        "faq": [
+          [
+            "후지산 카메라가 흐리면 하루 종일 안 보이나요?",
+            "한 시점의 가와구치호 화면으로 하루 전체를 판단하지 않습니다. 전망 이동을 보류하고 다음 계획시각에 예보·원본화면을 다시 비교하는 일정으로 짜세요."
+          ],
+          [
+            "도시 기온으로 산 정상 옷차림을 정해도 되나요?",
+            "가와구치호·삿포로 도심 예보는 후지산 정상·모이와 정상의 현장값이 아닙니다. 산 방문은 별도의 고도·운행 정보가 있는 가이드로 옮겨 선택하세요."
+          ]
+        ],
+        "links": [
+          "지역별 러닝 비교",
+          "식당 시간·가격",
+          "삿포로 겨울 실내·전망",
+          "교통·이동",
+          "JMA 경보·주의보",
+          "폭염 경계 정보"
+        ],
+        "desc": "일본 도시별 기온 예보와 카메라를 비교하고 날씨에 맞는 러닝·식사·삿포로 실내 및 전망 일정을 선택하세요. 무료코스·샤워·식사비와 입장마감을 함께 안내합니다."
+      }
+    },
+    "en": {
+      "live": {
+        "title": "Turn camera views into a travel choice",
+        "intro": "Match the filming location with your actual destination first. This is an editorial decision guide,not automated interpretation of current video or weather.",
+        "cols": [
+          "Your goal",
+          "Camera and location limit",
+          "Next choice"
+        ],
+        "rows": [
+          [
+            "Tokyo city walk",
+            "Shibuya crossing:pedestrians/surface,not the Palace",
+            "Free 5–5.3 km Palace run or a shower-inclusive plan"
+          ],
+          [
+            "Osaka food and running",
+            "Dotonbori city streets,not Osaka Castle Park",
+            "2.9/3.5 km park course→Morinomiya meal"
+          ],
+          [
+            "Kyoto riverside",
+            "Arashiyama does not show Kamo River levels or paths",
+            "Kamo 2.5/4.3 km return-course choice"
+          ],
+          [
+            "Sapporo winter",
+            "Odori city snow,distinct from mountain visibility",
+            "Free parks/paid Shiroi/Moiwa cost comparison"
+          ],
+          [
+            "Mount Fuji view",
+            "Kawaguchiko mountain outline/cloud;read the image time",
+            "When obscured,consider postponing an extra view-only transfer"
+          ]
+        ],
+        "paras": [
+          "If playback freezes or fails,choose Retry→Next camera→Original. If the original is unavailable too,leave video status unconfirmed and plan using NOW forecasts and the published venue hours below.",
+          "Use the capture/update timestamp for still images and the original moving feed’s time for video. Japan Standard Time is UTC+9. Road images help show the road surface,not railway operation or admission availability."
+        ],
+        "links": [
+          "Tokyo run and costs",
+          "Osaka course and food",
+          "Kyoto return course",
+          "Sapporo winter comparison",
+          "Fuji camera",
+          "Forecasts and daily choices"
+        ],
+        "desc": "Find cameras across Japan’s 47 prefectures and connect Shibuya,Dotonbori,Arashiyama,Sapporo and Fuji views to travel plans. Compare filming locations,playback alternatives,route choices and costs."
+      },
+      "now": {
+        "title": "Choose today’s itinerary around the weather",
+        "intro": "Set your departure and return in Japan local time,then use this editorial choice table. Displayed temperatures are MET Norway short-range forecasts,not onsite measurements. The scenarios are planning conditions you select.",
+        "cols": [
+          "Conditions",
+          "Practical itinerary",
+          "Cost and timing"
+        ],
+        "rows": [
+          [
+            "Dry,ice-free short run",
+            "One Ohori lap or Kyoto Marutamachi return",
+            "2 km about 12–14 min /2.5 km about 15–18 min;route ¥0"
+          ],
+          [
+            "Osaka morning run and lunch",
+            "Castle long loop→shower→Asushoku Morinomiya",
+            "3.5 km;station+Balance Box ¥2,630"
+          ],
+          [
+            "Sapporo snowy paths/clouded view",
+            "Paid indoor Shiroi visit plus a short city walk",
+            "Adult ¥1,200,last paid admission 16:30"
+          ],
+          [
+            "Clear evening and a view priority",
+            "Choose Moiwa or Shiroi lights for one evening",
+            "Moiwa adult return ¥2,100;Shiroi lights planned from 12/1"
+          ],
+          [
+            "Heavy rain,wind,ice or an alert",
+            "Remove river/beach running;choose an indoor meal and rest",
+            "Travel within restaurant hours;see official weather alerts"
+          ]
+        ],
+        "paras": [
+          "Costs cover the named facility/menu,excluding transport,extras and rentals. Running times use 6–7 min/km;transfers,crossings,changing and queues are additional. Asushoku opens 11:00;Sapporo Machi RUN showers are announced only through 2026-10-31,so do not attach an earlier meal or November shower automatically.",
+          "A blank/error temperature is unconfirmed,not 0°C. Cost,admission-deadline and route tables remain usable. For heavy rain or wind at your destination,use municipality-specific JMA warnings/advisories and transport status to choose an indoor itinerary."
+        ],
+        "faq": [
+          [
+            "Does a cloudy Fuji camera mean no view all day?",
+            "One Kawaguchiko image cannot describe the whole day. Postpone a view-only transfer and compare forecasts and the original again at your next planning time."
+          ],
+          [
+            "Can city temperature decide summit clothing?",
+            "Kawaguchiko/Sapporo city forecasts are not Fuji or Moiwa summit observations. Use the destination guide’s altitude and operation information for a mountain visit."
+          ]
+        ],
+        "links": [
+          "Compare running routes",
+          "Meal hours and prices",
+          "Sapporo indoor and view choices",
+          "Transport",
+          "JMA warnings/advisories",
+          "Heat-alert information"
+        ],
+        "desc": "Compare Japan city forecasts with cameras and choose running,meals or Sapporo indoor and viewpoint itineraries. See free routes,shower and meal costs,and admission deadlines together."
+      }
+    },
+    "ja": {
+      "live": {
+        "title": "カメラから今日の行き先を選ぶ",
+        "intro": "撮影場所と実際の目的地を合わせてから利用してください。現在映像や天候の自動判読ではなく、観察から行程を選ぶ編集ガイドです。",
+        "cols": [
+          "見たいもの",
+          "画面・場所の区別",
+          "次の選択"
+        ],
+        "rows": [
+          [
+            "東京都心散策",
+            "渋谷の歩行者・路面。皇居の画面ではない",
+            "皇居5〜5.3km無料／シャワー付き計画"
+          ],
+          [
+            "大阪の食事・ラン",
+            "道頓堀の繁華街。大阪城公園とは別",
+            "公園2.9/3.5km→森ノ宮の食事"
+          ],
+          [
+            "京都の川沿い",
+            "嵐山は鴨川の水位・路面を示さない",
+            "鴨川2.5/4.3km折り返し"
+          ],
+          [
+            "札幌の冬",
+            "大通の市街地積雪。山の視界と区別",
+            "無料公園／白い恋人有料／藻岩山比較"
+          ],
+          [
+            "富士山の眺望",
+            "河口湖の山影・雲。画面時刻を見る",
+            "雲で隠れる場合、眺望だけの追加移動を延期する選択"
+          ]
+        ],
+        "paras": [
+          "停止・再生不可なら「再試行」→「次のカメラ」→「元の映像」の順で選べます。原本も見られなければ映像状態は未確認とし、NOWの予報と掲載営業時間で計画を進めます。",
+          "静止画は撮影・更新時刻、動画は進行する原本の時刻を基準に。日本標準時JSTはUTC+9。道路画像は路面参考で鉄道運行や入場可否を示しません。"
+        ],
+        "links": [
+          "東京ランと費用",
+          "大阪コースと食事",
+          "京都折り返しコース",
+          "札幌冬の比較",
+          "富士山カメラ",
+          "予報と当日の選択"
+        ],
+        "desc": "全国47都道府県のカメラを探し、渋谷・道頓堀・嵐山・札幌・富士山の映像を旅行計画につなげます。撮影場所の違い、再生の代案、コースと費用を比較できます。"
+      },
+      "now": {
+        "title": "今日の行程：天候ごとの具体的な選択",
+        "intro": "出発・帰着を日本時間で決め、編集部の選択表を使います。表示気温はMET Norwayの短期予報で現地実測ではありません。表の状況は自分で選ぶ計画条件です。",
+        "cols": [
+          "状況",
+          "実行する行程",
+          "費用・時間"
+        ],
+        "rows": [
+          [
+            "雨・凍結なしの短いラン",
+            "大濠1周または京都丸太町往復",
+            "2km約12〜14分／2.5km約15〜18分、コース¥0"
+          ],
+          [
+            "大阪朝ラン後の昼食",
+            "大阪城ロング→シャワー→森ノ宮アスショク",
+            "3.5km、施設＋ボックス¥2,630"
+          ],
+          [
+            "札幌の雪道・曇った眺望",
+            "白い恋人の有料屋内中心＋短い街歩き",
+            "大人¥1,200、有料最終入場16:30"
+          ],
+          [
+            "晴れた夕方に眺望優先",
+            "藻岩山か白い恋人イルミのどちらか",
+            "藻岩山大人往復¥2,100、イルミ12/1開始予定"
+          ],
+          [
+            "強雨・強風・凍結や警報",
+            "川辺・海辺ランを外し屋内の食事・休憩へ",
+            "店の営業時間内に移動。公式気象警報へ"
+          ]
+        ],
+        "paras": [
+          "費用は該当施設・メニューで交通・追加注文・レンタル別。走行時間は6〜7分/km計算で移動・信号・着替え・待ちは別。アスショク11時開店、札幌街RUNシャワーは2026-10-31までの告知なので早朝食事・11月シャワーを自動的に組みません。",
+          "空欄・エラーの気温は0度ではなく予報値未確認。料金・入場締切・経路表は引き続き利用できます。目的地の強雨・強風予報時は市町村別の気象庁警報・注意報と交通状況を基に屋内行程を選びます。"
+        ],
+        "faq": [
+          [
+            "富士山カメラが曇れば一日見えませんか？",
+            "一時点の河口湖映像で一日を判断しません。眺望移動を保留し次の計画時刻に予報・原本を再比較する行程に。"
+          ],
+          [
+            "都市の気温で山頂の服装を決められますか？",
+            "河口湖・札幌市街地予報は富士山・藻岩山山頂の観測値ではありません。山は目的地ガイドの高度・運行情報で選びます。"
+          ]
+        ],
+        "links": [
+          "ランコース比較",
+          "食事の時間・価格",
+          "札幌屋内・眺望",
+          "交通・移動",
+          "気象庁警報・注意報",
+          "熱中症警戒情報"
+        ],
+        "desc": "日本の都市別予報とカメラを比較し、天候に合うラン・食事・札幌の屋内や眺望行程を選べます。無料コース、シャワー・食事費、入場締切を合わせて案内します。"
+      }
+    },
+    "zh-cn": {
+      "live": {
+        "title": "看摄像头后选择今天去哪里",
+        "intro": "先对应拍摄地点与实际目的地。这是将观察转为行程的编辑指南，并非自动识别当前视频或天气。",
+        "cols": [
+          "想了解什么",
+          "画面与地点区分",
+          "下一步选择"
+        ],
+        "rows": [
+          [
+            "东京都心散步",
+            "涩谷路口行人与路面，并非皇居画面",
+            "皇居5–5.3km免费或含淋浴计划"
+          ],
+          [
+            "大阪美食跑步",
+            "道顿堀商业街，并非大阪城公园",
+            "公园2.9/3.5km→森之宫用餐"
+          ],
+          [
+            "京都河边",
+            "岚山不能代表鸭川水位与路面",
+            "鸭川2.5/4.3km折返选择"
+          ],
+          [
+            "札幌冬季",
+            "大通市区积雪，与山上视野区分",
+            "免费公园/白色恋人收费/藻岩山比较"
+          ],
+          [
+            "富士山视野",
+            "河口湖山影与云，查看画面时间",
+            "云遮山时可推迟仅为观景的额外移动"
+          ]
+        ],
+        "paras": [
+          "画面停滞或无法播放时依次选重试→下一摄像头→原始视频。原视频也无法看时，将视频状态留为未确认，继续用NOW预报和已刊营业时间规划。",
+          "静态图看拍摄更新时间，视频看正在推进的原画面时间。日本JST为UTC+9。道路图只辅助看路面，并不代表铁路运营或能否入场。"
+        ],
+        "links": [
+          "东京跑步与费用",
+          "大阪路线与美食",
+          "京都折返路线",
+          "札幌冬季比较",
+          "富士山摄像头",
+          "预报与当日选择"
+        ],
+        "desc": "查找日本47都道府县摄像头，将涩谷、道顿堀、岚山、札幌及富士山画面连接到实际行程。区分拍摄位置，查看播放替代方式、路线及费用比较。"
+      },
+      "now": {
+        "title": "今日行程：根据天气作出具体选择",
+        "intro": "用日本当地时间定出发和返回时间，再使用编辑选择表。显示气温为MET Norway短期预报，并非现场实测。表中情景是自行选择的规划条件。",
+        "cols": [
+          "情况",
+          "可执行行程",
+          "费用与时间"
+        ],
+        "rows": [
+          [
+            "无雨无冰的短跑",
+            "大濠一圈或京都丸太町往返",
+            "2km约12–14分钟／2.5km约15–18分钟，路线¥0"
+          ],
+          [
+            "大阪晨跑后午餐",
+            "大阪城长圈→淋浴→森之宫Asushoku",
+            "3.5km，设施加餐盒¥2,630"
+          ],
+          [
+            "札幌雪路或视野不佳",
+            "白色恋人收费室内参观加短程市区散步",
+            "成人¥1,200，收费入场截至16:30"
+          ],
+          [
+            "晴朗傍晚重视景色",
+            "藻岩山或白色恋人灯光二选一",
+            "藻岩山成人往返¥2,100，灯光计划12/1开始"
+          ],
+          [
+            "强雨强风结冰或预警",
+            "取消河边海边跑步，选室内用餐休息",
+            "按餐厅营业时间移动，连接官方天气预警"
+          ]
+        ],
+        "paras": [
+          "费用为指定设施菜单，不含交通、加点和租赁。跑步按6–7分钟/km计算，移动、信号灯、换衣与排队另计。Asushoku11点开门，札幌街RUN淋浴公告仅至2026-10-31，不直接套用早晨用餐或11月淋浴计划。",
+          "气温空白报错并非0度，而是预报值未确认；价格、入场截止和路线表仍可使用。目的地预报强雨强风时，依据对应市町村气象厅预警和交通情况选室内行程。"
+        ],
+        "faq": [
+          [
+            "富士山画面有云就整天看不到吗？",
+            "不能用一个时点的河口湖画面判断全天。可暂缓观景移动，在下次规划时间再比较预报与原画面。"
+          ],
+          [
+            "可以按城市气温决定山顶穿着吗？",
+            "河口湖或札幌市区预报并非富士山或藻岩山顶观测。山上行程应使用目的地指南的海拔与运营资料选择。"
+          ]
+        ],
+        "links": [
+          "比较跑步路线",
+          "餐厅时间价格",
+          "札幌室内与观景",
+          "交通移动",
+          "气象厅预警",
+          "高温警戒信息"
+        ],
+        "desc": "比较日本城市预报与摄像头，选择适合天气的跑步、美食或札幌室内及观景行程。结合免费路线、淋浴及餐费与入场截止时间规划。"
+      }
+    }
+  }
+}

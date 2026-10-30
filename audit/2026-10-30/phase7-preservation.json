@@ -1,0 +1,82 @@
+[
+  {
+    "file": "run-eat/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 6
+  },
+  {
+    "file": "local-food/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 4
+  },
+  {
+    "file": "live/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "now/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "en/run-eat/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 6
+  },
+  {
+    "file": "en/local-food/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 4
+  },
+  {
+    "file": "en/live/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "en/now/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "ja/run-eat/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 6
+  },
+  {
+    "file": "ja/local-food/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 4
+  },
+  {
+    "file": "ja/live/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "ja/now/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "zh-cn/run-eat/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 6
+  },
+  {
+    "file": "zh-cn/local-food/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 4
+  },
+  {
+    "file": "zh-cn/live/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  },
+  {
+    "file": "zh-cn/now/index.html",
+    "search_urls_images_navigation_script_paths_preserved": true,
+    "tables": 1
+  }
+]

@@ -5,7 +5,7 @@
   const shapes = {
     tokyo: {kind:"loop", d:"M 175 273 C 134 235 149 159 219 118 C 299 72 432 82 563 129 C 669 169 653 262 564 290 C 452 332 263 333 175 273", distance:"~5 km", label:"Imperial Palace"},
     osaka: {kind:"loop", d:"M 196 280 C 151 267 110 204 151 141 C 205 82 346 105 428 112 C 552 89 650 139 654 203 C 667 296 518 331 363 302 C 260 282 213 295 196 280", distance:"~3.5 km", label:"Osaka Castle Park"},
-    kyoto: {kind:"return", d:"M 169 292 C 199 242 261 227 319 197 C 394 159 446 120 543 92 C 592 80 628 92 650 112 C 617 132 598 137 545 143 C 443 168 397 211 329 243 C 245 286 209 305 169 292", distance:"4.3km one-way", label:"Kamogawa River"},
+    kyoto: {kind:"return", d:"M 169 292 C 199 242 261 227 319 197 C 394 159 446 120 543 92 C 592 80 628 92 650 112 C 617 132 598 137 545 143 C 443 168 397 211 329 243 C 245 286 209 305 169 292", distance:"~4.3 km", label:"Kamogawa River"},
     kyushu: {kind:"loop", d:"M 269 282 C 192 261 176 191 225 140 C 280 87 380 74 481 100 C 575 127 633 183 612 249 C 592 307 487 334 382 326 C 334 324 292 301 269 282", distance:"~2 km", label:"Ohori Park"},
     hokkaido: {kind:"loop", d:"M 223 284 C 143 260 145 179 207 132 C 270 91 309 111 371 107 C 448 91 534 86 591 150 C 657 229 577 308 474 312 C 344 339 275 315 223 284", distance:"short loop", label:"Nakajima Park"},
     okinawa: {kind:"return", d:"M 175 268 C 248 232 321 208 393 180 C 487 145 558 125 653 102 C 681 113 681 133 659 144 C 568 174 497 196 401 224 C 316 248 243 290 175 268", distance:"length varies", label:"Araha Beach"}

@@ -1,0 +1,122 @@
+[
+  {
+    "command": [
+      "node",
+      "tools/check_guide_source_parity.cjs"
+    ],
+    "code": 0,
+    "output": "PASS Korean-source parity: 102 localized ONSEN/MOVE pages; section/table/card/control counts, image order, numeric control data and translated static/dynamic text.\nThis does not certify third-party stream/image availability or mobile rendering.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_index_integrity.cjs"
+    ],
+    "code": 0,
+    "output": "Index integrity PASS: 304 sitemap URLs, 40 multilingual priority camera pages.\nChecked canonical, noindex, title, description, H1, JSON-LD, sitemap hreflang, reciprocal locales and priority internal guide links.\nNote: static checks cannot guarantee Google indexing or live broadcast/HTTP availability.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_locale_navigation.cjs"
+    ],
+    "code": 0,
+    "output": "PASS locale navigation: 304 pages; 4671 localized anchors; 96 inline scripts; homepage-only language pickers and camera/menu parity.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_mobile_policy.cjs"
+    ],
+    "code": 0,
+    "output": "PASS responsive baseline and site policy links across 304 sitemap pages\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_move_integrity.cjs"
+    ],
+    "code": 0,
+    "output": "Airport SEO PASS: eight independent guides\nMOVE integrity PASS: 9 destination pages, 8 airport routes, scripts, SEO, internal navigation\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_move_search.cjs"
+    ],
+    "code": 0,
+    "output": "PASS MOVE search: 4 languages, uppercase/lowercase/whitespace, no results, reset and city filtering.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_player_fallbacks.cjs"
+    ],
+    "code": 0,
+    "output": "PASS: 4 languages; playback success, stalled startup, stale callbacks, source link and cleanup.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_route_visuals.cjs"
+    ],
+    "code": 0,
+    "output": "PASS: 6 closed animation paths and 4 language pages; accessibility, links, canonicals and hreflang present.\nRoute drawings are conceptual sketches, not surveyed GPS navigation tracks.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_run_eat_plus.cjs"
+    ],
+    "code": 0,
+    "output": "PASS 4 locales × 6 official source-backed course cards, itinerary controls, animation percent and index-safe URLs\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_site_links.cjs"
+    ],
+    "code": 0,
+    "output": "PASS same-origin links: 304 indexed pages; 228 localized pages; 9523 links/assets/anchors checked\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/check_weather_dynamic.cjs"
+    ],
+    "code": 0,
+    "output": "PASS weather: four languages, dynamic search cards, shared cache, request timeout and queue recovery.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/audit_i18n_parity.cjs"
+    ],
+    "code": 0,
+    "output": "I18N PARITY AUDIT {\"checked\":228,\"missing\":0,\"thin\":0,\"koreanCta\":0}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_faq_visibility.py"
+    ],
+    "code": 0,
+    "output": "PASS FAQ visibility: 304 indexed pages; 128 questions and answers match readable HTML.\nChecks content presence, not browser CSS visibility, rich-result eligibility or actual AI citations.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_search_metadata_parity.py"
+    ],
+    "code": 0,
+    "output": "PASS search metadata parity: 76 four-language groups, 304 pages, unique titles within each language and matching page/OG/schema metadata.\nThis validates metadata contracts, not translation completeness, query demand, indexing, traffic or AI citations.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/check_decision_corrections.py"
+    ],
+    "code": 0,
+    "output": "PASS16 decision pages; Kyoto obsolete one-way claims absent; regional locale coverage and family/budget arithmetic\n"
+  }
+]
