@@ -1,0 +1,46 @@
+{
+  "scope": "PC only",
+  "pages": [
+    {
+      "url": "https://japulse.com/season/autumn/sapporo/?verify=29db15e",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "details": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/en/season/autumn/sapporo/?verify=29db15e",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "details": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/ja/season/autumn/sapporo/?verify=29db15e",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "details": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/zh-cn/season/autumn/sapporo/?verify=29db15e",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "details": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    }
+  ],
+  "clickedChineseFirstPlace": true,
+  "firstPlaceHoursVisible": true,
+  "photoComplete": true,
+  "photoNaturalWidth": 960,
+  "mobile": "Local QA file navigation rejected by browser protocol security policy; no bypass attempted. Narrow viewport and physical device remain unverified."
+}

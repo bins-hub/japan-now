@@ -331,3 +331,11 @@
 - [4차보고서](../audit/2026-10-30/PHASE4.ko.md). `content/sapporo-autumn-decisions.json`, `tools/improve_sapporo_autumn.py` 추가. 기존생성/현지화 뒤 실행, 재실행0. 검색설명 HTML/OG/schema/인벤토리 동기화.
 - 누적고유개선44페이지. 다음: 삿포로겨울 시로이코이비토 비용·운영/교통 → RUN/EAT → LIVE/NOW. 전체252페이지 사실검증완료는 아님.
 - 4차기능커밋·배포·검증은 후속기록 참조. 이후작업도 매번별도승인을 묻지 않고 배포까지 수행한다.
+
+### 4차 실제 배포·검증 결과
+
+- 기능커밋 `29db15e9d9fd5725bf9dd9f35550162f775b1c49` main 배포. [CI](https://github.com/bins-hub/japan-now/actions/runs/40982444604)·[Pages](https://github.com/bins-hub/japan-now/actions/runs/40982444222) 성공.
+- 누적44HTML+CSS+사이트맵46응답 HTTP200·배포코드와 바이트일치. 공개4언어 삿포로 PC의 표3행·펼침3·H1각1·가로넘침0, 중국어펼침클릭·사진최종로드 확인. `phase4-http.json`, `phase4-browser.json`.
+- 화면에서 확인한 기존외국어3페이지 메타태그 뒤 `>` 잔여문자를 생성기에서 제거하는 후속정리와 이 검증기록을 추가. 한국어 ‘원산’을 ‘마루야마산’으로 정리. URL/사진/실질요금은 보존.
+- 로컬390px QA문서 열기가 브라우저보안의 file:// 프로토콜정책에 거절되어 우회하지 않음. 공개PC검증만 완료, 모바일viewport/실기기 미완료. 다음에도 실제로 확인하지 않은 모바일을 완료로 보고하지 않는다.
+- 현재누적44개 고유개선URL. 다음미완료는 위 삿포로겨울·RUN/EAT·LIVE/NOW. 사용자는 이후‘다음’에도 배포승인했으므로 백업→검사→배포→실제확인까지 수행한다.

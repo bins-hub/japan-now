@@ -16,6 +16,7 @@ for lang,c in d['locales'].items():
  bodies=[photo,table,detail,''.join(p(x) for x in c['plans'])+a(route,'Google Maps'),''.join(p(x) for x in c['hours']),''.join('<h3>'+escape(q)+'</h3>'+p(ans) for q,ans in c['faq']),'<p>2026-10-30</p><ul>'+''.join('<li>'+a(u,t)+'</li>' for u,t in d['sources'])+'</ul>']
  content=nav+h1+p(c['description'])+''.join('<section class="panel"><h2>'+escape(title)+'</h2>'+body+'</section>' for title,body in zip(c['heads'],bodies))
  h=re.sub(r'(<main\b[^>]*>).*?</main>',lambda m:m[1]+content+'</main>',h,count=1,flags=re.S)
+ h=re.sub(r'(<meta name="description"[^>]*>)>',r'\1',h)
  css='<link rel="stylesheet" href="/assets/decision-guides.css?v=20261030">'
  if css not in h:h=h.replace('</head>',css+'</head>')
  for name in ['description','og:description']:
