@@ -1,0 +1,319 @@
+{
+  "checked": "2026-10-30",
+  "baseline": "83b9ec4",
+  "sources": [
+    "https://www.jreast.co.jp/en/multi/nex/tickets/index.html",
+    "https://www.jreast.co.jp/en/multi/pass/nex.html",
+    "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/tickets/coupon.php",
+    "https://www.keisei.co.jp/keisei/tetudou/skyliner/us/faq/index.php",
+    "https://www.narita-airport.jp/en/access/shuttlebus/walking-through/",
+    "https://www.gotokyo.org/en/plan/airport-access/narita-airport/index.html",
+    "https://www.jreast.co.jp/en/yokosuka-tunnel-koji/"
+  ],
+  "locales": {
+    "ko": {
+      "head": [
+        "신주쿠까지: 환승 없이 갈까, 닛포리에서 갈아탈까?",
+        "표 구매·터미널 이동",
+        "이 일정에서 놓치기 쉬운 점",
+        "우에노까지: 일반권과 온라인 할인권 비교",
+        "도착역에서 숙소까지",
+        "승차 전에 알아둘 조건"
+      ],
+      "cols": [
+        "선택",
+        "성인 요금",
+        "이 선택이 맞는 경우"
+      ],
+      "nexrows": [
+        [
+          "N’EX 편도",
+          "¥3,330",
+          "신주쿠 숙소·짐이 많을 때: 신주쿠 정차편은 환승 없음"
+        ],
+        [
+          "N’EX TOKYO 왕복권",
+          "¥5,200",
+          "14일 안에 나리타로 돌아오고 일본 이외 여권을 소지한 경우"
+        ],
+        [
+          "스카이라이너 → 닛포리 → JR",
+          "¥2,580 + JR 별도",
+          "닛포리에서 JR 환승을 감수할 때. 신주쿠 직통 열차가 아님"
+        ]
+      ],
+      "nexp": [
+        "N’EX 신주쿠까지 약 90분은 도쿄 관광청의 안내 기준입니다. 대기·입국심사·숙소 도보는 별도입니다. 신주쿠가 목적지라면 우에노까지 빠른 열차라는 이유만으로 스카이라이너를 고르지 마세요.",
+        "JR 승차권과 특급권을 함께 구매합니다. Suica만 찍고 타는 방식으로 특급 요금이 해결되지는 않습니다.",
+        "제1터미널은 나리타공항역, 제2·3터미널은 공항제2빌딩역을 이용합니다. 3터미널 도착층 안내소에서 역 개찰구까지 통로 도보 약 13분입니다.",
+        "왕복권은 일본 이외 여권 원본을 제시해 수령하고, 나리타 출발 → 도쿄권 → 나리타 순서로 이용합니다. 일반 편도 2회 ¥6,660보다 ¥1,460 절약됩니다."
+      ],
+      "notice": "2026년 11월 6일 저녁~8일 아침에는 공사로 일부 N’EX가 도쿄역에서 운행을 끝내며 신주쿠까지 가지 않습니다. 7일 신주쿠 직통을 전제로 예약하지 말고 닛포리 환승 또는 도쿄역에서의 환승을 선택하세요.",
+      "unknown": "첫차·막차의 날짜별 정확한 시각: 미확인.",
+      "skyrows": [
+        [
+          "일반 편도",
+          "¥2,580",
+          "공항에서 구매. 승차권 ¥1,280 + 라이너권 ¥1,300"
+        ],
+        [
+          "온라인 할인 편도",
+          "¥2,310",
+          "미리 할인권을 구매할 때. 일반권보다 ¥270 절약"
+        ],
+        [
+          "온라인 왕복",
+          "¥4,500",
+          "양방향 스카이라이너 이용. 교환은 나리타공항 두 역에서만 가능"
+        ]
+      ],
+      "skyp": [
+        "제2·3터미널역~게이세이 우에노 안내 소요시간은 41분입니다. 36분이라는 최단시간은 닛포리까지이며 우에노까지의 시간이 아닙니다.",
+        "우에노 주변 숙소라면 게이세이 우에노에서 도보 동선을 먼저 보세요. JR로 계속 이동할 계획이라면 닛포리 환승을 선택하면 우에노에서 역을 옮길 필요가 없습니다.",
+        "전 좌석 지정제입니다. Suica 이용 시에도 라이너권이 별도로 필요합니다. 6~11세 일반 편도는 ¥1,290, 온라인 할인은 ¥1,150입니다.",
+        "3터미널에는 철도역이 없습니다. 도착층 안내소 → 연결 통로 → 공항제2빌딩역 개찰구는 도보 약 13분입니다."
+      ],
+      "sources": "근거 자료 · 2026-10-30 확인",
+      "map": "숙소까지 지도에서 이어 보기",
+      "time": "날짜별 시간표",
+      "sourceNames": [
+        "JR 운임",
+        "JR 왕복권 조건",
+        "게이세이 할인권",
+        "게이세이 이용 조건",
+        "나리타공항 3터미널 통로",
+        "도쿄 관광청 소요시간",
+        "JR 공사 영향"
+      ],
+      "hubFareNote": "2026-10-30 재확인: 스카이라이너 일반 편도 ¥2,580. 온라인 할인·왕복권은 우에노 상세 비교에서 확인할 수 있습니다."
+    },
+    "en": {
+      "head": [
+        "Shinjuku: a direct train or a change at Nippori?",
+        "Tickets and terminal access",
+        "A date-specific exception",
+        "Ueno: standard and online fares",
+        "From the arrival station to your hotel",
+        "Before boarding"
+      ],
+      "cols": [
+        "Option",
+        "Adult fare",
+        "Choose this when"
+      ],
+      "nexrows": [
+        [
+          "N’EX one way",
+          "¥3,330",
+          "Staying in Shinjuku with luggage: Shinjuku services require no change"
+        ],
+        [
+          "N’EX TOKYO round trip",
+          "¥5,200",
+          "Returning to Narita within 14 days with a non-Japanese passport"
+        ],
+        [
+          "Skyliner → Nippori → JR",
+          "¥2,580 + separate JR fare",
+          "You accept a JR transfer at Nippori; this is not direct to Shinjuku"
+        ]
+      ],
+      "nexp": [
+        "Allow about 90 minutes on N’EX to Shinjuku, using the Tokyo tourism board’s guide. Waiting, immigration and the hotel walk are additional. The fastest train to Ueno is not automatically the best choice for a Shinjuku hotel.",
+        "Buy both a base-fare ticket and a limited-express ticket. Tapping Suica alone does not pay the express supplement.",
+        "Use Narita Airport Station for T1 and Airport Terminal 2・3 Station for T2/T3. The walk from the T3 arrivals information counter to the station gates takes about 13 minutes.",
+        "Collect the round-trip ticket with your original non-Japanese passport; travel Narita → Tokyo area → Narita. Compared with two ¥3,330 singles, it saves ¥1,460."
+      ],
+      "notice": "From the evening of 6 November to the morning of 8 November 2026, construction makes some N’EX trains terminate at Tokyo instead of Shinjuku. For 7 November, plan a change at Nippori or Tokyo rather than relying on a direct Shinjuku service.",
+      "unknown": "Exact date-specific first and last departures: unverified.",
+      "skyrows": [
+        [
+          "Standard single",
+          "¥2,580",
+          "Buy at the airport: ¥1,280 base fare + ¥1,300 liner ticket"
+        ],
+        [
+          "Online discounted single",
+          "¥2,310",
+          "Buy a discount ticket in advance; saves ¥270"
+        ],
+        [
+          "Online return",
+          "¥4,500",
+          "Skyliner both ways; exchange only at the two Narita airport stations"
+        ]
+      ],
+      "skyp": [
+        "The advertised T2・3–Keisei Ueno journey is 41 minutes. The 36-minute fastest journey refers to Nippori, not Ueno.",
+        "For a hotel around Ueno, compare the walk from Keisei Ueno first. If continuing on JR, change at Nippori to avoid moving between the two Ueno stations.",
+        "All seats are reserved. An IC card still needs a separate liner ticket. Standard singles for ages 6–11 cost ¥1,290; the online discount is ¥1,150.",
+        "T3 has no railway station. Walk from its arrivals information counter through the connecting corridor to the Airport Terminal 2・3 station gates: about 13 minutes."
+      ],
+      "sources": "Sources · checked 2026-10-30",
+      "map": "Continue to your hotel on the map",
+      "time": "Date-specific timetable",
+      "sourceNames": [
+        "JR fares",
+        "JR return-ticket conditions",
+        "Keisei discount tickets",
+        "Keisei ticket rules",
+        "Narita T3 walkway",
+        "Tokyo tourism journey guide",
+        "JR construction impact"
+      ],
+      "hubFareNote": "Rechecked 2026-10-30: standard Skyliner single ¥2,580. See the Ueno guide for online and return-ticket comparisons."
+    },
+    "ja": {
+      "head": [
+        "新宿へ：直通か、日暮里で乗り換えるか",
+        "切符の購入とターミナル移動",
+        "旅行日に関わる運休情報",
+        "上野へ：通常券とオンライン割引を比較",
+        "到着駅から宿泊先へ",
+        "乗車前の利用条件"
+      ],
+      "cols": [
+        "選択肢",
+        "大人料金",
+        "こんな場合に"
+      ],
+      "nexrows": [
+        [
+          "N’EX片道",
+          "¥3,330",
+          "新宿泊で荷物が多い場合。新宿停車便なら乗換不要"
+        ],
+        [
+          "N’EX TOKYO往復きっぷ",
+          "¥5,200",
+          "14日以内に成田へ戻る、日本以外のパスポート所持者"
+        ],
+        [
+          "スカイライナー → 日暮里 → JR",
+          "¥2,580 + JR運賃別途",
+          "日暮里でJRに乗り換えられる場合。新宿直通ではありません"
+        ]
+      ],
+      "nexp": [
+        "N’EXの新宿までの目安は東京都公式観光ガイドで約90分。待ち時間・入国審査・宿までの徒歩は別です。上野まで速いことだけを理由に、新宿の宿へスカイライナーを選ばないようにしましょう。",
+        "乗車券と特急券を購入します。Suicaのタッチだけでは特急料金を支払えません。",
+        "第1ターミナルは成田空港駅、第2・3ターミナルは空港第2ビル駅を利用。第3ターミナル到着ロビー案内所から駅改札までは通路経由で徒歩約13分です。",
+        "往復きっぷは日本以外のパスポート原本を提示して受け取り、成田→東京エリア→成田の順に利用。片道¥3,330を2回買うより¥1,460安くなります。"
+      ],
+      "notice": "2026年11月6日夜〜8日朝は工事により一部N’EXが東京駅発着となり、新宿まで運転しません。7日は新宿直通を前提にせず、日暮里または東京での乗り換えを計画してください。",
+      "unknown": "日付別の正確な始発・終電時刻：未確認。",
+      "skyrows": [
+        [
+          "通常片道",
+          "¥2,580",
+          "空港で購入。乗車券¥1,280 + ライナー券¥1,300"
+        ],
+        [
+          "オンライン割引片道",
+          "¥2,310",
+          "割引券を事前購入。通常より¥270安い"
+        ],
+        [
+          "オンライン往復",
+          "¥4,500",
+          "往復とも利用。引換は成田空港の2駅のみ"
+        ]
+      ],
+      "skyp": [
+        "空港第2ビル駅〜京成上野の案内所要時間は41分。最速36分は日暮里までで、上野までの時間ではありません。",
+        "上野周辺に泊まるなら京成上野からの徒歩経路を先に確認。JRで先へ進むなら日暮里乗換を選ぶと、上野で別の駅へ移動する必要がありません。",
+        "全席指定です。ICカード利用でもライナー券が別途必要。6〜11歳の通常片道は¥1,290、オンライン割引は¥1,150です。",
+        "第3ターミナルに鉄道駅はありません。到着ロビー案内所→連絡通路→空港第2ビル駅改札は徒歩約13分です。"
+      ],
+      "sources": "出典 · 2026-10-30確認",
+      "map": "地図で宿までの経路を見る",
+      "time": "日付別時刻表",
+      "sourceNames": [
+        "JR運賃",
+        "JR往復きっぷの条件",
+        "京成割引券",
+        "京成利用条件",
+        "成田空港第3ターミナル通路",
+        "東京都公式観光ガイド",
+        "JR工事による影響"
+      ],
+      "hubFareNote": "2026-10-30再確認：スカイライナー通常片道¥2,580。オンライン割引・往復券は上野の詳細ガイドで比較できます。"
+    },
+    "zh-cn": {
+      "head": [
+        "前往新宿：直达还是在日暮里换乘？",
+        "购票与航站楼交通",
+        "行程日期需要注意的停运",
+        "前往上野：普通票与网上优惠票比较",
+        "从到达车站前往酒店",
+        "乘车前的使用条件"
+      ],
+      "cols": [
+        "选择",
+        "成人票价",
+        "适合情况"
+      ],
+      "nexrows": [
+        [
+          "N’EX单程",
+          "¥3,330",
+          "住在新宿、行李多：停靠新宿的班次无需换乘"
+        ],
+        [
+          "N’EX TOKYO往返票",
+          "¥5,200",
+          "持非日本护照，14天内返回成田机场"
+        ],
+        [
+          "Skyliner → 日暮里 → JR",
+          "¥2,580 + 另付JR票价",
+          "接受在日暮里换乘JR；并非直达新宿"
+        ]
+      ],
+      "nexp": [
+        "东京官方旅游指南给出的N’EX至新宿参考时间约90分钟，另计候车、入境和步行到酒店。不要仅因到上野快，就为新宿酒店选择Skyliner。",
+        "需要基础车票和特急券。仅刷Suica并不包含特急费用。",
+        "T1使用成田机场站，T2/T3使用机场第2航站楼站。从T3到达大厅问讯处经连接通道步行至车站检票口约13分钟。",
+        "领取往返票须出示非日本护照原件，按成田→东京地区→成田顺序使用。比两张¥3,330单程票节省¥1,460。"
+      ],
+      "notice": "2026年11月6日晚至8日早，施工导致部分N’EX改在东京站始发终到，不前往新宿。11月7日请安排日暮里或东京站换乘，不要以直达新宿为前提。",
+      "unknown": "按日期划分的准确首末班时间：未核实。",
+      "skyrows": [
+        [
+          "普通单程",
+          "¥2,580",
+          "在机场购买：基础票价¥1,280 + 特急券¥1,300"
+        ],
+        [
+          "网上优惠单程",
+          "¥2,310",
+          "提前购买优惠票，比普通票节省¥270"
+        ],
+        [
+          "网上往返票",
+          "¥4,500",
+          "往返均乘Skyliner；只能在成田机场两站兑换"
+        ]
+      ],
+      "skyp": [
+        "T2/T3车站至京成上野的参考时间为41分钟。最快36分钟指到日暮里，并非到上野。",
+        "住在上野附近，先比较从京成上野步行到酒店的路线。若继续乘JR，可选择日暮里换乘，避免在上野的两个车站之间移动。",
+        "全车指定席。使用IC卡仍需另购特急券。6～11岁普通单程¥1,290，网上优惠¥1,150。",
+        "T3没有铁路车站。从到达大厅问讯处→连接通道→机场第2航站楼站检票口，步行约13分钟。"
+      ],
+      "sources": "资料来源 · 2026-10-30核实",
+      "map": "在地图上继续查看酒店路线",
+      "time": "按日期查询时刻表",
+      "sourceNames": [
+        "JR票价",
+        "JR往返票条件",
+        "京成优惠票",
+        "京成乘车条件",
+        "成田机场T3通道",
+        "东京官方旅游交通指南",
+        "JR施工影响"
+      ],
+      "hubFareNote": "2026-10-30重新核实：Skyliner普通单程¥2,580。网上优惠和往返票请见上野详细比较。"
+    }
+  }
+}
