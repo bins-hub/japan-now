@@ -1,0 +1,363 @@
+{
+  "checked": "2026-10-30",
+  "locales": {
+    "ko": {
+      "heads": [
+        "겨울 참고 사진",
+        "무료 산책·실내 전시·전망 비용 비교",
+        "장소별 교통과 운영 조건",
+        "실내 중심 또는 전망 중심으로 선택",
+        "시로이 고이비토 입장과 겨울 일루미네이션",
+        "모이와산 겨울 운영과 이동",
+        "자주 묻는 질문",
+        "확인한 자료"
+      ],
+      "cols": [
+        "선택",
+        "시설비",
+        "선택 근거"
+      ],
+      "rows": [
+        [
+          "오도리 공원 산책",
+          "¥0",
+          "오도리역 주변에서 짧게 야외 산책"
+        ],
+        [
+          "마루야마 공원 산책",
+          "¥0",
+          "숲 산책. 동물원·등산과 구분"
+        ],
+        [
+          "시로이 고이비토 정원·상점",
+          "¥0",
+          "외관·쇼핑. 음식·상품 구매비 별도"
+        ],
+        [
+          "시로이 고이비토 유료 구역",
+          "¥1,200 / ¥600",
+          "고등학생 이상 / 4세~중학생. 전시·공장 관람"
+        ],
+        [
+          "모이와산 왕복 세트",
+          "¥2,100 / ¥1,050",
+          "성인 / 어린이. 맑은 날 시내 전망"
+        ]
+      ],
+      "places": [
+        "오도리 공원",
+        "마루야마 공원",
+        "시로이 고이비토 파크",
+        "모이와산"
+      ],
+      "access": [
+        "지하철 오도리역에서 출발. 긴 야외 일정 대신 짧은 공원 산책과 주변 실내 휴식을 연결하세요.",
+        "도자이선 마루야마코엔역 3번 출구에서 도보 약 5분. 겨울에는 공원 산책과 산 정상 등산을 구분해 계획하세요.",
+        "도자이선 미야노사와역에서 도보 약 7분. 유료 구역 10:00–17:30, 입장 접수는 16:30까지이며 일반 상점은 10:00–18:00입니다.",
+        "시덴 로프웨이이리구치 정류장→산록역→로프웨이 중복역→미니 케이블카→정상. 지도 목적지는 산 정상이 아닌 산록역입니다."
+      ],
+      "plans": [
+        "실내 중심 반나절(편집 추천): 10:30~12:30 시로이 고이비토 유료 관람→점심→오도리 짧은 산책. 성인 시설비 ¥1,200. 눈길 야외 이동을 줄이고 싶을 때 선택하세요.",
+        "전망 중심 반나절(편집 추천): 도심 공원 한 곳→모이와산 왕복. 성인 시설비 ¥2,100. 겨울 일루미네이션과 모이와산을 같은 저녁에 모두 넣기보다 한 곳에 시간을 쓰세요.",
+        "가족 시설비 예시: 성인 2명+초등학생 1명의 시로이 고이비토 유료 구역은 ¥3,000, 모이와산 왕복은 ¥5,250입니다. 교통·식비·별도 체험은 포함하지 않습니다."
+      ],
+      "shiroi": [
+        "무료 정원·쇼핑 구역은 입장권·예약 없이 이용합니다. 유료 구역은 고등학생 이상 ¥1,200, 4세~중학생 ¥600, 3세 이하는 무료입니다. 과자 만들기 등 체험은 입장권과 별도 상품·예약일 수 있습니다.",
+        "2026–27 스위트 일루미네이션은 2026-12-01~2027년 3월 말경 예정, 17:00–19:00 무료 관람으로 사전 공지됐습니다. 정확한 종료일은 미확인입니다. 야간 정원 운영을 유료 전시 입장 연장으로 해석하지 마세요."
+      ],
+      "moiwa": [
+        "12~3월 로프웨이 11:00–22:00(상행 최종21:30), 미니 케이블카 11:10–21:50(상행 최종21:40). 12월31일·1월1일은 휴업이며, 2027-03-29~04-28은 연차 정비 휴업 예정입니다.",
+        "셔틀은 15분 간격으로 평일17:17부터·겨울 토일공휴일10:47부터입니다. 그 이전에는 셔틀 정류장→산록역 약0.5km의 도보 이동을 계획하되 눈길 추가 시간을 두세요. 관광 자동차도로는 2026-11-21부터 겨울 통제됩니다."
+      ],
+      "faq": [
+        [
+          "17시에 도착해 공장 관람도 할 수 있나요?",
+          "유료 입장 접수는 16:30까지입니다. 17시 도착이면 유료 관람을 잡지 말고, 행사 기간의 무료 일루미네이션이나 운영 중인 무료 구역을 선택하세요."
+        ],
+        [
+          "겨울이면 눈 풍경이 확정인가요?",
+          "당일 적설·전망 관측 상태는 미확인입니다. 이동일에는 날씨 페이지와 영상으로 야외 방문 여부를 정하고, 전망이 가려지면 실내 전시 코스를 선택할 수 있습니다."
+        ]
+      ],
+      "description": "삿포로 겨울 여행의 무료 공원·시로이 고이비토 유료 구역·모이와산 비용과 겨울 운영시간을 비교하고, 실내 관람 또는 전망 코스를 선택하세요."
+    },
+    "en": {
+      "heads": [
+        "Winter reference photo",
+        "Compare walks, indoor exhibits and views",
+        "Access and opening conditions",
+        "Choose an indoor or viewpoint plan",
+        "Shiroi Koibito admission and winter lights",
+        "Moiwa winter operation and access",
+        "Travel questions",
+        "Sources reviewed"
+      ],
+      "cols": [
+        "Option",
+        "Facility cost",
+        "Choose it for"
+      ],
+      "rows": [
+        [
+          "Odori Park walk",
+          "¥0",
+          "A short outdoor stop near Odori subway"
+        ],
+        [
+          "Maruyama Park walk",
+          "¥0",
+          "Woodland walk, separate from the zoo or mountain hike"
+        ],
+        [
+          "Shiroi Koibito garden / shops",
+          "¥0",
+          "Architecture and shopping; purchases extra"
+        ],
+        [
+          "Shiroi Koibito paid area",
+          "¥1,200 / ¥600",
+          "High school and above / age 4 through junior high; exhibits and factory"
+        ],
+        [
+          "Moiwa return combo",
+          "¥2,100 / ¥1,050",
+          "Adult / child; city views on clear days"
+        ]
+      ],
+      "places": [
+        "Odori Park",
+        "Maruyama Park",
+        "Shiroi Koibito Park",
+        "Mount Moiwa"
+      ],
+      "access": [
+        "Start at Odori subway. Combine a short park walk with a nearby indoor break.",
+        "Walk about five minutes from exit 3 of Maruyama Koen on the Tozai line. Keep the park walk separate from a winter summit hike.",
+        "About seven minutes on foot from Miyanosawa on the Tozai line. Paid area 10:00–17:30, admission by 16:30; general shops 10:00–18:00.",
+        "Streetcar Ropeway Iriguchi → base station → ropeway midway station → mini cable car → summit. Set the map destination to the base, not the summit."
+      ],
+      "plans": [
+        "Indoor-focused half day (editorial suggestion): Shiroi Koibito paid visit 10:30–12:30 → lunch → short Odori walk. Adult facility cost ¥1,200; choose this to limit outdoor walking.",
+        "Viewpoint half day (editorial suggestion): one city park → Moiwa return trip. Adult facility cost ¥2,100. Give one evening attraction enough time rather than fitting both winter lights and Moiwa into the same evening.",
+        "Family facility example: two adults plus one elementary-school child pay ¥3,000 at Shiroi Koibito’s paid area or ¥5,250 for Moiwa return travel. Transport, meals and extra workshops are excluded."
+      ],
+      "shiroi": [
+        "The free garden and shopping zone need no admission ticket or reservation. Paid entry is ¥1,200 for high school and above, ¥600 from age four through junior high, and free at three and under. Workshops can require separate products and bookings.",
+        "The announced 2026–27 Sweet Illumination is planned for 2026-12-01 to around late March 2027, with free viewing 17:00–19:00. The exact end date is unverified. Evening garden access does not extend paid-exhibit admission."
+      ],
+      "moiwa": [
+        "December–March ropeway 11:00–22:00 (last ascent 21:30); mini cable car 11:10–21:50 (last ascent 21:40). Closed 31 December and 1 January; annual maintenance is scheduled for 2027-03-29–04-28.",
+        "Shuttles run every 15 minutes from 17:17 on weekdays and 10:47 on winter weekends/holidays. Earlier, plan the roughly 0.5 km walk from the shuttle stop to the base, adding time for snow. The sightseeing road closes for winter from 2026-11-21."
+      ],
+      "faq": [
+        [
+          "Can I arrive at 17:00 and visit the factory?",
+          "Paid admission ends at 16:30. For a 17:00 arrival, choose the free illumination during its event period or an open free area, not a paid factory visit."
+        ],
+        [
+          "Is snow scenery certain in winter?",
+          "Same-day snow and visibility observations are unverified. Use weather and camera pages for the outdoor decision; if views are obscured, choose the indoor exhibit plan."
+        ]
+      ],
+      "description": "Compare free Sapporo winter parks, Shiroi Koibito paid entry and Moiwa fares, winter hours and access, then choose an indoor or viewpoint itinerary."
+    },
+    "ja": {
+      "heads": [
+        "冬の参考写真",
+        "無料散策・屋内展示・展望の費用比較",
+        "場所別の交通と営業時間",
+        "屋内中心か展望中心かを選ぶ",
+        "白い恋人の入館と冬のイルミネーション",
+        "もいわ山の冬営業と移動",
+        "よくある質問",
+        "確認資料"
+      ],
+      "cols": [
+        "選択肢",
+        "施設料金",
+        "選ぶ理由"
+      ],
+      "rows": [
+        [
+          "大通公園散策",
+          "¥0",
+          "大通駅周辺で短い屋外散策"
+        ],
+        [
+          "円山公園散策",
+          "¥0",
+          "森の散策。動物園・登山とは別"
+        ],
+        [
+          "白い恋人の庭園・ショップ",
+          "¥0",
+          "外観・買い物。飲食・商品代別"
+        ],
+        [
+          "白い恋人の有料エリア",
+          "¥1,200 / ¥600",
+          "高校生以上／4歳〜中学生。展示・工場見学"
+        ],
+        [
+          "もいわ山往復セット",
+          "¥2,100 / ¥1,050",
+          "大人／小人。晴れた日の市街展望"
+        ]
+      ],
+      "places": [
+        "大通公園",
+        "円山公園",
+        "白い恋人パーク",
+        "もいわ山"
+      ],
+      "access": [
+        "地下鉄大通駅から出発。短い公園散策と周辺の屋内休憩を組み合わせます。",
+        "東西線円山公園駅3番出口から徒歩約5分。冬の公園散策と山頂登山は分けて計画します。",
+        "東西線宮の沢駅から徒歩約7分。有料エリア10:00〜17:30、入館受付16:30まで。一般ショップ10:00〜18:00。",
+        "市電ロープウェイ入口→山麓駅→ロープウェイ中腹駅→ミニケーブルカー→山頂。地図の目的地は山頂ではなく山麓駅です。"
+      ],
+      "plans": [
+        "屋内中心の半日（編集提案）：10:30〜12:30白い恋人の有料見学→昼食→大通を短く散策。大人施設費¥1,200。屋外歩行を減らしたい時に。",
+        "展望中心の半日（編集提案）：都心の公園1か所→もいわ山往復。大人施設費¥2,100。イルミネーションともいわ山を同じ夕方に詰め込まず、1か所に時間を使います。",
+        "家族施設費の例：大人2名＋小学生1名は白い恋人の有料エリア¥3,000、もいわ山往復¥5,250。交通・飲食・別途体験は含みません。"
+      ],
+      "shiroi": [
+        "無料庭園・買い物は入場券も予約も不要。有料エリアは高校生以上¥1,200、4歳〜中学生¥600、3歳以下無料。菓子作り等の体験は別商品・予約の場合があります。",
+        "2026〜27スイートイルミネーションは2026-12-01〜2027年3月末頃、17:00〜19:00無料観覧の予告。正確な終了日は未確認。庭園の夜営業を有料展示の受付延長とは扱いません。"
+      ],
+      "moiwa": [
+        "12〜3月ロープウェイ11:00〜22:00（上り最終21:30）、ミニケーブルカー11:10〜21:50（上り最終21:40）。12月31日・1月1日は休業、2027-03-29〜04-28は年次点検休業予定。",
+        "シャトルは15分間隔、平日17:17〜・冬の土日祝10:47〜。それ以前は乗場から山麓駅約0.5kmを徒歩で、雪道分の余裕を追加。観光自動車道は2026-11-21から冬季通行止め。"
+      ],
+      "faq": [
+        [
+          "17時到着で工場も見学できますか？",
+          "有料入館受付は16:30まで。17時到着なら有料見学を予定せず、開催期間中の無料イルミネーションや営業中の無料エリアを選びます。"
+        ],
+        [
+          "冬なら雪景色は確定ですか？",
+          "当日の積雪・眺望観測は未確認。移動日に天気と映像で屋外訪問を判断し、展望が遮られるなら屋内展示プランを選べます。"
+        ]
+      ],
+      "description": "札幌冬旅行の無料公園・白い恋人有料エリア・もいわ山の費用と冬営業時間を比較し、屋内見学か展望コースを選べます。"
+    },
+    "zh-cn": {
+      "heads": [
+        "冬季参考照片",
+        "免费散步、室内展览与观景费用比较",
+        "各地点交通和营业条件",
+        "选择室内或观景行程",
+        "白色恋人入场及冬季灯光",
+        "藻岩山冬季运营与交通",
+        "常见问题",
+        "核实资料"
+      ],
+      "cols": [
+        "选择",
+        "设施费",
+        "适合情况"
+      ],
+      "rows": [
+        [
+          "大通公园散步",
+          "¥0",
+          "在大通站附近短暂户外散步"
+        ],
+        [
+          "圆山公园散步",
+          "¥0",
+          "森林散步，与动物园或登山分开"
+        ],
+        [
+          "白色恋人庭园/商店",
+          "¥0",
+          "外观及购物，餐饮商品另付"
+        ],
+        [
+          "白色恋人付费区域",
+          "¥1,200 / ¥600",
+          "高中及以上/4岁至初中生，展览及工厂参观"
+        ],
+        [
+          "藻岩山往返套票",
+          "¥2,100 / ¥1,050",
+          "成人/儿童，晴天市景"
+        ]
+      ],
+      "places": [
+        "大通公园",
+        "圆山公园",
+        "白色恋人公园",
+        "藻岩山"
+      ],
+      "access": [
+        "从地铁大通站出发，结合短暂公园散步与附近室内休息。",
+        "东西线圆山公园站3号出口步行约5分钟。冬季公园散步与登山应分开规划。",
+        "东西线宫之泽站步行约7分钟。付费区10:00–17:30，入场接待至16:30；一般商店10:00–18:00。",
+        "市电缆车入口站→山麓站→缆车中腹站→迷你缆车→山顶。地图目的地设山麓站，不是山顶。"
+      ],
+      "plans": [
+        "室内为主半日（编辑建议）：10:30–12:30白色恋人付费参观→午餐→大通短暂散步。成人设施费¥1,200，适合减少户外步行。",
+        "观景半日（编辑建议）：一处市内公园→往返藻岩山。成人设施费¥2,100。冬季灯光和藻岩山宜择一安排在傍晚，留足游览时间。",
+        "家庭设施费示例：2名成人加1名小学生，白色恋人付费区¥3,000，藻岩山往返¥5,250。不含交通、餐饮及另付体验。"
+      ],
+      "shiroi": [
+        "免费庭园购物区无需门票或预约。付费区高中及以上¥1,200，4岁至初中生¥600，3岁以下免费。制作点心等体验可能另购及另约。",
+        "2026–27甜蜜灯光预告为2026-12-01至2027年3月底左右，17:00–19:00免费观赏。准确结束日未核实；庭园夜间营业不代表付费展览延长入场。"
+      ],
+      "moiwa": [
+        "12–3月缆车11:00–22:00（上行末班21:30），迷你缆车11:10–21:50（上行末班21:40）。12月31日和1月1日休业，2027-03-29至04-28预计年度检修休业。",
+        "接驳每15分钟一班，平日17:17起、冬季周末及节假日10:47起。更早时段需从接驳站步行约0.5公里到山麓站，并留雪地余量。观光公路自2026-11-21起冬季封闭。"
+      ],
+      "faq": [
+        [
+          "17点到达还能参观工厂吗？",
+          "付费入场接待至16:30。17点抵达应选择活动期间的免费灯光或仍开放的免费区，不安排付费工厂参观。"
+        ],
+        [
+          "冬天一定有雪景吗？",
+          "当天积雪及能见度观测未核实。出行日结合天气与摄像头判断户外安排，视野受阻可改选室内展览。"
+        ]
+      ],
+      "description": "比较札幌冬季免费公园、白色恋人付费区和藻岩山费用、冬季时间及交通，选择室内参观或观景行程。"
+    }
+  },
+  "sources": [
+    [
+      "https://www.shiroikoibitopark.jp/course/",
+      "Shiroi Koibito · current admission"
+    ],
+    [
+      "https://www.shiroikoibitopark.jp/facility/counter.html",
+      "Shiroi Koibito · free / paid / workshops"
+    ],
+    [
+      "https://www.shiroikoibitopark.jp/daily-report/",
+      "Shiroi Koibito · opening and last admission"
+    ],
+    [
+      "https://www.shiroikoibitopark.jp/illumination/",
+      "Shiroi Koibito · announced 2026–27 lights"
+    ],
+    [
+      "https://www.shiroikoibitopark.jp/information/2025/08/contents001.html",
+      "Shiroi Koibito · Miyanosawa access"
+    ],
+    [
+      "https://mt-moiwa.jp/guide/",
+      "Moiwa · winter hours / fees / closures"
+    ],
+    [
+      "https://mt-moiwa.jp/access/shuttlebus-tram/",
+      "Moiwa · shuttle and walk"
+    ],
+    [
+      "https://visit.sapporo.travel/ko/discover/city/odori-park/",
+      "Visit Sapporo · Odori free admission"
+    ],
+    [
+      "https://maruyamapark.jp/access/",
+      "Maruyama Park · access"
+    ]
+  ]
+}
