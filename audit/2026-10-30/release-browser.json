@@ -1,0 +1,73 @@
+{
+  "scope": "PC browser only; no mobile viewport or physical device claim",
+  "pages": [
+    {
+      "url": "https://japulse.com/move/kansai-kyoto/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 2,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/onsen/ginzan/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/en/move/kansai-kyoto/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 2,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/en/onsen/ginzan/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/ja/move/kansai-kyoto/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 2,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/ja/onsen/ginzan/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/zh-cn/move/kansai-kyoto/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 2,
+      "width": 1348,
+      "scrollWidth": 1348
+    },
+    {
+      "url": "https://japulse.com/zh-cn/onsen/ginzan/",
+      "h1": 1,
+      "tables": 1,
+      "rows": 3,
+      "width": 1348,
+      "scrollWidth": 1348
+    }
+  ],
+  "clickedGinzanAnchor": "https://japulse.com/onsen/ginzan/#verified-ginzan",
+  "anchorTop": -0.4375,
+  "ginzanImageLoaded": true,
+  "ginzanImageNaturalWidth": 1000
+}

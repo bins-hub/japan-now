@@ -1,0 +1,271 @@
+{
+  "checked": "2026-10-30",
+  "locales": {
+    "ko": {
+      "heads": [
+        "사진과 장소",
+        "무료 공원과 유료 전망 비교",
+        "장소별 교통·이용 조건",
+        "반나절은 이렇게 고르세요",
+        "모이와산 운영시간과 접근",
+        "자주 묻는 질문",
+        "정보 출처"
+      ],
+      "cols": [
+        "장소",
+        "입장·시설비",
+        "선택 근거"
+      ],
+      "places": [
+        "마루야마 공원",
+        "나카지마 공원",
+        "모이와산 전망"
+      ],
+      "fees": [
+        "공원 산책 무료",
+        "공원 산책 무료(일부 시설 유료)",
+        "왕복 세트 성인 ¥2,100·어린이 ¥1,050"
+      ],
+      "why": [
+        "숲 산책·마루야마 지역 카페",
+        "도심 연못 산책·짧은 야외 일정",
+        "날씨가 맑고 시내 전망에 비용을 쓸 때"
+      ],
+      "access": [
+        "도자이선 마루야마코엔역 3번 출구에서 공원까지 도보 5분. 원산 등산로와 공원 산책을 같은 코스로 취급하지 마세요. 파크센터는 09:00–17:00이며 큰 가방용 코인로커는 1회 ¥500입니다.",
+        "난보쿠선 나카지마코엔역 이용. 공원 방문자 주차장은 없으므로 대중교통을 선택하세요.",
+        "시덴 로프웨이이리구치 정류장→무료 셔틀 정류장 또는 도보→모이와산 로프웨이 산록역→중복역→미니 케이블카→정상."
+      ],
+      "plans": [
+        "공원 중심 2시간(편집 추천): 마루야마 공원에서 60~90분 산책한 뒤 주변 식사·카페로 연결. 산책 입장료는 ¥0, 교통·식비는 별도입니다.",
+        "전망 포함 반나절(편집 추천): 나카지마 공원 산책 후 대중교통으로 로프웨이 산록역에 이동해 모이와산 왕복. 성인 시설비는 ¥2,100이며 교통·식비·대기는 별도입니다."
+      ],
+      "hours": [
+        "4~11월 로프웨이 10:30–22:00(상행 최종 21:30), 미니 케이블카 10:30–21:50(상행 최종 21:40). 왕복 세트는 두 교통편 모두 포함합니다.",
+        "무료 셔틀은 15분 간격이며 평일 17:17부터, 토·일·공휴일 10:17부터입니다(겨울 주말 10:47부터). 평일 낮에는 셔틀 정류장에서 산록역까지 약 0.5km·도보 10분을 계획하세요.",
+        "2026-11-21부터 관광 자동차도로는 겨울 통제입니다. 이 도로 통제와 로프웨이 운휴는 다릅니다. 목적지는 산 정상이 아닌 ‘삿포로 모이와산 로프웨이 산록역’으로 검색하세요."
+      ],
+      "faq": [
+        [
+          "3곳을 반나절에 전부 걸을까요?",
+          "공원 한 곳에 집중하거나 공원 한 곳+모이와산으로 고르세요. 숲 산책·연못 산책·전망의 목적이 다르므로 취향과 교통 시간을 기준으로 선택하는 편이 좋습니다."
+        ],
+        [
+          "단풍 절정일이 확정됐나요?",
+          "마루야마 공원 제공으로 표시된 웨더뉴스의 2026-10-28 보고는 7~8할 착색의 절정 상태입니다. 11월4일경 낙엽 시작은 예측이며, 10월30일 현장 상태는 미확인입니다."
+        ]
+      ],
+      "description": "삿포로 단풍 여행의 무료 공원과 모이와산 왕복 요금·운영시간·셔틀을 비교하고, 반나절 산책 또는 전망 코스를 선택하세요."
+    },
+    "en": {
+      "heads": [
+        "Photo and location",
+        "Free parks or a paid viewpoint",
+        "Access and conditions by place",
+        "Choose a half-day plan",
+        "Moiwa hours and access",
+        "Travel questions",
+        "Sources"
+      ],
+      "cols": [
+        "Place",
+        "Admission / facility cost",
+        "Why choose it"
+      ],
+      "places": [
+        "Maruyama Park",
+        "Nakajima Park",
+        "Mount Moiwa viewpoint"
+      ],
+      "fees": [
+        "Park walk free",
+        "Park entry free; some facilities charge",
+        "Return combo: adult ¥2,100 / child ¥1,050"
+      ],
+      "why": [
+        "Woodland walk and Maruyama cafés",
+        "Urban pond walk and a shorter outdoor stop",
+        "When clear views justify a paid viewpoint"
+      ],
+      "access": [
+        "Walk five minutes from exit 3 of Maruyama Koen on the Tozai subway. The park stroll is separate from the mountain hiking trail. The park centre opens 09:00–17:00; large-bag coin lockers cost ¥500 per use.",
+        "Use Nakajima Koen on the Namboku subway. There is no visitor car park; use public transport.",
+        "Streetcar Ropeway Iriguchi → shuttle stop or walk → Moiwa ropeway base → midway station → mini cable car → summit."
+      ],
+      "plans": [
+        "Park-focused two hours (editorial suggestion): walk Maruyama for 60–90 minutes, then eat or visit a café nearby. Walking admission ¥0; transport and food extra.",
+        "Viewpoint half day (editorial suggestion): walk Nakajima, then take public transport to the ropeway base for a Moiwa return trip. Adult facility cost ¥2,100; transport, food and waiting extra."
+      ],
+      "hours": [
+        "April–November ropeway: 10:30–22:00, last ascent 21:30. Mini cable car: 10:30–21:50, last ascent 21:40. The return combo includes both.",
+        "The free shuttle runs every 15 minutes from 17:17 on weekdays or 10:17 on weekends/holidays (10:47 on winter weekends). At weekday lunchtime, plan the roughly 0.5 km / 10-minute walk from its stop to the base.",
+        "The sightseeing road closes for winter from 2026-11-21. That is distinct from ropeway suspension. Search for the Sapporo Moiwa Ropeway base station, rather than the mountain summit."
+      ],
+      "faq": [
+        [
+          "Should I walk all three in half a day?",
+          "Choose one park, or one park plus Moiwa. Woodland, pond and elevated views offer different experiences; let your interests and transfer time decide."
+        ],
+        [
+          "Is the peak date confirmed?",
+          "Weathernews, labelled as supplied by Maruyama Park, reports peak colour at 70–80% on 2026-10-28. Leaf fall around 4 November is a forecast; the 30 October on-site state is unverified."
+        ]
+      ],
+      "description": "Compare free Sapporo autumn parks with Moiwa return fares, hours and shuttle access, then choose a park walk or viewpoint half-day plan."
+    },
+    "ja": {
+      "heads": [
+        "写真と場所",
+        "無料の公園と有料の展望を比較",
+        "場所別の交通・利用条件",
+        "半日の選び方",
+        "もいわ山の営業時間とアクセス",
+        "よくある質問",
+        "出典"
+      ],
+      "cols": [
+        "場所",
+        "入場・施設料金",
+        "選ぶ理由"
+      ],
+      "places": [
+        "円山公園",
+        "中島公園",
+        "もいわ山展望"
+      ],
+      "fees": [
+        "公園散策無料",
+        "公園入場無料・一部施設有料",
+        "往復セット 大人¥2,100・小人¥1,050"
+      ],
+      "why": [
+        "森の散策と円山のカフェ",
+        "都心の池周辺を短く散歩",
+        "晴れた日の市街展望に費用を使いたい時"
+      ],
+      "access": [
+        "東西線円山公園駅3番出口から公園まで徒歩5分。公園散策と円山登山は別のコースです。 パークセンターは09:00〜17:00、大型荷物用コインロッカーは1回¥500。",
+        "南北線中島公園駅を利用。公園来園者の駐車場はないため公共交通で。",
+        "市電ロープウェイ入口→シャトル乗場または徒歩→もいわ山麓駅→中腹駅→ミニケーブルカー→山頂。"
+      ],
+      "plans": [
+        "公園中心の2時間（編集提案）：円山公園を60〜90分散策し、周辺の食事やカフェへ。散策入場料¥0、交通・飲食別。",
+        "展望を含む半日（編集提案）：中島公園散策後、公共交通で山麓駅へ移動してもいわ山を往復。大人施設費¥2,100、交通・飲食・待ち時間別。"
+      ],
+      "hours": [
+        "4〜11月のロープウェイ10:30〜22:00、上り最終21:30。ミニケーブルカー10:30〜21:50、上り最終21:40。往復セットは両方を含みます。",
+        "無料シャトルは15分間隔で平日17:17〜、土日祝10:17〜（冬期は10:47〜）。平日昼は乗場から山麓駅まで約0.5km・徒歩10分を見込みます。",
+        "観光自動車道は2026-11-21から冬季通行止め。ロープウェイ運休とは別です。目的地は山頂ではなく「札幌もいわ山ロープウェイ山麓駅」で検索します。"
+      ],
+      "faq": [
+        [
+          "半日で3か所すべて歩きますか？",
+          "公園1か所、または公園1か所＋もいわ山を選びます。森・池・展望は目的が違うため、好みと移動時間で選択。"
+        ],
+        [
+          "紅葉の見頃は確定ですか？",
+          "円山公園提供と記載されたウェザーニュースの2026-10-28情報は、7〜8割色づきの見頃。11月4日頃の落葉開始は予想で、10月30日の現地状況は未確認です。"
+        ]
+      ],
+      "description": "札幌の紅葉旅行で無料公園ともいわ山の往復料金・営業時間・シャトルを比較し、半日散策や展望プランを選べます。"
+    },
+    "zh-cn": {
+      "heads": [
+        "照片与地点",
+        "免费公园与付费观景比较",
+        "各地点交通与条件",
+        "半日如何选择",
+        "藻岩山时间与交通",
+        "常见问题",
+        "资料来源"
+      ],
+      "cols": [
+        "地点",
+        "入场/设施费",
+        "选择理由"
+      ],
+      "places": [
+        "圆山公园",
+        "中岛公园",
+        "藻岩山观景"
+      ],
+      "fees": [
+        "公园散步免费",
+        "公园入场免费，部分设施另收费",
+        "往返套票：成人¥2,100/儿童¥1,050"
+      ],
+      "why": [
+        "森林散步及圆山咖啡店",
+        "市内池畔散步，较短户外行程",
+        "天气晴朗，愿意为市景付费时"
+      ],
+      "access": [
+        "东西线圆山公园站3号出口步行5分钟到公园。公园散步与圆山登山并非同一路线。 公园中心09:00–17:00，大件行李投币柜每次¥500。",
+        "使用南北线中岛公园站。公园无访客停车场，宜乘公共交通。",
+        "市电缆车入口站→接驳站或步行→藻岩山麓站→中腹站→迷你缆车→山顶。"
+      ],
+      "plans": [
+        "公园为主2小时（编辑建议）：圆山公园散步60–90分钟，再在附近用餐或喝咖啡。散步入场费¥0，交通餐饮另计。",
+        "含观景半日（编辑建议）：中岛公园散步后乘公共交通至山麓站，往返藻岩山。成人设施费¥2,100，交通餐饮及等待另计。"
+      ],
+      "hours": [
+        "4–11月缆车10:30–22:00，上行末班21:30；迷你缆车10:30–21:50，上行末班21:40。往返套票包含两段。",
+        "免费接驳每15分钟一班，平日17:17起、周末及节假日10:17起（冬季周末10:47起）。平日中午宜预留从接驳站到山麓站约0.5公里、步行10分钟。",
+        "观光公路自2026-11-21起冬季封闭，与缆车停运不同。导航应搜“札幌藻岩山缆车山麓站”，而非山顶。"
+      ],
+      "faq": [
+        [
+          "半天步行走完三处吗？",
+          "选择一座公园，或一座公园加藻岩山。森林、池畔和高处市景体验不同，按兴趣和换乘时间决定。"
+        ],
+        [
+          "红叶最佳日期已确定吗？",
+          "Weathernews标注由圆山公园提供的2026-10-28报告为七八成着色、进入观赏期。11月4日前后落叶为预测，10月30日现场状态未核实。"
+        ]
+      ],
+      "description": "比较札幌秋季免费公园与藻岩山往返票价、时间和接驳，选择公园散步或含观景的半日行程。"
+    }
+  },
+  "sources": [
+    [
+      "https://maruyamapark.jp/access/",
+      "Maruyama Park · access"
+    ],
+    [
+      "https://visit.sapporo.travel/discover/nature/mt-maruyama/",
+      "Visit Sapporo · Maruyama"
+    ],
+    [
+      "https://visit.sapporo.travel/discover/nature/nakajima-park/",
+      "Visit Sapporo · Nakajima admission"
+    ],
+    [
+      "https://www.sapporo-park.or.jp/nakajima/",
+      "Nakajima Park · parking"
+    ],
+    [
+      "https://mt-moiwa.jp/guide/",
+      "Moiwa · hours / fares"
+    ],
+    [
+      "https://mt-moiwa.jp/access/shuttlebus-tram/",
+      "Moiwa · shuttle / walk"
+    ],
+    [
+      "https://mt-moiwa.jp/access/map/",
+      "Moiwa · correct destination"
+    ],
+    [
+      "https://maruyamapark.jp/faq/",
+      "Maruyama Park · lockers / centre hours"
+    ],
+    [
+      "https://www.pref.hokkaido.lg.jp/kn/tkn/hana/place/c040.html",
+      "Hokkaido government · park admission"
+    ],
+    [
+      "https://www.weathernews.jp/koyo/spot/21402/",
+      "Weathernews / Maruyama Park · dated foliage report"
+    ]
+  ]
+}

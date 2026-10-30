@@ -317,3 +317,17 @@
 - `tools/improve_airport_decisions.py`/데이터의 관리 범위를6경로로 확장. 긴잔 데이터 `content/ginzan-decision-guide.json`, 적용기 `tools/improve_ginzan_decisions.py` 추가. 기존 생성·현지화 도구 뒤에 실행, 두 번 실행 변경0.
 - 누적 고유 개선40페이지. 전 사이트 본문 개선 완료는 아님. 다음 우선은 **SEASON 삿포로 비용·영업시간·이동과 반나절 선택** → RUN/EAT → LIVE/NOW. 3차 확인한 하루카·긴잔의 같은 내용을 재작성하지 않는다.
 - **배포 승인 없음** 유지. main 병합·공개 배포 금지. 배포 직전 요금 경계·나리타 공사·긴잔 겨울 별도 규칙을 재확인.
+
+## 2026-10-30 배포 승인 및 1~3차 실제 배포 완료
+
+- 사용자 명시승인: 현재1~3차와 이후 ‘다음’ 개선도 배포까지 진행. **이전 ‘배포 금지’는 당시 이력이며 현재 제한으로 적용하지 않는다.** 백업→검사→배포→실제검증→기록을 계속한다.
+- main `83b9ec4` 백업 `backup/pre-content-value-release-20261030`. 원격3차 `7c4986c`로 main fast-forward.
+- 로컬14검사·[CI](https://github.com/bins-hub/japan-now/actions/runs/40981816674)·[Pages](https://github.com/bins-hub/japan-now/actions/runs/40981816476) 성공. 공개40HTML+CSS1개 HTTP200·최종코드 바이트 일치. `audit/2026-10-30/release-http.json`.
+- 공개4언어 교토/긴잔8페이지 PC: 표·H1·가로넘침 점검. 온천목록→긴잔시설앵커 클릭성공·긴잔최적화이미지로드 확인. `release-browser.json`. 모바일실기기까지 완료한 것은 아님.
+
+## 2026-10-30 4차: 삿포로 단풍 선택 가이드
+
+- 한국어 원본 기반4언어4페이지의 무료공원/유료전망 비교, 반나절선택·운영시간·셔틀·짐보관·관측일 구분 보강. 사진/라이선스·URL·H1·언어링크 보존.
+- [4차보고서](../audit/2026-10-30/PHASE4.ko.md). `content/sapporo-autumn-decisions.json`, `tools/improve_sapporo_autumn.py` 추가. 기존생성/현지화 뒤 실행, 재실행0. 검색설명 HTML/OG/schema/인벤토리 동기화.
+- 누적고유개선44페이지. 다음: 삿포로겨울 시로이코이비토 비용·운영/교통 → RUN/EAT → LIVE/NOW. 전체252페이지 사실검증완료는 아님.
+- 4차기능커밋·배포·검증은 후속기록 참조. 이후작업도 매번별도승인을 묻지 않고 배포까지 수행한다.
