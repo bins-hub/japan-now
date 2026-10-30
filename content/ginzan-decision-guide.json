@@ -1,0 +1,215 @@
+{
+  "checked": "2026-10-30",
+  "locales": {
+    "ko": {
+      "heads": [
+        "어떤 방문 방식이 맞을까요?",
+        "당일치기 입욕 시설 비교",
+        "오이시다역에서 버스로 가기",
+        "주차·셔틀과 겨울 방문",
+        "자주 묻는 질문",
+        "확인한 자료"
+      ],
+      "cols": [
+        "시설",
+        "입욕료",
+        "접수·휴무"
+      ],
+      "rows": [
+        [
+          "시로가네유",
+          "¥500",
+          "09:00–15:00 · 수요일 휴무"
+        ],
+        [
+          "다키미칸",
+          "¥1,000",
+          "11:00–14:30 · 목요일 휴무(공휴일 목요일은 운영)"
+        ],
+        [
+          "고세키야 별관",
+          "¥1,000",
+          "11:30–13:00 · 토·일·공휴일 휴무"
+        ]
+      ],
+      "intro": "입욕이 목적이면 낮에 도착하세요. 시로가네유는 15시까지 접수하고 야간 입욕은 없습니다. 가스등 풍경은 입욕과 다른 일정으로 나눠 잡는 것이 좋습니다.",
+      "bus": "하나가사 버스 오이시다역↔긴잔온천은 성인 편도 ¥1,000, 어린이 ¥500이며 예약 없이 현금으로 탑승합니다. IC카드는 사용할 수 없습니다.",
+      "itinerary": "일반일 예시: 오이시다 09:50→긴잔 10:26, 시로가네유 입욕·점심 후 긴잔 13:25→오이시다 14:01. 버스 왕복+입욕 예산은 성인 ¥2,500입니다(식비 제외). 수요일에는 시로가네유를 이 일정에 넣지 마세요.",
+      "period": "버스 시간표 적용 기간은 2026-10-25〜2027-03-27입니다.",
+      "parking": "자가용 당일 방문은 다이쇼 로만칸 주차 후 유료 셔틀을 이용합니다. 일반 안내는 주차 무료, 셔틀 성인 1일 ¥500, 로만칸 출발 09:00–17:00·긴잔 출발 최종 18:00입니다.",
+      "winter": "2026–27 겨울의 별도 입장·예약 규칙: 미확인. 위 일반 셔틀과 별도로 겨울 규제 셔틀이 안내된 적이 있으므로 과거 겨울 투어를 현재 예약 가능한 상품으로 취급하지 않습니다.",
+      "faq": [
+        [
+          "예약하고 입욕할 수 있나요?",
+          "아니요. 관광협회는 당일치기 입욕 예약을 받지 않는다고 안내합니다. 저렴한 입욕은 시로가네유, 수요일이면 다른 시설의 운영일을 비교하세요."
+        ],
+        [
+          "문신·개인탕·어린이 요금은요?",
+          "이 표의 시설별 문신 허용·개인탕·어린이 입욕료는 미확인입니다. 버스 어린이 요금과 입욕료를 혼동하지 마세요."
+        ]
+      ]
+    },
+    "en": {
+      "heads": [
+        "Choose your visit",
+        "Compare day-use baths",
+        "Bus from Oishida Station",
+        "Parking, shuttle and winter access",
+        "Frequently asked questions",
+        "Sources reviewed"
+      ],
+      "cols": [
+        "Bath",
+        "Admission",
+        "Reception / closed"
+      ],
+      "rows": [
+        [
+          "Shirogane-yu",
+          "¥500",
+          "09:00–15:00 · closed Wednesdays"
+        ],
+        [
+          "Takimikan",
+          "¥1,000",
+          "11:00–14:30 · closed Thursdays except public holidays"
+        ],
+        [
+          "Kosekiya Bekkan",
+          "¥1,000",
+          "11:30–13:00 · closed weekends and public holidays"
+        ]
+      ],
+      "intro": "Arrive during the day if bathing is your priority. Shirogane-yu reception ends at 15:00; there is no night bathing. Treat gas-lamp viewing as a separate part of the plan.",
+      "bus": "Hanagasa Bus Oishida–Ginzan costs ¥1,000 adult / ¥500 child one way. No booking; pay cash, not IC.",
+      "itinerary": "Example on an ordinary day: Oishida 09:50 → Ginzan 10:26; bathe and eat, then Ginzan 13:25 → Oishida 14:01. Adult bus return plus Shirogane-yu is ¥2,500, excluding meals. Do not use this bath plan on Wednesday.",
+      "period": "Bus timetable validity: 2026-10-25–2027-03-27.",
+      "parking": "Day drivers park at Taisho Romankan and use the paid shuttle. General guidance: free parking, adult day shuttle ¥500; Romankan departures 09:00–17:00, last Ginzan departure 18:00.",
+      "winter": "Separate 2026–27 winter admission and booking rules: unverified. Restricted winter shuttles have been announced separately from the general service; past winter tours are not current bookable products.",
+      "faq": [
+        [
+          "Can I reserve a day bath?",
+          "No. The tourism association states day bathing is not reservable. Shirogane-yu is the lower-priced option; on Wednesday compare another bath’s operating day."
+        ],
+        [
+          "Tattoos, private baths and child prices?",
+          "Facility-specific tattoo acceptance, private baths and child admission are unverified. The child bus fare is not the bath admission price."
+        ]
+      ]
+    },
+    "ja": {
+      "heads": [
+        "訪問方法の選び方",
+        "日帰り入浴施設比較",
+        "大石田駅からバスで",
+        "駐車場・シャトルと冬の訪問",
+        "よくある質問",
+        "確認資料"
+      ],
+      "cols": [
+        "施設",
+        "入浴料",
+        "受付・定休日"
+      ],
+      "rows": [
+        [
+          "しろがね湯",
+          "¥500",
+          "09:00–15:00・水曜休"
+        ],
+        [
+          "瀧見館",
+          "¥1,000",
+          "11:00–14:30・木曜休（祝日は営業）"
+        ],
+        [
+          "古勢起屋別館",
+          "¥1,000",
+          "11:30–13:00・土日祝休"
+        ]
+      ],
+      "intro": "入浴が目的なら昼間に到着。しろがね湯は15時まで受付で夜間入浴はありません。ガス灯鑑賞は入浴と別の時間帯で計画します。",
+      "bus": "はながさバス大石田駅〜銀山温泉は片道大人¥1,000・小児¥500。予約不要、現金精算でIC不可です。",
+      "itinerary": "通常日の例：大石田09:50→銀山10:26、入浴・昼食後に銀山13:25→大石田14:01。バス往復としろがね湯で大人¥2,500、食費別。水曜はこの入浴プランを選べません。",
+      "period": "バス時刻表の適用期間は2026-10-25〜2027-03-27です。",
+      "parking": "日帰りの車は大正ロマン館に駐車して有料シャトルへ。通常案内は駐車無料、大人1日¥500、ロマン館発09:00〜17:00、銀山最終発18:00です。",
+      "winter": "2026〜27年冬の別途入場・予約規則：未確認。通常便とは別の冬季規制シャトル案内があるため、過去の冬ツアーを現在予約可能とは扱いません。",
+      "faq": [
+        [
+          "日帰り入浴は予約できますか？",
+          "できません。観光協会は日帰り入浴の予約を受け付けないと案内。料金優先はしろがね湯、水曜なら別施設の営業日を比較します。"
+        ],
+        [
+          "タトゥー・貸切風呂・小児料金は？",
+          "表の施設別タトゥー可否・貸切風呂・小児入浴料は未確認。バスの小児運賃と入浴料は別です。"
+        ]
+      ]
+    },
+    "zh-cn": {
+      "heads": [
+        "选择游览方式",
+        "日归温泉设施比较",
+        "从大石田站乘巴士",
+        "停车、接驳与冬季出行",
+        "常见问题",
+        "核实资料"
+      ],
+      "cols": [
+        "设施",
+        "入浴费",
+        "接待时间/休息日"
+      ],
+      "rows": [
+        [
+          "白银汤",
+          "¥500",
+          "09:00–15:00，周三休"
+        ],
+        [
+          "泷见馆",
+          "¥1,000",
+          "11:00–14:30，周四休（周四为节假日则营业）"
+        ],
+        [
+          "古势起屋别馆",
+          "¥1,000",
+          "11:30–13:00，周末及节假日休"
+        ]
+      ],
+      "intro": "以泡汤为目的应白天抵达。白银汤接待至15:00，没有夜间入浴；煤气灯观景应作为另一时段的安排。",
+      "bus": "花笠巴士大石田站至银山温泉单程成人¥1,000、儿童¥500。无需预约，只收现金，不支持IC卡。",
+      "itinerary": "普通日期示例：大石田09:50→银山10:26，泡汤午餐后银山13:25→大石田14:01。成人往返巴士加白银汤预算¥2,500，不含餐费；周三不可采用此泡汤安排。",
+      "period": "巴士时刻表适用期：2026-10-25至2027-03-27。",
+      "parking": "自驾日归可停大正浪漫馆，再乘付费接驳。一般指南为免费停车，成人接驳一日¥500；浪漫馆发车09:00–17:00，银山末发18:00。",
+      "winter": "2026–27冬季另行入场及预约规则：未核实。冬季管制接驳与一般服务曾分别公告，过去冬季团不能当作当前可预约产品。",
+      "faq": [
+        [
+          "日归泡汤可以预约吗？",
+          "不可以。旅游协会说明日归泡汤不接受预约。重视费用可选白银汤，周三则比较其他设施营业日。"
+        ],
+        [
+          "文身、私人汤及儿童价呢？",
+          "表中设施的文身准入、私人汤和儿童入浴费未核实。儿童巴士票价并非入浴费。"
+        ]
+      ]
+    }
+  },
+  "sources": [
+    [
+      "https://obanazawa-kankou.jp/ginzan-onsen/",
+      "Obanazawa tourism · baths / parking"
+    ],
+    [
+      "https://www.hanagasa-bus-taisei.co.jp/base4.html",
+      "Hanagasa Bus · 2026-10-25–2027-03-27"
+    ],
+    [
+      "https://bus.ginzanso.jp/English.html",
+      "Ginzanso · general shuttle"
+    ],
+    [
+      "https://www.ginzanonsen.jp/blog/archives/620",
+      "Ginzan · 2026-01 winter restriction notice"
+    ]
+  ]
+}

@@ -532,6 +532,242 @@
           "New Chitose · station location"
         ]
       ]
+    },
+    "kansai-kyoto": {
+      "locales": {
+        "ko": {
+          "summary": "교토 숙소라면 하루카로 JR 교토역까지 직통 이동한 뒤 숙소까지의 마지막 구간을 더하세요. 할인권 가격은 탑승일이 아닌 구매일로 구분합니다.",
+          "rows": [
+            [
+              "2026-10-31까지 구매",
+              "¥2,200",
+              "6~11세 ¥1,100"
+            ],
+            [
+              "2026-11-01부터 구매",
+              "¥2,700",
+              "6~11세 ¥1,350"
+            ]
+          ],
+          "steps": [
+            "기존 JR 안내 기준 약 75분을 참고값으로 사용합니다. 실제 편별 주행·대기·환승 시간은 별도입니다.",
+            "이 표는 HARUKA One-way 할인권입니다. 비일본 여권과 단기체류(Temporary Visitor) 자격이 필요하며, 일반 승차권 가격이 아닙니다.",
+            "예: 10월31일에 구매한 표를 11월에 사용해도 가격 구분은 구매일입니다. 실제 사용할 날짜와 상품 유효기간은 맞아야 합니다."
+          ],
+          "rules": [
+            "종이권: 해외 여행사 교환권 또는 JR-WEST 온라인 예약으로 구매 후 역에서 수령합니다. 온라인 예약은 결제 카드·예약번호·4자리 인증번호·여권을 준비하세요.",
+            "WEST-QR: 해외 여행사에서 구매하고 인터넷 연결 스마트폰으로 등록·사용 개시 후 QR 개찰을 이용합니다. 종이권 교환이 없고 지정석은 전용 차량에서 예약합니다.",
+            "일반실 지정석·자유석을 이용하는 상품이며 그린석은 별도입니다. 도중 개찰구 밖으로 나가면 남은 구간에 사용할 수 없습니다."
+          ]
+        },
+        "en": {
+          "summary": "For a Kyoto hotel, take HARUKA direct to JR Kyoto, then add the final hotel leg. Discount-ticket prices follow purchase date, not travel date.",
+          "rows": [
+            [
+              "Purchased through 2026-10-31",
+              "¥2,200",
+              "Ages 6–11: ¥1,100"
+            ],
+            [
+              "Purchased from 2026-11-01",
+              "¥2,700",
+              "Ages 6–11: ¥1,350"
+            ]
+          ],
+          "steps": [
+            "Use about 75 minutes as the existing JR guide’s reference, adding service-specific running differences, waiting and transfers.",
+            "These are HARUKA One-way discount fares, not ordinary fares. A non-Japanese passport and Temporary Visitor status are required.",
+            "Example: a ticket bought on 31 October for November use follows its purchase-date price; its travel date must still fall within product validity."
+          ],
+          "rules": [
+            "Paper: buy an overseas agency voucher or reserve with JR-WEST, then collect at a station. Bring the payment card, reservation number, four-digit ID and passport for online bookings.",
+            "WEST-QR: buy from an overseas agency, register and activate on an online smartphone, then scan at gates. No paper exchange; reserve in its dedicated car.",
+            "Ordinary reserved or non-reserved accommodation is covered; Green class is separate. Exiting at an intermediate station invalidates the remaining journey."
+          ]
+        },
+        "ja": {
+          "summary": "京都泊ならHARUKAでJR京都駅まで直通し、宿までの移動を追加。割引きっぷの価格は乗車日ではなく購入日で分かれます。",
+          "rows": [
+            [
+              "2026-10-31までに購入",
+              "¥2,200",
+              "6〜11歳 ¥1,100"
+            ],
+            [
+              "2026-11-01以降に購入",
+              "¥2,700",
+              "6〜11歳 ¥1,350"
+            ]
+          ],
+          "steps": [
+            "既存JR案内の約75分を目安に、便別の差・待ち時間・乗換を別に見込みます。",
+            "表は通常運賃ではなくHARUKA片道割引券。日本以外のパスポートと短期滞在資格が必要です。",
+            "例：10月31日購入で11月に使う場合も価格基準は購入日。利用日は商品の有効期間内である必要があります。"
+          ],
+          "rules": [
+            "紙券：海外旅行会社の引換券またはJR-WESTオンライン予約で購入し駅で受取。オンライン予約は決済カード・予約番号・4桁の認証番号・旅券を用意。",
+            "WEST-QR：海外旅行会社で購入し、通信可能なスマートフォンで登録・利用開始してQR改札へ。紙券引換不要、指定席は専用車両で予約します。",
+            "普通車指定席・自由席の対象商品でグリーン車は別。途中駅で改札を出ると残りの区間は使えません。"
+          ]
+        },
+        "zh-cn": {
+          "summary": "住在京都，可乘HARUKA直达JR京都站，再安排酒店交通。优惠票价按购买日而非乘车日划分。",
+          "rows": [
+            [
+              "2026-10-31前购买（含当日）",
+              "¥2,200",
+              "6～11岁 ¥1,100"
+            ],
+            [
+              "2026-11-01起购买",
+              "¥2,700",
+              "6～11岁 ¥1,350"
+            ]
+          ],
+          "steps": [
+            "现有JR指南的约75分钟仅作参考，另计班次差异、候车和换乘。",
+            "表为HARUKA单程优惠票，非普通票价。须持非日本护照及短期停留资格。",
+            "例如10月31日购买、11月使用，仍按购买日价格；使用日须在产品有效期内。"
+          ],
+          "rules": [
+            "纸票：通过海外旅行社兑换券或JR-WEST在线预约购买，在车站领取。在线预约需付款卡、预约号、4位认证号和护照。",
+            "WEST-QR：从海外旅行社购买，通过联网手机登记并开始使用后扫码进站。无需换纸票，指定席在专用车厢预约。",
+            "产品适用普通车指定席或自由席，绿色车厢另计；在中途站出闸后剩余区间失效。"
+          ]
+        }
+      },
+      "sources": [
+        [
+          "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
+          "JR-WEST · paper / purchase-date pricing"
+        ],
+        [
+          "https://www.westjr.co.jp/global/en/ticket/westqr/haruka/",
+          "JR-WEST · WEST-QR / seat conditions"
+        ],
+        [
+          "https://www.westjr.co.jp/global/en/howto/wjr_faq.pdf",
+          "JR-WEST · indicative journey time (existing guide)"
+        ]
+      ]
+    },
+    "kansai-shin-osaka": {
+      "locales": {
+        "ko": {
+          "summary": "신칸센 환승이 목적이라면 하루카의 신오사카 정차편을 선택하세요. 하루카 할인권에는 이후 신칸센 승차가 포함되지 않습니다.",
+          "rows": [
+            [
+              "2026-10-31까지 구매",
+              "¥1,800",
+              "6~11세 ¥900"
+            ],
+            [
+              "2026-11-01부터 구매",
+              "¥1,900",
+              "6~11세 ¥950"
+            ]
+          ],
+          "steps": [
+            "기존 JR 안내 기준 약 50분을 참고값으로 사용합니다. 실제 편별 주행·대기·환승 시간은 별도입니다.",
+            "이 표는 HARUKA One-way 할인권입니다. 비일본 여권과 단기체류(Temporary Visitor) 자격이 필요하며, 일반 승차권 가격이 아닙니다.",
+            "예: 10월31일에 구매한 표를 11월에 사용해도 가격 구분은 구매일입니다. 실제 사용할 날짜와 상품 유효기간은 맞아야 합니다."
+          ],
+          "rules": [
+            "종이권: 해외 여행사 교환권 또는 JR-WEST 온라인 예약으로 구매 후 역에서 수령합니다. 온라인 예약은 결제 카드·예약번호·4자리 인증번호·여권을 준비하세요.",
+            "WEST-QR: 해외 여행사에서 구매하고 인터넷 연결 스마트폰으로 등록·사용 개시 후 QR 개찰을 이용합니다. 종이권 교환이 없고 지정석은 전용 차량에서 예약합니다.",
+            "일반실 지정석·자유석을 이용하는 상품이며 그린석은 별도입니다. 도중 개찰구 밖으로 나가면 남은 구간에 사용할 수 없습니다."
+          ]
+        },
+        "en": {
+          "summary": "For a Shinkansen connection, choose HARUKA stopping at Shin-Osaka. The HARUKA discount ticket does not include your onward Shinkansen journey.",
+          "rows": [
+            [
+              "Purchased through 2026-10-31",
+              "¥1,800",
+              "Ages 6–11: ¥900"
+            ],
+            [
+              "Purchased from 2026-11-01",
+              "¥1,900",
+              "Ages 6–11: ¥950"
+            ]
+          ],
+          "steps": [
+            "Use about 50 minutes as the existing JR guide’s reference, adding service-specific running differences, waiting and transfers.",
+            "These are HARUKA One-way discount fares, not ordinary fares. A non-Japanese passport and Temporary Visitor status are required.",
+            "Example: a ticket bought on 31 October for November use follows its purchase-date price; its travel date must still fall within product validity."
+          ],
+          "rules": [
+            "Paper: buy an overseas agency voucher or reserve with JR-WEST, then collect at a station. Bring the payment card, reservation number, four-digit ID and passport for online bookings.",
+            "WEST-QR: buy from an overseas agency, register and activate on an online smartphone, then scan at gates. No paper exchange; reserve in its dedicated car.",
+            "Ordinary reserved or non-reserved accommodation is covered; Green class is separate. Exiting at an intermediate station invalidates the remaining journey."
+          ]
+        },
+        "ja": {
+          "summary": "新幹線乗換なら新大阪停車のHARUKAを選択。HARUKA割引きっぷに、その先の新幹線乗車は含まれません。",
+          "rows": [
+            [
+              "2026-10-31までに購入",
+              "¥1,800",
+              "6〜11歳 ¥900"
+            ],
+            [
+              "2026-11-01以降に購入",
+              "¥1,900",
+              "6〜11歳 ¥950"
+            ]
+          ],
+          "steps": [
+            "既存JR案内の約50分を目安に、便別の差・待ち時間・乗換を別に見込みます。",
+            "表は通常運賃ではなくHARUKA片道割引券。日本以外のパスポートと短期滞在資格が必要です。",
+            "例：10月31日購入で11月に使う場合も価格基準は購入日。利用日は商品の有効期間内である必要があります。"
+          ],
+          "rules": [
+            "紙券：海外旅行会社の引換券またはJR-WESTオンライン予約で購入し駅で受取。オンライン予約は決済カード・予約番号・4桁の認証番号・旅券を用意。",
+            "WEST-QR：海外旅行会社で購入し、通信可能なスマートフォンで登録・利用開始してQR改札へ。紙券引換不要、指定席は専用車両で予約します。",
+            "普通車指定席・自由席の対象商品でグリーン車は別。途中駅で改札を出ると残りの区間は使えません。"
+          ]
+        },
+        "zh-cn": {
+          "summary": "换乘新干线时选择停靠新大阪的HARUKA。HARUKA优惠票不包含后续新干线行程。",
+          "rows": [
+            [
+              "2026-10-31前购买（含当日）",
+              "¥1,800",
+              "6～11岁 ¥900"
+            ],
+            [
+              "2026-11-01起购买",
+              "¥1,900",
+              "6～11岁 ¥950"
+            ]
+          ],
+          "steps": [
+            "现有JR指南的约50分钟仅作参考，另计班次差异、候车和换乘。",
+            "表为HARUKA单程优惠票，非普通票价。须持非日本护照及短期停留资格。",
+            "例如10月31日购买、11月使用，仍按购买日价格；使用日须在产品有效期内。"
+          ],
+          "rules": [
+            "纸票：通过海外旅行社兑换券或JR-WEST在线预约购买，在车站领取。在线预约需付款卡、预约号、4位认证号和护照。",
+            "WEST-QR：从海外旅行社购买，通过联网手机登记并开始使用后扫码进站。无需换纸票，指定席在专用车厢预约。",
+            "产品适用普通车指定席或自由席，绿色车厢另计；在中途站出闸后剩余区间失效。"
+          ]
+        }
+      },
+      "sources": [
+        [
+          "https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/",
+          "JR-WEST · paper / purchase-date pricing"
+        ],
+        [
+          "https://www.westjr.co.jp/global/en/ticket/westqr/haruka/",
+          "JR-WEST · WEST-QR / seat conditions"
+        ],
+        [
+          "https://www.westjr.co.jp/global/en/howto/wjr_faq.pdf",
+          "JR-WEST · indicative journey time (existing guide)"
+        ]
+      ]
     }
   }
 }

@@ -30,7 +30,7 @@ for i,lang in enumerate(LANGS):
  cards=list(re.finditer(r'<article\b[^>]*data-airport="[^"]+"[^>]*>.*?</article>',h,re.S))
  assert len(cards)==8
  for index,card in enumerate(cards):
-  route=[None,None,'haneda-shinagawa','haneda-hamamatsucho','kansai-namba',None,None,'new-chitose-sapporo'][index]
+  route=[None,None,'haneda-shinagawa','haneda-hamamatsucho','kansai-namba','kansai-kyoto','kansai-shin-osaka','new-chitose-sapporo'][index]
   if route is None:continue
   c=DATA['routes'][route]['locales'][lang];new=card[0]
   # First descriptive paragraph follows h3 + operator strong.
