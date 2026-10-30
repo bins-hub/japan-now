@@ -1,0 +1,27 @@
+{
+  "functional_commit": "f36c5c3077fa6c8f2a35527a58d74297cb721ceb",
+  "ci_run": 40992126029,
+  "pages_run": 40992126257,
+  "status": "success",
+  "http_urls": 9,
+  "http_match": 9,
+  "browser_locales": [
+    "ko",
+    "en",
+    "ja",
+    "zh-cn"
+  ],
+  "services": [
+    "run-eat",
+    "local-food"
+  ],
+  "each_page": {
+    "h1": 1,
+    "comparison_rows": 3,
+    "horizontal_overflow": false
+  },
+  "eat_source_disclosure_clicked": true,
+  "viewport": 1348,
+  "mobile_device": "not verified",
+  "followup": "Restaurant source buttons now distinguish restaurant name and destination instead of identical generic labels; existing href entities normalized. Final HTTP checked separately."
+}

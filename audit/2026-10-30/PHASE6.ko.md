@@ -28,3 +28,7 @@
 기존메타·canonical/hreflang·scripts·사진·다른5개RUN지역·다른EAT지역·플래너/애니메이션 유지. URL신규추가없음. 기존14검사 통과, 보존검사 및 생성기 재실행변경0 확인. 공통비교표CSS 재사용. 한국어본문 기준4언어동일필드·금액·시간 동기화. 기존페이지의 포괄메타검색의도 유지, 해당8개 sitemap lastmod 갱신.
 
 `content/tokyo-run-eat-decisions.json` / `tools/improve_tokyo_run_eat.py`는 기존생성·현지화 뒤 실행한다. 모바일실기기·실제시설방문·주문은 미검증. 배포검증은 후속기록. 다음: 오사카/교토/후쿠오카 RUN·EAT 구간 → LIVE/NOW. 복구는기능커밋revert, main강제이동금지.
+
+### 6차 배포 검증
+
+기능커밋 `f36c5c3077fa6c8f2a35527a58d74297cb721ceb`, CI40992126029·Pages40992126257 성공. 공개8HTML+sitemap9응답 HTTP200·바이트일치. 1348px공개브라우저에서4언어RUN/EAT8페이지 H1각1·비교표각3행·가로넘침0, EAT출처펼침4언어클릭성공. 모바일실기기는미검증. 화면검토후 기존식당출처버튼의동일문구를 식당명·목적지로 구별하는후속정리 포함. href는보존, HTML엔티티중복방지. 상세 `phase6-http.json`, `phase6-deployment.json` 참조.

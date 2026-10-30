@@ -1,0 +1,56 @@
+[
+  {
+    "path": "run-eat/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "32414f808fbe32a5f731e5dec5b95b118cdf6dfc59a26b6540406a1f2048ebe9"
+  },
+  {
+    "path": "local-food/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "49c9b53bc075723f908e405d8c795b9cd99574469d574855f778db2ae6b96630"
+  },
+  {
+    "path": "en/run-eat/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "d59987a843e69d76a3a8e8caefc899855333d82145e290d81020d0af6fa1cdc4"
+  },
+  {
+    "path": "en/local-food/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "0d77710dd0898cfedabbb6f5feee7e7681b7e30f0a15f125a515012d592eab46"
+  },
+  {
+    "path": "ja/run-eat/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "bd4f00e44c6e59aece79873b0cb1a8e4745e782ee4516773b014395e453a598f"
+  },
+  {
+    "path": "ja/local-food/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "5cc17765efa0bf9fbdce298ab691f3c65758ba8036580c19a3ad90cd7c0888ce"
+  },
+  {
+    "path": "zh-cn/run-eat/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "862b7c4ba1973deb0260288d8f6d26d177be5a654e778f786edd21efc6599bac"
+  },
+  {
+    "path": "zh-cn/local-food/index.html",
+    "status": 200,
+    "match": true,
+    "sha256": "b885f5a110899297230936ae873860a501c956562e7ae7f19d5bf41b0b179033"
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "match": true,
+    "sha256": "61b9a6d0a28bc8ab0716a3e8656663fe811183cd06a2f70062f0c19682469924"
+  }
+]

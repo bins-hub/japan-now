@@ -1,6 +1,6 @@
 """Apply Korean-source Tokyo running and lunch decisions after legacy localization."""
 from pathlib import Path
-from html import escape as E
+from html import escape as E, unescape
 import re,json
 R=Path(__file__).resolve().parents[1]
 d=json.loads((R/'content/tokyo-run-eat-decisions.json').read_text())
@@ -24,7 +24,13 @@ for lang,c in d['locales'].items():
    original=re.search(pat,h,re.S)[0]
    # Retain both existing restaurants' outbound map and review URLs without reusing stale prose.
    old=re.search(r'<!-- TOKYO EXISTING LINKS -->(.*?)<!-- /TOKYO EXISTING LINKS -->',original,re.S)
-   if old:links=re.sub(r'(<a[^>]*>).*?(</a>)',lambda m:m[1]+E(L[9])+m[2],old[1],flags=re.S)
+   if old:
+    from urllib.parse import urlsplit
+    def label(m):
+     u=unescape(m[1]);name='キッチン南海' if any(t in u for t in ['13249021','/388','%E3%82%AD']) else 'さぼうる2'
+     host=urlsplit(u).netloc
+     return a(u,name+' · '+('Google Maps' if 'google.com' in host else host))
+    links=re.sub(r'<a[^>]*href="([^"]+)"[^>]*>.*?</a>',label,old[1],flags=re.S)
    else:
     links='';seen=set()
     for u in re.findall(r'<a[^>]*href="([^"]+)"',original):
