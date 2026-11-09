@@ -16,6 +16,9 @@ for(const page of pages){
   try{u=new URL(raw,'https://japulse.com'+page);}catch{failures.push(page+' malformed URL '+raw);continue;}
   if(u.hostname!=='japulse.com'||!['http:','https:'].includes(u.protocol))continue;
   if(u.protocol!=='https:')failures.push(page+' insecure same-origin URL '+raw);
+  // GitHub Pages redirects explicit index.html URLs to their trailing-slash canonical pages.
+  // Linking directly to the canonical path avoids unnecessary redirects during crawling.
+  if(u.pathname.endsWith('/index.html'))failures.push(page+' links to redirecting index.html: '+raw);
   const target=u.pathname;const isAsset=/\.(?:css|js|png|jpe?g|webp|svg|gif|ico|xml|json|webmanifest|pdf|txt|woff2?|mp4)$/i.test(target);
   if(target==='/'||target===page&&u.hash==='') {links++;continue;}
   if(isAsset){if(!fs.existsSync(path.join(root,target.slice(1))))failures.push(page+' missing asset '+raw);}
