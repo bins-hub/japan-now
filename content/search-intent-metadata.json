@@ -4,8 +4,8 @@
     "language": "ko",
     "url": "https://japulse.com/",
     "source_title": "일본 실시간 카메라·날씨·러닝 코스·현지 맛집 | JAPULSE",
-    "title": "일본 실시간 카메라·날씨·러닝 코스·현지 맛집 | JAPULSE",
-    "description": "일본 전국 47개 도도부현의 공개 실시간 카메라와 웹캠 자료를 찾아보세요. 도쿄·오사카·후지산 카메라, 현지 날씨 예보, 일본 러닝 코스와 로컬 맛집까지.",
+    "title": "일본 여행 교통·온천·날씨 비교 | JAPULSE",
+    "description": "나리타·하네다 공항에서 도심 이동, 일본 온천 당일 이용 조건, 계절별 장소 선택을 비교하세요. 공개 카메라는 일부 지역만 제공하며 방송 상태는 보장하지 않습니다.",
     "page_type": "CollectionPage"
   },
   {
@@ -13,8 +13,8 @@
     "language": "en",
     "url": "https://japulse.com/en/",
     "source_title": "일본 실시간 카메라·날씨·러닝 코스·현지 맛집 | JAPULSE",
-    "title": "Japan Live Webcams, Weather & Local Travel | JAPULSE",
-    "description": "Browse Japan live webcams and public camera resources across all 47 prefectures. Explore Tokyo, Osaka and Mount Fuji, local weather forecasts, running routes and food guides.",
+    "title": "Japan transport, onsen and travel decisions | JAPULSE",
+    "description": "Compare airport transfers, day-use hot springs and seasonal destinations. Public tourist webcams are listed for eight prefectures; broadcasts are independently operated and not guaranteed live.",
     "page_type": "CollectionPage"
   },
   {
@@ -22,8 +22,8 @@
     "language": "zh-cn",
     "url": "https://japulse.com/zh-cn/",
     "source_title": "일본 실시간 카메라·날씨·러닝 코스·현지 맛집 | JAPULSE",
-    "title": "日本实时摄像头、天气、跑步路线与当地美食 | JAPULSE",
-    "description": "按日本47个都道府县查找公开实时摄像头信息，查看东京、大阪、富士山旅游摄像头、当地天气预报、跑步路线和餐厅指南。",
+    "title": "日本交通、温泉与季节旅行对比 | JAPULSE",
+    "description": "比较机场交通、温泉当日入浴条件和季节目的地。旅游摄像头目前仅覆盖8个地区，直播由第三方运营，无法保证实时状态。",
     "page_type": "CollectionPage"
   },
   {
@@ -31,8 +31,8 @@
     "language": "ja",
     "url": "https://japulse.com/ja/",
     "source_title": "일본 실시간 카메라·날씨·러닝 코스·현지 맛집 | JAPULSE",
-    "title": "日本全国のライブカメラ・天気・ランニング・グルメ | JAPULSE",
-    "description": "日本全国47都道府県の公開ライブカメラ情報を検索。東京・大阪・富士山の映像案内、現地の天気予報、ランニングコースや地域のグルメ情報をまとめて紹介します。",
+    "title": "日本の交通・温泉・季節旅行比較 | JAPULSE",
+    "description": "空港からの移動、日帰り温泉の利用条件、季節の観光地を比較できます。観光カメラの掲載地域は8地域で、配信状況は保証されません。",
     "page_type": "CollectionPage"
   },
   {
