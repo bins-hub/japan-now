@@ -33,6 +33,10 @@ statusButtons.forEach(b=>b.addEventListener("click",()=>{status=b.dataset.jpStat
 const mapCurrent=root.querySelector("[data-jp-map-current]");
 function selectRegion(next,viaMap=false){
  region=next;change(regionButtons,"data-jp-region",region);
+ // When a selected region has no tourist webcam, show its other official resources instead of an empty view.
+ if(region!=="all" && status==="stream" && !prefectures.some(p=>p.dataset.region===region && p.dataset.stream==="yes")){
+  status="all";change(statusButtons,"data-jp-status",status);
+ }
  if(viaMap){if(search)search.value="";status="all";change(statusButtons,"data-jp-status",status);}
  render();
  const label=region==="all"?(regionButtons[0]?.textContent||"All"):(regionButtons.find(x=>x.dataset.jpRegion===region)?.textContent||region);
