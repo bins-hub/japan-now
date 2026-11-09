@@ -10,9 +10,9 @@ const prefectures=[...root.querySelectorAll(".jp-pref[data-pref]")];
 const sections=[...root.querySelectorAll(".jp-pref-section")];
 const count=root.querySelector("[data-jp-count]");
 const empty=root.querySelector("[data-jp-empty]");
-let status="all", region="all";
+let status="stream", region="all";
 let hasIncomingSearch=false;
-try{const q=new URLSearchParams(location.search).get("q");if(q&&search){search.value=q.slice(0,120);hasIncomingSearch=true;}}catch(_){}
+try{const q=new URLSearchParams(location.search).get("q");if(q&&search){search.value=q.slice(0,120);hasIncomingSearch=true;status="all";}}catch(_){}
 function normalize(s){return(s||"").toLocaleLowerCase().normalize("NFKC").replace(/\s+/g,"");}
 function render(){
 const q=normalize(search.value);let matched=0;
@@ -44,8 +44,10 @@ regionButtons.forEach(b=>b.addEventListener("click",()=>selectRegion(b.dataset.j
 root.addEventListener("jp-map-select",e=>{const next=e.detail?.region;if(regionButtons.some(b=>b.dataset.jpRegion===next))selectRegion(next,true);});
 search.addEventListener("input",render);
 if(location.hash.startsWith("#pref-")){
+status="all";change(statusButtons,"data-jp-status",status);
 const el=root.querySelector(location.hash);if(el){region="all";render();setTimeout(()=>el.scrollIntoView({block:"center"}),80);}
 }
+change(statusButtons,"data-jp-status",status);
 render();
 if(hasIncomingSearch){const target=document.getElementById("prefectures");if(target)setTimeout(()=>target.scrollIntoView({block:"start"}),80);}
 })();
