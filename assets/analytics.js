@@ -64,29 +64,25 @@
   function addBusinessInfo(){
     var footer=document.querySelector("footer");
     if(!footer||document.getElementById("jp-operator-info"))return;
-    var info={
-      ko:["사이트 운영자 정보 (대한민국)","상호","매일픽","사업자등록번호","사업장 소재지","경기도 하남시 덕풍동 808-2 101호","통신판매업 신고번호"],
-      en:["Site operator (South Korea)","Business name","매일픽 (Maeilpick)","Business registration No.","Business address","101, 808-2 Deokpung-dong, Hanam-si, Gyeonggi-do, South Korea","Mail-order business registration No."],
-      ja:["サイト運営者情報（韓国）","事業者名","매일픽（メイルピック）","事業者登録番号","所在地","韓国 京畿道 河南市 徳豊洞 808-2 101号","通信販売業届出番号"],
-      "zh-cn":["网站运营者信息（韩国）","商号","매일픽（Maeilpick）","营业登记号码","经营地址","韩国京畿道河南市德丰洞808-2号101室","通信销售业申报编号"]
+    var labels={
+      ko:["회사명","사업자등록번호","통신판매업신고번호","주소","경기도 하남시 덕풍동 808-2 101호"],
+      en:["Company","Business registration No.","Mail-order business registration No.","Address","101, 808-2 Deokpung-dong, Hanam-si, Gyeonggi-do, South Korea"],
+      ja:["事業者名","事業者登録番号","通信販売業届出番号","所在地","韓国 京畿道 河南市 徳豊洞 808-2 101号"],
+      "zh-cn":["公司名称","营业登记号码","通信销售业申报编号","地址","韩国京畿道河南市德丰洞808-2号101室"]
     }[lang];
-    var section=document.createElement("section");
-    section.id="jp-operator-info";
-    section.setAttribute("aria-label",info[0]);
-    section.style.cssText="max-width:1200px;margin:16px auto 0;padding:14px 18px 6px;border-top:1px solid rgba(150,180,190,.4);font-size:12px;line-height:1.8;color:inherit;overflow-wrap:anywhere";
-    var strong=document.createElement("strong");
-    strong.style.cssText="display:block;margin-bottom:4px;font-size:13px";
-    strong.textContent=info[0];
-    section.appendChild(strong);
-    var div=document.createElement("div");
-    div.style.cssText="display:flex;gap:3px 18px;flex-wrap:wrap";
-    [[info[1],info[2]],[info[3],"133-31-01773"],[info[4],info[5]],[info[6],"2026-경기양평-1185"]].forEach(function(item){
+    var bar=document.createElement("div");
+    bar.id="jp-operator-info";
+    bar.setAttribute("aria-label","JAPULSE business operator details");
+    bar.style.cssText="box-sizing:border-box;width:100%;max-width:1200px;margin:18px auto 0;padding:11px 18px 12px;border-top:1px solid rgba(145,178,184,.35);display:flex;flex-wrap:wrap;align-items:center;gap:3px 14px;font-size:11px;line-height:1.6;color:inherit;opacity:.85;overflow-wrap:anywhere";
+    [[labels[0],"매일픽"],[labels[1],"133-31-01773"],[labels[2],"2026-경기양평-1185"],[labels[3],labels[4]]].forEach(function(item){
       var span=document.createElement("span");
       span.textContent=item[0]+": "+item[1];
-      div.appendChild(span);
+      bar.appendChild(span);
     });
-    section.appendChild(div);
-    footer.appendChild(section);
+    var copyright=document.createElement("span");
+    copyright.textContent="© 2026 JAPULSE. All rights reserved.";
+    bar.appendChild(copyright);
+    footer.appendChild(bar);
   }
   function init(){
     addBusinessInfo();
@@ -96,7 +92,7 @@
     var footer=document.querySelector("footer");
     if(footer&&!document.getElementById("jn-ga-footer")){
       var control=document.createElement("button");control.type="button";control.id="jn-ga-footer";control.className="jn-ga-footer";control.textContent=t.settings;
-      control.addEventListener("click",panel);footer.appendChild(control);
+      control.addEventListener("click",panel);var legal=document.getElementById("jp-operator-info");if(legal&&legal.parentNode===footer)footer.insertBefore(control,legal);else footer.appendChild(control);
     }
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init,{once:true});
