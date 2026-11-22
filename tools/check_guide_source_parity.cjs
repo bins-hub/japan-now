@@ -14,7 +14,9 @@ for(const family of ['onsen','move'])for(const source of walk(path.join(root,fam
   for(const tag of selectors){const regex=new RegExp('<'+tag+'\\b','g');assert.equal((html.match(regex)||[]).length,(ko.match(regex)||[]).length,lang+'/'+relative+' '+tag+' count differs from Korean');}
   assert.deepEqual(images(html),images(ko),lang+'/'+relative+' must use the same images in the same order');
   assert.deepEqual(data(html),data(ko),lang+'/'+relative+' numeric/control data differs');
-  const visible=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>|<style\b[^>]*>[\s\S]*?<\/style>/g,'').replace(/<[^>]+>/g,'');
+  // The legal operator's registered name and number retain their Korean spelling.
+  // The legal operator's registered name and number retain their Korean spelling.
+  const visible=html.replace(/<div id="jp-operator-info"[^>]*>[\s\S]*?<\/div>/g,'').replace(/<div id="jp-operator-info"[^>]*>[\s\S]*?<\/div>/g,'').replace(/<script\b[^>]*>[\s\S]*?<\/script>|<style\b[^>]*>[\s\S]*?<\/style>/g,'').replace(/<[^>]+>/g,'');
   assert.ok(!/[가-힣]/.test(visible),lang+'/'+relative+' untranslated Korean visible text');
   for(const script of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g))assert.ok(!/[가-힣]/.test(script[1]),lang+'/'+relative+' untranslated dynamic/structured text');
   compared++;

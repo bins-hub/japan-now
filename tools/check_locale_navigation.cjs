@@ -31,7 +31,12 @@ const homeIds=[];
 for(const p of ['',...prefixes]){
  const html=fs.readFileSync(path.join(root,p+'index.html'),'utf8');
  homeIds.push(html.match(/data-video-id="([^"]+)"/)[1]);
- assert.ok(html.includes('home-live.js?v=20261028-audit')||p==='',p+' camera selector cache version');
+ const intro=html.match(/<section class="jp-intro">([\s\S]*?)<\/section>/)[1];
+ const featured=html.match(/<section class="jp-section" id="featured">([\s\S]*?)<\/section>/)[1];
+ assert.ok(intro.includes('/'+p+'move/narita-shinjuku/'),p+' homepage airport guide');
+ assert.ok(intro.includes('/'+p+'onsen/hakone/'),p+' homepage onsen guide');
+ assert.ok(!intro.includes('data-jp-home-live'),p+' camera must follow travel guides');
+ assert.ok(featured.includes('data-play-on-demand'),p+' camera should start on request');
  const menu=html.match(/<nav class="jp-menu"[^>]*>([\s\S]*?)<\/nav>/)[1];
  for(const section of ['live','now','run-eat','local-food','season','onsen','move'])assert.ok(menu.includes('/'+p+section+'/'),p+' missing menu '+section);
 }

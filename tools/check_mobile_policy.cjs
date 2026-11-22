@@ -14,7 +14,7 @@ for(const url of urls){
  if(!fs.existsSync(file))continue;
  const html=fs.readFileSync(file,'utf8');
  if(!/name="viewport"[^>]*width=device-width/i.test(html))errors.push(pathname+' viewport missing');
- if(/width\s*:\s*(?:1[2-9]\d\d|[2-9]\d{3,})px/.test(html))errors.push(pathname+' very wide fixed CSS width; review responsive layout');
+ if(/(?:^|[;{"])\s*width\s*:\s*(?:1[2-9]\d\d|[2-9]\d{3,})px/.test(html))errors.push(pathname+' very wide fixed CSS width; review responsive layout');
  if(core.includes(pathname)){
   for(const p of policies){if(!html.includes('href="'+p+'"')&&!html.includes('href="https://japulse.com'+p+'"'))errors.push(pathname+' missing policy navigation '+p);}
  }

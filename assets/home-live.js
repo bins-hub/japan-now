@@ -248,8 +248,9 @@
       else if (!document.hidden && pausedForHidden) { pausedForHidden=false; player.mute(); player.playVideo(); }
     } catch (_) {}
   });
-  const reducedMotion = false; // user requested muted autoplay; browser restrictions still apply
-  const saveData = !!(navigator.connection && navigator.connection.saveData);
-  if (reducedMotion || saveData) fallback(copy.reduced);
-  else start();
+  if (!root.hasAttribute("data-play-on-demand")) {
+    const saveData = !!(navigator.connection && navigator.connection.saveData);
+    if (saveData) fallback(copy.reduced);
+    else start();
+  }
 })();
